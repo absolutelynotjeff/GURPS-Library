@@ -1,0 +1,812 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "286309ea-cca7-407a-8024-1f73f0c84e46",
+			"type": "trait",
+			"name": "Adrenaline Junkie",
+			"reference": "PD4",
+			"userdesc": "You crave excitement. You are not On the Edge (yet), as the risks you take are not normally life-threatening, if the proper precautions are taken – bungee jumping, skydiving, etc. This may be a Quirk-level Addiction to an activity.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "259023f7-067e-4c16-be5b-8adc97e33f3a",
+			"type": "trait",
+			"name": "Agnostic",
+			"reference": "PD2",
+			"userdesc": "You may or may not believe in a higher power, but are constantly questioning the assumptions of organized religions, seeking the answers yourself.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "a2a8458e-7d4c-4ba0-9863-c0a00aeaddd0",
+			"type": "trait",
+			"name": "Always Meets People's Eyes",
+			"reference": "PD3",
+			"userdesc": "This is the opposite of Won't Meet Anyone's Eyes. No matter who you're talking to, you will always look them in the eye while conversing. In the modern world, this is expected in Western society, but taboo in East Asian countries. As such, it will occasionally lead to reaction penalties.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "a6b2fbe4-c279-4910-a99d-843d2788971a",
+			"type": "trait",
+			"name": "Always Smiles",
+			"reference": "PD3",
+			"userdesc": "A trait appropriate for Ghurkas and other similar people. You can be ankle deep in bits of grue, coated in someone's blood, and under fire from a machine gun, and you'll still be smiling. The only times you stop are at funerals and other such events where it's expected that you'll be respectful.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "bac608a3-43fc-4931-872b-9d65689fe00e",
+			"type": "trait",
+			"name": "Annoying Gamer",
+			"reference": "PD3",
+			"userdesc": "You don't play any game or competition to win; you play in such a fashion as to keep all of your opponents from winning. In team sports, this may lead to accusations of unsportsmanlike conduct, particularly if you manage to injure an opposing team's player.\n\nThis may be suitable for characters on reality TV shows. Also known as \"Unsportsmanlike Conduct\".",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "631d7cf8-8bc5-4a72-9357-2656faa065ef",
+			"type": "trait",
+			"name": "Antithiest",
+			"reference": "PD2",
+			"userdesc": "You consider organized religion a destructive force. Quirk level Intolerance to organized religion.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "022490fc-f94e-425d-9f81-09fe76d7d6f2",
+			"type": "trait",
+			"name": "Athiest",
+			"reference": "PD2",
+			"userdesc": "You do not believe in any claims of a higher power. In many worlds, this may qualify you for a Secret or Social Stigma (usually Excommunicated)",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "47223746-f68a-433a-8676-5c04e95375f9",
+			"type": "trait",
+			"name": "Bloody Mess",
+			"reference": "PD2",
+			"userdesc": "When you kill something, you don't just kill it; you obliterate it! Blood and viscera fly everywhere! Anything you kill, especially those that reach -5×HP, dies in the most gruesome way possible. This gives a -1 Reaction penalty to anyone who witnesses such an act for the first time, although it might give a +1 Reaction bonus to those with tastes for such things (those sickos). Those watching who have Squeamish react to you at twice the normal reaction penalty. (Those you travel with are generally, but not always, used to such displays and, all else being equal, don't normally react negatively to you.)\n\nNote that this is distinct from the Rest In Pieces Perk (PowerUps 2: Perks, pp. 19-20) in that the deceased may still be magically or technologically revived, but does not forbid that Perk's purchase as well.",
+			"tags": [
+				"Quirk",
+				"Physical",
+				"Cinematic"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "First time viewers",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "6689edd9-0ae6-4311-8c27-17e2d077b087",
+			"type": "trait",
+			"name": "Delusion",
+			"reference": "PD2",
+			"notes": "@Belief@",
+			"userdesc": "You may take a completely trivial Delusion (p. B120) as a Quirk. This does not affect your everyday behavior, and is unlikely to be noticed by casual acquaintances, but you must believe it! Examples: \"The Earth is flat.\" \"The Pentagon controls the Boy Scouts and the health food stores.\" \"Socks cause diseases of the feet.\" \"The Apollo moon landings were faked.\" \n\nAs indicated on p. B120, the GM is at liberty to secretly have a Delusion be true. Of the above examples, the one about the Earth being flat is clearly not true, but the Pentagon may in fact\nsecretly control the Boy Scouts, the Apollo moon landing missions could very well have been staged, or socks may actually be the cause of athlete's foot infections. . . .",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "d9455415-015f-4360-87f2-2eb639212228",
+			"type": "trait",
+			"name": "Devil's Advocate",
+			"reference": "PD3",
+			"userdesc": "You argue solely because you love to argue! Any chance you get, within reason, you find an opposing viewpoint to someone and debate it with them. Note that you don't necessarily have to believe the viewpoint you're taking! This can be considered a Quirk level Compulsive Behavior (Debating).",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "90a06af8-bf5a-4f16-8063-16b74e869b18",
+			"type": "trait",
+			"name": "Devout Believer",
+			"reference": "PD2",
+			"notes": "@Belief@",
+			"userdesc": "You are a devout believer in a particular cause or religion. This can be considered the Quirk level of Fanaticism.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "81a6fe49-09be-45e9-b4ec-aae9838aa0f7",
+			"type": "trait",
+			"name": "Enamored",
+			"reference": "PD4",
+			"notes": "@Who@",
+			"userdesc": "You are smitten with a person who may or may not be aware of your affections. You will do what you can within reason to be with or near this person whenever possible.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "ca10fe35-aba7-4b95-9369-eb13f51cba5c",
+			"type": "trait",
+			"name": "Holds Grudges",
+			"reference": "PD5",
+			"userdesc": "You can't just let things go and let bygones be bygones. If someone pisses you off, you let them know it, even after they've apologized for the hundredth time! Every social encounter with someone who has done you wrong will result in you snubbing them, often with them wondering what they've done to piss you off this time (when in reality, you're still pissed about the first time)!",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "a25ffb27-f10a-4e24-a8a1-fd7729cc2f21",
+			"type": "trait",
+			"name": "Habitual Bargainer",
+			"reference": "PD3",
+			"userdesc": "You don't always bargain, and you don't shop around for the best deal, but when the opportunity arises to haggle you won't turn it down.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "aeabd054-61cd-4017-aa66-d26762a6a6e2",
+			"type": "trait",
+			"name": "Hidden Scar",
+			"reference": "PD1",
+			"notes": "@Scar Description@",
+			"userdesc": "Your body has a noticeable and grotesque flaw, such as a huge\nscar or patch of severe skin disease, that is normally covered up\nby the regular, every-day clothing appropriate to your culture and\nsocial station. You can have any Appearance better than Average,\nbut while you are naked or your flaw is otherwise exposed, you\nare temporarily treated as being three Appearance steps lower\n(e.g. Very Beautiful becomes Average, Beautiful becomes\nUnattractive, etc.).\nThe GM has the final say on what is noticeable and grotesque\nenough to impact your Appearance when it is visible. This Quirk\ntypically negates the Bulletproof Nudity cinematic option.",
+			"tags": [
+				"Quirk",
+				"Physical"
+			],
+			"base_points": -1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Appearance"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Appearance"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Handsome"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Appearance"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Beautiful"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Appearance"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Attractive"
+						}
+					}
+				]
+			},
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "0a9256ca-6ce4-411f-83ff-53b5cd9475a1",
+			"type": "trait",
+			"name": "Hollywood Homely",
+			"reference": "PD1",
+			"userdesc": "You are either completely unaware of how attractive you are or you don't really care about how you look. For all intents and purposes, you have a -1 to your Appearance bonus to your Reaction modifier, unless you take the time to dress in anything other than baggy or unflattering clothing, and hence revealing the inner hottie. (Even then, you may not realize how attractive you really are!)\n\nThis is incompatible with Sensitive About Appearance, as the latter assumes that you are aware of your own Appearance level.",
+			"tags": [
+				"Quirk",
+				"Physical"
+			],
+			"base_points": -1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Appearance"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Appearance"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Handsome"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Appearance"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Beautiful"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Appearance"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Attractive"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from others",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "cbe22067-05b0-4daf-87d4-f154744ce0cf",
+			"type": "trait",
+			"name": "Speed Freak",
+			"reference": "PD4",
+			"userdesc": "You like to go fast. Fast cars, fast airplanes, fast motorcycles, roller coasters, fast skis; the means does not matter, so long as you're able to feel the wind in your face or push the envelope of your vehicle to where it threatens to shake itself apart.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "cb57cfbc-5866-4da0-b231-880107a986a3",
+			"type": "trait",
+			"name": "Immodest",
+			"reference": "PD3",
+			"userdesc": "You have no sense of modesty. This commonly means you walk around the house completely naked, talk crudely, etc, whenever you have the opportunity. You have enough common sense in order to \"fake\" modesty around others; if you do not have this common sense, consider taking Odious Personal Habits instead.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "d12ff23d-1144-4c68-9f74-77ee6bbbc29c",
+			"type": "trait",
+			"name": "Trait",
+			"reference": "PD4",
+			"userdesc": "Though you may be in your 30s or older, mentally the maturity stopped somewhere around 10. You still enjoy fingerpainting, children's movies, playgrounds, and poop jokes even though you are fully grown, and aren't afraid to admit it. The character gets a -1 penalty on reaction rolls from NPCs who put a premium on acting your age, but a +1 reaction bonus from little kids.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from others",
+					"amount": 1
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "from people who think you should act your age",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "82b8c611-7b0a-4bf2-8c88-c1f58dba9673",
+			"type": "trait",
+			"name": "Show-Off",
+			"reference": "PD4",
+			"userdesc": "You like the attention your activities bring you, and you try to do things with a flair and a touch of theatrics.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "152a807a-c8a3-4785-9460-c87e1fa34c9d",
+			"type": "trait",
+			"name": "Incorrigible Flirt",
+			"reference": "PD3",
+			"userdesc": "You flirt with anyone you find attractive. This isn't truly Lecherousness, as you are not actually serious about the passes you make, and nine times out of ten the flirting doesn't lead to anything besides harmless fun in a social situation. Still, it may give -1 to Reaction rolls when dealing with people who are socially repressed, or who have an emotional investment in the people you're flirting with.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from people who like who you're flirting with",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "c065e81f-0171-4a53-bddf-30782dea6195",
+			"type": "trait",
+			"name": "Bad With Names",
+			"reference": "PD4",
+			"userdesc": "You have a terrible time remembering the names of other people, and/or connecting them with faces. People you've met before look familiar to you, and you may even remember who they are and how you know them, but more often than not you don't remember their names. The more time that passes since last meeting with someone, the less likely you are to remember that person's name.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "91307d6d-bc13-48d3-a14c-215faac106b9",
+			"type": "trait",
+			"name": "Blackouts",
+			"reference": "PD4",
+			"notes": "@Altered State@",
+			"userdesc": "Whilst under altered mental states (drunk, under the effects of Bad Temper, Berserk, etc. pick one!) you often suffer memory loss; at any point more than a day beyond the event you must make a Will+1 roll to remember the basic scheme of events, whilst any memories which would normally take an IQ roll to recall are unrecoverable short of GM fiat or direct exposure to the cause of those memories (or part thereof).",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "5b894534-44b8-47f9-bb7e-a6ea77ab1edd",
+			"type": "trait",
+			"name": "Easily Seduced",
+			"reference": "PD5",
+			"userdesc": "You are easily swayed by attempts at seduction. You have a -1 to Will rolls per level of this quirk to\nresist seduction attempts.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "resist seduction attempts",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "c1bdcb70-1574-4080-b6b2-bfd1a2729d3c",
+			"type": "trait",
+			"name": "Can't Remember Stuff",
+			"reference": "PD4",
+			"userdesc": "When actively trying to remember stuff, you often end up unable to recall minute details, such as names or phone numbers. Each level of this Quirk gives you -1 to IQ rolls to remember the little things.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "remember details",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "6d0ba184-bd1a-4cc7-9599-b727664e15ff",
+			"type": "trait",
+			"name": "Knuckle Cracker",
+			"reference": "PD3",
+			"userdesc": "Before beginning any project, no matter how large or small, you tend to crack your knuckles. While this does not cause you any damage – except perhaps long-term joint issues – it can be extremely annoying to those around you.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "0eaa7fe9-739a-4c2e-9cc4-b89d2f2369b3",
+			"type": "trait",
+			"name": "Loud Singer",
+			"reference": "PD3",
+			"userdesc": "The shower is your amphitheater! Whether or not you have points in Singing – or the Incompetence Quirk for Singing, for that matter – any time you burst into song, you sing loud enough to wake up the neighborhood.",
+			"tags": [
+				"Quirk",
+				"Physical"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "6f6b68f5-d022-439a-8d0f-c40d8ad80389",
+			"type": "trait",
+			"name": "Nervous Banter",
+			"reference": "PD3",
+			"userdesc": "Whenever you're nervous or anxious, your speech tends to careen straight into stream of consciousness, with no disconnect between brain and mouth. As such, your ranting can gleefully\nignore grammar and logic.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "cb2fa57c-38b1-46ff-9c8b-41259c2813c5",
+			"type": "trait",
+			"name": "Never Smiles",
+			"reference": "PD3",
+			"userdesc": "This is the opposite of Always Smiles, above. No matter your own emotions, you always have a perpetual scowl – or at best a neutral expression – on your face. ",
+			"tags": [
+				"Quirk",
+				"Physical"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "3a54a940-ca1e-4806-9589-f0fba72b4deb",
+			"type": "trait",
+			"name": "Rapid Talker",
+			"reference": "PD3",
+			"userdesc": "You talk a mile a minute. This occasionally causes a -1 reaction penalty as others attempt to follow what you're saying, and you are often asked to slowly repeat yourself.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from others trying to follow what you're saying",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "21d26e49-d576-4520-bc2f-49f7dfd0a0fe",
+			"type": "trait",
+			"name": "Scruffy Looking",
+			"reference": "PD2",
+			"userdesc": "The reverse of Sartorial Integrity (Power-Ups 2: Perks, p. 14). Your clothes are always at least disheveled and often worse. If someone dresses you well, it may last a little while, then you revert to type. Gives -1 reactions from the grooming-conscious, which often include police and military types.",
+			"tags": [
+				"Quirk",
+				"Physical"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from grooming-conscious individuals",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "9c8695ec-1742-4824-b3f1-5ae5e5e57976",
+			"type": "trait",
+			"name": "Sensitive About Appearance",
+			"reference": "PD2",
+			"notes": "@Physical Trait@",
+			"userdesc": "The character has one aspect of his appearance that he or she is extremely self-conscious about. This must be an observable physical trait (height, weight, wrinkles, a facial scar, bad teeth, etc.), though it doesn’t necessarily have to be bad enough to justify below average Appearance. Negative comments or jokes about this aspect of the character's appearance cause him/her to get upset and possibly lash out.",
+			"tags": [
+				"Quirk",
+				"Physical"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "2a720dc5-b86b-4495-8dcd-9e921c1a2d98",
+			"type": "trait",
+			"name": "Talks to Themselves",
+			"reference": "PD3",
+			"userdesc": "You need to vocalize your thoughts, especially when working on something mentally taxing. People who aren't expecting it may react at -1, especially if they don't have this trait themselves.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from others observing your behavior",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "388aa639-3e10-4c2a-b2f9-12f436199cff",
+			"type": "trait",
+			"name": "Third Person",
+			"reference": "PD3",
+			"userdesc": "You don't seem to know the words \"I\" or \"me\", and possibly also \"my\" or \"mine\"! You habitually call yourself by your name or alias. This is especially suited to campaigns that have a distinct \"campy\" style, but some characters with Megalomania or a lower than average IQ have this regardless of genre.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "2199d11f-0b92-4189-9fcf-e18a8279d3c5",
+			"type": "trait",
+			"name": "Traditional Diet",
+			"reference": "PD3",
+			"userdesc": "Whether due to upbringing or conscious choice, you follow the traditional or ethnic diet of a particular region or population group. This may be following kosher Jewish dietary laws, traditional Chinese or Japanese food preparation, or similar. This is only a quirk if the rules you follow are not the norm in your game setting.",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "4e7b3ba7-b9d1-4464-b97a-55ea8beed291",
+			"type": "trait",
+			"name": "Unusual Body Shape",
+			"reference": "PD2",
+			"notes": "@Body Shape@",
+			"userdesc": "The shape of your body is unusual for your setting. This could be someone who is morbidly obese, or in some settings (particularly those filled with anthopomorphics) your neck or limbs are at an unusual angle compared to the rest of the body; for example, a vulture anthro could have his neck at a 90 degree angle compared to his shoulders. This increases the cost of replacement clothing by +10% due to tailoring",
+			"tags": [
+				"Quirk",
+				"Physical"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "c381060c-f48a-414b-9420-2c5e5655d4bd",
+			"type": "trait",
+			"name": "Vague Answers",
+			"reference": "PD3",
+			"userdesc": "You always answer questions with the vaguest possible answer that could actually answer the question. This includes answering a question with a pointed question of your own.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "c45ab8ea-ff8b-4828-ac6d-c75920e8ea7c",
+			"type": "trait",
+			"name": "Vanity",
+			"reference": "PD2",
+			"userdesc": "You are obsessed with your good looks, to the point where you find any minor flaw to detract from them, especially if the flaw does not necessitate a reduction in Appearance (for flaws that can but are normally hidden, see Hidden Scar, above). This is the prototypical Mary Sue trait of that one minor flaw that you obsess over that no one else seems to care about or notice (in fact, some may even find the flaw attractive!), such as a small one centimeter long scar that's barely visible on that one corner of your mouth.",
+			"tags": [
+				"Quirk",
+				"Physical"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "e3e1d96a-2778-41df-bfca-642ad60c2136",
+			"type": "trait",
+			"name": "Willfully Anachronistic",
+			"reference": "PD3",
+			"userdesc": "You are fully capable of using equipment native to your Tech Level, but for some reason you just won't (usually financial, but can be a simple dislike for such things), usually limited to a few device types. For example, you disdain Facebook and smartphones for e-mail and regular \"dumb\" cellphones. ",
+			"tags": [
+				"Quirk",
+				"Mental"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "36bc72c8-da1f-435f-bf6b-09386f7776f8",
+			"type": "trait",
+			"name": "Won't Meet Anyone's Eyes",
+			"reference": "PD4",
+			"userdesc": "Might be a mild form of Autism/Asperger's, a form of shyness, or a just a cultural habit (e.g. someone from an East Asian culture), but you won't look anyone in the eye during conversation, although you have no trouble carrying on the conversation.",
+			"tags": [
+				"Quirk",
+				"Social"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		}
+	]
+}
