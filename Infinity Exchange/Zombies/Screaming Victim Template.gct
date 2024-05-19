@@ -1,0 +1,39 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "a8fe215f-1c16-4466-8701-852c1896186f",
+	"traits": [
+		{
+			"id": "11df5de7-6db2-443d-a580-d12dce63429d",
+			"type": "trait_container",
+			"open": true,
+			"name": "Advantages",
+			"template_picker": {
+				"type": "points",
+				"qualifier": {
+					"compare": "at_most",
+					"qualifier": 35
+				}
+			},
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "c65787e9-2db7-4b8f-83ed-76e8ea64945d",
+			"type": "trait_container",
+			"open": true,
+			"name": "Disadvantages",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "at_least",
+					"qualifier": -30
+				}
+			},
+			"calc": {
+				"points": 0
+			}
+		}
+	]
+}

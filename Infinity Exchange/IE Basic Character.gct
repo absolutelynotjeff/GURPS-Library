@@ -1,0 +1,375 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "9abcf9b7-a5b2-437d-86df-a74a40f83f89",
+	"traits": [
+		{
+			"id": "4239bdeb-dc19-4308-ae47-e0bb0fabdbd7",
+			"type": "trait",
+			"name": "Language: @Language@",
+			"reference": "B24",
+			"tags": [
+				"Advantage",
+				"Language",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "ff972d9a-b925-4895-a489-f3d14999074d",
+					"type": "modifier",
+					"name": "Native",
+					"reference": "B23",
+					"cost": -6,
+					"cost_type": "points"
+				},
+				{
+					"id": "e9f38c71-c4bd-45ee-a5e2-b47a33029f96",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "None",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "6cd10ab4-c4f9-4764-a47d-0e77d105d862",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Broken",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "3c7caa3c-055e-4422-ac8e-6a2d632b391c",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Accented",
+					"cost": 2,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "231ba28d-11ce-44e1-8d23-074d40ca57c6",
+					"type": "modifier",
+					"name": "Spoken",
+					"reference": "B24",
+					"notes": "Native",
+					"cost": 3,
+					"cost_type": "points"
+				},
+				{
+					"id": "152ad20b-dc58-4abb-b256-71da14dbb89c",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "None",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "6304a0d6-80f3-4a5f-b3cc-3ba2ae0c8063",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Broken",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "5818ab4a-2c4b-4c3e-a711-c4b6332daaca",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Accented",
+					"cost": 2,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "1b77515e-5789-49a0-8238-7242900c8c2c",
+					"type": "modifier",
+					"name": "Written",
+					"reference": "B24",
+					"notes": "Native",
+					"cost": 3,
+					"cost_type": "points"
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "2eeb5470-9acd-4486-9440-ed8d8543dbca",
+			"type": "trait_container",
+			"open": true,
+			"name": "Advantages",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "714729eb-df5b-4e46-b2c8-8b072ef3a595",
+			"type": "trait_container",
+			"open": true,
+			"name": "Disadvantages",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "30da47cb-3f62-495e-8d9c-2e4e91cf76b7",
+			"type": "trait_container",
+			"open": true,
+			"name": "Perks",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "5170f713-adc9-405e-bf7b-43869c2bb0de",
+			"type": "trait_container",
+			"open": true,
+			"name": "Quirks",
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "2684dc18-c14b-4e7a-9c09-d87f2b28a37e",
+			"type": "skill_container",
+			"open": true,
+			"name": "Combat Skills"
+		},
+		{
+			"id": "63b6a9c7-6de2-43cc-9b44-53bcbdb9c09f",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "ef37a08f-abb9-417d-8a63-8debcceb3fd2",
+					"type": "skill",
+					"name": "Acrobatics",
+					"reference": "B174,MA54",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Aerobatics",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Aquabatics",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "91bcfd01-89c8-45d0-bae2-0028463b7497",
+					"type": "skill",
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "d9289a08-b634-42a3-8867-82de9cdc30ff",
+					"type": "skill",
+					"name": "Housekeeping",
+					"reference": "B200",
+					"tags": [
+						"Everyman"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "d8b84756-7539-44e5-ab2b-847ced2c7bfd",
+					"type": "skill",
+					"name": "Running",
+					"reference": "B218",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "ht/a",
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "979076ad-d7ee-4cd8-94fe-a7478b41fad2",
+					"type": "skill",
+					"name": "Swimming",
+					"reference": "B224",
+					"tags": [
+						"Athletic",
+						"Exploration",
+						"Outdoor"
+					],
+					"difficulty": "ht/e",
+					"encumbrance_penalty_multiplier": 2,
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"name": "Everyman Skills"
+		},
+		{
+			"id": "fc2925aa-152b-4abf-a2bb-a48b82d387e9",
+			"type": "skill_container",
+			"open": true,
+			"name": "Hobby Skills"
+		},
+		{
+			"id": "dd4f817b-1c5e-4adf-8ce7-0898e44f3579",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "ae1854eb-beac-42eb-8313-00f89386c39a",
+					"type": "skill_container",
+					"open": true,
+					"children": [
+						{
+							"id": "8039ecc4-8f19-4a28-9daa-c6343066368e",
+							"type": "skill",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"notes": "All important businesses, streets, citizens, leaders, etc.",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "@City@; Lived there",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "a7205eb6-8d55-4085-a3d5-2d974383ab1d",
+							"type": "skill",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "@Rural Area@; Lived there",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "ed7a45cf-7b30-4f14-9ba4-d5a6157d7cc0",
+							"type": "skill",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "@Village or Town@; Lived there",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							]
+						}
+					],
+					"name": "Area Knowledge",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				}
+			],
+			"name": "Knowledge Skills"
+		},
+		{
+			"id": "ace6e6dc-3d44-49db-b91a-1c26bc654690",
+			"type": "skill_container",
+			"open": true,
+			"name": "Social Skills"
+		},
+		{
+			"id": "742f4ece-9437-44fc-a576-54537eaf1486",
+			"type": "skill_container",
+			"open": true,
+			"name": "Techniques"
+		}
+	]
+}

@@ -1,0 +1,1188 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "563cf301-fd4a-423a-8e1f-41cd142861c2",
+	"traits": [
+		{
+			"id": "4971eaca-5e10-4464-8072-7eaa4c0152ce",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "367f6e08-7dff-44fd-b6c0-45c250d6a692",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "32841022-7914-4e43-8410-ff6a1d00d1b3",
+							"type": "trait",
+							"name": "Acute Hearing",
+							"reference": "B35",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "hearing",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "2f26b0e7-020f-44b0-a5d2-8124b0bf4ffa",
+							"type": "trait",
+							"name": "Hard to Kill",
+							"reference": "B58",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"levels": 3,
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 6
+							}
+						},
+						{
+							"id": "88f2671e-bb84-4ec9-98be-10863e3bf45a",
+							"type": "trait",
+							"name": "Hard to Subdue",
+							"reference": "B59",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"levels": 3,
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to any HT roll to avoid unconsciousness",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 6
+							}
+						},
+						{
+							"id": "bd30c19b-bb74-46e0-95e0-2e3c4e8deba2",
+							"type": "trait",
+							"name": "High Pain Threshold",
+							"reference": "B59",
+							"notes": "Never suffer shock penalties when injured",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"base_points": 10,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "on all HT rolls to avoid knockdown and stunning",
+									"amount": 3
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to resist torture",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "8931e205-4749-4891-bfd2-f9097a51e9ba",
+							"type": "trait",
+							"name": "Increased Basic Speed",
+							"reference": "B17",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"levels": 1,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "basic_speed",
+									"amount": 0.25,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "655d3bb0-b50d-4bad-8dc7-b4e48bc517c9",
+							"type": "trait",
+							"name": "Plague Bite",
+							"reference": "B62,P53,MA45",
+							"notes": "Victim must make a HT-4 roll after being bitten, and then hourly for three hours. Each failure inflicts 1d or injury. Those who lose 2/3 HP or more become seriously ill: -3 to all attributes until healed.",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "638d7af6-9883-4c0a-a4f4-724e07929871",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 sec",
+									"cost": 100,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "3557cb2c-f7b5-43d3-9086-61a7574f2aef",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "10 sec",
+									"cost": 50,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "374a177a-b5fe-4859-9f1d-baaf76bf73b6",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 min",
+									"cost": 40,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "6432f1ae-e87e-44ce-bd4d-afbf5506fb2b",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 hr",
+									"cost": 20,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "b665f341-8ba2-4610-8bf0-ace4a84cd14d",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 day",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "432a0fc4-ea46-49db-9772-c90d78313b2f",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 sec; Resistible",
+									"cost": 50,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "3d5749eb-62e3-4e62-8432-219770f999cc",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "10 sec; Resistible",
+									"cost": 25,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "59f3d0df-b12d-4652-8bd9-c71268f9c9bb",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 min; Resistible",
+									"cost": 20,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "7984f0fd-b883-489f-a0d3-02dcf05227b7",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 hr; Resistible",
+									"cost": 10,
+									"levels": 1
+								},
+								{
+									"id": "b6918f73-02fa-45bc-83fa-b16439a3250b",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 day; Resistible",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "ae8b11ba-a459-4a63-9936-90369a649705",
+									"type": "modifier",
+									"name": "Contagious",
+									"reference": "B103",
+									"notes": "Mildly",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "ce7bc11f-fb0a-4160-a523-76465b42396b",
+									"type": "modifier",
+									"name": "Contagious",
+									"reference": "B103",
+									"notes": "Highly",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "b8d17d93-35a3-43c4-a172-93980659851c",
+									"type": "modifier",
+									"name": "Double Blunt Trauma",
+									"reference": "B104",
+									"notes": "1HP per 10 dmg",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "f5aa00ef-dac3-4379-ab0c-ab495034d1a5",
+									"type": "modifier",
+									"name": "Explosion",
+									"reference": "B104",
+									"cost": 50,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "1325d13c-5261-49f7-8ed4-0cc23f190a78",
+									"type": "modifier",
+									"name": "Fragmentation",
+									"reference": "B104",
+									"cost": 15,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "876eb22a-4fda-4e21-ac8d-51ed5d75ffd9",
+									"type": "modifier",
+									"name": "Fragmentation",
+									"reference": "B104",
+									"notes": "Hot",
+									"cost": 15,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "8295b64d-117c-4af0-bdd5-4abda07b3c6d",
+									"type": "modifier",
+									"name": "Radiation",
+									"reference": "B104",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "8bbac961-18e3-404b-a496-263ed0b36e85",
+									"type": "modifier",
+									"name": "Surge",
+									"reference": "B104",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "f5e29054-576c-48d1-9041-76498fbdd263",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"notes": "2",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "b7a9c8a1-15ea-4dd5-8147-5f8f1989c92f",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"notes": "3",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "45ab2bd6-13aa-4fc7-bc5e-f96026e27b00",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"notes": "5",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "65a6d106-0aaf-4cb6-94bd-328d685c9469",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"notes": "10",
+									"cost": 200,
+									"disabled": true
+								},
+								{
+									"id": "64f709b8-1f48-4d99-9bab-e0ab35a6fae6",
+									"type": "modifier",
+									"name": "Side Effect",
+									"reference": "B109",
+									"notes": "@Effect@",
+									"disabled": true
+								},
+								{
+									"id": "bd482c46-5a30-4721-ba71-0f8c860ebd11",
+									"type": "modifier",
+									"name": "Symptoms",
+									"reference": "B109",
+									"notes": "2/3 HP, -3 ST, DX, IQ, and HT"
+								},
+								{
+									"id": "770c7cf2-4525-428c-8fdb-4ac85c63b8de",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"notes": "0.5",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "d7357b09-cf21-4146-8bcf-f146cbbc2a8f",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"notes": "0.2",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "5125bdb8-3e26-4a16-b72c-e90df4a1c828",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"notes": "0.1",
+									"cost": -70,
+									"disabled": true
+								},
+								{
+									"id": "9f935517-5c4e-4305-afbc-2985b560237e",
+									"type": "modifier",
+									"name": "No Wounding",
+									"reference": "B111",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "c6ef375e-4909-47ac-884a-483974c9d75c",
+									"type": "modifier",
+									"name": "Incendiary",
+									"reference": "B104",
+									"cost": 10,
+									"disabled": true
+								}
+							],
+							"levels": 1,
+							"points_per_level": 4,
+							"weapons": [
+								{
+									"id": "3287d1ca-89d1-4fe2-8181-1da6803b715c",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"base": "-1"
+									},
+									"usage": "Bite",
+									"reach": "C",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling"
+										}
+									],
+									"calc": {
+										"damage": "thr-1 cr"
+									}
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"name": "Advantages",
+					"calc": {
+						"points": 36
+					}
+				},
+				{
+					"id": "9c5d9399-79a0-4c95-80cb-474a5806d905",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "be8b2b4d-c8f7-4e38-b71e-0221056c8465",
+							"type": "trait",
+							"name": "Bad Smell",
+							"reference": "B124",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"base_points": -10,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from most people and animals (although pests or carrion-eating scavengers might be attracted to you!)",
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "999f2cc3-f873-4322-8e98-50ae52eae9a2",
+							"type": "trait",
+							"name": "Bad Temper",
+							"reference": "B124",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -10,
+							"cr": 9,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "daafe70c-c0ac-4b1c-ad30-d13d01e83555",
+							"type": "trait",
+							"name": "Cannot Learn",
+							"reference": "B125",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -30,
+							"calc": {
+								"points": -30
+							}
+						},
+						{
+							"id": "1934dbb0-e2c0-4893-bfd8-6a3c0f3f394d",
+							"type": "trait",
+							"name": "Decreased Strength",
+							"reference": "B14",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Physical"
+							],
+							"levels": 1,
+							"points_per_level": -10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "497ea137-78d4-403b-ad50-3c3c52a5d0d1",
+							"type": "trait",
+							"name": "Decreased Health",
+							"reference": "B14",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Physical"
+							],
+							"levels": 1,
+							"points_per_level": -10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "c44c94b0-9dcd-4d74-ac25-92a31cb65133",
+							"type": "trait",
+							"name": "Decreased Intelligence",
+							"reference": "B15",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Mental"
+							],
+							"levels": 2,
+							"points_per_level": -20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "iq",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": -40
+							}
+						},
+						{
+							"id": "95e743f3-77b4-45d7-8eff-db7df72d2499",
+							"type": "trait",
+							"name": "Disturbing Voice",
+							"reference": "B132",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"base_points": -10,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "voice"
+										}
+									}
+								]
+							},
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "diplomacy"
+									},
+									"amount": -2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "fast-talk"
+									},
+									"amount": -2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "performance"
+									},
+									"amount": -2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "public speaking"
+									},
+									"amount": -2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "sex appeal"
+									},
+									"amount": -2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "singing"
+									},
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "53254333-d202-4743-b476-34f925e21d30",
+							"type": "trait",
+							"name": "Inhuman",
+							"reference": "Z70",
+							"tags": [
+								"Mental",
+								"Quirk",
+								"Social"
+							],
+							"base_points": -45,
+							"calc": {
+								"points": -45
+							}
+						},
+						{
+							"id": "c3c439c6-07d0-4f8f-9228-72ada85317ff",
+							"type": "trait",
+							"name": "Restricted Diet (Human Flesh)",
+							"reference": "B151",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "0dae0fad-abcc-4e90-a149-326bea6573a8",
+									"type": "modifier",
+									"name": "Substitution",
+									"reference": "B151",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "1cc9a927-6c9b-402c-bd43-9fe3454103aa",
+									"type": "modifier",
+									"name": "Very Common",
+									"reference": "B151",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "7ee9ad59-a4f4-4310-ad24-cbd4d90047c7",
+									"type": "modifier",
+									"name": "Common",
+									"reference": "B151",
+									"cost": -20,
+									"cost_type": "points"
+								},
+								{
+									"id": "0d16b1d2-ff4b-40d7-a015-5b3a71fbbd1a",
+									"type": "modifier",
+									"name": "Occasional",
+									"reference": "B151",
+									"cost": -30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "2b764a44-21bf-4285-83d6-a2443b93fe36",
+									"type": "modifier",
+									"name": "Rare",
+									"reference": "B151",
+									"cost": -40,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -20
+							}
+						},
+						{
+							"id": "e2f50e72-6bcf-48ac-ac19-81d309f07273",
+							"type": "trait",
+							"name": "Social Stigma (Monster)",
+							"reference": "B155",
+							"tags": [
+								"Disadvantage",
+								"Social"
+							],
+							"base_points": -15,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "intimidation"
+									},
+									"amount": 1
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from others",
+									"amount": -3
+								}
+							],
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "a00ecae8-b612-4e2a-8bd4-853e125f9ac9",
+							"type": "trait",
+							"name": "Terminally Ill",
+							"reference": "B158",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "1eceab5a-5a82-474e-8e0a-5b4a8f1d2cf5",
+									"type": "modifier",
+									"name": "2 years to live",
+									"reference": "B158",
+									"cost": -50,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "af57269d-38ac-46a5-b4fe-7c3913fc8a50",
+									"type": "modifier",
+									"name": "1 year to live",
+									"reference": "B158",
+									"cost": -75,
+									"cost_type": "points"
+								},
+								{
+									"id": "e2fe6041-a1ce-4a17-9df9-9188aa04ea23",
+									"type": "modifier",
+									"name": "1 month to live",
+									"reference": "B158",
+									"cost": -100,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -75
+							}
+						},
+						{
+							"id": "1e1dcbc4-275d-4e3f-8846-b756eb96ac9f",
+							"type": "trait",
+							"name": "Unnatural Features (Corpse Like)",
+							"reference": "B22",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"levels": 5,
+							"points_per_level": -1,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "disguise"
+									},
+									"amount": -1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "shadowing"
+									},
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": -5
+							}
+						}
+					],
+					"name": "Disadvantages",
+					"calc": {
+						"points": -285
+					}
+				},
+				{
+					"id": "f977d900-dbba-4f94-a76c-28f2df4958ce",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "0d871a32-b675-4fd1-8bed-d9db867f4831",
+							"type": "trait",
+							"name": "Penetrating Voice",
+							"reference": "B101",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to others' Hearing roll in siturations where you want to be heard over noise",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"points": 1
+							}
+						}
+					],
+					"name": "Perks",
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "ca794455-0675-4038-b7bb-b8d87f425e9e",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "6b723e4d-9817-4e74-913a-1d0d4c749e60",
+							"type": "trait",
+							"name": "Glimpses of Clarity",
+							"reference": "PU6:19",
+							"tags": [
+								"Mental",
+								"Quirk"
+							],
+							"base_points": -1,
+							"calc": {
+								"points": -1
+							}
+						},
+						{
+							"id": "a058d2da-bbd4-4735-8242-e53f9419cdbe",
+							"type": "trait",
+							"name": "Taboo Traits (Social Position)",
+							"reference": "PU6:21",
+							"tags": [
+								"Quirk"
+							],
+							"base_points": -1,
+							"calc": {
+								"points": -1
+							}
+						}
+					],
+					"name": "Quirks",
+					"calc": {
+						"points": -2
+					}
+				},
+				{
+					"id": "f5e03894-bfe1-4639-993f-322fcb5d366d",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "2100bcb6-b605-42b2-be0f-f4c0c4435674",
+							"type": "trait_container",
+							"children": [
+								{
+									"id": "8bb7cb17-672d-4874-99bd-fedfa7dd90f5",
+									"type": "trait",
+									"name": "Indomitable",
+									"reference": "B60",
+									"notes": "Impossible to influence through ordinary words or actions",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"base_points": 15,
+									"calc": {
+										"points": 15
+									}
+								},
+								{
+									"id": "0a91b808-1def-4e0b-a54e-fb862b66f8c0",
+									"type": "trait",
+									"name": "Striking ST",
+									"reference": "B88,P78",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "9b8e80e8-e2b2-459f-ab27-d96a9aa1e1ca",
+											"type": "modifier",
+											"name": "No Fine Manipulators",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "32892d90-82df-401d-bddc-d39a12d0f8b7",
+											"type": "modifier",
+											"name": "Size",
+											"cost": -10,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "eaabe509-f453-401a-89c1-4830111d0544",
+											"type": "modifier",
+											"name": "Super Effort",
+											"reference": "SU24",
+											"cost": 400,
+											"disabled": true
+										},
+										{
+											"id": "f35b516b-28d2-4935-8caa-e9f85f5310e0",
+											"type": "modifier",
+											"name": "One Attack Only",
+											"reference": "P79",
+											"notes": "@Attack@",
+											"cost": -60,
+											"disabled": true
+										},
+										{
+											"id": "4c469f7d-a2fc-45fa-9b19-a51985d575cd",
+											"type": "modifier",
+											"name": "Know Your Own Strength Pricing Variant",
+											"reference": "PY83:18",
+											"cost": -4,
+											"affects": "levels_only",
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"levels": 6,
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"limitation": "striking_only",
+											"attribute": "st",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"calc": {
+										"points": 30
+									}
+								},
+								{
+									"id": "34b5ca3f-e1b1-450e-89e5-75ee04af7e51",
+									"type": "trait",
+									"name": "Unfazeable",
+									"reference": "B95",
+									"notes": "Exempt from fright checks. Reaction modifiers do not affect you.",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "afc741f6-01f8-48bc-936d-37d51b5cdd0e",
+											"type": "modifier",
+											"name": "Familiar Horrors",
+											"reference": "H20",
+											"cost": -50,
+											"disabled": true
+										}
+									],
+									"base_points": 15,
+									"calc": {
+										"points": 15
+									}
+								},
+								{
+									"id": "f9747a03-25d8-42e3-8128-e3191f318218",
+									"type": "trait",
+									"name": "Berserk",
+									"reference": "B124",
+									"notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "1760bea2-00ee-41fa-af42-452dbb538251",
+											"type": "modifier",
+											"name": "Battle Rage",
+											"cost": 50,
+											"disabled": true
+										}
+									],
+									"base_points": -10,
+									"cr": 9,
+									"calc": {
+										"points": -15
+									}
+								}
+							],
+							"name": "Enraged",
+							"calc": {
+								"points": 45
+							}
+						},
+						{
+							"id": "e03ce17b-375a-45f9-9ae1-3db0411a2a2a",
+							"type": "trait_container",
+							"children": [
+								{
+									"id": "4ffc3d13-3417-4b76-8395-1c83e1047742",
+									"type": "trait",
+									"name": "Increased Dexterity",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "26b39aca-fc45-404a-9dbd-be0e55323b67",
+											"type": "modifier",
+											"name": "No Fine Manipulators",
+											"cost": -40,
+											"disabled": true
+										}
+									],
+									"levels": 1,
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "dx",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"calc": {
+										"points": 20
+									}
+								},
+								{
+									"id": "4840d96e-21b0-435e-9b4b-a5b70422c3d3",
+									"type": "trait",
+									"name": "Increased Basic Speed",
+									"reference": "B17",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"levels": 3,
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "basic_speed",
+											"amount": 0.25,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"calc": {
+										"points": 15
+									}
+								},
+								{
+									"id": "2877f225-ad28-4349-b3ff-21a65cd14361",
+									"type": "trait",
+									"name": "Increased Basic Move",
+									"reference": "B17",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"levels": 2,
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "basic_move",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"calc": {
+										"points": 10
+									}
+								}
+							],
+							"name": "Fast",
+							"calc": {
+								"points": 45
+							}
+						}
+					],
+					"name": "Variants",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 2
+						}
+					},
+					"container_type": "meta_trait",
+					"calc": {
+						"points": 90
+					}
+				}
+			],
+			"name": "Infected Traits",
+			"calc": {
+				"points": -160
+			}
+		}
+	]
+}
