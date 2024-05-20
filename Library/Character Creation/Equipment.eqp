@@ -1891,29 +1891,6 @@
 			}
 		},
 		{
-			"id": "6c04adf1-b756-4b7a-9512-5c9753a1adba",
-			"type": "equipment",
-			"description": "Ballistic Gloves",
-			"reference": "B284",
-			"tech_level": "10",
-			"tags": [
-				"Gloves"
-			],
-			"quantity": 1,
-			"value": 150,
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "hand",
-					"amount": 12
-				}
-			],
-			"calc": {
-				"extended_value": 150,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "9a4e968f-1fda-43f8-b691-52adbe1355b8",
 			"type": "equipment",
 			"description": "Ballistic Gloves",
@@ -1960,6 +1937,29 @@
 			}
 		},
 		{
+			"id": "6c04adf1-b756-4b7a-9512-5c9753a1adba",
+			"type": "equipment",
+			"description": "Ballistic Gloves",
+			"reference": "B284",
+			"tech_level": "10",
+			"tags": [
+				"Gloves"
+			],
+			"quantity": 1,
+			"value": 150,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 12
+				}
+			],
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "65f8086c-251b-4d38-acd7-ffaa27f639c5",
 			"type": "equipment",
 			"description": "Ballistic Helmet",
@@ -1977,31 +1977,6 @@
 					"type": "dr_bonus",
 					"location": "skull",
 					"amount": 36
-				}
-			],
-			"calc": {
-				"extended_value": 250,
-				"extended_weight": "3 lb"
-			}
-		},
-		{
-			"id": "d7553c5b-4e4b-4a97-8771-2ff7c0874fd2",
-			"type": "equipment",
-			"description": "Ballistic Helmet",
-			"reference": "B285",
-			"tech_level": "9",
-			"legality_class": "3",
-			"tags": [
-				"Headgear"
-			],
-			"quantity": 1,
-			"value": 250,
-			"weight": "3 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "skull",
-					"amount": 18
 				}
 			],
 			"calc": {
@@ -2060,41 +2035,36 @@
 			}
 		},
 		{
-			"id": "30c933b3-629d-4c66-aabd-115cf17e984a",
+			"id": "d7553c5b-4e4b-4a97-8771-2ff7c0874fd2",
 			"type": "equipment",
-			"description": "Ballistic Helmet Visor",
+			"description": "Ballistic Helmet",
 			"reference": "B285",
-			"tech_level": "11",
+			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
 				"Headgear"
 			],
 			"quantity": 1,
-			"value": 100,
+			"value": 250,
 			"weight": "3 lb",
 			"features": [
 				{
 					"type": "dr_bonus",
-					"location": "eye",
-					"amount": 30
-				},
-				{
-					"type": "dr_bonus",
-					"location": "face",
-					"amount": 30
+					"location": "skull",
+					"amount": 18
 				}
 			],
 			"calc": {
-				"extended_value": 100,
+				"extended_value": 250,
 				"extended_weight": "3 lb"
 			}
 		},
 		{
-			"id": "5a87fc7f-80bf-47f4-b541-11f893b343d1",
+			"id": "7456b9ba-95f9-4ec2-9ac5-15dddc2bd8e1",
 			"type": "equipment",
 			"description": "Ballistic Helmet Visor",
 			"reference": "B285",
-			"tech_level": "10",
+			"tech_level": "8",
 			"legality_class": "3",
 			"tags": [
 				"Headgear"
@@ -2106,12 +2076,12 @@
 				{
 					"type": "dr_bonus",
 					"location": "eye",
-					"amount": 20
+					"amount": 10
 				},
 				{
 					"type": "dr_bonus",
 					"location": "face",
-					"amount": 20
+					"amount": 10
 				}
 			],
 			"calc": {
@@ -2150,11 +2120,11 @@
 			}
 		},
 		{
-			"id": "7456b9ba-95f9-4ec2-9ac5-15dddc2bd8e1",
+			"id": "5a87fc7f-80bf-47f4-b541-11f893b343d1",
 			"type": "equipment",
 			"description": "Ballistic Helmet Visor",
 			"reference": "B285",
-			"tech_level": "8",
+			"tech_level": "10",
 			"legality_class": "3",
 			"tags": [
 				"Headgear"
@@ -2166,17 +2136,87 @@
 				{
 					"type": "dr_bonus",
 					"location": "eye",
-					"amount": 10
+					"amount": 20
 				},
 				{
 					"type": "dr_bonus",
 					"location": "face",
-					"amount": 10
+					"amount": 20
 				}
 			],
 			"calc": {
 				"extended_value": 100,
 				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "30c933b3-629d-4c66-aabd-115cf17e984a",
+			"type": "equipment",
+			"description": "Ballistic Helmet Visor",
+			"reference": "B285",
+			"tech_level": "11",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 30
+				}
+			],
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "411ff15b-2df6-4df2-b416-3489285e1d2e",
+			"type": "equipment",
+			"description": "Ballistic Suit",
+			"reference": "B284",
+			"tech_level": "11",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 24
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 24
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 24
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 24
+				}
+			],
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "6 lb"
 			}
 		},
 		{
@@ -2260,76 +2300,6 @@
 			}
 		},
 		{
-			"id": "411ff15b-2df6-4df2-b416-3489285e1d2e",
-			"type": "equipment",
-			"description": "Ballistic Suit",
-			"reference": "B284",
-			"tech_level": "11",
-			"legality_class": "3",
-			"tags": [
-				"Body Armor"
-			],
-			"quantity": 1,
-			"value": 1000,
-			"weight": "6 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "torso",
-					"amount": 24
-				},
-				{
-					"type": "dr_bonus",
-					"location": "vitals",
-					"amount": 24
-				},
-				{
-					"type": "dr_bonus",
-					"location": "arm",
-					"amount": 24
-				},
-				{
-					"type": "dr_bonus",
-					"location": "leg",
-					"amount": 24
-				}
-			],
-			"calc": {
-				"extended_value": 1000,
-				"extended_weight": "6 lb"
-			}
-		},
-		{
-			"id": "b9158828-d991-4b1c-b272-670927cec215",
-			"type": "equipment",
-			"description": "Ballistic Vest",
-			"reference": "B284",
-			"tech_level": "11",
-			"legality_class": "3",
-			"tags": [
-				"Body Armor"
-			],
-			"quantity": 1,
-			"value": 400,
-			"weight": "2 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "torso",
-					"amount": 24
-				},
-				{
-					"type": "dr_bonus",
-					"location": "vitals",
-					"amount": 24
-				}
-			],
-			"calc": {
-				"extended_value": 400,
-				"extended_weight": "2 lb"
-			}
-		},
-		{
 			"id": "a78ad95b-a559-4aef-babb-44ab49f921f9",
 			"type": "equipment",
 			"description": "Ballistic Vest",
@@ -2382,6 +2352,36 @@
 					"type": "dr_bonus",
 					"location": "vitals",
 					"amount": 8
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "b9158828-d991-4b1c-b272-670927cec215",
+			"type": "equipment",
+			"description": "Ballistic Vest",
+			"reference": "B284",
+			"tech_level": "11",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 24
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 24
 				}
 			],
 			"calc": {
@@ -2947,92 +2947,6 @@
 			}
 		},
 		{
-			"id": "5d2a27ea-11df-4cc8-852c-3e0a92d8e06b",
-			"type": "equipment",
-			"description": "Battle Suit",
-			"reference": "B285",
-			"tech_level": "11",
-			"legality_class": "1",
-			"tags": [
-				"Environment Suits"
-			],
-			"quantity": 1,
-			"value": 80000,
-			"weight": "150 lb",
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "battlesuit"
-						}
-					}
-				]
-			},
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "neck",
-					"amount": 100
-				},
-				{
-					"type": "dr_bonus",
-					"location": "torso",
-					"amount": 140
-				},
-				{
-					"type": "dr_bonus",
-					"location": "vitals",
-					"amount": 140
-				},
-				{
-					"type": "dr_bonus",
-					"location": "groin",
-					"amount": 100
-				},
-				{
-					"type": "dr_bonus",
-					"location": "arm",
-					"amount": 100
-				},
-				{
-					"type": "dr_bonus",
-					"location": "hand",
-					"amount": 100
-				},
-				{
-					"type": "dr_bonus",
-					"location": "leg",
-					"amount": 100
-				},
-				{
-					"type": "dr_bonus",
-					"location": "foot",
-					"amount": 100
-				},
-				{
-					"type": "attribute_bonus",
-					"limitation": "striking_only",
-					"attribute": "st",
-					"amount": 20
-				},
-				{
-					"type": "attribute_bonus",
-					"limitation": "lifting_only",
-					"attribute": "st",
-					"amount": 20
-				}
-			],
-			"calc": {
-				"extended_value": 80000,
-				"extended_weight": "150 lb"
-			}
-		},
-		{
 			"id": "375f5349-4cd0-4602-94dc-942332fae572",
 			"type": "equipment",
 			"description": "Battle Suit",
@@ -3111,6 +3025,92 @@
 					"limitation": "lifting_only",
 					"attribute": "st",
 					"amount": 10
+				}
+			],
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "5d2a27ea-11df-4cc8-852c-3e0a92d8e06b",
+			"type": "equipment",
+			"description": "Battle Suit",
+			"reference": "B285",
+			"tech_level": "11",
+			"legality_class": "1",
+			"tags": [
+				"Environment Suits"
+			],
+			"quantity": 1,
+			"value": 80000,
+			"weight": "150 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "battlesuit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 100
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 140
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 140
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 100
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 100
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 100
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 100
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 100
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 20
 				}
 			],
 			"calc": {
@@ -3205,6 +3205,41 @@
 			}
 		},
 		{
+			"id": "1af4ddd1-0fb2-416d-86a6-b5bea40a8499",
+			"type": "equipment",
+			"description": "Battle Suit Helmet",
+			"reference": "B285",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Environment Suits"
+			],
+			"quantity": 1,
+			"value": 10000,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 70
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 50
+				}
+			],
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
 			"id": "046ac531-c047-48df-b395-9e97ef46e8e5",
 			"type": "equipment",
 			"description": "Battle Suit Helmet",
@@ -3267,41 +3302,6 @@
 					"type": "dr_bonus",
 					"location": "face",
 					"amount": 75
-				}
-			],
-			"calc": {
-				"extended_value": 10000,
-				"extended_weight": "15 lb"
-			}
-		},
-		{
-			"id": "1af4ddd1-0fb2-416d-86a6-b5bea40a8499",
-			"type": "equipment",
-			"description": "Battle Suit Helmet",
-			"reference": "B285",
-			"tech_level": "9",
-			"legality_class": "1",
-			"tags": [
-				"Environment Suits"
-			],
-			"quantity": 1,
-			"value": 10000,
-			"weight": "15 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "eye",
-					"amount": 50
-				},
-				{
-					"type": "dr_bonus",
-					"location": "skull",
-					"amount": 70
-				},
-				{
-					"type": "dr_bonus",
-					"location": "face",
-					"amount": 50
 				}
 			],
 			"calc": {
@@ -3463,6 +3463,23 @@
 			"calc": {
 				"extended_value": 1000,
 				"extended_weight": "16.7 lb"
+			}
+		},
+		{
+			"id": "2c1bba7f-7bc3-44bf-8c34-c59a2315a86f",
+			"type": "equipment",
+			"description": "Belt",
+			"reference": "PY100:24",
+			"notes": "Leather or sturdy cloth, strong enough to support pouches, holsters, and other gear",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 14,
+			"weight": "0.25 lb",
+			"calc": {
+				"extended_value": 14,
+				"extended_weight": "0.25 lb"
 			}
 		},
 		{
@@ -5011,6 +5028,39 @@
 			}
 		},
 		{
+			"id": "b3e76bff-da16-4c0c-8a0d-042f708651ed",
+			"type": "equipment",
+			"description": "Cap",
+			"reference": "PY100:24",
+			"notes": "A cap is a small, brimless or nearly so piece of headgear such as a yarmulke, beret, or baseball cap",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 6,
+			"weight": "0.1 lb",
+			"calc": {
+				"extended_value": 6,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "92f10a08-ac5b-4f0e-8915-594301eb9a6e",
+			"type": "equipment",
+			"description": "Cape",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 18,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 18,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
 			"id": "6a44e8d1-2bfb-4842-b93b-2ad0cdb59608",
 			"type": "equipment",
 			"description": "Cartridge Rifle, .45",
@@ -5491,6 +5541,22 @@
 			}
 		},
 		{
+			"id": "11bc6437-36ee-4872-9a35-d48c1570ad4a",
+			"type": "equipment",
+			"description": "Cloak",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 46,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 46,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
 			"id": "1836df82-afad-4a24-bf58-30ab00b8b1f9",
 			"type": "equipment",
 			"description": "Cloth Armor",
@@ -5596,6 +5662,80 @@
 			"calc": {
 				"extended_value": 20,
 				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "b1d0a641-6701-4341-9bab-18d81a18e325",
+			"type": "equipment",
+			"description": "Combat Hardsuit",
+			"reference": "B285",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"quantity": 1,
+			"value": 10000,
+			"weight": "30 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "nbc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 30
+				}
+			],
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "30 lb"
 			}
 		},
 		{
@@ -5747,115 +5887,6 @@
 			}
 		},
 		{
-			"id": "b1d0a641-6701-4341-9bab-18d81a18e325",
-			"type": "equipment",
-			"description": "Combat Hardsuit",
-			"reference": "B285",
-			"tech_level": "9",
-			"legality_class": "2",
-			"tags": [
-				"Environment Suits"
-			],
-			"quantity": 1,
-			"value": 10000,
-			"weight": "30 lb",
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "nbc suit"
-						}
-					}
-				]
-			},
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "neck",
-					"amount": 30
-				},
-				{
-					"type": "dr_bonus",
-					"location": "torso",
-					"amount": 50
-				},
-				{
-					"type": "dr_bonus",
-					"location": "vitals",
-					"amount": 50
-				},
-				{
-					"type": "dr_bonus",
-					"location": "groin",
-					"amount": 30
-				},
-				{
-					"type": "dr_bonus",
-					"location": "arm",
-					"amount": 30
-				},
-				{
-					"type": "dr_bonus",
-					"location": "hand",
-					"amount": 30
-				},
-				{
-					"type": "dr_bonus",
-					"location": "leg",
-					"amount": 30
-				},
-				{
-					"type": "dr_bonus",
-					"location": "foot",
-					"amount": 30
-				}
-			],
-			"calc": {
-				"extended_value": 10000,
-				"extended_weight": "30 lb"
-			}
-		},
-		{
-			"id": "1e44b6c9-9af8-4280-b6d9-7f752e537643",
-			"type": "equipment",
-			"description": "Combat Hardsuit Helmet",
-			"reference": "B285",
-			"tech_level": "11",
-			"legality_class": "2",
-			"tags": [
-				"Environment Suits"
-			],
-			"quantity": 1,
-			"value": 2000,
-			"weight": "4 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "eye",
-					"amount": 24
-				},
-				{
-					"type": "dr_bonus",
-					"location": "skull",
-					"amount": 36
-				},
-				{
-					"type": "dr_bonus",
-					"location": "face",
-					"amount": 24
-				}
-			],
-			"calc": {
-				"extended_value": 2000,
-				"extended_weight": "4 lb"
-			}
-		},
-		{
 			"id": "d15b5ea7-9a08-4709-93bb-8665173aae84",
 			"type": "equipment",
 			"description": "Combat Hardsuit Helmet",
@@ -5918,6 +5949,41 @@
 					"type": "dr_bonus",
 					"location": "face",
 					"amount": 12
+				}
+			],
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "1e44b6c9-9af8-4280-b6d9-7f752e537643",
+			"type": "equipment",
+			"description": "Combat Hardsuit Helmet",
+			"reference": "B285",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 24
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 36
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 24
 				}
 			],
 			"calc": {
@@ -6985,6 +7051,54 @@
 			"calc": {
 				"extended_value": 450,
 				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "7bcccb94-67d4-4674-a613-a19b3feb54e9",
+			"type": "equipment",
+			"description": "Dress/robe, light",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 37,
+			"weight": "0.6 lb",
+			"calc": {
+				"extended_value": 37,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "5fce6c49-963d-4acb-a519-d436364828da",
+			"type": "equipment",
+			"description": "Dress/robe, regular",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 69,
+			"weight": "1.2 lb",
+			"calc": {
+				"extended_value": 69,
+				"extended_weight": "1.2 lb"
+			}
+		},
+		{
+			"id": "6c0fb349-7e3b-4ade-abfb-8c4a1c35e8d7",
+			"type": "equipment",
+			"description": "Dress/robe, winter",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 103,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 103,
+				"extended_weight": "3 lb"
 			}
 		},
 		{
@@ -8718,6 +8832,22 @@
 			}
 		},
 		{
+			"id": "a3c90408-6a80-4cf1-a385-0be84ecc71af",
+			"type": "equipment",
+			"description": "Gloves",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 14,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 14,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
 			"id": "b1a920da-9c9c-453c-a893-c699b7fd255f",
 			"type": "equipment",
 			"description": "Gold Coin",
@@ -10020,6 +10150,40 @@
 			}
 		},
 		{
+			"id": "d0228353-b401-4b28-8b10-850fcdc3d4ef",
+			"type": "equipment",
+			"description": "Hat",
+			"reference": "PY100:24",
+			"notes": " A hat is a some- what larger item of headgear, such as a porkpie hat, fedora, or cowboy hat",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 11,
+			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": 11,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "bcba1bb1-53a5-4c32-a4e7-5a35cdd8cbe9",
+			"type": "equipment",
+			"description": "Hat, large",
+			"reference": "PY100:24",
+			"notes": "A large hat is a particuarly big item of headgear with a notably large crown, brim, or both, such as a top hat, “coolie” hat, or a colonial era tricorn or bicorn hat",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 17,
+			"weight": "0.3 lb",
+			"calc": {
+				"extended_value": 17,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
 			"id": "89ab18e9-63c9-4a66-b429-22f26e9557a5",
 			"type": "equipment",
 			"description": "Hatchet",
@@ -10864,6 +11028,87 @@
 			}
 		},
 		{
+			"id": "cf3122ea-34ae-469a-b03f-1d3d57eb383f",
+			"type": "equipment",
+			"description": "Hooded Cape",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "2.2 lb",
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2.2 lb"
+			}
+		},
+		{
+			"id": "c2f645bc-c9ea-47de-9998-e25abaa9bda1",
+			"type": "equipment",
+			"description": "Hooded Cloak",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "5.5 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5.5 lb"
+			}
+		},
+		{
+			"id": "de2a7cb1-1525-4bba-b955-39494dc67b42",
+			"type": "equipment",
+			"description": "Hooded Shirt, light",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 24,
+			"weight": "0.44 lb",
+			"calc": {
+				"extended_value": 24,
+				"extended_weight": "0.44 lb"
+			}
+		},
+		{
+			"id": "490bd21b-96ab-40d1-9801-103a3c8ca735",
+			"type": "equipment",
+			"description": "Hooded Shirt, regular",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 48,
+			"weight": "0.88 lb",
+			"calc": {
+				"extended_value": 48,
+				"extended_weight": "0.88 lb"
+			}
+		},
+		{
+			"id": "e44be420-20c1-424a-aef1-bc5ff9911605",
+			"type": "equipment",
+			"description": "Hooded Shirt, winter",
+			"reference": "PY100:24",
+			"notes": "Winter shirts/tunics include sweaters, sweatshirts, and similar insulated tops.",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 73,
+			"weight": "2.2 lb",
+			"calc": {
+				"extended_value": 73,
+				"extended_weight": "2.2 lb"
+			}
+		},
+		{
 			"id": "4edfcb50-58bb-4aab-9c29-6c09d3d9bb44",
 			"type": "equipment",
 			"description": "Horseshoes, Set",
@@ -11417,6 +11662,38 @@
 			}
 		},
 		{
+			"id": "10b7add9-1a2e-4a23-ae8b-da7744cdc8c8",
+			"type": "equipment",
+			"description": "Jacket, light",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 33,
+			"weight": "0.6 lb",
+			"calc": {
+				"extended_value": 33,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "63d5611f-7c1f-4050-9c03-e425b4dcfb96",
+			"type": "equipment",
+			"description": "Jacket, medium",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 66,
+			"weight": "1.2 lb",
+			"calc": {
+				"extended_value": 66,
+				"extended_weight": "1.2 lb"
+			}
+		},
+		{
 			"id": "e6f91a6b-21e1-41bc-a5ab-d03ed6a6111a",
 			"type": "equipment",
 			"description": "Javelin",
@@ -11837,6 +12114,22 @@
 			"calc": {
 				"extended_value": 650,
 				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "29bc7011-1264-412c-b559-e2a8b249e93a",
+			"type": "equipment",
+			"description": "Keffiyeh/turban",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0.5 lb"
 			}
 		},
 		{
@@ -13879,6 +14172,23 @@
 			}
 		},
 		{
+			"id": "31df56ee-688b-4542-9f64-1ad28e22604e",
+			"type": "equipment",
+			"description": "Long coat",
+			"reference": "PY100:24",
+			"notes": "A long coat is a full-length but uninsulated garment such as a duster or raincoat",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 46,
+			"weight": "5 lb",
+			"calc": {
+				"extended_value": 46,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
 			"id": "395077cd-2216-418f-b589-4bef1c95203a",
 			"type": "equipment",
 			"description": "Long Spear",
@@ -15903,6 +16213,23 @@
 			}
 		},
 		{
+			"id": "b98f6a2e-ffe6-4bce-aeee-c7dfeb12daec",
+			"type": "equipment",
+			"description": "Overcoat",
+			"reference": "PY100:24",
+			"notes": "An overcoat is insulated for cold-weather use",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 99,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 99,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
 			"id": "da428118-2480-4c1b-8248-3c576d93de76",
 			"type": "equipment",
 			"description": "Parachute",
@@ -16436,6 +16763,22 @@
 			"calc": {
 				"extended_value": 120,
 				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "1722874a-329f-41b2-b7f4-27a311417e68",
+			"type": "equipment",
+			"description": "Poncho",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 23,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 23,
+				"extended_weight": "3 lb"
 			}
 		},
 		{
@@ -19425,6 +19768,22 @@
 			}
 		},
 		{
+			"id": "fe261b16-8ac9-4bc6-b202-f35cc47978d0",
+			"type": "equipment",
+			"description": "Sandals",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 22,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 22,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
 			"id": "436c7a7c-502e-442e-9ee4-fc2b4f6c06f2",
 			"type": "equipment",
 			"description": "Sandals",
@@ -19491,6 +19850,22 @@
 			"calc": {
 				"extended_value": 20,
 				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "35cf7c00-8909-463c-a544-a69d6f151bde",
+			"type": "equipment",
+			"description": "Sash/Scarf",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 11,
+			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": 11,
+				"extended_weight": "0.2 lb"
 			}
 		},
 		{
@@ -20226,6 +20601,22 @@
 			}
 		},
 		{
+			"id": "79b0b22a-2609-495c-bafc-3fd80874a694",
+			"type": "equipment",
+			"description": "Shawl",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 22,
+			"weight": "0.4 lb",
+			"calc": {
+				"extended_value": 22,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
 			"id": "7b2e3ae9-de32-4964-9eab-e8d734b0fa05",
 			"type": "equipment",
 			"description": "Shell Bag, large (100 Shells)",
@@ -20264,6 +20655,71 @@
 			}
 		},
 		{
+			"id": "79c63fba-8ac3-4731-b3c8-5335f12d912e",
+			"type": "equipment",
+			"description": "Shirt, light",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 22,
+			"weight": "0.4 lb",
+			"calc": {
+				"extended_value": 22,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "4294c710-b2aa-498c-96c2-d59ffbe8eb49",
+			"type": "equipment",
+			"description": "Shirt, regular",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 44,
+			"weight": "0.8 lb",
+			"calc": {
+				"extended_value": 44,
+				"extended_weight": "0.8 lb"
+			}
+		},
+		{
+			"id": "63061245-7628-4802-a1e6-5286e5a119a4",
+			"type": "equipment",
+			"description": "Shirt, winter",
+			"reference": "PY100:24",
+			"notes": "Winter shirts/tunics include sweaters, sweatshirts, and similar insulated tops.",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 66,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 66,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "15985b21-b2c3-4a9f-a2a5-a0bbf1caa222",
+			"type": "equipment",
+			"description": "Shoes",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 37,
+			"weight": "2 lb",
+			"calc": {
+				"extended_value": 37,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
 			"id": "8923627b-cc3c-4142-83f0-c2e2217d3b07",
 			"type": "equipment",
 			"description": "Shoes",
@@ -20286,6 +20742,22 @@
 			"calc": {
 				"extended_value": 40,
 				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "91611d28-f0d5-4460-b14f-d1468627dc60",
+			"type": "equipment",
+			"description": "Short Boots",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 73,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 73,
+				"extended_weight": "3 lb"
 			}
 		},
 		{
@@ -20803,6 +21275,54 @@
 			}
 		},
 		{
+			"id": "dffbbcc8-b0bc-4069-9990-33e760a1a150",
+			"type": "equipment",
+			"description": "Skirt, light",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 14,
+			"weight": "0.3 lb",
+			"calc": {
+				"extended_value": 14,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "1a7f3802-b33f-479c-aaea-a1700d9fd383",
+			"type": "equipment",
+			"description": "Skirt, regular",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 28,
+			"weight": "0.6 lb",
+			"calc": {
+				"extended_value": 28,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "72b07e84-326c-4720-b658-a40013dd7ff5",
+			"type": "equipment",
+			"description": "Skirt, winter",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 46,
+			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": 46,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
 			"id": "0bd89961-1ed0-42b6-a855-5536e7fe64cc",
 			"type": "equipment",
 			"description": "Sleeping Bag",
@@ -20934,6 +21454,22 @@
 			"calc": {
 				"extended_value": 20,
 				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "f0d8f630-16be-44fc-ade3-2f5ff6ddebb3",
+			"type": "equipment",
+			"description": "Slippers",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 32,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "1 lb"
 			}
 		},
 		{
@@ -21493,107 +22029,6 @@
 			}
 		},
 		{
-			"id": "f10bdc31-29b1-46fe-af0c-ae273489f3c2",
-			"type": "equipment",
-			"description": "SMG, 9mm",
-			"reference": "B278",
-			"tech_level": "6",
-			"legality_class": "2",
-			"tags": [
-				"Missile Weapon"
-			],
-			"quantity": 1,
-			"value": 700,
-			"weight": "10.5 lb",
-			"weapons": [
-				{
-					"id": "c646243d-1924-47ef-9a14-8f24741ea90e",
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "pi",
-						"base": "3d-1"
-					},
-					"strength": "10†",
-					"accuracy": "3",
-					"range": "160/1,900",
-					"rate_of_fire": "8!",
-					"shots": "32(3)",
-					"bulk": "-4",
-					"recoil": "2",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Pistol",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Shotgun",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Light Machine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Submachine Gun"
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Musket",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Grenade Launcher",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Gyroc",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Light Anti-Armor Weapon",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Gun!"
-						}
-					],
-					"calc": {
-						"damage": "3d-1 pi"
-					}
-				}
-			],
-			"calc": {
-				"extended_value": 700,
-				"extended_weight": "10.5 lb"
-			}
-		},
-		{
 			"id": "58b731fb-b437-46de-b2ba-9a2a5f03811f",
 			"type": "equipment",
 			"description": "SMG, 9mm",
@@ -21692,6 +22127,107 @@
 			"calc": {
 				"extended_value": 1200,
 				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "f10bdc31-29b1-46fe-af0c-ae273489f3c2",
+			"type": "equipment",
+			"description": "SMG, 9mm",
+			"reference": "B278",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 700,
+			"weight": "10.5 lb",
+			"weapons": [
+				{
+					"id": "c646243d-1924-47ef-9a14-8f24741ea90e",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "160/1,900",
+					"rate_of_fire": "8!",
+					"shots": "32(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "3d-1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "10.5 lb"
 			}
 		},
 		{
@@ -22373,11 +22909,11 @@
 			}
 		},
 		{
-			"id": "5237043d-445f-496b-b54c-a950e3639ccc",
+			"id": "88ca4425-e165-48aa-b62a-1e10165d60a3",
 			"type": "equipment",
 			"description": "Space Armor Helmet",
 			"reference": "B285",
-			"tech_level": "9",
+			"tech_level": "11",
 			"legality_class": "2",
 			"tags": [
 				"Environment Suits"
@@ -22389,17 +22925,17 @@
 				{
 					"type": "dr_bonus",
 					"location": "eye",
-					"amount": 30
+					"amount": 60
 				},
 				{
 					"type": "dr_bonus",
 					"location": "skull",
-					"amount": 40
+					"amount": 80
 				},
 				{
 					"type": "dr_bonus",
 					"location": "face",
-					"amount": 30
+					"amount": 60
 				}
 			],
 			"calc": {
@@ -22443,11 +22979,11 @@
 			}
 		},
 		{
-			"id": "88ca4425-e165-48aa-b62a-1e10165d60a3",
+			"id": "5237043d-445f-496b-b54c-a950e3639ccc",
 			"type": "equipment",
 			"description": "Space Armor Helmet",
 			"reference": "B285",
-			"tech_level": "11",
+			"tech_level": "9",
 			"legality_class": "2",
 			"tags": [
 				"Environment Suits"
@@ -22459,17 +22995,17 @@
 				{
 					"type": "dr_bonus",
 					"location": "eye",
-					"amount": 60
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "skull",
-					"amount": 80
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "face",
-					"amount": 60
+					"amount": 30
 				}
 			],
 			"calc": {
@@ -23317,11 +23853,11 @@
 			}
 		},
 		{
-			"id": "f166e2c9-5370-4ab5-8a75-efd4d147316a",
+			"id": "30507d68-c13f-448f-8b14-77e804290c7a",
 			"type": "equipment",
 			"description": "Tactical Suit",
 			"reference": "B284",
-			"tech_level": "10",
+			"tech_level": "11",
 			"legality_class": "2",
 			"tags": [
 				"Body Armor"
@@ -23347,47 +23883,47 @@
 				{
 					"type": "dr_bonus",
 					"location": "skull",
-					"amount": 30
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "neck",
-					"amount": 30
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "torso",
-					"amount": 30
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "vitals",
-					"amount": 30
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "groin",
-					"amount": 30
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "arm",
-					"amount": 30
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "hand",
-					"amount": 30
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "leg",
-					"amount": 30
+					"amount": 40
 				},
 				{
 					"type": "dr_bonus",
 					"location": "foot",
-					"amount": 30
+					"amount": 40
 				}
 			],
 			"calc": {
@@ -23475,11 +24011,11 @@
 			}
 		},
 		{
-			"id": "30507d68-c13f-448f-8b14-77e804290c7a",
+			"id": "f166e2c9-5370-4ab5-8a75-efd4d147316a",
 			"type": "equipment",
 			"description": "Tactical Suit",
 			"reference": "B284",
-			"tech_level": "11",
+			"tech_level": "10",
 			"legality_class": "2",
 			"tags": [
 				"Body Armor"
@@ -23505,87 +24041,52 @@
 				{
 					"type": "dr_bonus",
 					"location": "skull",
-					"amount": 40
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "neck",
-					"amount": 40
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "torso",
-					"amount": 40
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "vitals",
-					"amount": 40
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "groin",
-					"amount": 40
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "arm",
-					"amount": 40
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "hand",
-					"amount": 40
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "leg",
-					"amount": 40
+					"amount": 30
 				},
 				{
 					"type": "dr_bonus",
 					"location": "foot",
-					"amount": 40
+					"amount": 30
 				}
 			],
 			"calc": {
 				"extended_value": 3000,
 				"extended_weight": "15 lb"
-			}
-		},
-		{
-			"id": "fe6804a7-3532-4e73-82ae-1dc09d765cc8",
-			"type": "equipment",
-			"description": "Tactical Vest",
-			"reference": "B284",
-			"tech_level": "8",
-			"legality_class": "2",
-			"tags": [
-				"Body Armor"
-			],
-			"quantity": 1,
-			"value": 900,
-			"weight": "9 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"location": "torso",
-					"amount": 12
-				},
-				{
-					"type": "dr_bonus",
-					"location": "vitals",
-					"amount": 12
-				},
-				{
-					"type": "dr_bonus",
-					"location": "groin",
-					"amount": 12
-				}
-			],
-			"calc": {
-				"extended_value": 900,
-				"extended_weight": "9 lb"
 			}
 		},
 		{
@@ -23624,11 +24125,11 @@
 			}
 		},
 		{
-			"id": "29dc4433-7222-45ee-871c-0fcf490fff6a",
+			"id": "fe6804a7-3532-4e73-82ae-1dc09d765cc8",
 			"type": "equipment",
 			"description": "Tactical Vest",
 			"reference": "B284",
-			"tech_level": "10",
+			"tech_level": "8",
 			"legality_class": "2",
 			"tags": [
 				"Body Armor"
@@ -23640,17 +24141,17 @@
 				{
 					"type": "dr_bonus",
 					"location": "torso",
-					"amount": 24
+					"amount": 12
 				},
 				{
 					"type": "dr_bonus",
 					"location": "vitals",
-					"amount": 24
+					"amount": 12
 				},
 				{
 					"type": "dr_bonus",
 					"location": "groin",
-					"amount": 24
+					"amount": 12
 				}
 			],
 			"calc": {
@@ -23686,6 +24187,41 @@
 					"type": "dr_bonus",
 					"location": "groin",
 					"amount": 32
+				}
+			],
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "29dc4433-7222-45ee-871c-0fcf490fff6a",
+			"type": "equipment",
+			"description": "Tactical Vest",
+			"reference": "B284",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 900,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 24
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 24
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 24
 				}
 			],
 			"calc": {
@@ -24446,6 +24982,102 @@
 			}
 		},
 		{
+			"id": "b3b0c882-95cc-454a-8f2c-6f75136121af",
+			"type": "equipment",
+			"description": "Tights, light",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 17,
+			"weight": "0.3 lb",
+			"calc": {
+				"extended_value": 17,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "96980140-6c7e-4cd7-8722-08d5e906bd0b",
+			"type": "equipment",
+			"description": "Tights, regular",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 33,
+			"weight": "0.6 lb",
+			"calc": {
+				"extended_value": 33,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "243b5f7f-5727-4ea2-ac4a-043c5d53422b",
+			"type": "equipment",
+			"description": "Tights, winter",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "867137aa-cdb4-41da-9770-6ea453aa527c",
+			"type": "equipment",
+			"description": "Toga/Sari, light",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 44,
+			"weight": "0.8 lb",
+			"calc": {
+				"extended_value": 44,
+				"extended_weight": "0.8 lb"
+			}
+		},
+		{
+			"id": "7a5ac2e2-f5ca-4fb3-b8f5-2f3790af3aa8",
+			"type": "equipment",
+			"description": "Toga/Sari, regular",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 88,
+			"weight": "1.6 lb",
+			"calc": {
+				"extended_value": 88,
+				"extended_weight": "1.6 lb"
+			}
+		},
+		{
+			"id": "7a4cafa6-f0c7-495e-9758-4ef2f3855556",
+			"type": "equipment",
+			"description": "Toga/Sari, winter",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 132,
+			"weight": "4 lb",
+			"calc": {
+				"extended_value": 132,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
 			"id": "68885f7b-e163-4819-8045-02a773c29dbf",
 			"type": "equipment",
 			"description": "Torch",
@@ -24742,6 +25374,105 @@
 			}
 		},
 		{
+			"id": "5418d623-27e7-4a90-bf83-91c1a5faceb3",
+			"type": "equipment",
+			"description": "Trousers, light",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 33,
+			"weight": "0.6 lb",
+			"calc": {
+				"extended_value": 33,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "3ccf7ed2-27e5-4514-91ac-b1cecb51bd7f",
+			"type": "equipment",
+			"description": "Trousers, regular",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 66,
+			"weight": "1.2 lb",
+			"calc": {
+				"extended_value": 66,
+				"extended_weight": "1.2 lb"
+			}
+		},
+		{
+			"id": "5a0217c0-4f42-4209-bac9-d62213832dfe",
+			"type": "equipment",
+			"description": "Trousers, winter",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 99,
+			"weight": "3 lb",
+			"calc": {
+				"extended_value": 99,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "2692c12a-3747-4acf-b5be-fe5b5fa8696a",
+			"type": "equipment",
+			"description": "Tunic, light",
+			"reference": "PY100:24",
+			"notes": "A tunic is a square, sleeveless top like a large vest.",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 17,
+			"weight": "0.3 lb",
+			"calc": {
+				"extended_value": 17,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "4c494cad-abeb-4b4f-857b-fcf299d7cefb",
+			"type": "equipment",
+			"description": "Tunic, winter",
+			"reference": "PY100:24",
+			"notes": "A tunic is a square, sleeveless top like a large vest.",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 33,
+			"weight": "0.6 lb",
+			"calc": {
+				"extended_value": 33,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "f12644ee-9021-4ddc-a5da-dc83f1493afa",
+			"type": "equipment",
+			"description": "Tunic, winter",
+			"reference": "PY100:24",
+			"notes": "A tunic is a square, sleeveless top like a large vest. Winter shirts/tunics include sweaters, sweatshirts, and similar insulated tops",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 99,
+			"weight": "1.5 lb",
+			"calc": {
+				"extended_value": 99,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
 			"id": "6f6b9e69-d7af-4ee9-b902-beaa8760c9d5",
 			"type": "equipment",
 			"description": "TV Set, Mini",
@@ -24931,6 +25662,39 @@
 			"calc": {
 				"extended_value": 500,
 				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "291b99df-3011-4371-99e5-ee038aa5f085",
+			"type": "equipment",
+			"description": "Underwear, brief",
+			"reference": "PY100:24",
+			"notes": "Brief underwear is a minimal set of undergarments, such as socks, briefs or loincloth, and a minimal bra if needed.",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.2 lb",
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "ce7db705-a698-4f36-a0d7-ca8df33f649a",
+			"type": "equipment",
+			"description": "Underwear, extensive",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.5 lb"
 			}
 		},
 		{
@@ -25252,6 +26016,22 @@
 			"calc": {
 				"extended_value": 2000,
 				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "32e58219-584a-454c-90bb-ffe1978cad99",
+			"type": "equipment",
+			"description": "Vest",
+			"reference": "PY100:24",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 32,
+			"weight": "0.5 lb",
+			"calc": {
+				"extended_value": 32,
+				"extended_weight": "0.5 lb"
 			}
 		},
 		{
