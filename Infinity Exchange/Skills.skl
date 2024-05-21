@@ -103,6 +103,22 @@
 					"limit": 5
 				},
 				{
+					"id": "0c9ffe64-62c1-4835-b3f6-4fc4e92f96fc",
+					"type": "technique",
+					"name": "Change Position",
+					"reference": "MATG35",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Acrobatics"
+					},
+					"limit": 0
+				},
+				{
 					"id": "9416d431-215c-4be8-ad47-33af4f5d933c",
 					"type": "technique",
 					"name": "Dive 'n Roll",
@@ -2466,6 +2482,20 @@
 			]
 		},
 		{
+			"id": "91634513-0f64-4ad2-b751-7a9befb4656a",
+			"type": "technique",
+			"name": "Bear Hug",
+			"reference": "MATG34",
+			"tags": [
+				"Technique"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "st"
+			}
+		},
+		{
 			"id": "d155a5af-f3cd-4c4f-9143-5f0b69931469",
 			"type": "skill",
 			"name": "Bicycling",
@@ -4573,6 +4603,23 @@
 					"limit": 0
 				},
 				{
+					"id": "298ad87f-42f1-43ca-8374-6e66e29ec6e2",
+					"type": "technique",
+					"name": "Testicle Grab",
+					"reference": "MATG40",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Brawling",
+						"modifier": -3
+					},
+					"limit": 0
+				},
+				{
 					"id": "cf7dbd05-b3a6-49c1-9a10-b92f7d86a922",
 					"type": "technique",
 					"name": "Two-Handed Punch",
@@ -4634,6 +4681,21 @@
 				}
 			],
 			"name": "Brawling"
+		},
+		{
+			"id": "757a6613-2c6e-4b31-a5ad-05bb281b55ff",
+			"type": "technique",
+			"name": "Break Free",
+			"reference": "MATG34",
+			"tags": [
+				"Technique"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "dx"
+			},
+			"limit": 0
 		},
 		{
 			"id": "68417dd5-8f1d-45d7-a227-87b8a1e02157",
@@ -5267,6 +5329,21 @@
 					"modifier": -3
 				}
 			]
+		},
+		{
+			"id": "b446ef96-cf76-44c4-bdfa-8508e11085da",
+			"type": "technique",
+			"name": "Choke or Strangle",
+			"reference": "MATG36",
+			"tags": [
+				"Technique"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "st"
+			},
+			"limit": 0
 		},
 		{
 			"id": "54b262f6-1c46-4c41-b079-6d3d123a7479",
@@ -9309,6 +9386,23 @@
 			"name": "Escape"
 		},
 		{
+			"id": "11509a15-983c-4c20-89ec-2ad112126eb4",
+			"type": "technique",
+			"name": "Escaping Parry",
+			"reference": "MATG36",
+			"tags": [
+				"Technique"
+			],
+			"difficulty": "h",
+			"points": 2,
+			"default": {
+				"type": "parry",
+				"name": "@Skill@",
+				"modifier": -2
+			},
+			"limit": 0
+		},
+		{
 			"id": "9e804ab5-0a4f-4de8-8c07-8d6908e96378",
 			"type": "skill",
 			"name": "Esoteric Medicine",
@@ -10406,6 +10500,39 @@
 					}
 				]
 			}
+		},
+		{
+			"id": "840bdc05-da07-4334-afe2-8462bcb6ea1c",
+			"type": "technique",
+			"name": "Force Posture Change",
+			"reference": "MATG37",
+			"tags": [
+				"Technique"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "@Skill@",
+				"modifier": -2
+			},
+			"limit": 0
+		},
+		{
+			"id": "147b8732-0537-4ed4-832f-87cfdff8c5d8",
+			"type": "technique",
+			"name": "Force Posture Change",
+			"reference": "MATG37",
+			"tags": [
+				"Technique"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "dx",
+				"modifier": -2
+			},
+			"limit": 0
 		},
 		{
 			"id": "d541d3af-4f4f-45bf-b00c-fc390619f85a",
@@ -13509,6 +13636,22 @@
 					"limit": 4
 				},
 				{
+					"id": "fc6c4aa6-3501-4ffa-b6f8-1326cb5870b5",
+					"type": "technique",
+					"name": "Break Free",
+					"reference": "MATG34",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Judo"
+					},
+					"limit": 0
+				},
+				{
 					"id": "13518bff-9e33-405f-a43c-fbe96a0ffeb4",
 					"type": "technique",
 					"name": "Breakfall",
@@ -13526,6 +13669,22 @@
 						"name": "Judo"
 					},
 					"limit": 5
+				},
+				{
+					"id": "b092bade-b1c2-4966-9ee6-601986e9b24b",
+					"type": "technique",
+					"name": "Change Position",
+					"reference": "MATG35",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Judo"
+					},
+					"limit": 0
 				},
 				{
 					"id": "4b64e129-eed7-4613-8a8d-e46ed43011ae",
@@ -13908,6 +14067,23 @@
 						"type": "skill",
 						"name": "Judo",
 						"modifier": -3
+					},
+					"limit": 0
+				},
+				{
+					"id": "42ec2d2e-1315-4e10-bfe5-7164294a9700",
+					"type": "technique",
+					"name": "Testicle Grab",
+					"reference": "MATG40",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Judo",
+						"modifier": -2
 					},
 					"limit": 0
 				},
@@ -15006,7 +15182,6 @@
 					"limit": 0
 				}
 			],
-			"open": true,
 			"name": "Karate"
 		},
 		{
@@ -15485,7 +15660,6 @@
 					]
 				}
 			],
-			"open": true,
 			"name": "Knife"
 		},
 		{
@@ -22532,7 +22706,6 @@
 					"limit": 0
 				}
 			],
-			"open": true,
 			"name": "Saber"
 		},
 		{
@@ -24826,7 +24999,6 @@
 					]
 				}
 			],
-			"open": true,
 			"name": "Spear"
 		},
 		{
@@ -25107,7 +25279,6 @@
 					"limit": 0
 				}
 			],
-			"open": true,
 			"name": "Staff"
 		},
 		{
@@ -25192,7 +25363,6 @@
 					}
 				}
 			],
-			"open": true,
 			"name": "Stealth"
 		},
 		{
@@ -25665,6 +25835,38 @@
 			"id": "bd2a892e-1149-43f7-ba14-83de25f9cb02",
 			"type": "skill_container",
 			"children": [
+				{
+					"id": "11d30801-c6f0-40e7-a139-06a8a915553d",
+					"type": "technique",
+					"name": "Break Free",
+					"reference": "MATG34",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Sumo Wrestling"
+					},
+					"limit": 0
+				},
+				{
+					"id": "c6d0024d-f823-48b5-bf0d-918ccc02a53a",
+					"type": "technique",
+					"name": "Change Position",
+					"reference": "MATG35",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Sumo Wrestling"
+					},
+					"limit": 0
+				},
 				{
 					"id": "b8ba4324-1a7f-474b-b195-72160a798ca7",
 					"type": "technique",
@@ -29284,6 +29486,22 @@
 					"limit": 3
 				},
 				{
+					"id": "6b3c1eb5-f63c-4a29-a365-67beafd0c748",
+					"type": "technique",
+					"name": "Break Free",
+					"reference": "MATG34",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Wrestling"
+					},
+					"limit": 0
+				},
+				{
 					"id": "dd1e3c8c-6428-4a43-8cfa-5efaa5a9b046",
 					"type": "technique",
 					"name": "Breakfall",
@@ -29301,6 +29519,22 @@
 						"name": "Wrestling"
 					},
 					"limit": 5
+				},
+				{
+					"id": "0cc1e7ee-3f77-46a8-b26e-260d062f1985",
+					"type": "technique",
+					"name": "Change Position",
+					"reference": "MATG35",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "a",
+					"points": 1,
+					"default": {
+						"type": "skill",
+						"name": "Wrestling"
+					},
+					"limit": 0
 				},
 				{
 					"id": "5928e320-19dd-4625-b694-5ff4985d25e6",
@@ -29611,6 +29845,22 @@
 						"type": "skill",
 						"name": "Wrestling",
 						"modifier": -2
+					},
+					"limit": 0
+				},
+				{
+					"id": "212620fa-851b-4354-a496-463a550bdca7",
+					"type": "technique",
+					"name": "Sprawling Parry",
+					"reference": "MATG40",
+					"tags": [
+						"Technique"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "parry",
+						"name": "Wrestling"
 					},
 					"limit": 0
 				},
