@@ -30736,6 +30736,83 @@
 			}
 		},
 		{
+			"id": "254b41c0-dfff-4284-9300-0c1c9f54c34a",
+			"type": "trait",
+			"name": "Sharp Claws",
+			"reference": "B42",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"base_points": 5,
+			"weapons": [
+				{
+					"id": "6947bdb1-dbf7-4467-818a-7a97925995c1",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Slash",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 cut"
+					}
+				},
+				{
+					"id": "8067b74a-214b-41cf-93dd-6b11f5a31584",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr cut"
+					}
+				}
+			],
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "00ddcbdd-2ebf-4025-b756-8d0a3ba40299",
 			"type": "trait",
 			"name": "Sharp Teeth",
@@ -45788,6 +45865,20 @@
 			],
 			"calc": {
 				"points": -1
+			}
+		},
+		{
+			"id": "ee711a5c-fbaa-4fb8-b433-77d0302ff9fb",
+			"type": "trait",
+			"name": "Trance Instead of Sleep",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Exotic"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
 			}
 		},
 		{

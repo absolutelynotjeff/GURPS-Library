@@ -1,0 +1,1965 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "4ed56d75-74e7-45ce-885b-bbf942a56ebd",
+	"traits": [
+		{
+			"id": "2cc79d46-330e-4072-8d9b-4f3725ffd8b1",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "b935f25b-f171-4175-84ac-7770bd911a79",
+					"type": "trait",
+					"name": "Flexibility",
+					"reference": "B56",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "climbing"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "escape"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "erotic art"
+							},
+							"amount": 3
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "84fd8d20-266c-4dc3-b6b6-5a79c9e95d95",
+					"type": "trait",
+					"name": "Flexibility (Double-Jointed)",
+					"reference": "B56",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 15,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "climbing"
+							},
+							"amount": 5
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "escape"
+							},
+							"amount": 5
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "erotic art"
+							},
+							"amount": 5
+						}
+					],
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "c93a50ac-3d41-4c67-a976-81d4104c4dbb",
+					"type": "trait",
+					"name": "Gadgeteer",
+					"reference": "B57",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "b406c46f-502c-47b3-9be8-5bfb710578cf",
+							"type": "modifier",
+							"name": "Quick",
+							"reference": "B57",
+							"cost": 25,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 25,
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "f86dbfea-a6c5-4e7c-88e5-e9c4785994a8",
+					"type": "trait",
+					"name": "High Manual Dexterity",
+					"reference": "B59",
+					"notes": "maxmimum 4",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "artist"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "jeweler"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "knot-tying"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leatherworking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "lockpicking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "pickpocket"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sewing"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sleight of hand"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "surgery"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "machinist"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "mechanic"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "058d21c7-0602-4f03-992e-c9f809978477",
+					"type": "trait",
+					"name": "Signature Gear",
+					"reference": "B85",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"levels": 1,
+					"points_per_level": 1,
+					"can_level": true,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "1d63a92e-ca25-4409-8def-e60a07a81b2d",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "82b2a0b4-e38f-4fa0-a35e-b71ac0596cd2",
+							"type": "trait",
+							"name": "Talent (Dungeon Artificer)",
+							"reference": "PU3:10",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Supernatural",
+								"Talent"
+							],
+							"modifiers": [
+								{
+									"id": "4c41bd42-df4d-4e2e-be18-f04d2bf4d130",
+									"type": "modifier",
+									"name": "Alternative Cost",
+									"cost": 1,
+									"affects": "levels_only",
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"levels": 1,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Alchemy"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "armoury"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Engineer"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Gadgets"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Fast-Draw"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Gadgets"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Scrounging"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Traps"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "From potential Buyers.",
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "Roll appropriate skill to scrounge equipment for other covered skills and apply level against the penalty.  Shift rolls to avoid ill effects from mysterious artifacts by level in either direction.",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "63ca9350-3a13-4443-8bd4-31e8254c736b",
+							"type": "trait",
+							"name": "Talent (Master Builder)",
+							"reference": "F132,PU3:11",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Talent"
+							],
+							"modifiers": [
+								{
+									"id": "1cf56eaa-3109-4327-9801-9c28dbbe8273",
+									"type": "modifier",
+									"name": "Reaction Bonus",
+									"notes": "Workers on projects, prospective employers"
+								},
+								{
+									"id": "5b00ae78-2c7b-45cb-a650-3838c6228e3a",
+									"type": "modifier",
+									"name": "Alternate Benefit",
+									"notes": "Bonus to avoid common workplace hazards, even if used as traps",
+									"disabled": true
+								}
+							],
+							"levels": 1,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Architecture"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Carpentry"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Engineer"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Forced Entry"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Masonry"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"name": "Only One Talent",
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "e0a94d91-c408-4462-85fc-b0e5e26c37e1",
+					"type": "trait",
+					"name": "Versatile",
+					"reference": "B96",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"open": true,
+			"name": "Class Advantages",
+			"notes": "Optional: Pick and choose.",
+			"calc": {
+				"points": 66
+			}
+		},
+		{
+			"id": "5e8cd36d-5614-4b8a-bf02-2d527063b407",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "a6b72e83-e737-4f30-a160-a30fdbf5829b",
+					"type": "trait",
+					"name": "Absent-Mindedness",
+					"reference": "B122",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "d71b76de-7918-49c8-ad04-0f0247046c5b",
+					"type": "trait",
+					"name": "Bad Sight (Farsighted)",
+					"reference": "B123",
+					"notes": "-6 to Vision rolls to spot items within 1 yd; -3 DX to any close manual task, including close combat",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3dbcc0ed-b537-4598-8b76-098807c21f7f",
+							"type": "modifier",
+							"name": "Mitigator",
+							"notes": "Glasses",
+							"cost": -60
+						}
+					],
+					"base_points": -25,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "900b0a34-b297-4848-a94a-923053ca2aa0",
+					"type": "trait",
+					"name": "Bad Sight (Nearsighted)",
+					"reference": "B123",
+					"notes": " -6 to Vision rolls to spot items more than 1 yd away; -2 to all melee attacks; double actual distance to the target when calculating the range modifier for ranged attacks",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "47d7a5e8-4883-4092-b0ad-4c944ab4fd5b",
+							"type": "modifier",
+							"name": "Mitigator",
+							"notes": "Glasses",
+							"cost": -60
+						}
+					],
+					"base_points": -25,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "bb0769b1-75f0-466f-bae6-806e4f395f9b",
+					"type": "trait",
+					"name": "Combat Paralysis",
+					"reference": "B127",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "c4bc52f1-bf6c-4d16-a0c1-c7823618eab0",
+					"type": "trait",
+					"name": "Compulsive Inventing",
+					"reference": "B128",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "ffc07fc6-e12b-4b6d-bae5-3b71eeaf7ef2",
+					"type": "trait",
+					"name": "Curious",
+					"reference": "B129",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "056760ca-cb2b-4e11-85c4-d3c231df1c13",
+					"type": "trait",
+					"name": "Hard of Hearing",
+					"reference": "B138",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "hearing",
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "890a6fd8-4642-410b-8e27-9171c954e38d",
+					"type": "trait",
+					"name": "Impulsiveness",
+					"reference": "B139",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "dacb3c10-8ba7-42ea-a185-7f24ee08ce5a",
+					"type": "trait",
+					"name": "Loner",
+					"reference": "B142",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "c8effcea-9cbc-4ddd-97e8-902a4f030367",
+					"type": "trait",
+					"name": "Missing Digit (Finger)",
+					"reference": "B144",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -2,
+					"calc": {
+						"points": -2
+					}
+				},
+				{
+					"id": "70f2879b-1110-4e64-92a0-335c822b1310",
+					"type": "trait",
+					"name": "Missing Digit (Thumb)",
+					"reference": "B144",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "6d555a32-1750-4a1e-a0fa-75f3eb1c3619",
+					"type": "trait",
+					"name": "Odious Personal Habit",
+					"reference": "B22",
+					"notes": "@Habit@",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "b869bc9e-e9f3-4443-a6e6-a79def59644b",
+							"type": "modifier",
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "46bf1037-9565-40d9-a11f-086b6a29db81",
+							"type": "modifier",
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "29c6bb21-48d9-441d-b121-e3d49aa67b3f",
+							"type": "modifier",
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "51f63744-572b-49f2-8e58-9af7210a4d50",
+					"type": "trait",
+					"name": "Overconfidence",
+					"reference": "B148",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "5370291c-1d2b-4f68-b31e-a823bafd9c55",
+					"type": "trait",
+					"name": "Post-Combat Shakes",
+					"reference": "B150",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "5b4abf28-2ad2-435c-b5da-a9374080f6a4",
+					"type": "trait",
+					"name": "Pyromania",
+					"reference": "B150",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "6cd673c0-cfe2-4892-b4a6-eb5da1bbf1b0",
+					"type": "trait",
+					"name": "Workaholic",
+					"reference": "B162",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				}
+			],
+			"name": "Class Disadvantages",
+			"notes": "Optional: Pick and choose, these count towards your disadvantage total",
+			"calc": {
+				"points": -112
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "10c96d9e-fe2a-47a9-a701-fb2e3b0b247f",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "c69f03e4-5d2a-46d0-aec3-c7fcce865619",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "c2622aee-99f5-4050-88ed-a69b2d1b2338",
+							"type": "skill",
+							"name": "Alchemy",
+							"reference": "B174",
+							"tags": [
+								"Magical",
+								"Natural Science",
+								"Occult"
+							],
+							"tech_level": "",
+							"difficulty": "iq/vh",
+							"points": 1
+						},
+						{
+							"id": "8bd3b163-d900-4b79-ba83-3fd9b04a2056",
+							"type": "skill",
+							"name": "Engineer",
+							"reference": "B190",
+							"tags": [
+								"Design",
+								"Engineer",
+								"Invention"
+							],
+							"specialization": "Gadgets",
+							"tech_level": "",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "4d47abfe-f40e-4411-9d1c-6519e4e79047",
+							"type": "skill",
+							"name": "Fast-Draw",
+							"reference": "B194",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "Gadget",
+							"difficulty": "dx/e",
+							"points": 1
+						},
+						{
+							"id": "b715717f-0df1-45fb-ad93-88791143977e",
+							"type": "skill",
+							"name": "Scrounging",
+							"reference": "B218",
+							"tags": [
+								"Criminal",
+								"Street"
+							],
+							"difficulty": "per/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -4
+								}
+							]
+						}
+					],
+					"name": "Primary Skills"
+				},
+				{
+					"id": "c8ca60dd-7e66-459f-9104-24a557c50278",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "4e470187-d269-4a1d-83c7-232ae70dc538",
+							"type": "skill",
+							"name": "Traps",
+							"reference": "B226",
+							"tags": [
+								"Criminal",
+								"Military",
+								"Street"
+							],
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Lockpicking",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "8e61dab7-94e8-4d25-a886-ecf713130d05",
+							"type": "skill_container",
+							"children": [
+								{
+									"id": "2269bd69-ca5f-49c7-bd2f-05fd3811b9a0",
+									"type": "skill",
+									"name": "Esoteric Medicine",
+									"reference": "B192,MA56",
+									"tags": [
+										"Esoteric",
+										"Medical"
+									],
+									"difficulty": "per/h",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "per",
+											"modifier": -6
+										}
+									]
+								},
+								{
+									"id": "7b59d4b1-515c-4059-8b92-d8d02058d0ff",
+									"type": "skill",
+									"name": "Herb Lore",
+									"reference": "B199",
+									"tags": [
+										"Plant"
+									],
+									"tech_level": "",
+									"difficulty": "iq/vh",
+									"points": 1,
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "contains",
+													"qualifier": "naturalist"
+												}
+											}
+										]
+									}
+								}
+							],
+							"name": "Alchemist"
+						},
+						{
+							"id": "0a6386de-a603-4a73-a6e3-35cd983be47e",
+							"type": "skill_container",
+							"children": [
+								{
+									"id": "c9ef1b09-df6f-4c1a-86eb-a71f98804e49",
+									"type": "skill",
+									"name": "Armoury",
+									"reference": "B178",
+									"tags": [
+										"Maintenance",
+										"Military",
+										"Repair"
+									],
+									"specialization": "Melee Weapons",
+									"tech_level": "",
+									"difficulty": "iq/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"specialization": "Melee Weapons",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "724dcdd1-c405-469f-9ee7-5e9390053e40",
+									"type": "skill",
+									"name": "Armoury",
+									"reference": "B178",
+									"tags": [
+										"Maintenance",
+										"Military",
+										"Repair"
+									],
+									"specialization": "Body Armor",
+									"tech_level": "",
+									"difficulty": "iq/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"specialization": "Body Armor",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "95ef2b43-92d6-4a74-8904-f9d9df39b57c",
+									"type": "skill",
+									"name": "Armoury",
+									"reference": "B178",
+									"tags": [
+										"Maintenance",
+										"Military",
+										"Repair"
+									],
+									"specialization": "Missile Weapons",
+									"tech_level": "",
+									"difficulty": "iq/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"specialization": "Missile Weapons",
+											"modifier": -4
+										}
+									]
+								}
+							],
+							"name": "Armorer"
+						},
+						{
+							"id": "14491a74-4f19-42ee-80f2-b0cee9e6956e",
+							"type": "skill_container",
+							"children": [
+								{
+									"id": "c7e25d18-4a02-4440-bb66-289d83cf342b",
+									"type": "skill",
+									"name": "Engineer",
+									"reference": "B190",
+									"tags": [
+										"Design",
+										"Engineer",
+										"Invention"
+									],
+									"specialization": "Clockwork",
+									"tech_level": "",
+									"difficulty": "iq/h",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Mechanic",
+											"specialization": "Clockwork",
+											"modifier": -6
+										}
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"when_tl": {
+											"compare": "at_least",
+											"qualifier": 5
+										},
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "mathematics"
+												},
+												"specialization": {
+													"compare": "is",
+													"qualifier": "applied"
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": "7789f81a-49c5-4c67-863d-9c62c94dbf30",
+									"type": "skill",
+									"name": "Machinist",
+									"reference": "B206",
+									"tags": [
+										"Maintenance",
+										"Repair"
+									],
+									"tech_level": "",
+									"difficulty": "iq/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Mechanic",
+											"modifier": -5
+										}
+									]
+								},
+								{
+									"id": "1d7874bc-e884-4ce0-9d94-7eec4df79af7",
+									"type": "skill",
+									"name": "Mechanic",
+									"reference": "B207",
+									"tags": [
+										"Maintenance",
+										"Repair"
+									],
+									"specialization": "Clockwork",
+									"tech_level": "",
+									"difficulty": "iq/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Engineer",
+											"specialization": "Clockwork",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Machinist",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Mechanic",
+											"modifier": -4
+										}
+									]
+								}
+							],
+							"name": "Battlesmith"
+						},
+						{
+							"id": "ba794027-8118-4622-9abb-736a8d39174e",
+							"type": "skill_container",
+							"children": [
+								{
+									"id": "14cd8e7f-6623-4ca2-8bd8-de6be17578e3",
+									"type": "skill",
+									"name": "Crossbow",
+									"reference": "B186",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/e",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "f4b9bdf9-5d3d-4f63-91c4-6e49357e208c",
+									"type": "skill",
+									"name": "Throwing",
+									"reference": "B226",
+									"tags": [
+										"Athletic",
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Dropping",
+											"modifier": -4
+										}
+									]
+								}
+							],
+							"name": "One ranged weapon package:",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							}
+						},
+						{
+							"id": "615c5ba7-d395-49d9-9495-740eb05d71c2",
+							"type": "skill_container",
+							"children": [
+								{
+									"id": "3ddb2524-e7ac-43ab-8b54-2b487e48e04c",
+									"type": "skill",
+									"name": "Axe/Mace",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "10abf496-74b7-4523-935f-827977506e95",
+									"type": "skill",
+									"name": "Broadsword",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Sword",
+											"modifier": -4
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									]
+								},
+								{
+									"id": "d8933108-2169-4998-9297-776c545c06d0",
+									"type": "skill",
+									"name": "Rapier",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -3
+										}
+									]
+								},
+								{
+									"id": "2f47afb1-c4df-4ae9-a4b1-1c243510ea6b",
+									"type": "skill",
+									"name": "Saber",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shortswort",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -3
+										}
+									]
+								},
+								{
+									"id": "223a040e-285c-4d7d-9dfc-4835daf2610b",
+									"type": "skill",
+									"name": "Shortsword",
+									"reference": "B209",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Tonfa",
+											"modifier": -3
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									]
+								},
+								{
+									"id": "4ab9531f-7e36-4397-8646-d90510909792",
+									"type": "skill",
+									"name": "Smallsword",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Shortsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Main-Gauche",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -3
+										}
+									]
+								}
+							],
+							"name": "One melee weapons package:",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							}
+						},
+						{
+							"id": "ee52bffc-09d9-4316-9b80-50232e6a61e3",
+							"type": "skill_container",
+							"children": [
+								{
+									"id": "5793c3f7-8cd9-40dd-9e45-17d7adcae56f",
+									"type": "skill",
+									"name": "Cloak",
+									"reference": "B184",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Net",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shield",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "8725e4f4-e319-497c-9605-3b8a9727cf05",
+									"type": "skill",
+									"name": "Main-Gauche",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Jitte/Sai",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Knife",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Rapier",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Saber",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Smallsword",
+											"modifier": -3
+										}
+									]
+								},
+								{
+									"id": "b5b89fd9-090c-4501-938d-67d9ae0cac5c",
+									"type": "skill",
+									"name": "Shield",
+									"reference": "B220",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"specialization": "Buckler",
+									"difficulty": "dx/e",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Shield",
+											"specialization": "Force",
+											"modifier": -2
+										}
+									]
+								},
+								{
+									"id": "cc2edf20-84b4-4c70-ac13-52a5d7e8abe3",
+									"type": "skill",
+									"name": "Shield",
+									"reference": "B220",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"specialization": "Shield",
+									"difficulty": "dx/e",
+									"points": 4,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									]
+								}
+							],
+							"name": "One of, or increase melee weapon by [4]:"
+						}
+					],
+					"open": true,
+					"name": "Secondary Skills"
+				},
+				{
+					"id": "088349e2-24de-4d03-925a-427633809061",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "4bc51b16-94f8-434f-aa29-14d70cb8a531",
+							"type": "skill",
+							"name": "Architecture",
+							"reference": "B176",
+							"tags": [
+								"Design",
+								"Invention"
+							],
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Civil",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "d885306e-6e03-4272-be73-b4cc5eee82be",
+							"type": "skill",
+							"name": "Cartography",
+							"reference": "B183",
+							"tags": [
+								"Exploration",
+								"Humanities",
+								"Outdoor",
+								"Social Sciences"
+							],
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Surveying",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "8a600929-c5e6-4ee6-bc29-15ab1ee333de",
+							"type": "skill",
+							"name": "Climbing",
+							"reference": "B183",
+							"tags": [
+								"Athletic",
+								"Criminal",
+								"Exploration",
+								"Outdoor",
+								"Street"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"encumbrance_penalty_multiplier": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "7a5591f9-568b-46db-a09d-401714c089ac",
+							"type": "skill",
+							"name": "Counterfeiting",
+							"reference": "B185",
+							"tags": [
+								"Criminal",
+								"Street"
+							],
+							"tech_level": "",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Forgery",
+									"modifier": -2
+								}
+							]
+						},
+						{
+							"id": "08c04fa3-e310-43e4-a9d9-d8e2251b8ed4",
+							"type": "skill",
+							"name": "First Aid",
+							"reference": "B195",
+							"tags": [
+								"Everyman",
+								"Medical"
+							],
+							"tech_level": "",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Esoteric Medicine"
+								},
+								{
+									"type": "skill",
+									"name": "Physician"
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "21cae9a8-17f6-472d-ae76-b18edad7bada",
+							"type": "skill",
+							"name": "Hazardous Materials",
+							"reference": "B199",
+							"tags": [
+								"Technical"
+							],
+							"specialization": "Magical",
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "7cd78e43-e198-48ba-ae7f-9d57f1a6aa2b",
+							"type": "skill",
+							"name": "Holdout",
+							"reference": "B200",
+							"tags": [
+								"Criminal",
+								"Spy",
+								"Street"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Sleight of Hand",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "a1f102b5-a811-476c-b3e0-d23340634eff",
+							"type": "skill",
+							"name": "Jeweler",
+							"reference": "B203",
+							"tags": [
+								"Craft"
+							],
+							"tech_level": "",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Smith",
+									"specialization": "Copper",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smith",
+									"specialization": "Lead \u0026 Tin",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "511a3042-09d6-4a43-a703-867e7de42783",
+							"type": "skill",
+							"name": "Knot-Tying",
+							"reference": "B203",
+							"tags": [
+								"Everyman"
+							],
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Climbing",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Seamanship",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "99707c93-33e2-4e54-9ffe-67b52bc858a3",
+							"type": "skill",
+							"name": "Leatherworking",
+							"reference": "B205",
+							"tags": [
+								"Craft"
+							],
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "20311cce-104e-45fd-9cc9-016a6994b200",
+							"type": "skill",
+							"name": "Merchant",
+							"reference": "B209",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Finance",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Market Analysis",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "a05a9c30-0240-4168-82d0-c99edd72ca48",
+							"type": "skill",
+							"name": "Search",
+							"reference": "B219",
+							"tags": [
+								"Police",
+								"Spy"
+							],
+							"difficulty": "per/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Criminology",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "18507f89-3281-470d-a15f-c29f71c45b96",
+							"type": "skill",
+							"name": "Smith",
+							"reference": "B221",
+							"tags": [
+								"Craft"
+							],
+							"specialization": "any",
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Smith",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "bee257a3-8a21-423f-a5b7-01e1d539eb25",
+							"type": "skill",
+							"name": "Stealth",
+							"reference": "B222",
+							"tags": [
+								"Criminal",
+								"Police",
+								"Spy",
+								"Street"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"encumbrance_penalty_multiplier": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						}
+					],
+					"name": "Background Skills"
+				}
+			],
+			"open": true,
+			"name": "Artificer"
+		}
+	]
+}
