@@ -4250,31 +4250,38 @@
 			]
 		},
 		{
-			"id": "f19ec99f-8c5d-4cc0-9697-f4b64d1306bb",
-			"type": "skill",
-			"name": "Computer Programming",
-			"reference": "B184",
-			"tags": [
-				"Design",
-				"Invention"
+			"id": "51ce54aa-6386-4258-b9e3-6b79c7a42a68",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "f19ec99f-8c5d-4cc0-9697-f4b64d1306bb",
+					"type": "skill",
+					"name": "Computer Programming",
+					"reference": "B184",
+					"tags": [
+						"Design",
+						"Invention"
+					],
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "7450d206-8b2a-4943-95ef-78389fb47308",
+					"type": "skill",
+					"name": "Computer Programming",
+					"reference": "B184",
+					"tags": [
+						"Design",
+						"Invention"
+					],
+					"specialization": "AI",
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1
+				}
 			],
-			"tech_level": "",
-			"difficulty": "iq/h",
-			"points": 1
-		},
-		{
-			"id": "7450d206-8b2a-4943-95ef-78389fb47308",
-			"type": "skill",
-			"name": "Computer Programming",
-			"reference": "B184",
-			"tags": [
-				"Design",
-				"Invention"
-			],
-			"specialization": "AI",
-			"tech_level": "",
-			"difficulty": "iq/h",
-			"points": 1
+			"name": "Computer Programming"
 		},
 		{
 			"id": "77997da0-1ce8-493e-9d4f-ba9c30681fca",
@@ -7869,6 +7876,24 @@
 			"type": "skill_container",
 			"children": [
 				{
+					"id": "4440c8c7-479d-451a-8007-23c00e344974",
+					"type": "skill",
+					"name": "Escape",
+					"reference": "B192",
+					"tags": [
+						"Criminal",
+						"Street"
+					],
+					"difficulty": "dx/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						}
+					]
+				},
+				{
 					"id": "fb6496de-ed00-4e11-a32b-9817c922911b",
 					"type": "technique",
 					"name": "Slip Handcuffs",
@@ -7889,24 +7914,6 @@
 				}
 			],
 			"name": "Escape"
-		},
-		{
-			"id": "4440c8c7-479d-451a-8007-23c00e344974",
-			"type": "skill",
-			"name": "Escape",
-			"reference": "B192",
-			"tags": [
-				"Criminal",
-				"Street"
-			],
-			"difficulty": "dx/h",
-			"points": 1,
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -6
-				}
-			]
 		},
 		{
 			"id": "9e804ab5-0a4f-4de8-8c07-8d6908e96378",
@@ -11119,7 +11126,6 @@
 					"limit": 6
 				}
 			],
-			"open": true,
 			"name": "Jumping"
 		},
 		{
@@ -12224,7 +12230,6 @@
 					"limit": 0
 				}
 			],
-			"open": true,
 			"name": "Lockpicking"
 		},
 		{
@@ -19178,6 +19183,7 @@
 					]
 				}
 			],
+			"open": true,
 			"name": "Smallsword"
 		},
 		{
@@ -19395,6 +19401,31 @@
 							}
 						]
 					}
+				},
+				{
+					"id": "18c40f7d-293e-478a-99f8-6cb30d91331d",
+					"type": "skill",
+					"name": "Stealth",
+					"reference": "B222",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"points": 1,
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					]
 				}
 			],
 			"open": true,
@@ -19883,31 +19914,6 @@
 			],
 			"open": true,
 			"name": "Teamster"
-		},
-		{
-			"id": "18c40f7d-293e-478a-99f8-6cb30d91331d",
-			"type": "skill",
-			"name": "Stealth",
-			"reference": "B222",
-			"tags": [
-				"Criminal",
-				"Police",
-				"Spy",
-				"Street"
-			],
-			"difficulty": "dx/a",
-			"points": 1,
-			"encumbrance_penalty_multiplier": 1,
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "dx",
-					"modifier": -5
-				}
-			]
 		},
 		{
 			"id": "e91e8dd6-e081-4910-a19e-2193f00a157c",
