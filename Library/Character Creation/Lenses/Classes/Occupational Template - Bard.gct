@@ -1,0 +1,3076 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "f9d68a99-effb-4030-af21-c6e33d3597e2",
+	"traits": [
+		{
+			"id": "f08aac98-b7ab-49af-8299-67476570a3df",
+			"type": "trait",
+			"name": "Sorcerous Empowerment",
+			"reference": "TSOR4",
+			"tags": [
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "5a8ea687-8e1f-46c6-bd58-9f3a8c92cae7",
+					"type": "modifier",
+					"name": "Limited Colleges (1 College) (@College@)",
+					"reference": "TSOR4",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "9cd7062b-5504-45e6-9c3c-02726a2dfeb1",
+					"type": "modifier",
+					"name": "Limited Colleges (2 Colleges) (@Colleges@)",
+					"reference": "TSOR4",
+					"cost": -30,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "8422d620-1dda-4582-8208-f1d7df75f944",
+					"type": "modifier",
+					"name": "Limited Colleges (3 Colleges) (@Colleges@)",
+					"reference": "TSOR4",
+					"cost": -20,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "a3bc6727-0387-485b-bbe1-12f62c25e634",
+					"type": "modifier",
+					"name": "(Bardic)",
+					"reference": "TSOR4",
+					"notes": "Communication, Knowledge, Mind Control, Sound spells only",
+					"cost": -10,
+					"affects": "levels_only"
+				},
+				{
+					"id": "2065383e-3552-4fae-9820-58def973a72a",
+					"type": "modifier",
+					"name": "Limited Scope",
+					"reference": "TSOR4",
+					"notes": "The GM may limit Sorcerous Empowerment in a way that doesn't line up with normal colleges",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "fe30d52a-3858-4a16-a035-ba579b0bd375",
+					"type": "modifier",
+					"name": "Requires Musical Composition Roll",
+					"reference": "B110,P99",
+					"cost": -10
+				}
+			],
+			"base_points": 10,
+			"levels": 1,
+			"points_per_level": 10,
+			"can_level": true,
+			"calc": {
+				"points": 17
+			}
+		},
+		{
+			"id": "fc455241-23fb-4e33-a769-6952ab9179d1",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "d025cc23-675c-48ac-9b8c-eedd9b2b4fde",
+					"type": "trait",
+					"name": "Alarum",
+					"reference": "B35,P39,PSI13",
+					"notes": "Play a song to give +2 ST for damage to chosen sentient creatures within (2* Song Level) yards radius",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
+									"type": "modifier",
+									"name": "DX Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to DX per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "de814092-1353-48e0-8849-405ad20219ce",
+									"type": "modifier",
+									"name": "HT Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to HT per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "03aeb89a-95d1-48c5-8020-586fe797fdc6",
+									"type": "modifier",
+									"name": "IQ Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to IQ per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "e4dea0ea-c86d-423b-8a0a-b3e1481171f3",
+									"type": "modifier",
+									"name": "ST Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to ST per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Attribute Penalties"
+						},
+						{
+							"id": "660043b1-1b1e-4942-b23a-b8fa25b2d637",
+							"type": "modifier",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "2fb0867d-ce8b-4b93-80c0-93984958cedf",
+							"type": "modifier",
+							"name": "Cumulative",
+							"reference": "B36",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
+									"type": "modifier",
+									"name": "Agony",
+									"reference": "B428",
+									"notes": "Lose 1 FP per minute",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "0c56500c-f51f-42d5-aef9-48c8159bd14a",
+									"type": "modifier",
+									"name": "Choking",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "7be5192a-bb13-484d-a975-cc3a9a3c4583",
+									"type": "modifier",
+									"name": "Daze",
+									"reference": "B428",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "f44536cd-a8ac-4371-8838-2c8eaf4f1d19",
+									"type": "modifier",
+									"name": "Ecstasy",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "1c4994ac-ad21-423d-9349-27345244508e",
+									"type": "modifier",
+									"name": "Hallucination",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "76e23c90-0e9d-4875-804c-1020cf74cf2b",
+									"type": "modifier",
+									"name": "Paralysis",
+									"reference": "B429",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "66de56e6-a515-4308-b619-ff9b3e715d9c",
+									"type": "modifier",
+									"name": "Retching",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "3b310279-5f60-4839-af06-17d2c595f098",
+									"type": "modifier",
+									"name": "Seizure",
+									"reference": "B429",
+									"notes": "Lose 1d FP at the end of the seizure",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "400f0258-0e95-4bf4-9b95-68f0fc7bdfca",
+									"type": "modifier",
+									"name": "Sleep",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "46158c59-7a07-40b8-ae7f-81b3792689e2",
+									"type": "modifier",
+									"name": "Unconsciousness",
+									"reference": "B429",
+									"cost": 200,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Incapacitation",
+							"reference": "B36"
+						},
+						{
+							"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
+									"type": "modifier",
+									"name": "Coughing",
+									"reference": "B428",
+									"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "3981b459-1f22-4195-a5c7-4691ded548ba",
+									"type": "modifier",
+									"name": "Drunk",
+									"reference": "B428",
+									"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "e31fafa7-bfcf-4167-836b-421e0df3f905",
+									"type": "modifier",
+									"name": "Euphoria",
+									"reference": "B428",
+									"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "f677e6ef-8a76-44ce-acf9-eb76d134d185",
+									"type": "modifier",
+									"name": "Moderate Pain",
+									"reference": "B428",
+									"notes": "-2 to all DX, IQ, skill and self-control rolls",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "2110fad4-3e27-4ef7-bfa0-a61c4da83827",
+									"type": "modifier",
+									"name": "Nauseated",
+									"reference": "B428",
+									"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "5cbc540d-faf3-46d3-9b6f-72da32ed69b7",
+									"type": "modifier",
+									"name": "Severe Pain",
+									"reference": "B428",
+									"notes": "-4 to all DX, IQ, skill and self-control rolls",
+									"cost": 40,
+									"disabled": true
+								},
+								{
+									"id": "92cb7753-a6d9-4ca6-a600-35c9714be11b",
+									"type": "modifier",
+									"name": "Terrible Pain",
+									"reference": "B428",
+									"notes": "-6 to all DX, IQ, skill and self-control rolls",
+									"cost": 60,
+									"disabled": true
+								},
+								{
+									"id": "a372b04a-e3aa-418b-a7a3-d49bf26403e6",
+									"type": "modifier",
+									"name": "Tipsy",
+									"reference": "B428",
+									"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "fed513e6-9823-4a37-a583-aed4645bfa97",
+									"type": "modifier",
+									"name": "Itching",
+									"reference": "TT2:43",
+									"notes": "-2 to DX skill and self-control rolls",
+									"cost": 10,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Irritations",
+							"reference": "B36"
+						},
+						{
+							"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
+									"type": "modifier",
+									"name": "Coma",
+									"reference": "B429",
+									"cost": 250,
+									"disabled": true
+								},
+								{
+									"id": "1019fc06-aae9-440f-b9a6-4650d974c910",
+									"type": "modifier",
+									"name": "Heart Attack",
+									"reference": "B429",
+									"cost": 300,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Mortal Conditions"
+						},
+						{
+							"id": "7c274539-82ce-4383-a5d0-e77489c389cc",
+							"type": "modifier",
+							"name": "Stunning",
+							"reference": "B36",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
+									"type": "modifier",
+									"name": "Gives Striking ST",
+									"reference": "B36",
+									"cost": 50,
+									"levels": 2
+								},
+								{
+									"id": "15c2556d-f943-4ec6-9968-d223f21ea263",
+									"type": "modifier",
+									"name": "Gives @Disadvantage@",
+									"reference": "B36",
+									"notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "2a50ade7-439c-40a7-82c7-f602408d5647",
+									"type": "modifier",
+									"name": "Negates @Advantage@",
+									"reference": "B36",
+									"notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Traits"
+						},
+						{
+							"id": "d3900f19-f9e4-45b8-aaa8-7147724a6246",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "dcf0a8cb-d62a-4c73-b430-0e027a68b70b",
+									"type": "modifier",
+									"name": "Area Effect",
+									"reference": "B102,P100",
+									"notes": "2^level radius",
+									"cost": 50,
+									"levels": 1
+								},
+								{
+									"id": "6aa008ad-dfb0-4697-8e15-8202d1965857",
+									"type": "modifier",
+									"name": "Bard-Song",
+									"reference": "PU4:5",
+									"cost": -30
+								},
+								{
+									"id": "ffdbd0c4-412b-49fc-8a43-56bdcbf0126d",
+									"type": "modifier",
+									"name": "Based on Per",
+									"reference": "B102",
+									"cost": 20
+								},
+								{
+									"id": "eb5e7c96-ec72-4781-bdc7-7d9130e50f0a",
+									"type": "modifier",
+									"name": "Costs Fatigue",
+									"reference": "B111,P101",
+									"cost": -5,
+									"levels": 1
+								},
+								{
+									"id": "abfd6ca0-d96c-4fdd-9afe-06eb9ecf6627",
+									"type": "modifier",
+									"name": "Emanation",
+									"reference": "B112,P102",
+									"cost": -20
+								},
+								{
+									"id": "cc38a4fe-c6bf-4043-9d78-c66e17d17f46",
+									"type": "modifier",
+									"name": "Malediction",
+									"reference": "B106,P103",
+									"cost": 100
+								},
+								{
+									"id": "0b83e854-2c9f-42a7-bc0b-7b7f079f9579",
+									"type": "modifier",
+									"name": "No Signature",
+									"reference": "B106,P103",
+									"cost": 20
+								},
+								{
+									"id": "7cea714a-4183-4dcf-a328-63974512ff00",
+									"type": "modifier",
+									"name": "Reduced Duration, 1/60",
+									"reference": "PU8:16",
+									"cost": -35
+								},
+								{
+									"id": "c18e2938-7da6-4b53-8fd8-66a2fb36b403",
+									"type": "modifier",
+									"name": "Selective Area",
+									"reference": "B108,P105",
+									"cost": 20
+								}
+							],
+							"open": true,
+							"name": "Beneficial Song"
+						}
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"can_level": true,
+					"calc": {
+						"points": 32
+					}
+				},
+				{
+					"id": "4eac8a9f-134c-41ac-a692-ed8ef524ca4e",
+					"type": "trait",
+					"name": "Countersong",
+					"reference": "B35,P39,PSI13",
+					"notes": "Play a song to give +5 DR against Sonic attacks to chosen sentient creatures within (2*Song Level) yards radius",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
+									"type": "modifier",
+									"name": "DX Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to DX per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "de814092-1353-48e0-8849-405ad20219ce",
+									"type": "modifier",
+									"name": "HT Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to HT per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "03aeb89a-95d1-48c5-8020-586fe797fdc6",
+									"type": "modifier",
+									"name": "IQ Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to IQ per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "e4dea0ea-c86d-423b-8a0a-b3e1481171f3",
+									"type": "modifier",
+									"name": "ST Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to ST per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Attribute Penalties"
+						},
+						{
+							"id": "660043b1-1b1e-4942-b23a-b8fa25b2d637",
+							"type": "modifier",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "2fb0867d-ce8b-4b93-80c0-93984958cedf",
+							"type": "modifier",
+							"name": "Cumulative",
+							"reference": "B36",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
+									"type": "modifier",
+									"name": "Agony",
+									"reference": "B428",
+									"notes": "Lose 1 FP per minute",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "0c56500c-f51f-42d5-aef9-48c8159bd14a",
+									"type": "modifier",
+									"name": "Choking",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "7be5192a-bb13-484d-a975-cc3a9a3c4583",
+									"type": "modifier",
+									"name": "Daze",
+									"reference": "B428",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "f44536cd-a8ac-4371-8838-2c8eaf4f1d19",
+									"type": "modifier",
+									"name": "Ecstasy",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "1c4994ac-ad21-423d-9349-27345244508e",
+									"type": "modifier",
+									"name": "Hallucination",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "76e23c90-0e9d-4875-804c-1020cf74cf2b",
+									"type": "modifier",
+									"name": "Paralysis",
+									"reference": "B429",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "66de56e6-a515-4308-b619-ff9b3e715d9c",
+									"type": "modifier",
+									"name": "Retching",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "3b310279-5f60-4839-af06-17d2c595f098",
+									"type": "modifier",
+									"name": "Seizure",
+									"reference": "B429",
+									"notes": "Lose 1d FP at the end of the seizure",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "400f0258-0e95-4bf4-9b95-68f0fc7bdfca",
+									"type": "modifier",
+									"name": "Sleep",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "46158c59-7a07-40b8-ae7f-81b3792689e2",
+									"type": "modifier",
+									"name": "Unconsciousness",
+									"reference": "B429",
+									"cost": 200,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Incapacitation",
+							"reference": "B36"
+						},
+						{
+							"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
+									"type": "modifier",
+									"name": "Coughing",
+									"reference": "B428",
+									"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "3981b459-1f22-4195-a5c7-4691ded548ba",
+									"type": "modifier",
+									"name": "Drunk",
+									"reference": "B428",
+									"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "e31fafa7-bfcf-4167-836b-421e0df3f905",
+									"type": "modifier",
+									"name": "Euphoria",
+									"reference": "B428",
+									"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "f677e6ef-8a76-44ce-acf9-eb76d134d185",
+									"type": "modifier",
+									"name": "Moderate Pain",
+									"reference": "B428",
+									"notes": "-2 to all DX, IQ, skill and self-control rolls",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "2110fad4-3e27-4ef7-bfa0-a61c4da83827",
+									"type": "modifier",
+									"name": "Nauseated",
+									"reference": "B428",
+									"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "5cbc540d-faf3-46d3-9b6f-72da32ed69b7",
+									"type": "modifier",
+									"name": "Severe Pain",
+									"reference": "B428",
+									"notes": "-4 to all DX, IQ, skill and self-control rolls",
+									"cost": 40,
+									"disabled": true
+								},
+								{
+									"id": "92cb7753-a6d9-4ca6-a600-35c9714be11b",
+									"type": "modifier",
+									"name": "Terrible Pain",
+									"reference": "B428",
+									"notes": "-6 to all DX, IQ, skill and self-control rolls",
+									"cost": 60,
+									"disabled": true
+								},
+								{
+									"id": "a372b04a-e3aa-418b-a7a3-d49bf26403e6",
+									"type": "modifier",
+									"name": "Tipsy",
+									"reference": "B428",
+									"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "fed513e6-9823-4a37-a583-aed4645bfa97",
+									"type": "modifier",
+									"name": "Itching",
+									"reference": "TT2:43",
+									"notes": "-2 to DX skill and self-control rolls",
+									"cost": 10,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Irritations",
+							"reference": "B36"
+						},
+						{
+							"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
+									"type": "modifier",
+									"name": "Coma",
+									"reference": "B429",
+									"cost": 250,
+									"disabled": true
+								},
+								{
+									"id": "1019fc06-aae9-440f-b9a6-4650d974c910",
+									"type": "modifier",
+									"name": "Heart Attack",
+									"reference": "B429",
+									"cost": 300,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Mortal Conditions"
+						},
+						{
+							"id": "7c274539-82ce-4383-a5d0-e77489c389cc",
+							"type": "modifier",
+							"name": "Stunning",
+							"reference": "B36",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
+									"type": "modifier",
+									"name": "Gives Countersong",
+									"reference": "B36",
+									"cost": 10,
+									"levels": 13
+								},
+								{
+									"id": "15c2556d-f943-4ec6-9968-d223f21ea263",
+									"type": "modifier",
+									"name": "Gives @Disadvantage@",
+									"reference": "B36",
+									"notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "2a50ade7-439c-40a7-82c7-f602408d5647",
+									"type": "modifier",
+									"name": "Negates @Advantage@",
+									"reference": "B36",
+									"notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"open": true,
+							"name": "Traits"
+						},
+						{
+							"id": "3e49f92e-530e-4959-bd23-edccf7630ffb",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "e812b719-4b0d-44da-9d81-2d6ff6e7154f",
+									"type": "modifier",
+									"name": "Area Effect",
+									"reference": "B102,P100",
+									"notes": "2^level radius",
+									"cost": 50,
+									"levels": 1
+								},
+								{
+									"id": "fbe266b3-eb53-46ad-baae-c43c72f98da7",
+									"type": "modifier",
+									"name": "Bard-Song",
+									"reference": "PU4:5",
+									"cost": -30
+								},
+								{
+									"id": "5546fab5-857f-4e8c-b35e-fbcef1a95f1b",
+									"type": "modifier",
+									"name": "Based on Per",
+									"reference": "B102",
+									"cost": 20
+								},
+								{
+									"id": "ba7bbc54-82d2-4230-98dd-522aea3ae2bb",
+									"type": "modifier",
+									"name": "Emanation",
+									"reference": "B112,P102",
+									"cost": -20
+								},
+								{
+									"id": "a0d297de-6397-4d15-823c-8b3c107b78bf",
+									"type": "modifier",
+									"name": "Malediction",
+									"reference": "B106,P103",
+									"cost": 100
+								},
+								{
+									"id": "a8166615-fde9-493a-bd21-76395f6a1bb8",
+									"type": "modifier",
+									"name": "Reduced Duration, 1/60",
+									"reference": "PU8:16",
+									"cost": -35
+								},
+								{
+									"id": "71372a3a-0287-427a-b770-02b7f31490f9",
+									"type": "modifier",
+									"name": "Selective Area",
+									"reference": "B108,P105",
+									"cost": 20
+								}
+							],
+							"open": true,
+							"name": "Beneficial Song"
+						},
+						{
+							"id": "34eebfc8-1e94-4d3c-8edc-c75c99e81622",
+							"type": "modifier",
+							"name": "Costs Fatigue",
+							"reference": "B111,P101",
+							"cost": -5,
+							"levels": 1
+						},
+						{
+							"id": "cf019fa5-e647-460e-aab2-322bbd0b6bf3",
+							"type": "modifier",
+							"name": "No Signature",
+							"reference": "B106,P103",
+							"cost": 20
+						}
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"can_level": true,
+					"calc": {
+						"points": 35
+					}
+				},
+				{
+					"id": "ebcf5edb-e168-42f8-b887-46d3b4ea3fd7",
+					"type": "trait",
+					"name": "Dirge",
+					"reference": "B35,P39,PSI13",
+					"notes": "Play a song to apply -3 ST and DX penalty to chosen sentient creatures within {2*Song Level) yards radius",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
+									"type": "modifier",
+									"name": "DX Penalty",
+									"reference": "B36",
+									"cost": 10,
+									"levels": 3
+								},
+								{
+									"id": "de814092-1353-48e0-8849-405ad20219ce",
+									"type": "modifier",
+									"name": "HT Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to HT per level",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "03aeb89a-95d1-48c5-8020-586fe797fdc6",
+									"type": "modifier",
+									"name": "IQ Penalty",
+									"reference": "B36",
+									"notes": "Gives -1 to IQ per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "e4dea0ea-c86d-423b-8a0a-b3e1481171f3",
+									"type": "modifier",
+									"name": "ST Penalty",
+									"reference": "B36",
+									"cost": 5,
+									"levels": 3
+								}
+							],
+							"open": true,
+							"name": "Attribute Penalties"
+						},
+						{
+							"id": "660043b1-1b1e-4942-b23a-b8fa25b2d637",
+							"type": "modifier",
+							"name": "Cancellation",
+							"reference": "PSI13",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "2fb0867d-ce8b-4b93-80c0-93984958cedf",
+							"type": "modifier",
+							"name": "Cumulative",
+							"reference": "B36",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
+									"type": "modifier",
+									"name": "Agony",
+									"reference": "B428",
+									"notes": "Lose 1 FP per minute",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "0c56500c-f51f-42d5-aef9-48c8159bd14a",
+									"type": "modifier",
+									"name": "Choking",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "7be5192a-bb13-484d-a975-cc3a9a3c4583",
+									"type": "modifier",
+									"name": "Daze",
+									"reference": "B428",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "f44536cd-a8ac-4371-8838-2c8eaf4f1d19",
+									"type": "modifier",
+									"name": "Ecstasy",
+									"reference": "B428",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "1c4994ac-ad21-423d-9349-27345244508e",
+									"type": "modifier",
+									"name": "Hallucination",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "76e23c90-0e9d-4875-804c-1020cf74cf2b",
+									"type": "modifier",
+									"name": "Paralysis",
+									"reference": "B429",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "66de56e6-a515-4308-b619-ff9b3e715d9c",
+									"type": "modifier",
+									"name": "Retching",
+									"reference": "B429",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "3b310279-5f60-4839-af06-17d2c595f098",
+									"type": "modifier",
+									"name": "Seizure",
+									"reference": "B429",
+									"notes": "Lose 1d FP at the end of the seizure",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "400f0258-0e95-4bf4-9b95-68f0fc7bdfca",
+									"type": "modifier",
+									"name": "Sleep",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "46158c59-7a07-40b8-ae7f-81b3792689e2",
+									"type": "modifier",
+									"name": "Unconsciousness",
+									"reference": "B429",
+									"cost": 200,
+									"disabled": true
+								}
+							],
+							"name": "Incapacitation",
+							"reference": "B36"
+						},
+						{
+							"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
+									"type": "modifier",
+									"name": "Coughing",
+									"reference": "B428",
+									"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "3981b459-1f22-4195-a5c7-4691ded548ba",
+									"type": "modifier",
+									"name": "Drunk",
+									"reference": "B428",
+									"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "e31fafa7-bfcf-4167-836b-421e0df3f905",
+									"type": "modifier",
+									"name": "Euphoria",
+									"reference": "B428",
+									"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "f677e6ef-8a76-44ce-acf9-eb76d134d185",
+									"type": "modifier",
+									"name": "Moderate Pain",
+									"reference": "B428",
+									"notes": "-2 to all DX, IQ, skill and self-control rolls",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "2110fad4-3e27-4ef7-bfa0-a61c4da83827",
+									"type": "modifier",
+									"name": "Nauseated",
+									"reference": "B428",
+									"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "5cbc540d-faf3-46d3-9b6f-72da32ed69b7",
+									"type": "modifier",
+									"name": "Severe Pain",
+									"reference": "B428",
+									"notes": "-4 to all DX, IQ, skill and self-control rolls",
+									"cost": 40,
+									"disabled": true
+								},
+								{
+									"id": "92cb7753-a6d9-4ca6-a600-35c9714be11b",
+									"type": "modifier",
+									"name": "Terrible Pain",
+									"reference": "B428",
+									"notes": "-6 to all DX, IQ, skill and self-control rolls",
+									"cost": 60,
+									"disabled": true
+								},
+								{
+									"id": "a372b04a-e3aa-418b-a7a3-d49bf26403e6",
+									"type": "modifier",
+									"name": "Tipsy",
+									"reference": "B428",
+									"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "fed513e6-9823-4a37-a583-aed4645bfa97",
+									"type": "modifier",
+									"name": "Itching",
+									"reference": "TT2:43",
+									"notes": "-2 to DX skill and self-control rolls",
+									"cost": 10,
+									"disabled": true
+								}
+							],
+							"name": "Irritations",
+							"reference": "B36"
+						},
+						{
+							"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
+									"type": "modifier",
+									"name": "Coma",
+									"reference": "B429",
+									"cost": 250,
+									"disabled": true
+								},
+								{
+									"id": "1019fc06-aae9-440f-b9a6-4650d974c910",
+									"type": "modifier",
+									"name": "Heart Attack",
+									"reference": "B429",
+									"cost": 300,
+									"disabled": true
+								}
+							],
+							"name": "Mortal Conditions"
+						},
+						{
+							"id": "7c274539-82ce-4383-a5d0-e77489c389cc",
+							"type": "modifier",
+							"name": "Stunning",
+							"reference": "B36",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
+									"type": "modifier",
+									"name": "Gives @Advantage@",
+									"reference": "B36",
+									"notes": "1 point per level",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "15c2556d-f943-4ec6-9968-d223f21ea263",
+									"type": "modifier",
+									"name": "Gives @Disadvantage@",
+									"reference": "B36",
+									"notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "2a50ade7-439c-40a7-82c7-f602408d5647",
+									"type": "modifier",
+									"name": "Negates @Advantage@",
+									"reference": "B36",
+									"notes": "1 point per level",
+									"cost": 1,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"name": "Traits"
+						},
+						{
+							"id": "7dda8bd4-c5f5-4e9b-8ec3-d6c80345e75d",
+							"type": "modifier_container",
+							"children": [
+								{
+									"id": "52465e50-93d4-4e14-bacc-127cad0721c6",
+									"type": "modifier",
+									"name": "Area Effect",
+									"reference": "B102,P100",
+									"notes": "2^level radius",
+									"cost": 50,
+									"levels": 1
+								},
+								{
+									"id": "222ba8cf-cba1-40f1-852f-4d94a4ec2611",
+									"type": "modifier",
+									"name": "Bard-Song",
+									"reference": "PU4:5",
+									"cost": -30
+								},
+								{
+									"id": "b6176b51-39de-41fd-be41-ce098f4f6c2c",
+									"type": "modifier",
+									"name": "Based on Will",
+									"reference": "B102",
+									"cost": 20
+								},
+								{
+									"id": "4132dfe5-28dc-456d-89a5-fc51541fe3ae",
+									"type": "modifier",
+									"name": "Costs Fatigue",
+									"reference": "B111,P101",
+									"cost": -5,
+									"levels": 1
+								},
+								{
+									"id": "1f8097fe-3560-40cd-af9a-6e2f7fb26991",
+									"type": "modifier",
+									"name": "Emanation",
+									"reference": "B112,P102",
+									"cost": -20
+								},
+								{
+									"id": "0e9742f0-e8c9-4310-9ab9-9d95b429549c",
+									"type": "modifier",
+									"name": "Malediction",
+									"reference": "B106,P103",
+									"cost": 100
+								},
+								{
+									"id": "54a46528-e8ea-4cc3-adf9-3033df95ade0",
+									"type": "modifier",
+									"name": "No Signature",
+									"reference": "B106,P103",
+									"cost": 20
+								},
+								{
+									"id": "ec1f562a-9c38-4113-9701-1a513cabfddd",
+									"type": "modifier",
+									"name": "Reduced Duration, 1/60",
+									"reference": "PU8:16",
+									"cost": -35
+								},
+								{
+									"id": "670ab81a-5754-4a38-89fc-9c1b87e2f11c",
+									"type": "modifier",
+									"name": "Selective Area",
+									"reference": "B108,P105",
+									"cost": 20
+								}
+							],
+							"open": true,
+							"name": "Baneful Song"
+						}
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"can_level": true,
+					"calc": {
+						"points": 27
+					}
+				}
+			],
+			"open": true,
+			"name": "Sample Songs",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"qualifier": 1
+				}
+			},
+			"calc": {
+				"points": 94
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "2e25487e-108f-45cf-8058-d94995666756",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "ac4d4e79-ae30-41d3-9bc6-f3bdf30d1348",
+					"type": "skill",
+					"name": "Acting",
+					"reference": "B174",
+					"tags": [
+						"Social",
+						"Spy"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Performance",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Public Speaking",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "c64bbabd-f6e6-4abf-b45b-c69e86118f58",
+					"type": "skill",
+					"name": "Diplomacy",
+					"reference": "B187",
+					"tags": [
+						"Business",
+						"Police",
+						"Social"
+					],
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -6
+						}
+					]
+				},
+				{
+					"id": "fb71ec05-a1dd-4a69-83ee-6c3ce6e07181",
+					"type": "skill",
+					"name": "Expert Skill",
+					"reference": "F135",
+					"tags": [
+						"Knowledge",
+						"Scholarly"
+					],
+					"specialization": "Bardic Lore",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "2df02419-d62b-46c6-8b20-69620222bfd2",
+					"type": "skill",
+					"name": "Fast-Talk",
+					"reference": "B195",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "662c3a2f-4dcf-40a1-a4f1-d0da7c5e3912",
+					"type": "skill",
+					"name": "Musical Instrument",
+					"reference": "B211",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "2f48b21b-7c30-433f-90f3-35c801030e5b",
+					"type": "skill",
+					"name": "Performance",
+					"reference": "B212",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Public Speaking",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"id": "2e353ef4-8686-4486-a4fb-1dc511f95378",
+					"type": "skill",
+					"name": "Public Speaking",
+					"reference": "B216",
+					"tags": [
+						"Business",
+						"Scholarly",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Performance",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "640fe2c3-a611-4ffd-b982-9bbc538e81e9",
+					"type": "skill",
+					"name": "Singing",
+					"reference": "B220",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"difficulty": "ht/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "97b1d05e-6085-4172-92e6-d9954b3ec803",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "fe07b734-b648-4887-913e-47745ceb0984",
+							"type": "skill",
+							"name": "Rapier",
+							"reference": "B208",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "7fb235d3-6632-49dd-aa24-830557d985bd",
+							"type": "skill",
+							"name": "Saber",
+							"reference": "B208",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Rapier",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "10cc14c3-c5ed-4638-b1ee-1933b93cd15a",
+							"type": "skill",
+							"name": "Shortsword",
+							"reference": "B209",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "da64188b-5e82-423b-9468-7dddc2b6a052",
+							"type": "skill",
+							"name": "Smallsword",
+							"reference": "B208",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Rapier",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -3
+								}
+							]
+						}
+					],
+					"name": "Main Weapon",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 1
+						}
+					}
+				},
+				{
+					"id": "3485e6e9-5327-479a-96fa-a2485246f960",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "7e2a8c16-22f1-47d2-9b53-a5d33d46167a",
+							"type": "skill",
+							"name": "Cloak",
+							"reference": "B184",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Net",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "07e34659-7b46-420e-95d1-21f1ddae5fde",
+							"type": "skill",
+							"name": "Main-Gauche",
+							"reference": "B208,MA58",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Rapier",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "1fd33e37-84b6-40d1-b436-56c926bbc937",
+							"type": "skill",
+							"name": "Shield",
+							"reference": "B220",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"specialization": "Buckler",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Force",
+									"modifier": -2
+								}
+							]
+						}
+					],
+					"open": true,
+					"name": "Secondary Weapon or raise primary weapon",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 1
+						}
+					}
+				},
+				{
+					"id": "d9fc16cc-3472-4fbb-b9b3-46aae31d77ac",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "876b217d-0a1f-4c23-801b-5de2251566a9",
+							"type": "skill",
+							"name": "Bow",
+							"reference": "B182",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "d3134754-5e31-47c4-961d-0c1e6643e6a2",
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"reference": "B226",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "Knife",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "708bb8ef-812d-4d07-b1de-90bd44fc987a",
+							"type": "skill",
+							"name": "Throwing",
+							"reference": "B226",
+							"tags": [
+								"Athletic",
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -4
+								}
+							]
+						}
+					],
+					"name": "Ranged Weapon"
+				}
+			],
+			"name": "Primary Skills"
+		},
+		{
+			"id": "76576130-f3bb-4660-a928-06efb950a148",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "f036cf7b-291b-419f-ada9-9a7265128dea",
+					"type": "skill",
+					"name": "Carousing",
+					"reference": "B183",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Street"
+					],
+					"difficulty": "ht/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "1ceae696-d361-404a-bcc0-217e4d1f0b55",
+					"type": "skill",
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Business",
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "@Subject@",
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "4b49ec30-75f6-4585-8c32-c1a9962de4f2",
+					"type": "skill",
+					"name": "Intimidation",
+					"reference": "B202",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "will/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "8aa070c1-d4ef-4743-8a2d-c648310861c6",
+					"type": "skill",
+					"name": "Musical Composition",
+					"reference": "B210",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Musical Instrument",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Poetry",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"id": "8a33f274-3ad4-4127-a983-9008c027ade1",
+					"type": "skill",
+					"name": "Savoir-Faire",
+					"reference": "B218,MA59",
+					"tags": [
+						"Business",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "High Society",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Savoir-Faire",
+							"specialization": "Servant",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"id": "984ccf2f-f371-4e29-b665-07d06ed297f1",
+					"type": "skill",
+					"name": "Streetwise",
+					"reference": "B223",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				}
+			],
+			"name": "Secondary Skills"
+		},
+		{
+			"id": "c675d3a9-797f-4db8-b0d4-7fe5082a16e7",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "6a4cb192-c956-4b7a-9ecd-521dfba8468a",
+					"type": "skill",
+					"name": "Heraldry",
+					"reference": "B199",
+					"tags": [
+						"Knowledge",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Savoir-Faire",
+							"specialization": "High Society",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "cce8ae38-5eed-4ab0-b2b4-f3470abd8c17",
+					"type": "skill",
+					"name": "Poetry",
+					"reference": "B214",
+					"tags": [
+						"Arts",
+						"Entertainment"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Writing",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "a95b37c1-e102-49c9-b0c7-f552e0a10853",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "b18f02cb-2b56-4042-a132-feb886aae8a6",
+							"type": "skill",
+							"name": "Acrobatics",
+							"reference": "B174,MA54",
+							"tags": [
+								"Athletic"
+							],
+							"difficulty": "dx/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Aerobatics",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Aquabatics",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "69ac3f62-155d-483c-b185-bf9a97dbdfb9",
+							"type": "skill",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"notes": "All important businesses, streets, citizens, leaders, etc.",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"specialization": "@City@; Lived there",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "9b478a62-bc33-4596-88fa-9125d8c9c727",
+							"type": "skill",
+							"name": "Artist",
+							"reference": "B179",
+							"tags": [
+								"Arts",
+								"Entertainment"
+							],
+							"specialization": "@Art@",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Artist",
+									"modifier": -6
+								}
+							]
+						},
+						{
+							"id": "03df0c24-b58e-4b2b-8427-b18b349cadbb",
+							"type": "skill",
+							"name": "Climbing",
+							"reference": "B183",
+							"tags": [
+								"Athletic",
+								"Criminal",
+								"Exploration",
+								"Outdoor",
+								"Street"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"encumbrance_penalty_multiplier": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "56ed3ed5-4c27-44e3-a515-35412de117df",
+							"type": "skill",
+							"name": "Connoisseur",
+							"reference": "B185,MA56",
+							"tags": [
+								"Arts",
+								"Entertainment",
+								"Knowledge",
+								"Social"
+							],
+							"specialization": "@Subject@",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "7c30a6e9-8617-4064-91bc-f2124868dcb9",
+							"type": "skill",
+							"name": "Dancing",
+							"reference": "B187",
+							"tags": [
+								"Arts",
+								"Entertainment"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "5b04cee6-40a9-48d5-b4db-aee6b056ea22",
+							"type": "skill",
+							"name": "Detect Lies",
+							"reference": "B187",
+							"tags": [
+								"Police",
+								"Social",
+								"Spy"
+							],
+							"difficulty": "per/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Body Language",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Psychology",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "f39658d8-b4a8-4c0f-8216-d20deb654439",
+							"type": "skill",
+							"name": "Disguise",
+							"reference": "B187",
+							"tags": [
+								"Criminal",
+								"Spy",
+								"Street"
+							],
+							"specialization": "@Specialty@",
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Makeup",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "b5c1d139-1502-48f8-814b-ed09910a5eb6",
+							"type": "skill",
+							"name": "Erotic Art",
+							"reference": "B192",
+							"tags": [
+								"Social"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Acrobatics",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "784ab445-87d9-493a-bc69-abf61235dea3",
+							"type": "skill",
+							"name": "Fast-Draw",
+							"reference": "B194,MA56",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"specialization": "@Weapon Skill@",
+							"difficulty": "dx/e",
+							"points": 1
+						},
+						{
+							"id": "66fbbc9f-6bdc-442f-ac87-38649b0f1b84",
+							"type": "skill",
+							"name": "First Aid",
+							"reference": "B195",
+							"tags": [
+								"Everyman",
+								"Medical"
+							],
+							"tech_level": "",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Esoteric Medicine"
+								},
+								{
+									"type": "skill",
+									"name": "Physician"
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "6ef7ac7f-6b14-4464-a33b-9c516918e001",
+							"type": "skill",
+							"name": "Gesture",
+							"reference": "B198",
+							"tags": [
+								"Social"
+							],
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "44540db1-6ba4-4270-b12e-b64443242e03",
+							"type": "skill",
+							"name": "Group Performance",
+							"reference": "B198,MA57",
+							"tags": [
+								"Arts",
+								"Entertainment"
+							],
+							"specialization": "@Art@",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Dancing",
+									"modifier": -2
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "prereq_list",
+										"all": false,
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "diplomacy"
+												}
+											},
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "intimidation"
+												}
+											},
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "leadership"
+												}
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"id": "ef2372a0-b429-4dee-9ec0-ab6aa8d31df3",
+							"type": "skill",
+							"name": "Hiking",
+							"reference": "B200",
+							"tags": [
+								"Athletic",
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "ht/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "fa4ab3e3-0fcc-49d9-b319-02a7aaf28732",
+							"type": "skill",
+							"name": "Interrogation",
+							"reference": "B202",
+							"tags": [
+								"Military",
+								"Police",
+								"Spy"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Intimidation",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Psychology",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "55fdbe6a-eb7f-4368-a913-6e510941d040",
+							"type": "skill",
+							"name": "Literature",
+							"reference": "B205",
+							"tags": [
+								"Humanities",
+								"Scholarly",
+								"Social Sciences"
+							],
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							]
+						},
+						{
+							"id": "59527b4f-9f83-42ae-becd-28f0943e9362",
+							"type": "skill",
+							"name": "Makeup",
+							"reference": "B206",
+							"tags": [
+								"Arts",
+								"Entertainment"
+							],
+							"tech_level": "",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Disguise",
+									"modifier": -2
+								}
+							]
+						},
+						{
+							"id": "d7707929-89ec-4d72-be23-af5ac35e08cc",
+							"type": "skill",
+							"name": "Merchant",
+							"reference": "B209",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Finance",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Market Analysis",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "fb6fffc3-e860-447f-a1e5-fc155e3bf656",
+							"type": "skill",
+							"name": "Mimicry",
+							"reference": "B210",
+							"tags": [
+								"Arts",
+								"Entertainment"
+							],
+							"specialization": "Speech",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Acting",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Linguistics",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "adf31d36-a238-46fc-b2af-a22ecfd8675d",
+							"type": "skill",
+							"name": "Observation",
+							"reference": "B211",
+							"tags": [
+								"Criminal",
+								"Military",
+								"Police",
+								"Spy",
+								"Street"
+							],
+							"difficulty": "per/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shadowing",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "924a7ccf-405d-4af0-9924-8a7c42e3ab48",
+							"type": "skill",
+							"name": "Occultism",
+							"reference": "B212",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "2cd8a0e0-e4ab-4549-8a2c-20a13cd3d6cc",
+							"type": "skill",
+							"name": "Panhandling",
+							"reference": "B212",
+							"tags": [
+								"Criminal",
+								"Social",
+								"Street"
+							],
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Fast-Talk",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Public Speaking",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "990f3eec-5a47-440a-bb67-32430c7aba8c",
+							"type": "skill",
+							"name": "Propaganda",
+							"reference": "B216",
+							"tags": [
+								"Business",
+								"Military",
+								"Social",
+								"Spy"
+							],
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Psychology",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "60e6ae10-e00c-469a-a620-6374e1e62a97",
+							"type": "skill",
+							"name": "Scrounging",
+							"reference": "B218",
+							"tags": [
+								"Criminal",
+								"Street"
+							],
+							"difficulty": "per/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "aa0c0f37-d2e1-481c-9bd7-5554a9e179c5",
+							"type": "skill",
+							"name": "Sex Appeal",
+							"reference": "B219",
+							"tags": [
+								"Social"
+							],
+							"difficulty": "ht/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "f38cb18a-7c3c-4dca-9bfe-027d13c8b22c",
+							"type": "skill",
+							"name": "Sleight of Hand",
+							"reference": "B221",
+							"tags": [
+								"Arts",
+								"Criminal",
+								"Entertainment",
+								"Street"
+							],
+							"difficulty": "dx/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Filch",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "e6ff6eeb-3e92-4c12-b164-49b4150e57f3",
+							"type": "skill",
+							"name": "Stealth",
+							"reference": "B222",
+							"tags": [
+								"Criminal",
+								"Police",
+								"Spy",
+								"Street"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"encumbrance_penalty_multiplier": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "0d563565-0704-496e-9d6f-85e660ce1ec4",
+							"type": "skill",
+							"name": "Teaching",
+							"reference": "B224",
+							"tags": [
+								"Scholarly",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "f1d757f6-c9f0-4faf-8fd4-f578371ec095",
+							"type": "skill",
+							"name": "Thaumatology",
+							"reference": "B225",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/vh",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								}
+							]
+						},
+						{
+							"id": "9d0af236-ed83-4575-80e5-482d8909e7f7",
+							"type": "skill",
+							"name": "Ventriloquism",
+							"reference": "B228",
+							"tags": [
+								"Arts",
+								"Entertainment"
+							],
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "4163d692-2654-4262-abaa-d08a09507966",
+							"type": "skill",
+							"name": "Writing",
+							"reference": "B228",
+							"tags": [
+								"Arts",
+								"Entertainment",
+								"Scholarly"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							]
+						}
+					],
+					"open": true,
+					"name": "Skill Container",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 6
+						}
+					}
+				}
+			],
+			"name": "Background Skills"
+		},
+		{
+			"id": "9bb20bf4-5275-4bdc-ae3e-4a650209c15e",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "9cd7222f-0139-4afe-983c-421f74d8e013",
+					"type": "skill",
+					"name": "Captivate",
+					"reference": "B191",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "will/h",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "suggest"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "public speaking"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "charisma"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "55e19d38-d930-4c0e-a4a6-c3e24cfa76d5",
+					"type": "skill",
+					"name": "Hypnotism",
+					"reference": "B201",
+					"tags": [
+						"Medical"
+					],
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "bca667ef-69c8-429d-85d3-a977628b6f24",
+					"type": "skill",
+					"name": "Musical Influence",
+					"reference": "B210",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "iq/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "singing"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 12
+										}
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "musical instrument"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 12
+										}
+									}
+								]
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Talent (Musical Ability)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "5b8ce70e-b5dc-44a2-a6df-5db27c62d256",
+					"type": "skill",
+					"name": "Persuade",
+					"reference": "B191",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "will/h",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "charisma"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "public speaking"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "0de6316d-67f4-4b04-85ad-09baab485093",
+					"type": "skill",
+					"name": "Suggest",
+					"reference": "B191",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "will/h",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "persuade"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "public speaking"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "charisma"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "6103b23d-78e9-4d41-ada5-22b3df29c8a9",
+					"type": "skill",
+					"name": "Sway Emotions",
+					"reference": "B192",
+					"tags": [
+						"Esoteric"
+					],
+					"difficulty": "will/h",
+					"points": 1
+				}
+			],
+			"name": "Special Skills",
+			"notes": "optional",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"qualifier": 1
+				}
+			}
+		}
+	]
+}

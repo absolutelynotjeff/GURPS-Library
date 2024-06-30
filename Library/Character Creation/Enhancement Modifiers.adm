@@ -1,0 +1,1412 @@
+{
+	"type": "modifier_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "99e6b724-c7d9-40b4-b7f7-98754a6cf41f",
+			"type": "modifier",
+			"name": "2x Increased 1/2 D Range",
+			"reference": "B106",
+			"cost": 5
+		},
+		{
+			"id": "e5bef543-9090-4f1b-9e93-4547ce1b5671",
+			"type": "modifier",
+			"name": "2x Increased Range",
+			"reference": "B106",
+			"cost": 10
+		},
+		{
+			"id": "908fa5d1-85d4-4159-9ac9-06dda9c90a64",
+			"type": "modifier",
+			"name": "3x Duration",
+			"reference": "B105",
+			"cost": 20
+		},
+		{
+			"id": "dde1b15c-e8ee-47a6-813b-9756e0d3ebb1",
+			"type": "modifier",
+			"name": "5x Increased 1/2 D Range",
+			"reference": "B106",
+			"cost": 10
+		},
+		{
+			"id": "a145f3b9-a26c-40c5-b427-035cbf33458b",
+			"type": "modifier",
+			"name": "5x Increased Range",
+			"reference": "B106",
+			"cost": 20
+		},
+		{
+			"id": "bb46c564-cdc5-4a10-8c57-f2fe2906e005",
+			"type": "modifier",
+			"name": "10x Duration",
+			"reference": "B105",
+			"cost": 40
+		},
+		{
+			"id": "6e2c4796-40f8-4e28-86ce-70f6e33da41e",
+			"type": "modifier",
+			"name": "10x Increased 1/2 D Range",
+			"reference": "B106",
+			"cost": 15
+		},
+		{
+			"id": "4f90bb5b-3723-4567-aac0-30bfc9f35a1e",
+			"type": "modifier",
+			"name": "10x Increased Range",
+			"reference": "B106",
+			"cost": 30
+		},
+		{
+			"id": "7fb029fc-17f4-428d-b2d1-23b6acb433fa",
+			"type": "modifier",
+			"name": "20x Increased Range",
+			"reference": "B106",
+			"cost": 40
+		},
+		{
+			"id": "1966eb52-0027-4fad-9324-8112cb190a90",
+			"type": "modifier",
+			"name": "30x Duration",
+			"reference": "B105",
+			"cost": 60
+		},
+		{
+			"id": "c983de83-cc3d-435e-94e8-e1873a4dc3b4",
+			"type": "modifier",
+			"name": "50x Increased Range",
+			"reference": "B106",
+			"cost": 50
+		},
+		{
+			"id": "223852d9-8570-425f-8fc9-6b6a8e251b95",
+			"type": "modifier",
+			"name": "100x Duration",
+			"reference": "B105",
+			"cost": 80
+		},
+		{
+			"id": "2191bc92-1f6d-4894-a201-b184cdc5e19e",
+			"type": "modifier",
+			"name": "100x Increased Range",
+			"reference": "B106",
+			"cost": 60
+		},
+		{
+			"id": "4c39c8e1-af4b-47cc-8a67-fe711789f8c3",
+			"type": "modifier",
+			"name": "300x Duration",
+			"reference": "B105",
+			"cost": 100
+		},
+		{
+			"id": "835fccaf-e7b1-4094-bb30-7e6ad9898f5f",
+			"type": "modifier",
+			"name": "1000x Duration",
+			"reference": "B105",
+			"cost": 120
+		},
+		{
+			"id": "97758aae-9ef0-4972-95d5-ca89d901c626",
+			"type": "modifier",
+			"name": "Accurate",
+			"reference": "B102,P99",
+			"notes": "+1/level to Accuracy",
+			"cost": 5,
+			"levels": 1
+		},
+		{
+			"id": "a89bbbf2-1c81-41bb-b6ea-4b28f52fdfaf",
+			"type": "modifier",
+			"name": "Affects Insubstantial",
+			"reference": "B102,P99",
+			"cost": 20
+		},
+		{
+			"id": "ccefd028-9549-4062-bbf7-55646697245e",
+			"type": "modifier",
+			"name": "Affects Insubstantial, Selective",
+			"reference": "PU4:12",
+			"cost": 30
+		},
+		{
+			"id": "4794882e-9a83-4387-9541-385d56dd0dae",
+			"type": "modifier",
+			"name": "Affects Others",
+			"reference": "PU4:12",
+			"cost": 50,
+			"levels": 1
+		},
+		{
+			"id": "137ab072-2e7c-4eca-9115-3f44f7ec179d",
+			"type": "modifier",
+			"name": "Affects Substantial",
+			"reference": "B102,P99",
+			"cost": 40
+		},
+		{
+			"id": "a51e1212-9f46-4c1d-a0fc-9d3fc80ebaeb",
+			"type": "modifier",
+			"name": "Affects Substantial, Selective",
+			"reference": "PU4:12",
+			"cost": 50
+		},
+		{
+			"id": "94d038fe-fe8c-4eea-9401-b24b559a60ee",
+			"type": "modifier_container",
+			"children": [
+				{
+					"id": "c7c1cf95-289a-405d-b653-e04c98da53bc",
+					"type": "modifier",
+					"name": "Density Increase, 2x",
+					"reference": "PU4:21",
+					"cost": 5
+				},
+				{
+					"id": "b95e8686-6bf8-4eec-9c44-72d73c5c3e8c",
+					"type": "modifier",
+					"name": "Density Increase, 5x",
+					"reference": "PU4:21",
+					"cost": 10
+				},
+				{
+					"id": "1671c55b-63f3-4b66-85d1-e1dbf0ac2ca8",
+					"type": "modifier",
+					"name": "Density Increase, 10x",
+					"reference": "PU4:21",
+					"cost": 15
+				},
+				{
+					"id": "e27b1f22-eaf0-4eb0-98f7-377e4d8d3887",
+					"type": "modifier",
+					"name": "Density Increase, 20x",
+					"reference": "PU4:21",
+					"cost": 20
+				},
+				{
+					"id": "dab5f72a-8abf-43ee-af0c-2fdf22740094",
+					"type": "modifier",
+					"name": "Density Increase, 50x",
+					"reference": "PU4:21",
+					"cost": 25
+				},
+				{
+					"id": "7e6e606a-6104-438c-b96c-675a8f15019e",
+					"type": "modifier",
+					"name": "Density Increase, 100x",
+					"reference": "PU4:21",
+					"cost": 30
+				},
+				{
+					"id": "e9c6fa1d-08df-4434-b3ec-12161b976d93",
+					"type": "modifier",
+					"name": "Itching",
+					"reference": "PU4:21",
+					"cost": 10
+				},
+				{
+					"id": "6cad1354-7002-4fbc-9d06-0e26ddb2c8db",
+					"type": "modifier",
+					"name": "Slower Move (@-0.2x move per level@)",
+					"reference": "PU4:21",
+					"cost": 10,
+					"levels": 1
+				},
+				{
+					"id": "3e8e89b8-5b4a-4fd5-a18a-17e703cc2fdf",
+					"type": "modifier",
+					"name": "Slower Move, Move 0",
+					"reference": "PU4:21",
+					"cost": 50
+				}
+			],
+			"open": true,
+			"name": "Affliction Enhancements"
+		},
+		{
+			"id": "9bd36a6c-3983-4fbc-ac31-f9a28cd5ec63",
+			"type": "modifier",
+			"name": "Area Effect",
+			"reference": "B102,P100",
+			"notes": "2^level radius",
+			"cost": 50,
+			"levels": 1
+		},
+		{
+			"id": "5bb2a3d3-f0b6-44b6-a55d-99d7739a9565",
+			"type": "modifier",
+			"name": "Armor Divisor (2)",
+			"reference": "B102",
+			"cost": 50
+		},
+		{
+			"id": "4e132bfa-ed63-4ff4-8728-8e55ad1f88dd",
+			"type": "modifier",
+			"name": "Armor Divisor (3)",
+			"reference": "B102",
+			"cost": 100
+		},
+		{
+			"id": "5d8b735e-4548-4ea3-8c00-575797fa83c7",
+			"type": "modifier",
+			"name": "Armor Divisor (5)",
+			"reference": "B102",
+			"cost": 150
+		},
+		{
+			"id": "c8be36cf-2c84-4c57-98a1-043e4836c861",
+			"type": "modifier",
+			"name": "Armor Divisor (10)",
+			"reference": "B102",
+			"cost": 200
+		},
+		{
+			"id": "c7ae7b05-4473-4f54-b263-52bcbdc9d0b7",
+			"type": "modifier_container",
+			"children": [
+				{
+					"id": "d1a42c34-69ab-4a9f-a497-3bf8a0efe2bb",
+					"type": "modifier",
+					"name": "Delay, Supernatural",
+					"reference": "PU4:18",
+					"notes": "Variable Trigger",
+					"cost": 100
+				},
+				{
+					"id": "0a079148-3d6e-46ae-b86a-8294cbd872e0",
+					"type": "modifier",
+					"name": "Delay, Supernatural (@Fixed Trigger@)",
+					"reference": "PU4:18",
+					"cost": 50
+				},
+				{
+					"id": "2d41fad0-35d1-4319-b8ed-1ce33eb54fe4",
+					"type": "modifier",
+					"name": "Destructive Parry",
+					"reference": "PU4:18",
+					"cost": 10
+				},
+				{
+					"id": "41ef03b2-5e44-42fa-9624-13f10753b103",
+					"type": "modifier",
+					"name": "Dual",
+					"reference": "PU4:18",
+					"cost": 10
+				},
+				{
+					"id": "d488506c-53ff-4bc2-9765-d66e39ad3dd8",
+					"type": "modifier",
+					"name": "Erosive",
+					"reference": "PU4:18",
+					"cost": 10
+				},
+				{
+					"id": "fcecc73a-129a-4c51-b684-104e7240721f",
+					"type": "modifier",
+					"name": "Extra Passes",
+					"reference": "PU4:18",
+					"cost": 10,
+					"levels": 1
+				},
+				{
+					"id": "c07f9011-79e9-42fb-955c-87b78fa21df1",
+					"type": "modifier",
+					"name": "Fragmentation, Cutting",
+					"reference": "PU4:19",
+					"cost": 15,
+					"levels": 1
+				},
+				{
+					"id": "7505ff4b-7d06-451c-89ac-7b096eeff0d0",
+					"type": "modifier",
+					"name": "Fragmentation, Hot",
+					"reference": "PU4:19",
+					"cost": 15,
+					"levels": 1
+				},
+				{
+					"id": "905a3ea4-a736-4bf6-b2eb-0293d9299145",
+					"type": "modifier",
+					"name": "Fragmentation, Impaling",
+					"reference": "PU4:19",
+					"cost": 20,
+					"levels": 1
+				},
+				{
+					"id": "7bab13df-51d7-43a5-aaa9-26fce6dd24e1",
+					"type": "modifier",
+					"name": "Fragmentation, Large Piercing",
+					"reference": "PU4:19",
+					"cost": 15,
+					"levels": 1
+				},
+				{
+					"id": "856fc93e-e707-46d0-b5e6-83ccdeaa21cf",
+					"type": "modifier",
+					"name": "Hazard: Heat",
+					"reference": "PU4:19",
+					"cost": 20
+				},
+				{
+					"id": "57ea83e6-2527-434f-a26e-35b43e2858e1",
+					"type": "modifier",
+					"name": "Melee Capable",
+					"reference": "PU4:19",
+					"cost": 40
+				},
+				{
+					"id": "6b1dce40-f1f8-4dc7-aba1-52d727b84393",
+					"type": "modifier",
+					"name": "Mental Defense Only",
+					"reference": "PU4:19",
+					"cost": 250
+				},
+				{
+					"id": "5d85dbed-456c-4567-8b8a-b53d416e06c4",
+					"type": "modifier",
+					"name": "Ricochet",
+					"reference": "PU4:20",
+					"cost": 10
+				},
+				{
+					"id": "c172abe0-ae6c-4ada-b5c9-a2a61fdead83",
+					"type": "modifier",
+					"name": "ST Based",
+					"reference": "PU4:20",
+					"cost": 100
+				},
+				{
+					"id": "3386ecaa-5a77-4f4b-8ae1-417727a1359c",
+					"type": "modifier",
+					"name": "ST Based, Limited",
+					"reference": "PU4:20",
+					"cost": 30
+				},
+				{
+					"id": "f4a062c8-a033-473f-aa99-920a9c2e924a",
+					"type": "modifier",
+					"name": "Surge, Arcing",
+					"reference": "PU4:21",
+					"cost": 100
+				},
+				{
+					"id": "d3b4f1c1-236c-43d0-9bfe-6ff5e6fb3aa8",
+					"type": "modifier",
+					"name": "Surprise Attack",
+					"reference": "PU4:21",
+					"cost": 150
+				},
+				{
+					"id": "7febbe0e-28eb-4fc2-8720-0f1ee4d24b5e",
+					"type": "modifier",
+					"name": "Thrusting Blade",
+					"reference": "PU4:21",
+					"cost": 15
+				},
+				{
+					"id": "0aa41cbb-b1b8-4711-9060-a0502c37e53f",
+					"type": "modifier",
+					"name": "Very Rapid Fire",
+					"reference": "PU4:21",
+					"cost": 10
+				}
+			],
+			"name": "Attack Enhancements"
+		},
+		{
+			"id": "3dc13a6c-fcf2-4e17-9cc0-9dceca6521d6",
+			"type": "modifier",
+			"name": "Aura",
+			"reference": "B102,P100",
+			"cost": 80
+		},
+		{
+			"id": "4b11b557-f3fa-4619-8d2f-ce37e4619dde",
+			"type": "modifier_container",
+			"children": [
+				{
+					"id": "7b930c1b-9c10-455d-a607-5f0e48c090ad",
+					"type": "modifier",
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"notes": "2^level radius",
+					"cost": 50,
+					"levels": 1
+				},
+				{
+					"id": "54eb484e-f563-4124-9130-f9ac7c9cf7c6",
+					"type": "modifier",
+					"name": "Bard-Song",
+					"reference": "PU4:5",
+					"cost": -30
+				},
+				{
+					"id": "3c848a4f-3005-4c4f-83d4-3f93d50eb34a",
+					"type": "modifier",
+					"name": "Based on Will",
+					"reference": "B102",
+					"cost": 20
+				},
+				{
+					"id": "a206a6fa-93dd-4d24-87f7-586a963ddfb2",
+					"type": "modifier",
+					"name": "Costs Fatigue",
+					"reference": "B111,P101",
+					"cost": -5,
+					"levels": 1
+				},
+				{
+					"id": "18baa99f-21c2-4e02-ad85-1428e9612b3a",
+					"type": "modifier",
+					"name": "Emanation",
+					"reference": "B112,P102",
+					"cost": -20
+				},
+				{
+					"id": "14ee618a-c4a7-4b87-8c1c-9977fccee76a",
+					"type": "modifier",
+					"name": "Malediction",
+					"reference": "B106,P103",
+					"cost": 100
+				},
+				{
+					"id": "35f63c0a-f122-4298-b167-e600cdd76416",
+					"type": "modifier",
+					"name": "No Signature",
+					"reference": "B106,P103",
+					"cost": 20
+				},
+				{
+					"id": "3b98b9c3-7751-4bbb-a53d-806bcfe30b3c",
+					"type": "modifier",
+					"name": "Reduced Duration, 1/60",
+					"reference": "PU8:16",
+					"cost": -35
+				},
+				{
+					"id": "c2743d62-24e4-43ba-9696-749f4353edae",
+					"type": "modifier",
+					"name": "Selective Area",
+					"reference": "B108,P105",
+					"cost": 20
+				}
+			],
+			"open": true,
+			"name": "Baneful Song",
+			"tags": [
+				"Bard"
+			]
+		},
+		{
+			"id": "071367ff-3ed6-4213-8a53-866022b88e1c",
+			"type": "modifier",
+			"name": "Based on @Attribute@",
+			"reference": "B102",
+			"notes": "Must manually alter advantage for Attribute chosen",
+			"cost": 20
+		},
+		{
+			"id": "3eb9801a-1197-4924-830c-b489a3234e67",
+			"type": "modifier",
+			"name": "Based on @Different Attribute@, Own Roll",
+			"reference": "PU4:12",
+			"cost": 20
+		},
+		{
+			"id": "714f51ba-95f5-467e-826c-8d9e16f603c3",
+			"type": "modifier_container",
+			"children": [
+				{
+					"id": "3eb54bae-c820-4191-97b6-7c7fff7ab015",
+					"type": "modifier",
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"notes": "2^level radius",
+					"cost": 50,
+					"levels": 1
+				},
+				{
+					"id": "300491d3-5faa-4c49-bfd1-487e974f19f4",
+					"type": "modifier",
+					"name": "Bard-Song",
+					"reference": "PU4:5",
+					"cost": -30
+				},
+				{
+					"id": "22ec6c75-13e5-4942-a8f0-457904432d45",
+					"type": "modifier",
+					"name": "Based on Per",
+					"reference": "B102",
+					"cost": 20
+				},
+				{
+					"id": "a2f6f0fe-1e82-437f-9aa2-1ba412e3d986",
+					"type": "modifier",
+					"name": "Costs Fatigue",
+					"reference": "B111,P101",
+					"cost": -5,
+					"levels": 1
+				},
+				{
+					"id": "18605c9b-ddbe-4dfc-8eb0-233327cb1167",
+					"type": "modifier",
+					"name": "Emanation",
+					"reference": "B112,P102",
+					"cost": -20
+				},
+				{
+					"id": "bdb8da81-dcc0-41f4-a953-c468bc6b05c1",
+					"type": "modifier",
+					"name": "Malediction",
+					"reference": "B106,P103",
+					"cost": 100
+				},
+				{
+					"id": "86466ba1-e08e-44e1-b542-d63086f6be5e",
+					"type": "modifier",
+					"name": "No Signature",
+					"reference": "B106,P103",
+					"cost": 20
+				},
+				{
+					"id": "d96a49df-ba40-44ba-bd63-c7a70b84baa7",
+					"type": "modifier",
+					"name": "Reduced Duration, 1/60",
+					"reference": "PU8:16",
+					"cost": -35
+				},
+				{
+					"id": "18ba681d-4b87-4ed9-949d-896d005fb1fc",
+					"type": "modifier",
+					"name": "Selective Area",
+					"reference": "B108,P105",
+					"cost": 20
+				}
+			],
+			"open": true,
+			"name": "Beneficial Song",
+			"tags": [
+				"Bard"
+			]
+		},
+		{
+			"id": "7906c897-9fc2-4171-a4a0-65e8ef6faee7",
+			"type": "modifier",
+			"name": "Blood Agent",
+			"reference": "B102,P100",
+			"notes": "Area Effect or Cone",
+			"cost": 100
+		},
+		{
+			"id": "5d31abee-5da2-47f7-82d2-593c1df798a3",
+			"type": "modifier",
+			"name": "Burning Radiation (rad)",
+			"reference": "B105",
+			"notes": "In addition to regular damage",
+			"cost": 100
+		},
+		{
+			"id": "e1d4b54a-dbb8-4845-9834-a29352c8d39e",
+			"type": "modifier",
+			"name": "Can Carry Objects",
+			"reference": "PU4:13"
+		},
+		{
+			"id": "6e16566c-2387-4627-8c9e-e3f9be067211",
+			"type": "modifier",
+			"name": "Can Carry Objects",
+			"reference": "PU4:13",
+			"notes": "Extra-Heavy Encumberance",
+			"cost": 150
+		},
+		{
+			"id": "23fd0065-a2f9-4e88-837c-b1f12da2af93",
+			"type": "modifier",
+			"name": "Can Carry Objects",
+			"reference": "PU4:13",
+			"notes": "Heavy Encumberance",
+			"cost": 100
+		},
+		{
+			"id": "5d088b97-33dd-4ef7-9706-320de60573a1",
+			"type": "modifier",
+			"name": "Can Carry Objects",
+			"reference": "PU4:13",
+			"notes": "Light Encumberance",
+			"cost": 20
+		},
+		{
+			"id": "9b258c4e-23aa-4b29-89da-5aa1c0965128",
+			"type": "modifier",
+			"name": "Can Carry Objects",
+			"reference": "PU4:13",
+			"notes": "Medium",
+			"cost": 50
+		},
+		{
+			"id": "9283037c-1c5c-425a-a726-75898887867e",
+			"type": "modifier",
+			"name": "Can Carry Objects",
+			"reference": "PU4:13",
+			"notes": "No encumberance",
+			"cost": 10
+		},
+		{
+			"id": "a75e5633-6ab6-4450-9537-1cb720a0083d",
+			"type": "modifier",
+			"name": "Cone",
+			"reference": "B103,P100",
+			"notes": "Must manually adjust cost upwards +10% per yard of maximum width",
+			"cost": 50
+		},
+		{
+			"id": "d0c6831a-1486-4897-9e12-86bc530d7336",
+			"type": "modifier",
+			"name": "Cosmic",
+			"reference": "B103",
+			"notes": "Ability other than an attack or a defense",
+			"cost": 50
+		},
+		{
+			"id": "efc115b3-430d-4e66-a4f2-536fb0b4dfd0",
+			"type": "modifier",
+			"name": "Cosmic",
+			"reference": "B103",
+			"notes": "Attack with a lingering special effect",
+			"cost": 100
+		},
+		{
+			"id": "16cc1100-85fa-47ac-8304-1c090525ea07",
+			"type": "modifier",
+			"name": "Cosmic",
+			"reference": "B103",
+			"notes": "Defense or countermeasure",
+			"cost": 50
+		},
+		{
+			"id": "90b92d7d-b496-4f5c-822a-328ec46a8d0a",
+			"type": "modifier",
+			"name": "Cosmic",
+			"reference": "B103",
+			"notes": "Irresistible attack",
+			"cost": 300
+		},
+		{
+			"id": "3e798804-f14b-4715-aca9-31cf90298787",
+			"type": "modifier",
+			"name": "Cyclic - 1 day",
+			"reference": "B103",
+			"notes": "Halted by @description of what halts the cycle@",
+			"cost": 10
+		},
+		{
+			"id": "0b7171c5-c4d8-42ed-87ce-42abf97ea4bb",
+			"type": "modifier",
+			"name": "Cyclic - 1 hour",
+			"reference": "B103",
+			"notes": "Halted by @description of what halts the cycle@",
+			"cost": 20
+		},
+		{
+			"id": "50b624b1-0e26-4804-b32f-9612c4c4fa9b",
+			"type": "modifier",
+			"name": "Cyclic - 1 minute",
+			"reference": "B103",
+			"notes": "Halted by @description of what halts the cycle@",
+			"cost": 40
+		},
+		{
+			"id": "89a895fa-7c3d-41a7-a78a-8c711b425972",
+			"type": "modifier",
+			"name": "Cyclic - 1 second",
+			"reference": "B103",
+			"notes": "Halted by @description of what halts the cycle@",
+			"cost": 100
+		},
+		{
+			"id": "acd788db-5b7f-4e4a-9835-dfa90ec52ad4",
+			"type": "modifier",
+			"name": "Cyclic - 10 seconds",
+			"reference": "B103",
+			"notes": "Halted by @description of what halts the cycle@",
+			"cost": 50
+		},
+		{
+			"id": "331cad67-8ede-47dc-b04f-0a950efd5058",
+			"type": "modifier",
+			"name": "Decreased Immunity",
+			"reference": "PU4:13",
+			"cost": 50,
+			"levels": 1
+		},
+		{
+			"id": "e64b033d-3d02-46f2-b2b6-970cc71fefd0",
+			"type": "modifier",
+			"name": "Double Blunt Trauma (dbt)",
+			"reference": "B104",
+			"cost": 20
+		},
+		{
+			"id": "61d552b8-5124-4187-9fa2-1112e331de4b",
+			"type": "modifier",
+			"name": "Double Knockback (dkb)",
+			"reference": "B104",
+			"cost": 20
+		},
+		{
+			"id": "519ab86c-d2d3-4ecd-a220-3c6652532171",
+			"type": "modifier",
+			"name": "Drifting",
+			"reference": "B105",
+			"cost": 20
+		},
+		{
+			"id": "a48a8ec2-0914-425d-be00-47b4c0178946",
+			"type": "modifier",
+			"name": "Explosion (exp)",
+			"reference": "B104",
+			"cost": 50,
+			"levels": 1
+		},
+		{
+			"id": "bbd65819-91c2-403f-bc45-1fcdf0f8f60f",
+			"type": "modifier",
+			"name": "Extended Duration 1,000,000x",
+			"reference": "PU4:14",
+			"cost": 240
+		},
+		{
+			"id": "5c06f43d-c5ff-4bc6-b4a0-034e26e89480",
+			"type": "modifier",
+			"name": "Extended Duration 3,000,000x",
+			"reference": "PU4:14",
+			"cost": 260
+		},
+		{
+			"id": "674c2299-77b3-4dfb-bc9b-9779ae5ebe38",
+			"type": "modifier",
+			"name": "Extended Duration 3,000x",
+			"reference": "PU4:14",
+			"cost": 140
+		},
+		{
+			"id": "68cdc1b2-6768-4e86-9659-7b86154afa65",
+			"type": "modifier",
+			"name": "Extended Duration 10,000,000x",
+			"reference": "PU4:14",
+			"cost": 280
+		},
+		{
+			"id": "a7d49975-1fdc-4f81-a4ca-078f469175e2",
+			"type": "modifier",
+			"name": "Extended Duration 10,000x",
+			"reference": "PU4:14",
+			"cost": 160
+		},
+		{
+			"id": "cc52c3a8-b598-4ca3-a7ea-a98b08d3f3dd",
+			"type": "modifier",
+			"name": "Extended Duration 30,000x",
+			"reference": "PU4:14",
+			"cost": 180
+		},
+		{
+			"id": "5016e346-e992-4cb3-b981-8dd875056f62",
+			"type": "modifier",
+			"name": "Extended Duration 100,000x",
+			"reference": "PU4:14",
+			"cost": 200
+		},
+		{
+			"id": "94716743-1a3b-4ac3-836d-a401bc7c8a08",
+			"type": "modifier",
+			"name": "Extended Duration 300,000x",
+			"reference": "PU4:14",
+			"cost": 220
+		},
+		{
+			"id": "1e98c66d-b9f4-4180-a08c-986218f8adeb",
+			"type": "modifier",
+			"name": "Fixed Delay",
+			"reference": "B105",
+			"notes": "@delay period@, @method to neutralize@"
+		},
+		{
+			"id": "99177e45-476c-4fb2-ba42-d6a6548eb732",
+			"type": "modifier",
+			"name": "Fixed Duration",
+			"reference": "PU4:14"
+		},
+		{
+			"id": "4f11d212-8429-402b-b9b8-8aeb23534195",
+			"type": "modifier",
+			"name": "Follow-Up",
+			"reference": "B105,P102",
+			"notes": "Cost is variable and must be entered manually"
+		},
+		{
+			"id": "5cb0346f-bcc8-4635-ba13-956256633c6d",
+			"type": "modifier",
+			"name": "Follow-Up, Universal",
+			"reference": "PU4:14",
+			"cost": 50
+		},
+		{
+			"id": "e5c81e12-14a7-4ad4-8503-2d273f848330",
+			"type": "modifier",
+			"name": "Force Field",
+			"reference": "PU4:14",
+			"cost": 20
+		},
+		{
+			"id": "775fd49c-fb0a-43c2-adba-5ed797e13e14",
+			"type": "modifier",
+			"name": "Fragmentation (frag)",
+			"reference": "B104",
+			"notes": "Take levels equal to the number of dice",
+			"cost": 15,
+			"levels": 1
+		},
+		{
+			"id": "e90bbd67-925c-4c45-b205-81f31bed23d5",
+			"type": "modifier",
+			"name": "Game Time",
+			"reference": "PU4:14"
+		},
+		{
+			"id": "f1325a82-6591-4889-8eef-6a99493d8587",
+			"type": "modifier",
+			"name": "Guided",
+			"reference": "B105,P103",
+			"cost": 50
+		},
+		{
+			"id": "4c7c6ed8-45fd-40e1-93d5-6ee048a89498",
+			"type": "modifier",
+			"name": "Hazard",
+			"reference": "B104",
+			"notes": "Dehydration",
+			"cost": 20
+		},
+		{
+			"id": "994f9636-52bd-4fef-8bb1-447659c785b5",
+			"type": "modifier",
+			"name": "Hazard",
+			"reference": "B104",
+			"notes": "Drowning"
+		},
+		{
+			"id": "ecf72c01-cb90-4715-80a6-da99e558cf0f",
+			"type": "modifier",
+			"name": "Hazard",
+			"reference": "B104",
+			"notes": "Freezing",
+			"cost": 20
+		},
+		{
+			"id": "5a874cac-30c3-4650-9737-e3114ab0195d",
+			"type": "modifier",
+			"name": "Hazard",
+			"reference": "B104",
+			"notes": "Missed Sleep",
+			"cost": 50
+		},
+		{
+			"id": "5341a238-dab1-4fd0-810e-e7aa13085732",
+			"type": "modifier",
+			"name": "Hazard",
+			"reference": "B104",
+			"notes": "Starvation",
+			"cost": 40
+		},
+		{
+			"id": "cf914a60-aabf-4e7c-b9a1-e1434a88b6bd",
+			"type": "modifier",
+			"name": "Hazard",
+			"reference": "B104",
+			"notes": "Suffocation"
+		},
+		{
+			"id": "47231eab-fd94-4140-a892-b23b1a10a598",
+			"type": "modifier",
+			"name": "Homing (@sense@)",
+			"reference": "B105",
+			"notes": "Must manually add +1% per point of cost of the chosen sense to the cost of Homing",
+			"cost": 50
+		},
+		{
+			"id": "21b17b4d-d263-4bce-8d3f-0ff2239bffc2",
+			"type": "modifier",
+			"name": "Incendiary (inc)",
+			"reference": "B105",
+			"cost": 10
+		},
+		{
+			"id": "198805bf-9e31-40d0-acba-2c9745936bb1",
+			"type": "modifier",
+			"name": "Increased Range, LOS",
+			"reference": "PU4:15",
+			"notes": "See book for level required",
+			"cost": 10,
+			"levels": 1
+		},
+		{
+			"id": "2bfaaf5b-d1de-4913-a609-4073daf27696",
+			"type": "modifier",
+			"name": "Independent",
+			"reference": "PU4:15",
+			"cost": 40
+		},
+		{
+			"id": "cddceb30-88e3-41ee-bd21-677cac90d361",
+			"type": "modifier",
+			"name": "Independent",
+			"reference": "PU4:15",
+			"notes": "On Advantages with penalties for simultaneous use",
+			"cost": 70
+		},
+		{
+			"id": "249e64f7-9593-4e07-959c-d02245b6a784",
+			"type": "modifier",
+			"name": "Jet",
+			"reference": "B106,P103"
+		},
+		{
+			"id": "65a989e3-8655-4808-b137-99f80207ca7e",
+			"type": "modifier",
+			"name": "Link",
+			"reference": "B106,P103",
+			"notes": "@linked abilities@",
+			"cost": 20
+		},
+		{
+			"id": "5b3eb4c1-79e4-4745-aadd-067248b39c31",
+			"type": "modifier",
+			"name": "Link",
+			"reference": "B106,P103",
+			"notes": "@linked abilities@, must be used as a single ability",
+			"cost": 10
+		},
+		{
+			"id": "613cae57-bc6d-41bd-9270-dc8d2e2df129",
+			"type": "modifier",
+			"name": "Long-Range",
+			"reference": "PU4:15",
+			"cost": 50,
+			"levels": 1
+		},
+		{
+			"id": "f4d68422-c663-4d4e-8347-cbee72ac0e31",
+			"type": "modifier",
+			"name": "Low Psychic Signature",
+			"reference": "PU4:15",
+			"cost": 5,
+			"levels": 1
+		},
+		{
+			"id": "c46cc84a-7391-4520-a747-f9b08fc49ed8",
+			"type": "modifier",
+			"name": "Low Signature",
+			"reference": "B106,P103",
+			"cost": 10
+		},
+		{
+			"id": "c708b3f5-939a-4cbd-8229-1d13b5a17299",
+			"type": "modifier",
+			"name": "Low Signature, Variable",
+			"reference": "PU4:15",
+			"cost": 5,
+			"levels": 1
+		},
+		{
+			"id": "bcc3c92c-cb65-4768-9731-cdf93e25e7f7",
+			"type": "modifier",
+			"name": "Malediction",
+			"reference": "B106,P103",
+			"notes": "-1 per yard of range",
+			"cost": 100
+		},
+		{
+			"id": "8e1d8210-6de0-4f77-97bf-3c0f05a34317",
+			"type": "modifier",
+			"name": "Malediction",
+			"reference": "B106,P103",
+			"notes": "Use SSRT range penalties",
+			"cost": 150
+		},
+		{
+			"id": "b4f2b7ad-422e-489f-a36a-a5a620a7c8dc",
+			"type": "modifier",
+			"name": "Malediction",
+			"reference": "B106,P103",
+			"notes": "Uses Long-Distance Modifiers",
+			"cost": 200
+		},
+		{
+			"id": "4900ed3d-c582-4c8b-814d-c52237d69f4f",
+			"type": "modifier",
+			"name": "Mobile",
+			"reference": "B107,P104",
+			"cost": 40,
+			"levels": 1
+		},
+		{
+			"id": "556ab56f-0976-437f-b2d3-0c2ce0222db7",
+			"type": "modifier",
+			"name": "No Signature",
+			"reference": "B106,P103",
+			"cost": 20
+		},
+		{
+			"id": "664d7eb0-26ed-4a2e-91ad-0726e7706745",
+			"type": "modifier",
+			"name": "Once On, Stays On",
+			"reference": "PU4:16",
+			"cost": 50
+		},
+		{
+			"id": "29ef9d1e-3047-4705-8331-25b71f4bb588",
+			"type": "modifier",
+			"name": "Overhead",
+			"reference": "B107,P104",
+			"cost": 30
+		},
+		{
+			"id": "3aff3ad8-bc20-4f6a-8a01-09056f0da539",
+			"type": "modifier",
+			"name": "Permanent Duration",
+			"reference": "B105",
+			"cost": 300
+		},
+		{
+			"id": "ca40822c-c451-449e-b96a-382e6b34fbab",
+			"type": "modifier",
+			"name": "Permanent Duration",
+			"reference": "B105",
+			"notes": "Dispelled by @method of dispelling effect@",
+			"cost": 150
+		},
+		{
+			"id": "51c0e5cf-b0e1-4342-a6ea-6341e78f0aa3",
+			"type": "modifier",
+			"name": "Persistent",
+			"reference": "B107,P104",
+			"cost": 40
+		},
+		{
+			"id": "97d857b6-8fd5-4b71-8554-a5fc70b3fd80",
+			"type": "modifier",
+			"name": "Ranged",
+			"reference": "B107,P105",
+			"cost": 40
+		},
+		{
+			"id": "3cd0e398-ea5d-4588-ae2f-12601b6a79c6",
+			"type": "modifier",
+			"name": "Rapid Fire",
+			"reference": "B108,P105",
+			"notes": "RoF 2",
+			"cost": 40
+		},
+		{
+			"id": "756b14bf-0946-4b79-b205-0649b3653f17",
+			"type": "modifier",
+			"name": "Rapid Fire",
+			"reference": "B108,P105",
+			"notes": "RoF 3",
+			"cost": 50
+		},
+		{
+			"id": "da3b2aff-d8c5-4472-9b6d-59c16a918742",
+			"type": "modifier",
+			"name": "Rapid Fire",
+			"reference": "B108,P105",
+			"notes": "RoF @4-7@",
+			"cost": 70
+		},
+		{
+			"id": "7af67243-9972-4dda-b69d-f2c25fe3d9f5",
+			"type": "modifier",
+			"name": "Rapid Fire",
+			"reference": "B108,P105",
+			"notes": "RoF @8-15@",
+			"cost": 100
+		},
+		{
+			"id": "8a03c477-31a7-4ba4-8dfb-c05831aa3030",
+			"type": "modifier",
+			"name": "Rapid Fire",
+			"reference": "B108,P105",
+			"notes": "RoF @16-30@",
+			"cost": 150
+		},
+		{
+			"id": "53f92031-a10a-477a-818b-43995d73dcf3",
+			"type": "modifier",
+			"name": "Rapid Fire",
+			"reference": "B108,P105",
+			"notes": "RoF @31-70@",
+			"cost": 200
+		},
+		{
+			"id": "6976f2c1-7f4a-4c00-8e73-9aa1883b3b94",
+			"type": "modifier",
+			"name": "Rapid Fire",
+			"reference": "B108,P105",
+			"notes": "RoF @71-150@",
+			"cost": 250
+		},
+		{
+			"id": "f5da1294-fa6d-47a9-ac8b-8b8cebb24aba",
+			"type": "modifier",
+			"name": "Rapid Fire",
+			"reference": "B108,P105",
+			"notes": "RoF @151-300@",
+			"cost": 300
+		},
+		{
+			"id": "52ed15fa-01ba-44a9-a884-1a6eabfd7e3d",
+			"type": "modifier",
+			"name": "Reduced Fatigue Cost",
+			"reference": "B108,P105",
+			"cost": 20,
+			"levels": 1
+		},
+		{
+			"id": "a4b9e9ae-1ef5-401f-b204-70727e789c43",
+			"type": "modifier",
+			"name": "Reduced Time",
+			"reference": "B108",
+			"cost": 20,
+			"levels": 1
+		},
+		{
+			"id": "c9b121a3-6d05-4aa3-8fc8-2071ab7370e6",
+			"type": "modifier",
+			"name": "Reflexive",
+			"reference": "PU4:16",
+			"cost": 40
+		},
+		{
+			"id": "08bf9c3d-da96-40eb-8aae-780744137da5",
+			"type": "modifier",
+			"name": "Reliable",
+			"reference": "PU4:16",
+			"cost": 5
+		},
+		{
+			"id": "6e3c5f6d-b6be-46ef-bdc8-40af6845f87b",
+			"type": "modifier",
+			"name": "Respiratory Agent",
+			"reference": "B108",
+			"cost": 50
+		},
+		{
+			"id": "d71a4d91-a667-428b-b3ab-a79710f11617",
+			"type": "modifier",
+			"name": "Selective Area",
+			"reference": "B108,P105",
+			"cost": 20
+		},
+		{
+			"id": "3d92a532-d16a-4734-97c3-6fcb87225ff7",
+			"type": "modifier",
+			"name": "Selective Effect",
+			"reference": "PU4:16",
+			"cost": 20
+		},
+		{
+			"id": "736103ba-07ef-4221-86a6-f0a7125c04b4",
+			"type": "modifier",
+			"name": "Selective Fire",
+			"reference": "B108",
+			"cost": 10
+		},
+		{
+			"id": "59d66201-512d-43ec-b008-31c0a9c9522a",
+			"type": "modifier",
+			"name": "Selectivity",
+			"reference": "B108,P105",
+			"cost": 10
+		},
+		{
+			"id": "c273da24-aa29-46a3-9c3c-13fd1cbbdca0",
+			"type": "modifier",
+			"name": "Sense-Based (@senses@)",
+			"reference": "B109",
+			"notes": "Manually add +50% for each sense beyond the first",
+			"cost": 150
+		},
+		{
+			"id": "e8586666-12f3-4ac8-a28e-578a2ed374ac",
+			"type": "modifier",
+			"name": "Side Effect",
+			"reference": "B109,P106",
+			"cost": 50
+		},
+		{
+			"id": "0be70a14-3a6a-42bb-a166-7eedff40effd",
+			"type": "modifier",
+			"name": "Super Attribute",
+			"reference": "PU4:17",
+			"cost": 25
+		},
+		{
+			"id": "b1150ff2-2919-4fa8-b742-32e9152e4665",
+			"type": "modifier",
+			"name": "Surge (sur)",
+			"reference": "B105",
+			"cost": 20
+		},
+		{
+			"id": "39468f3a-510b-49a9-bc90-985e514f605c",
+			"type": "modifier",
+			"name": "Switchable",
+			"reference": "PU4:17",
+			"cost": 10
+		},
+		{
+			"id": "18fb4af8-5b88-4666-8edc-98212fd0b526",
+			"type": "modifier",
+			"name": "Symptoms",
+			"reference": "B109",
+			"notes": "Cost must be manually entered"
+		},
+		{
+			"id": "4f5990bb-4cf5-4eb3-87be-33daafcf8795",
+			"type": "modifier",
+			"name": "Time-Spanning (@Past OR Future@)",
+			"reference": "PU4:17",
+			"cost": 50
+		},
+		{
+			"id": "0650057b-e582-4b8b-925f-ec821a79a981",
+			"type": "modifier",
+			"name": "Time-Spanning (@Past OR Future@)",
+			"reference": "PU4:17",
+			"notes": "No Function in the Present"
+		},
+		{
+			"id": "73a4d94a-a152-4ff4-8014-941dc9233b92",
+			"type": "modifier",
+			"name": "Time-Spanning (Past \u0026 Future)",
+			"reference": "PU4:17",
+			"cost": 100
+		},
+		{
+			"id": "bba3ec9b-3169-4f24-bf3e-26acdeea460a",
+			"type": "modifier",
+			"name": "Time-Spanning (Past \u0026 Future)",
+			"reference": "PU4:17",
+			"notes": "No Function in the Present",
+			"cost": 50
+		},
+		{
+			"id": "03e57a76-37fe-4ca9-be9c-0372da061af5",
+			"type": "modifier",
+			"name": "Toxic Radiation (rad)",
+			"reference": "B105",
+			"notes": "Instead of regular damage",
+			"cost": 25
+		},
+		{
+			"id": "ad72fc5c-e575-4266-a1db-b3a6857aee31",
+			"type": "modifier",
+			"name": "Trait Modifier"
+		},
+		{
+			"id": "d19ee1f2-24c6-4df6-9935-e984d0d9c267",
+			"type": "modifier",
+			"name": "Triggered Delay",
+			"reference": "B105",
+			"notes": "@trigger@, @method to neutralize@",
+			"cost": 50
+		},
+		{
+			"id": "59641fef-a11b-4cd9-b2e0-e620517d7192",
+			"type": "modifier",
+			"name": "Underwater",
+			"reference": "B109,P107",
+			"cost": 20
+		},
+		{
+			"id": "a64220f9-fb19-4658-b3ff-2ad13c62c584",
+			"type": "modifier",
+			"name": "Usually On",
+			"reference": "PU4:18",
+			"cost": 5
+		},
+		{
+			"id": "4705b7f9-798d-4532-b51a-cf1ce4509624",
+			"type": "modifier",
+			"name": "Variable",
+			"reference": "B109,P107",
+			"cost": 5
+		},
+		{
+			"id": "affc148d-38e4-4d87-9a87-4cc264b67215",
+			"type": "modifier",
+			"name": "Variable Delay",
+			"reference": "B105",
+			"notes": "@method to neutralize@",
+			"cost": 20
+		},
+		{
+			"id": "37d67b77-93c4-4f8b-b9c5-6b8cdf1e4c5f",
+			"type": "modifier",
+			"name": "Variable Delay",
+			"reference": "B105",
+			"notes": "Delay up to 10 seconds, @method to neutralize@",
+			"cost": 10
+		},
+		{
+			"id": "0e432689-1184-42d2-b57d-b8261ebd4d10",
+			"type": "modifier",
+			"name": "Wall",
+			"reference": "B109",
+			"notes": "Permeable",
+			"cost": 60
+		},
+		{
+			"id": "2514635e-1b4e-4eb0-b168-7d3ef0cf21ba",
+			"type": "modifier",
+			"name": "Wall",
+			"reference": "B109",
+			"notes": "Permeable Line",
+			"cost": 30
+		},
+		{
+			"id": "12e0f026-a018-4cd7-b9da-9ecc47e6dbfe",
+			"type": "modifier",
+			"name": "Wall",
+			"reference": "B109",
+			"notes": "Rigid",
+			"cost": 60
+		},
+		{
+			"id": "79a47d0c-6b17-453f-a6cb-23716c069de3",
+			"type": "modifier",
+			"name": "Wall",
+			"reference": "B109",
+			"notes": "Rigid Line",
+			"cost": 30
+		},
+		{
+			"id": "e0df412c-1e50-4589-a8c3-7b09a6005685",
+			"type": "modifier",
+			"name": "World Spanning",
+			"reference": "PU4:18",
+			"notes": "Only other Worlds or Planes",
+			"cost": 50
+		},
+		{
+			"id": "82295d84-436d-4400-9a79-ab1506129bd3",
+			"type": "modifier",
+			"name": "World Spanning",
+			"reference": "PU4:18",
+			"notes": "Other Worlds \u0026 Current World",
+			"cost": 100
+		}
+	]
+}
