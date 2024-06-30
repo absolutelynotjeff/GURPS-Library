@@ -1,0 +1,220 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "460d4678-1d83-413f-8b2b-d776769cba81",
+	"traits": [
+		{
+			"id": "8df49151-468f-4446-a841-6678d6d129d7",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "3808b005-464e-42a6-bc20-b6570cd8d622",
+					"type": "trait",
+					"name": "Increased Dexterity",
+					"reference": "B15",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "26b39aca-fc45-404a-9dbd-be0e55323b67",
+							"type": "modifier",
+							"name": "No Fine Manipulators",
+							"cost": -40,
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "dx",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "e9d182d8-3ff3-4278-a8f7-cacc421c9bb3",
+					"type": "trait",
+					"name": "Increased Intelligence",
+					"reference": "B15",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Mental"
+					],
+					"levels": 2,
+					"points_per_level": 20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "iq",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 40
+					}
+				},
+				{
+					"id": "b9191a37-9067-451f-b878-50d9e806dc56",
+					"type": "trait",
+					"name": "Increased Health",
+					"reference": "B14",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "ht",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				}
+			],
+			"name": "Primary Attributes",
+			"container_type": "attributes",
+			"calc": {
+				"points": 70
+			}
+		},
+		{
+			"id": "415cbc68-a229-4af5-9158-a70d40028cc8",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "0bd515e0-8792-4f1d-b48a-8afd3592fb59",
+					"type": "trait",
+					"name": "Sorcery Talent",
+					"reference": "TSOR5",
+					"tags": [
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "393b527e-2810-41b3-9fc2-caf47232b351",
+							"type": "modifier",
+							"name": "Limited",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "c5550a72-c814-4c1e-a980-5c252d8e1f7a",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "749eb82b-da17-4128-8a33-243c4274bc7b",
+							"type": "trait",
+							"name": "Sorcerous Empowerment",
+							"reference": "TSOR4",
+							"tags": [
+								"Mental",
+								"Supernatural"
+							],
+							"modifiers": [
+								{
+									"id": "5a8ea687-8e1f-46c6-bd58-9f3a8c92cae7",
+									"type": "modifier",
+									"name": "Limited Colleges (1 College) (@College@)",
+									"reference": "TSOR4",
+									"cost": -40,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "9cd7062b-5504-45e6-9c3c-02726a2dfeb1",
+									"type": "modifier",
+									"name": "Limited Colleges (2 Colleges) (@Colleges@)",
+									"reference": "TSOR4",
+									"cost": -30,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "8422d620-1dda-4582-8208-f1d7df75f944",
+									"type": "modifier",
+									"name": "Limited Colleges (3 Colleges) (@Colleges@)",
+									"reference": "TSOR4",
+									"cost": -20,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "a3bc6727-0387-485b-bbe1-12f62c25e634",
+									"type": "modifier",
+									"name": "Limited Colleges (4 Colleges) (@Colleges@)",
+									"reference": "TSOR4",
+									"cost": -10,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "2065383e-3552-4fae-9820-58def973a72a",
+									"type": "modifier",
+									"name": "Limited Scope",
+									"reference": "TSOR4",
+									"notes": "The GM may limit Sorcerous Empowerment in a way that doesn't line up with normal colleges",
+									"cost": -20
+								}
+							],
+							"base_points": 10,
+							"levels": 1,
+							"points_per_level": 10,
+							"can_level": true,
+							"calc": {
+								"points": 16
+							}
+						}
+					],
+					"open": true,
+					"name": "Secondary Advantages",
+					"template_picker": {
+						"type": "points",
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 40
+						}
+					},
+					"calc": {
+						"points": 16
+					}
+				}
+			],
+			"open": true,
+			"name": "Advantages",
+			"calc": {
+				"points": 26
+			}
+		}
+	]
+}

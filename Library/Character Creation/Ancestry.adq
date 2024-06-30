@@ -1163,6 +1163,32 @@
 					}
 				},
 				{
+					"id": "f09cd946-e9be-406b-8977-6bbdb2fc82ae",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "911ae40e-f743-4cc1-b41b-2296d86eea44",
 					"type": "trait",
 					"name": "Magery",
@@ -1262,22 +1288,6 @@
 					"can_level": true,
 					"calc": {
 						"points": 5
-					}
-				},
-				{
-					"id": "8dfd9244-ae1c-4146-aec1-70e03b87ae28",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
 					}
 				},
 				{
@@ -1473,7 +1483,7 @@
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 24
+				"points": 32
 			}
 		},
 		{
@@ -1492,6 +1502,32 @@
 					"base_points": 1,
 					"calc": {
 						"points": 1
+					}
+				},
+				{
+					"id": "19481df5-45b6-41b7-a2e0-b9d5b36c7046",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
 					}
 				},
 				{
@@ -1715,29 +1751,13 @@
 					"calc": {
 						"points": 0
 					}
-				},
-				{
-					"id": "74843a20-f4ef-4e00-9e4c-b11958a26bd5",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
-					}
 				}
 			],
 			"name": "Bugbear",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 6
+				"points": 14
 			}
 		},
 		{
@@ -1862,107 +1882,29 @@
 					}
 				},
 				{
-					"id": "b682bd1b-3762-4091-9d83-b6b01cdcb009",
+					"id": "fd0c41ee-66aa-433b-9697-75b5b6117f07",
 					"type": "trait",
-					"name": "Morph",
-					"reference": "B84",
+					"name": "Elastic Skin",
+					"reference": "B51,P48",
 					"tags": [
 						"Advantage",
 						"Exotic",
 						"Physical"
 					],
-					"modifiers": [
+					"base_points": 20,
+					"features": [
 						{
-							"id": "256abf35-ba9e-4bfb-adf9-9b1160eb1681",
-							"type": "modifier",
-							"name": "Unlimited",
-							"reference": "B85",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "15e8ea5b-a4ce-4f72-b443-4b5745ddf08e",
-							"type": "modifier",
-							"name": "Cosmetic",
-							"reference": "B85",
-							"cost": -50
-						},
-						{
-							"id": "df2d9420-a499-4a4c-87ab-27b9bcd7e159",
-							"type": "modifier",
-							"name": "Retains Shape",
-							"reference": "B85",
-							"cost": -20
-						},
-						{
-							"id": "4f84495c-1628-4c9f-9ad8-08c7fd0d3ce9",
-							"type": "modifier",
-							"name": "Mass Conservation",
-							"reference": "B85",
-							"cost": -20
-						},
-						{
-							"id": "50c07901-2485-4733-bfd4-7c8c99d374e7",
-							"type": "modifier",
-							"name": "Active Change",
-							"reference": "P75",
-							"cost": 20,
-							"disabled": true
-						},
-						{
-							"id": "d921b98c-4a39-4164-a8de-8ee05d4d1f80",
-							"type": "modifier",
-							"name": "Improvised Forms",
-							"reference": "P75",
-							"cost": 100,
-							"disabled": true
-						},
-						{
-							"id": "9edb757f-a8ad-4489-a730-cc19ddfb8327",
-							"type": "modifier",
-							"name": "Cosmic (For Improvised Forms)",
-							"reference": "P75",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "79cadbb2-9a8a-4063-8aff-6213b733f3c0",
-							"type": "modifier",
-							"name": "No Memorization Required",
-							"reference": "P75",
-							"cost": 50,
-							"disabled": true
-						},
-						{
-							"id": "20988bb7-8846-4d1e-a497-c66d5796678c",
-							"type": "modifier",
-							"name": "Cannot Memorize Forms",
-							"reference": "P75",
-							"cost": -50,
-							"disabled": true
-						},
-						{
-							"id": "f0241224-4e6a-4ebf-8a97-b87e00a168c9",
-							"type": "modifier",
-							"name": "Flawed",
-							"reference": "P75",
-							"cost": -10,
-							"disabled": true
-						},
-						{
-							"id": "73d30418-6a28-4302-8699-2a0d6c205d63",
-							"type": "modifier",
-							"name": "Unliving Forms Only",
-							"reference": "P75",
-							"disabled": true
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "disguise"
+							},
+							"amount": 4
 						}
 					],
-					"base_points": 100,
-					"levels": 1,
-					"points_per_level": 1,
-					"can_level": true,
 					"calc": {
-						"points": 21
+						"points": 20
 					}
 				},
 				{
@@ -1997,11 +1939,12 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Changeling",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 21
+				"points": 20
 			}
 		},
 		{
@@ -2083,6 +2026,32 @@
 					],
 					"calc": {
 						"points": -1
+					}
+				},
+				{
+					"id": "4c32679a-6c3a-4765-8cde-cf1cd2cbb833",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
 					}
 				},
 				{
@@ -2203,108 +2172,6 @@
 					}
 				},
 				{
-					"id": "7022efd6-a9bf-4e7a-b7de-840132ad903e",
-					"type": "trait",
-					"name": "Magery",
-					"reference": "B66",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"modifiers": [
-						{
-							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
-							"type": "modifier",
-							"name": "Dance",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
-							"type": "modifier",
-							"name": "Dark-Aspected",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
-							"type": "modifier",
-							"name": "Day-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
-							"type": "modifier",
-							"name": "Musical",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
-							"type": "modifier",
-							"name": "Night-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
-							"type": "modifier",
-							"name": "One College",
-							"notes": "@College@",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
-							"type": "modifier",
-							"name": "Solitary",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "162576be-563f-43f2-9bd3-91db2defc569",
-							"type": "modifier",
-							"name": "Song",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "spell_bonus",
-							"match": "all_colleges",
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "thaumatology"
-							},
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
 					"id": "d513394b-f5d1-4f7b-a43e-f221bfc720de",
 					"type": "trait",
 					"name": "Magic Resistance",
@@ -2342,24 +2209,9 @@
 					"calc": {
 						"points": 5
 					}
-				},
-				{
-					"id": "cebfdacc-9a15-4b17-82dc-61b3097041f8",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 5,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 5
-					}
 				}
 			],
+			"open": true,
 			"name": "Deep Gnome",
 			"ancestry": "Human",
 			"container_type": "ancestry",
@@ -2854,6 +2706,32 @@
 					}
 				},
 				{
+					"id": "b3072c0a-017d-4183-9334-adc6c7337c63",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "518491d1-07e1-4d91-b2b1-38d6e8b21de5",
 					"type": "trait",
 					"name": "Language: Common",
@@ -2985,124 +2863,6 @@
 					"can_level": true,
 					"calc": {
 						"points": 8
-					}
-				},
-				{
-					"id": "af352ce1-a78c-480a-8d00-e51ea38caee9",
-					"type": "trait",
-					"name": "Magery",
-					"reference": "B66",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"modifiers": [
-						{
-							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
-							"type": "modifier",
-							"name": "Dance",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
-							"type": "modifier",
-							"name": "Dark-Aspected",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
-							"type": "modifier",
-							"name": "Day-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
-							"type": "modifier",
-							"name": "Musical",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
-							"type": "modifier",
-							"name": "Night-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
-							"type": "modifier",
-							"name": "One College",
-							"notes": "@College@",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
-							"type": "modifier",
-							"name": "Solitary",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "162576be-563f-43f2-9bd3-91db2defc569",
-							"type": "modifier",
-							"name": "Song",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "spell_bonus",
-							"match": "all_colleges",
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "thaumatology"
-							},
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"id": "4ecc0c93-d4f5-4863-a5b2-02f8a4d07779",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 5,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 5
 					}
 				},
 				{
@@ -3322,9 +3082,9 @@
 					"type": "trait",
 					"name": "Trance Instead of Sleep",
 					"tags": [
+						"Exotic",
 						"Perk",
-						"Physical",
-						"Exotic"
+						"Physical"
 					],
 					"base_points": 1,
 					"calc": {
@@ -3332,6 +3092,7 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Drow",
 			"ancestry": "Elf",
 			"container_type": "ancestry",
@@ -3489,6 +3250,32 @@
 					}
 				},
 				{
+					"id": "14297156-5393-4b60-aad1-2dcf36cece31",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "65d145e5-1c49-49a2-b5a7-7b961d4558a9",
 					"type": "trait",
 					"name": "Language: Common",
@@ -3606,108 +3393,6 @@
 					}
 				},
 				{
-					"id": "dc3a44e4-e5c2-408c-a0d3-a6b4dc86b6a6",
-					"type": "trait",
-					"name": "Magery",
-					"reference": "B66",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"modifiers": [
-						{
-							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
-							"type": "modifier",
-							"name": "Dance",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
-							"type": "modifier",
-							"name": "Dark-Aspected",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
-							"type": "modifier",
-							"name": "Day-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
-							"type": "modifier",
-							"name": "Musical",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
-							"type": "modifier",
-							"name": "Night-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
-							"type": "modifier",
-							"name": "One College",
-							"notes": "@College@",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
-							"type": "modifier",
-							"name": "Solitary",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "162576be-563f-43f2-9bd3-91db2defc569",
-							"type": "modifier",
-							"name": "Song",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "spell_bonus",
-							"match": "all_colleges",
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "thaumatology"
-							},
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
 					"id": "4bb3f939-4542-40f0-99e9-806138ec276e",
 					"type": "trait",
 					"name": "Magic Resistance",
@@ -3745,29 +3430,14 @@
 					"calc": {
 						"points": 5
 					}
-				},
-				{
-					"id": "9564eb04-c51a-42f0-97b0-a7f54320204e",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
-					}
 				}
 			],
+			"open": true,
 			"name": "Forest Gnome",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 23
+				"points": 26
 			}
 		},
 		{
@@ -3807,6 +3477,32 @@
 					"can_level": true,
 					"calc": {
 						"points": 0
+					}
+				},
+				{
+					"id": "a953361c-28d5-4314-b1d0-ebfcf0bdba0a",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
 					}
 				},
 				{
@@ -3927,22 +3623,6 @@
 					}
 				},
 				{
-					"id": "bb59f64e-e058-4abe-8d92-82a080053881",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
-					}
-				},
-				{
 					"id": "16a30d24-9a5c-4b69-bb68-bafe6bec7257",
 					"type": "trait",
 					"name": "Short Lifespan",
@@ -4002,11 +3682,12 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Goblin",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": -2
+				"points": 6
 			}
 		},
 		{
@@ -5076,6 +4757,32 @@
 					}
 				},
 				{
+					"id": "c23f8b8c-9698-4d28-b917-7b7121d06c1c",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "27c97452-338c-4454-9059-c4252f00dff8",
 					"type": "trait",
 					"name": "Language: Common",
@@ -5207,124 +4914,6 @@
 					"can_level": true,
 					"calc": {
 						"points": 8
-					}
-				},
-				{
-					"id": "dd68db85-f5a9-4cf0-927b-a13faeb07a94",
-					"type": "trait",
-					"name": "Magery",
-					"reference": "B66",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"modifiers": [
-						{
-							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
-							"type": "modifier",
-							"name": "Dance",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
-							"type": "modifier",
-							"name": "Dark-Aspected",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
-							"type": "modifier",
-							"name": "Day-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
-							"type": "modifier",
-							"name": "Musical",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
-							"type": "modifier",
-							"name": "Night-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
-							"type": "modifier",
-							"name": "One College",
-							"notes": "@College@",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
-							"type": "modifier",
-							"name": "Solitary",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "162576be-563f-43f2-9bd3-91db2defc569",
-							"type": "modifier",
-							"name": "Song",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "spell_bonus",
-							"match": "all_colleges",
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "thaumatology"
-							},
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"id": "09ed3b90-8ad0-4968-819a-55b07b9ee4f5",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
 					}
 				},
 				{
@@ -5486,9 +5075,9 @@
 					"type": "trait",
 					"name": "Trance Instead of Sleep",
 					"tags": [
+						"Exotic",
 						"Perk",
-						"Physical",
-						"Exotic"
+						"Physical"
 					],
 					"base_points": 1,
 					"calc": {
@@ -5496,11 +5085,12 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "High Elf",
 			"ancestry": "Elf",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 39
+				"points": 42
 			}
 		},
 		{
@@ -6014,6 +5604,32 @@
 					}
 				},
 				{
+					"id": "2b0fea90-b3a4-41b0-bcdc-c157822dbcea",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "0816f68b-36c0-4bfe-bf8e-b4717b77d91f",
 					"type": "trait",
 					"name": "Language: Common",
@@ -6145,124 +5761,6 @@
 					"can_level": true,
 					"calc": {
 						"points": 8
-					}
-				},
-				{
-					"id": "02f74e52-d87a-446d-b836-7070e7b604d0",
-					"type": "trait",
-					"name": "Magery",
-					"reference": "B66",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"modifiers": [
-						{
-							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
-							"type": "modifier",
-							"name": "Dance",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
-							"type": "modifier",
-							"name": "Dark-Aspected",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
-							"type": "modifier",
-							"name": "Day-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
-							"type": "modifier",
-							"name": "Musical",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
-							"type": "modifier",
-							"name": "Night-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
-							"type": "modifier",
-							"name": "One College",
-							"notes": "@College@",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
-							"type": "modifier",
-							"name": "Solitary",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "162576be-563f-43f2-9bd3-91db2defc569",
-							"type": "modifier",
-							"name": "Song",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "spell_bonus",
-							"match": "all_colleges",
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "thaumatology"
-							},
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"id": "c3288418-76fc-449b-80b6-734c05b4f0b7",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 3,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 3
 					}
 				},
 				{
@@ -6424,9 +5922,9 @@
 					"type": "trait",
 					"name": "Trance Instead of Sleep",
 					"tags": [
+						"Exotic",
 						"Perk",
-						"Physical",
-						"Exotic"
+						"Physical"
 					],
 					"base_points": 1,
 					"calc": {
@@ -6434,11 +5932,12 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Wood Elf",
 			"ancestry": "Elf",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 40
+				"points": 42
 			}
 		},
 		{
@@ -6495,6 +5994,32 @@
 					"can_level": true,
 					"calc": {
 						"points": 4
+					}
+				},
+				{
+					"id": "d89d2b99-fee4-42a9-bac5-f119f48d7ca4",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
 					}
 				},
 				{
@@ -6615,22 +6140,6 @@
 					}
 				},
 				{
-					"id": "abd1cb2b-c871-4540-bfca-138e0fae9d09",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
-					}
-				},
-				{
 					"id": "0e85fb00-b37c-47d0-bfa4-7364d4dcd8f0",
 					"type": "trait",
 					"name": "Resistant",
@@ -6708,11 +6217,12 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Hill Dwarf",
 			"ancestry": "Dwarf",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 11
+				"points": 19
 			}
 		},
 		{
@@ -7047,6 +6557,7 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Kenku",
 			"ancestry": "Human",
 			"container_type": "ancestry",
@@ -7388,6 +6899,7 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Lightfoot Halfling",
 			"ancestry": "Halfling",
 			"container_type": "ancestry",
@@ -7399,6 +6911,32 @@
 			"id": "21ad0024-f596-41d9-a19a-64781d7d4401",
 			"type": "trait_container",
 			"children": [
+				{
+					"id": "6259fb3a-ebb0-469e-aa5f-8888a15db781",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
 				{
 					"id": "c0b8fbc0-c511-40d0-8d1a-159b42f1d754",
 					"type": "trait",
@@ -7594,29 +7132,14 @@
 					"calc": {
 						"points": 3
 					}
-				},
-				{
-					"id": "a03f4db4-b2bc-4f59-8981-86335188ddc6",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
-					}
 				}
 			],
+			"open": true,
 			"name": "Orc",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 5
+				"points": 13
 			}
 		},
 		{
@@ -7698,6 +7221,32 @@
 					],
 					"calc": {
 						"points": -1
+					}
+				},
+				{
+					"id": "48de0448-e3d5-48c6-a90b-22a750e0e9b9",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
 					}
 				},
 				{
@@ -7818,108 +7367,6 @@
 					}
 				},
 				{
-					"id": "5a014891-9ed1-414e-a1e6-b31e196e87c8",
-					"type": "trait",
-					"name": "Magery",
-					"reference": "B66",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"modifiers": [
-						{
-							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
-							"type": "modifier",
-							"name": "Dance",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
-							"type": "modifier",
-							"name": "Dark-Aspected",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
-							"type": "modifier",
-							"name": "Day-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
-							"type": "modifier",
-							"name": "Musical",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
-							"type": "modifier",
-							"name": "Night-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
-							"type": "modifier",
-							"name": "One College",
-							"notes": "@College@",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
-							"type": "modifier",
-							"name": "Solitary",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "162576be-563f-43f2-9bd3-91db2defc569",
-							"type": "modifier",
-							"name": "Song",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "spell_bonus",
-							"match": "all_colleges",
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "thaumatology"
-							},
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
 					"id": "5e6173cf-5f65-4dbf-b6bb-ddbccec72031",
 					"type": "trait",
 					"name": "Magic Resistance",
@@ -7956,22 +7403,6 @@
 					"can_level": true,
 					"calc": {
 						"points": 5
-					}
-				},
-				{
-					"id": "09d7ff98-5931-4d56-88b4-6c4396f9075c",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
 					}
 				},
 				{
@@ -8090,11 +7521,12 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Rock Gnome",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 27
+				"points": 30
 			}
 		},
 		{
@@ -8493,6 +7925,32 @@
 					}
 				},
 				{
+					"id": "3e47873c-959c-478a-8f65-b8fa38425ebb",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "49788b6f-86cc-4392-84b5-905723caaf30",
 					"type": "trait",
 					"name": "Language: Common",
@@ -8633,22 +8091,6 @@
 					"can_level": true,
 					"calc": {
 						"points": 5
-					}
-				},
-				{
-					"id": "98e875ed-09e6-49b9-be5a-605f6c7e19f1",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
 					}
 				},
 				{
@@ -8802,11 +8244,12 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Tabaxi",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 18
+				"points": 26
 			}
 		},
 		{
@@ -9147,6 +8590,32 @@
 					}
 				},
 				{
+					"id": "fec3db9c-8c4a-4460-9418-deb9dfb707f2",
+					"type": "trait",
+					"name": "Infravision",
+					"reference": "B60,P87",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3e2a555d-c6fe-44a5-ad72-d83e881f28fc",
+							"type": "modifier",
+							"name": "No normal vision",
+							"reference": "B60",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
 					"id": "e61bbbf3-49da-4070-8228-d3d28893447f",
 					"type": "trait",
 					"name": "Language: Common",
@@ -9261,124 +8730,6 @@
 					},
 					"calc": {
 						"points": 0
-					}
-				},
-				{
-					"id": "87ca3915-07b0-4221-8b39-28991841b04e",
-					"type": "trait",
-					"name": "Magery",
-					"reference": "B66",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"modifiers": [
-						{
-							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
-							"type": "modifier",
-							"name": "Dance",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
-							"type": "modifier",
-							"name": "Dark-Aspected",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
-							"type": "modifier",
-							"name": "Day-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
-							"type": "modifier",
-							"name": "Musical",
-							"cost": -50,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
-							"type": "modifier",
-							"name": "Night-Aspected",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
-							"type": "modifier",
-							"name": "One College",
-							"notes": "@College@",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
-							"type": "modifier",
-							"name": "Solitary",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						},
-						{
-							"id": "162576be-563f-43f2-9bd3-91db2defc569",
-							"type": "modifier",
-							"name": "Song",
-							"cost": -40,
-							"affects": "levels_only",
-							"disabled": true
-						}
-					],
-					"base_points": 5,
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "spell_bonus",
-							"match": "all_colleges",
-							"amount": 1,
-							"per_level": true
-						},
-						{
-							"type": "skill_bonus",
-							"selection_type": "skills_with_name",
-							"name": {
-								"compare": "is",
-								"qualifier": "thaumatology"
-							},
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"id": "1ea74b52-1451-4f1d-b0b0-86727183f85e",
-					"type": "trait",
-					"name": "Night Vision",
-					"reference": "B71,P87",
-					"tags": [
-						"Advantage",
-						"Physical"
-					],
-					"levels": 2,
-					"points_per_level": 1,
-					"can_level": true,
-					"calc": {
-						"points": 2
 					}
 				},
 				{
@@ -9507,9 +8858,7 @@
 												}
 											],
 											"calc": {
-												"level": 10,
-												"damage": "1d-1 cr",
-												"parry": "8"
+												"damage": "thr (+1 per die) cr"
 											}
 										}
 									],
@@ -9608,9 +8957,7 @@
 												}
 											],
 											"calc": {
-												"level": 10,
-												"damage": "1d-1 pi",
-												"parry": "8"
+												"damage": "thr (+1 per die) pi"
 											}
 										}
 									],
@@ -9699,9 +9046,7 @@
 												}
 											],
 											"calc": {
-												"level": 10,
-												"damage": "1d-3 cut",
-												"parry": "8"
+												"damage": "thr-1 cut"
 											}
 										},
 										{
@@ -9730,8 +9075,7 @@
 												}
 											],
 											"calc": {
-												"level": 8,
-												"damage": "1d-2 cut"
+												"damage": "thr cut"
 											}
 										}
 									],
@@ -9782,8 +9126,7 @@
 												}
 											],
 											"calc": {
-												"level": 10,
-												"damage": "1d-3 cut"
+												"damage": "thr-1 cut"
 											}
 										}
 									],
@@ -9874,11 +9217,12 @@
 					}
 				}
 			],
+			"open": true,
 			"name": "Tiefling",
 			"ancestry": "Human",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 16
+				"points": 19
 			}
 		},
 		{
@@ -10535,7 +9879,6 @@
 		{
 			"id": "1035977d-d776-4017-af23-4f92249032e5",
 			"type": "trait_container",
-			"open": true,
 			"name": "Dragonborn",
 			"ancestry": "Human",
 			"container_type": "ancestry",
