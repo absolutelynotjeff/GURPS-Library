@@ -1,0 +1,1332 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "8ab46661-649e-484e-8e79-f3480824901e",
+	"skills": [
+		{
+			"id": "c8f52d5f-5910-4522-ac1b-1935b1d85dac",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "7b0311c4-edcc-4dc4-a98a-65f334c14707",
+					"type": "skill",
+					"name": "Camouflage",
+					"reference": "B183",
+					"tags": [
+						"Exploration",
+						"Military",
+						"Outdoor"
+					],
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"id": "0279876c-bdbc-4bf2-872f-ccd21e79fe72",
+					"type": "skill",
+					"name": "Navigation",
+					"reference": "B211",
+					"tags": [
+						"Exploration",
+						"Outdoor",
+						"Technical",
+						"Vehicle"
+					],
+					"specialization": "Land",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Cartography",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Mathematics",
+							"specialization": "Surveying",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Navigation",
+							"specialization": "Air",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Navigation",
+							"specialization": "Sea",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Navigation",
+							"specialization": "Underground",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"id": "6dd2c01b-7cc0-4138-80c1-412e5e75a82c",
+					"type": "skill",
+					"name": "Survival",
+					"reference": "B223",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"specialization": "@Any Environment@",
+					"difficulty": "per/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "a264b7fe-21ef-435a-b6c9-0141cb7ea225",
+					"type": "skill",
+					"name": "Tracking",
+					"reference": "B226",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"difficulty": "per/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "4dc783c4-f67c-41a7-b165-266f17917fb8",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "4f5835c6-b5f5-462b-9f8c-c67c66806e55",
+							"type": "skill",
+							"name": "Bolas",
+							"reference": "B181",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1
+						},
+						{
+							"id": "70615882-c147-4555-9bcf-3fc038588bb6",
+							"type": "skill",
+							"name": "Bow",
+							"reference": "B182",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "40e0948b-3d68-436e-b3ff-3b077e9a6cf1",
+							"type": "skill",
+							"name": "Spear Thrower",
+							"reference": "B222",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Thrown Weapon",
+									"specialization": "Spear",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "001d5d99-c57d-45b4-8416-72547316af51",
+							"type": "skill",
+							"name": "Throwing",
+							"reference": "B226",
+							"tags": [
+								"Athletic",
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Dropping",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "21da2946-adaf-4d00-840b-a2ae6ff1d004",
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"reference": "B226",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "Axe/Mace",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "6a8feb21-6e6e-4aab-aad9-5866989eded2",
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"reference": "B226",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "Spear",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Spear Thrower",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Thrown Weapon",
+									"specialization": "Harpoon",
+									"modifier": -2
+								}
+							]
+						},
+						{
+							"id": "feab20ee-18c3-4aea-ac93-29bfcbbce094",
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"reference": "B226",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "Stick",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							]
+						}
+					],
+					"name": "Ranged Skill",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 1
+						}
+					}
+				},
+				{
+					"id": "910431be-8cec-4357-aec8-701bd35acde0",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "6baa3bc8-a9c4-48dc-afd3-6d0afdf8cc72",
+							"type": "skill_container",
+							"children": [
+								{
+									"id": "63f3bf15-2750-452a-bb4a-f3fc20172b2b",
+									"type": "skill_container",
+									"children": [
+										{
+											"id": "80d07772-99bf-4656-84ed-8f1b27af96ef",
+											"type": "skill",
+											"name": "Axe/Mace",
+											"reference": "B208",
+											"tags": [
+												"Combat",
+												"Melee Combat",
+												"Weapon"
+											],
+											"difficulty": "dx/a",
+											"points": 1,
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Two-Handed Axe/Mace",
+													"modifier": -3
+												},
+												{
+													"type": "skill",
+													"name": "Flail",
+													"modifier": -4
+												}
+											]
+										},
+										{
+											"id": "9276d80d-6ec5-4ab0-97c5-8212f2223f10",
+											"type": "skill",
+											"name": "Broadsword",
+											"reference": "B208",
+											"tags": [
+												"Combat",
+												"Melee Combat",
+												"Weapon"
+											],
+											"difficulty": "dx/a",
+											"points": 1,
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Force Sword",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Rapier",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Saber",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Shortsword",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Two-Handed Sword",
+													"modifier": -4
+												},
+												{
+													"type": "dx",
+													"modifier": -5
+												}
+											]
+										},
+										{
+											"id": "b83b939d-d00c-402c-b01c-b333c9d5f0e2",
+											"type": "skill",
+											"name": "Flail",
+											"reference": "B208",
+											"tags": [
+												"Combat",
+												"Melee Combat",
+												"Weapon"
+											],
+											"difficulty": "dx/h",
+											"points": 1,
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -6
+												},
+												{
+													"type": "skill",
+													"name": "Axe/Mace",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Two-Handed Flail",
+													"modifier": -3
+												}
+											]
+										},
+										{
+											"id": "b987c98a-4efd-4e5d-a2cd-a1fbade79eeb",
+											"type": "skill",
+											"name": "Spear",
+											"reference": "B208",
+											"tags": [
+												"Combat",
+												"Melee Combat",
+												"Weapon"
+											],
+											"difficulty": "dx/a",
+											"points": 1,
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Polearm",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Staff",
+													"modifier": -2
+												}
+											]
+										}
+									],
+									"name": "Axe, Broadsword or Spear",
+									"template_picker": {
+										"type": "count",
+										"qualifier": {
+											"compare": "is",
+											"qualifier": 1
+										}
+									}
+								},
+								{
+									"id": "604e0208-c510-4bb8-af81-1dbf73313c69",
+									"type": "skill",
+									"name": "Shield",
+									"reference": "B220",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"specialization": "Shield",
+									"difficulty": "dx/e",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									]
+								}
+							],
+							"name": "Weapon \u0026 Shield"
+						},
+						{
+							"id": "901a7e46-afd3-4eaf-a907-f599f1e035be",
+							"type": "skill_container",
+							"children": [
+								{
+									"id": "e062c473-7cab-4027-868c-43577ecb8a5d",
+									"type": "skill",
+									"name": "Polearm",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Spear",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Staff",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "8e0409a0-5507-4577-8c0d-41749a15662e",
+									"type": "skill",
+									"name": "Spear",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Staff",
+											"modifier": -2
+										}
+									]
+								},
+								{
+									"id": "de1bea8f-116d-4831-b162-3563d4564820",
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -5
+										},
+										{
+											"type": "skill",
+											"name": "Axe/Mace",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Polearm",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Flail",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "f8b00028-03aa-4778-a178-a5a77647567b",
+									"type": "skill",
+									"name": "Two-Handed Flail",
+									"reference": "B208",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/h",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Flail",
+											"modifier": -3
+										},
+										{
+											"type": "skill",
+											"name": "Kusari",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Two-Handed Axe/Mace",
+											"modifier": -4
+										}
+									]
+								},
+								{
+									"id": "b643dcae-2161-4a0e-9011-d772e6ed0cd6",
+									"type": "skill",
+									"name": "Two-Handed Sword",
+									"reference": "B209",
+									"tags": [
+										"Combat",
+										"Melee Combat",
+										"Weapon"
+									],
+									"difficulty": "dx/a",
+									"points": 1,
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Broadsword",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Force Sword",
+											"modifier": -4
+										},
+										{
+											"type": "dx",
+											"modifier": -5
+										}
+									]
+								}
+							],
+							"name": "Two Handed Weapon",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							}
+						}
+					],
+					"name": "Melee Focus",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 1
+						}
+					}
+				}
+			],
+			"name": "Primary Skills"
+		},
+		{
+			"id": "18e4af4d-d52f-4725-9d08-4033f31a6e50",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "ff58d3d0-e163-4e79-840a-447f67b73039",
+					"type": "skill",
+					"name": "Brawling",
+					"reference": "B182,MA55",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/e",
+					"points": 1,
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Brawling"
+							},
+							"level": {
+								"compare": "at_least",
+								"qualifier": 2
+							},
+							"amount": 1,
+							"per_die": true
+						}
+					]
+				},
+				{
+					"id": "80de8fc5-3f04-4753-95dd-ae6ec8497f88",
+					"type": "skill_container",
+					"children": [
+						{
+							"id": "8d484e41-3923-4210-9ab0-332650898d75",
+							"type": "skill",
+							"name": "Fishing",
+							"reference": "B195",
+							"tags": [
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "per/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "1d8d6701-d679-4b5e-a39c-aea2ee44e71e",
+							"type": "skill",
+							"name": "Hiking",
+							"reference": "B200",
+							"tags": [
+								"Athletic",
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "ht/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "eea90a04-a139-413b-b8e1-2d570533c926",
+							"type": "skill",
+							"name": "Mimicry",
+							"reference": "B210",
+							"tags": [
+								"Animal",
+								"Arts",
+								"Entertainment",
+								"Exploration",
+								"Outdoor"
+							],
+							"specialization": "Animal Sounds",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Mimicry",
+									"specialization": "Bird Calls",
+									"modifier": -6
+								}
+							]
+						},
+						{
+							"id": "3594cabb-7726-4862-b69c-6599a77abf99",
+							"type": "skill",
+							"name": "Mimicry",
+							"reference": "B210",
+							"tags": [
+								"Animal",
+								"Arts",
+								"Entertainment",
+								"Exploration",
+								"Outdoor"
+							],
+							"specialization": "Bird Calls",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Mimicry",
+									"specialization": "Animal Sounds",
+									"modifier": -6
+								}
+							]
+						},
+						{
+							"id": "83d978dd-8656-4aff-a75c-9bdf950b0c33",
+							"type": "skill",
+							"name": "Naturalist",
+							"reference": "B211",
+							"tags": [
+								"Animal",
+								"Exploration",
+								"Natural Science",
+								"Outdoor",
+								"Plant"
+							],
+							"specialization": "Earthlike",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -3
+								}
+							]
+						},
+						{
+							"id": "38a043eb-904a-4438-9eae-5d115a7eeb98",
+							"type": "skill",
+							"name": "Running",
+							"reference": "B218",
+							"tags": [
+								"Athletic"
+							],
+							"difficulty": "ht/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "3287f52e-94de-44dc-b9a5-8bdac9c46340",
+							"type": "skill",
+							"name": "Stealth",
+							"reference": "B222",
+							"tags": [
+								"Criminal",
+								"Police",
+								"Spy",
+								"Street"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"encumbrance_penalty_multiplier": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "b18c20cd-6be3-4afe-9e92-984660a6752b",
+							"type": "skill",
+							"name": "Swimming",
+							"reference": "B224",
+							"tags": [
+								"Athletic",
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "ht/e",
+							"points": 1,
+							"encumbrance_penalty_multiplier": 2,
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "b1288edf-9501-43f9-9790-17f31b62547b",
+							"type": "skill",
+							"name": "Wrestling",
+							"reference": "B228,MA61",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1
+						}
+					],
+					"name": "Secondary Specialization",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": 4
+						}
+					}
+				}
+			],
+			"open": true,
+			"name": "Secondary Skills"
+		},
+		{
+			"id": "ed078a30-8e14-442c-bb54-94f3f2532b36",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "bbad3242-4180-4f53-9fcf-98cee1867c19",
+					"type": "skill",
+					"name": "Acrobatics",
+					"reference": "B174,MA54",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Aerobatics",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Aquabatics",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "29546dee-b11d-47a1-8bc1-91b60a1c79f1",
+					"type": "skill",
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "5c5b54c4-c0e0-4e0a-8519-d0a262a6e80d",
+					"type": "skill",
+					"name": "Breath Control",
+					"reference": "B182",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "ht/h",
+					"points": 1
+				},
+				{
+					"id": "5762fe0e-346e-466f-9cb9-fe8e4ed10053",
+					"type": "skill",
+					"name": "Carousing",
+					"reference": "B183",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Street"
+					],
+					"difficulty": "ht/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "fc18c82c-4082-4150-b22e-3d964d98468c",
+					"type": "skill",
+					"name": "Climbing",
+					"reference": "B183",
+					"tags": [
+						"Athletic",
+						"Criminal",
+						"Exploration",
+						"Outdoor",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"points": 1,
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "e30f03d7-c41d-45e2-97d8-05f2d0cd0a59",
+					"type": "skill",
+					"name": "Disguise",
+					"reference": "B187",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"specialization": "@Specialty@",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Makeup",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "a99aa754-f7f3-4c88-b64e-2992c815627b",
+					"type": "skill",
+					"name": "Falconry",
+					"reference": "B194",
+					"tags": [
+						"Animal"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Raptors",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "7d4674ce-7f88-49e0-a9a4-de5dae35d7ce",
+					"type": "skill",
+					"name": "First Aid",
+					"reference": "B195",
+					"tags": [
+						"Everyman",
+						"Medical"
+					],
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Esoteric Medicine"
+						},
+						{
+							"type": "skill",
+							"name": "Physician"
+						},
+						{
+							"type": "skill",
+							"name": "Veterinary",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "0561fa91-9ce9-49a4-b5ce-b62f84b14e42",
+					"type": "skill",
+					"name": "Forced Entry",
+					"reference": "B196",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "c2da0c16-be13-4392-8fcf-b140a60c0875",
+					"type": "skill",
+					"name": "Gesture",
+					"reference": "B198",
+					"tags": [
+						"Social"
+					],
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "70ba3e9b-130d-4dfe-be14-0c5562549658",
+					"type": "skill",
+					"name": "Jumping",
+					"reference": "B203,MA57",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "8d654bed-4f9b-4271-b55a-ab36e464717f",
+					"type": "skill",
+					"name": "Intimidation",
+					"reference": "B202",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "will/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "164ff161-2ae8-4ff3-b264-4af050e29729",
+					"type": "skill",
+					"name": "Leatherworking",
+					"reference": "B205",
+					"tags": [
+						"Craft"
+					],
+					"difficulty": "dx/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "f300ea8b-ee70-45e9-85e3-5cafc4e6abcc",
+					"type": "skill",
+					"name": "Lifting",
+					"reference": "B205",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "ht/a",
+					"points": 1
+				},
+				{
+					"id": "e0f0a438-d6f3-42cc-ae94-b43fc8c77b68",
+					"type": "skill",
+					"name": "Observation",
+					"reference": "B211",
+					"tags": [
+						"Criminal",
+						"Military",
+						"Police",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "per/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shadowing",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "db588063-0367-4d26-b163-c118a0bc3463",
+					"type": "skill",
+					"name": "Occultism",
+					"reference": "B212",
+					"tags": [
+						"Magical",
+						"Occult"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "9e679ad7-529a-47d1-a33a-71bfca97de10",
+					"type": "skill",
+					"name": "Riding",
+					"reference": "B217",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "dx/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "21cb07cd-1d2d-4ee0-b68c-39e283376657",
+					"type": "skill",
+					"name": "Seamanship",
+					"reference": "B185",
+					"tags": [
+						"Vehicle"
+					],
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "ff1df8c2-1b14-403a-92aa-8f632ad14f69",
+					"type": "skill",
+					"name": "Skiing",
+					"reference": "B221",
+					"tags": [
+						"Athletic",
+						"Exploration",
+						"Outdoor"
+					],
+					"difficulty": "ht/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -6
+						}
+					]
+				},
+				{
+					"id": "649aebae-cc2e-4cc6-a7c5-818064d1c479",
+					"type": "skill",
+					"name": "Weather Sense",
+					"reference": "B209",
+					"tags": [
+						"Everyman",
+						"Exploration",
+						"Outdoor"
+					],
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				}
+			],
+			"open": true,
+			"name": "Background Skills",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "at_most",
+					"qualifier": 6
+				}
+			}
+		}
+	]
+}

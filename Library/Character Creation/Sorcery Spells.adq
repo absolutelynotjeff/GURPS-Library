@@ -1,0 +1,2542 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "88ee9cc6-3028-4f8d-ae43-bcf13fa4cf61",
+			"type": "trait",
+			"name": "Air Jet",
+			"reference": "M24",
+			"tags": [
+				"Air"
+			],
+			"modifiers": [
+				{
+					"id": "24bd9282-2346-4e4d-9d1f-10a40c27ed7f",
+					"type": "modifier",
+					"name": "Explosion",
+					"reference": "B104",
+					"cost": 50,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "08658eb0-c97a-4833-b811-853fc5b8f17e",
+					"type": "modifier",
+					"name": "Fragmentation",
+					"reference": "B104",
+					"cost": 15,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "abcb4e28-06b0-4f0d-80ce-eeaec4bb40b9",
+					"type": "modifier",
+					"name": "Fragmentation",
+					"reference": "B104",
+					"notes": "Hot",
+					"cost": 15,
+					"levels": 1,
+					"disabled": true
+				},
+				{
+					"id": "21cb3b74-7cb6-4816-b62f-b45fe63c3372",
+					"type": "modifier",
+					"name": "Surge",
+					"reference": "B104",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "5ba9c2b7-fc9d-481a-8380-a823288b996d",
+					"type": "modifier",
+					"name": "Armor Divisor",
+					"reference": "B102",
+					"notes": "2",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "a77f086e-5c4e-4ee1-b8f0-f03f692e1a39",
+					"type": "modifier",
+					"name": "Armor Divisor",
+					"reference": "B102",
+					"notes": "3",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "bfa27d40-097f-4d57-8ce7-5e6826e8e45e",
+					"type": "modifier",
+					"name": "Armor Divisor",
+					"reference": "B102",
+					"notes": "5",
+					"cost": 150,
+					"disabled": true
+				},
+				{
+					"id": "ac58028e-0257-4dd4-af92-3eecef9fb784",
+					"type": "modifier",
+					"name": "Armor Divisor",
+					"reference": "B102",
+					"notes": "10",
+					"cost": 200,
+					"disabled": true
+				},
+				{
+					"id": "7c0d227e-dcac-40a1-9b7d-c7e1858194c1",
+					"type": "modifier",
+					"name": "Side Effect",
+					"reference": "B109",
+					"notes": "@Effect@",
+					"disabled": true
+				},
+				{
+					"id": "f528dd3e-bcf0-43de-8c9c-b7b49366b248",
+					"type": "modifier",
+					"name": "Symptoms",
+					"reference": "B109",
+					"notes": "@Effect@",
+					"disabled": true
+				},
+				{
+					"id": "49d2487c-3eac-4776-9d5e-38e51c28a26b",
+					"type": "modifier",
+					"name": "Armor Divisor",
+					"reference": "B110",
+					"notes": "0.5",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "bfe22a25-1649-40bf-8a3e-0d5293fca27f",
+					"type": "modifier",
+					"name": "Armor Divisor",
+					"reference": "B110",
+					"notes": "0.2",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "2e2d2eda-7a05-449a-a2ce-68e5c058ac6f",
+					"type": "modifier",
+					"name": "Armor Divisor",
+					"reference": "B110",
+					"notes": "0.1",
+					"cost": -70,
+					"disabled": true
+				},
+				{
+					"id": "ab4768bd-98cb-417f-bdcf-f40d78cac1b2",
+					"type": "modifier",
+					"name": "No Blunt Trauma",
+					"reference": "B111",
+					"cost": -20
+				},
+				{
+					"id": "78d56d0d-c1cc-4233-9733-2a3180be86d5",
+					"type": "modifier",
+					"name": "No Knockback",
+					"reference": "B111",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "1fd23c30-d01c-4e82-bc27-718742d91dd3",
+					"type": "modifier",
+					"name": "No Wounding",
+					"reference": "B111",
+					"cost": -50
+				},
+				{
+					"id": "19bf1802-ce8d-492a-931a-063c36244ebb",
+					"type": "modifier",
+					"name": "Double Knockback",
+					"reference": "B104",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "386b3dcd-65a3-47c1-979e-5ec490e86d5c",
+					"type": "modifier",
+					"name": "Incendiary",
+					"reference": "B104",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "5cc9e810-8fa6-4a8a-86f1-6ad241a69818",
+					"type": "modifier",
+					"name": "Blockable",
+					"reference": "PU8:12",
+					"cost": -5
+				},
+				{
+					"id": "12b12e24-bda0-4e98-b289-584a1614a068",
+					"type": "modifier",
+					"name": "Cosmic",
+					"reference": "P26",
+					"notes": "Power cannot be Negated",
+					"cost": 50
+				},
+				{
+					"id": "ed872fa7-d15d-4f1d-8d7b-204ac46df6a9",
+					"type": "modifier",
+					"name": "Double Knockback (dkb)",
+					"reference": "B104",
+					"cost": 20
+				},
+				{
+					"id": "13686015-41e3-4593-8922-e24a590ad923",
+					"type": "modifier",
+					"name": "2x Increased Range",
+					"reference": "B106",
+					"cost": 10
+				},
+				{
+					"id": "85cd9bf9-21a0-4a2c-971c-120b06264139",
+					"type": "modifier",
+					"name": "2x Increased 1/2 D Range",
+					"reference": "B106",
+					"cost": 5
+				},
+				{
+					"id": "e4c9c2ca-601f-461d-8039-64d7f06f9723",
+					"type": "modifier",
+					"name": "Jet",
+					"reference": "B106,P103"
+				}
+			],
+			"levels": 1,
+			"points_per_level": 5,
+			"weapons": [
+				{
+					"id": "b13180e8-8656-4db9-bdaa-58fd6d677e66",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr",
+						"base": "1d"
+					},
+					"accuracy": "3",
+					"range": "20",
+					"rate_of_fire": "1",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Beam"
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d cr"
+					}
+				}
+			],
+			"can_level": true,
+			"calc": {
+				"points": 6
+			}
+		},
+		{
+			"id": "f83e3b6a-b595-44a7-ab4e-0cc8cceae194",
+			"type": "trait",
+			"name": "Animal Control",
+			"reference": "B68,P61,PSI15",
+			"tags": [
+				"Animal"
+			],
+			"modifiers": [
+				{
+					"id": "fcc7cc29-eb07-49dc-b655-45aa4e45b691",
+					"type": "modifier",
+					"name": "Accessibility",
+					"reference": "B110,P99",
+					"notes": "Animals Only",
+					"cost": -25
+				},
+				{
+					"id": "42962b87-a3da-43c4-9fc0-39275ab8916c",
+					"type": "modifier",
+					"name": "Conditioning",
+					"reference": "B69",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "94fc2ca5-8936-44f4-a6cc-ecbb2c9f112b",
+					"type": "modifier",
+					"name": "No Memory",
+					"reference": "B69",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "62e4e382-c445-4b83-94eb-5b9b1e304902",
+					"type": "modifier",
+					"name": "Conditioning Only",
+					"reference": "B69",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "7cba0279-e699-4ef8-b006-4865e2a44e88",
+					"type": "modifier",
+					"name": "Puppet",
+					"reference": "B69",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "8188d7f8-0005-4e64-af28-b1585182864f",
+					"type": "modifier",
+					"name": "Independent",
+					"reference": "P61",
+					"cost": 70,
+					"disabled": true
+				},
+				{
+					"id": "2f103a1c-ec3b-4a23-910c-15f374eea24f",
+					"type": "modifier",
+					"name": "Emotion Control",
+					"reference": "P61",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "91b1efac-5d7a-47b3-ba9e-fb9c93ad52a6",
+					"type": "modifier",
+					"name": "One Emotion Only",
+					"reference": "H17",
+					"cost": -80,
+					"disabled": true
+				},
+				{
+					"id": "d0c7e4af-b025-4c43-b780-cb733ea468f9",
+					"type": "modifier",
+					"name": "Suggestion",
+					"reference": "P61",
+					"cost": -40
+				},
+				{
+					"id": "e531a4f0-a091-4c7e-9c42-6ec89de317aa",
+					"type": "modifier",
+					"name": "Rationalization",
+					"reference": "PSI15",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "60f687b0-79bd-4217-97b7-0e618ace7dec",
+					"type": "modifier",
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"notes": "1 hour",
+					"cost": 80,
+					"disabled": true
+				},
+				{
+					"id": "30167781-f206-45ae-a138-d06d9bfdac35",
+					"type": "modifier",
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"notes": "1 hour",
+					"cost": 40,
+					"disabled": true
+				},
+				{
+					"id": "9d9d9bd5-7bb8-4d67-ae52-e992dedd2e7f",
+					"type": "modifier",
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"notes": "10 minutes",
+					"cost": 110,
+					"disabled": true
+				},
+				{
+					"id": "5cd58b61-4176-49e3-a2af-d7305651adad",
+					"type": "modifier",
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"notes": "10 minutes",
+					"cost": 70,
+					"disabled": true
+				},
+				{
+					"id": "483d7784-edd7-46dc-8782-e88f326fcccb",
+					"type": "modifier",
+					"name": "Slow and Sure",
+					"reference": "PSI15",
+					"notes": "10 seconds",
+					"cost": 155,
+					"disabled": true
+				},
+				{
+					"id": "688f28d3-ce7b-4db2-99d8-b301b1e25c99",
+					"type": "modifier",
+					"name": "Slow and Sure Only",
+					"reference": "PSI15",
+					"notes": "10 seconds",
+					"cost": 115,
+					"disabled": true
+				},
+				{
+					"id": "3efbb25f-6854-4fcb-926c-0b5ec0b09d60",
+					"type": "modifier",
+					"name": "Mind Tricks",
+					"reference": "PSI15",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "b09c3d81-b819-4af6-a397-11771524efe3",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15
+				}
+			],
+			"base_points": 50,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "a337694f-5160-4f27-8f29-74cec3bdf1e7",
+			"type": "trait",
+			"name": "Detect Magic",
+			"reference": "B48,P47,PSI14",
+			"tags": [
+				"Knowledge"
+			],
+			"modifiers": [
+				{
+					"id": "60b71753-e781-483e-aaed-306417206ccf",
+					"type": "modifier",
+					"name": "@Rare Substance/Condition@",
+					"reference": "B48",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "4a9894b2-d3c8-4ae5-96a5-0d1f74051590",
+					"type": "modifier",
+					"name": "Magic",
+					"reference": "B48",
+					"cost": 10,
+					"cost_type": "points"
+				},
+				{
+					"id": "de19c244-f725-4491-a3ed-5b9b09d5d0f4",
+					"type": "modifier",
+					"name": "@Common Substance/Condition@",
+					"reference": "B48",
+					"cost": 20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "fcd07e0a-c328-4c7c-8a6f-2ac1dd92f5de",
+					"type": "modifier",
+					"name": "@Very Common Substance/Condition@",
+					"reference": "B48",
+					"cost": 30,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "64352b79-d299-410e-b363-ff6658516cb5",
+					"type": "modifier",
+					"name": "Precise",
+					"reference": "B48",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "9467dba5-9922-4705-a594-270656ff40e6",
+					"type": "modifier",
+					"name": "Signal Detection",
+					"reference": "B48",
+					"disabled": true
+				},
+				{
+					"id": "0fbf0474-0c96-4b4f-ae40-6e1ca088d6c3",
+					"type": "modifier",
+					"name": "Vague",
+					"reference": "B48",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "42b1310a-0243-4d6f-b246-e6ce8a4f9907",
+					"type": "modifier",
+					"name": "Analyzing",
+					"reference": "P47",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "72e6a01c-845c-43c4-b44d-a5eab5e18433",
+					"type": "modifier",
+					"name": "Lock-On",
+					"reference": "PSI14",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "006e0217-13f4-4867-bd92-ea1345e75182",
+					"type": "modifier",
+					"name": "Precise, Nontargeting",
+					"reference": "PSI14",
+					"cost": 90,
+					"disabled": true
+				},
+				{
+					"id": "13075e67-2cd1-4157-96b4-1658e72ee85b",
+					"type": "modifier",
+					"name": "Analysis Only",
+					"reference": "PSI14",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "5f1633d1-7d44-4523-a3a0-9438af35e0ac",
+					"type": "modifier",
+					"name": "Cannot Analyze",
+					"reference": "PSI14",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "6b63eac2-45b9-4431-8124-1f19b3472674",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15
+				},
+				{
+					"id": "34a667e8-c4c9-43e9-b4f8-8320fb9d8e92",
+					"type": "modifier",
+					"name": "Sense-Based (Touch or Vision based)",
+					"reference": "B115",
+					"cost": -15
+				}
+			],
+			"calc": {
+				"points": 7
+			}
+		},
+		{
+			"id": "200452af-2506-47b1-89d7-9fff9c9c2083",
+			"type": "trait",
+			"name": "No-Smell",
+			"reference": "B35,P39,PSI13",
+			"tags": [
+				"Air"
+			],
+			"modifiers": [
+				{
+					"id": "a69d4b16-1b12-47ee-85a9-e9f3c8d16ce4",
+					"type": "modifier",
+					"name": "HT",
+					"reference": "B102",
+					"cost": 20
+				},
+				{
+					"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
+							"type": "modifier",
+							"name": "DX Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to DX per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "de814092-1353-48e0-8849-405ad20219ce",
+							"type": "modifier",
+							"name": "HT Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to HT per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "03aeb89a-95d1-48c5-8020-586fe797fdc6",
+							"type": "modifier",
+							"name": "IQ Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to IQ per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "e4dea0ea-c86d-423b-8a0a-b3e1481171f3",
+							"type": "modifier",
+							"name": "ST Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to ST per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Attribute Penalties"
+				},
+				{
+					"id": "660043b1-1b1e-4942-b23a-b8fa25b2d637",
+					"type": "modifier",
+					"name": "Cancellation",
+					"reference": "PSI13",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "2fb0867d-ce8b-4b93-80c0-93984958cedf",
+					"type": "modifier",
+					"name": "Cumulative",
+					"reference": "B36",
+					"cost": 400,
+					"disabled": true
+				},
+				{
+					"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
+							"type": "modifier",
+							"name": "Agony",
+							"reference": "B428",
+							"notes": "Lose 1 FP per minute",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "0c56500c-f51f-42d5-aef9-48c8159bd14a",
+							"type": "modifier",
+							"name": "Choking",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "7be5192a-bb13-484d-a975-cc3a9a3c4583",
+							"type": "modifier",
+							"name": "Daze",
+							"reference": "B428",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "f44536cd-a8ac-4371-8838-2c8eaf4f1d19",
+							"type": "modifier",
+							"name": "Ecstasy",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "1c4994ac-ad21-423d-9349-27345244508e",
+							"type": "modifier",
+							"name": "Hallucination",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "76e23c90-0e9d-4875-804c-1020cf74cf2b",
+							"type": "modifier",
+							"name": "Paralysis",
+							"reference": "B429",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "66de56e6-a515-4308-b619-ff9b3e715d9c",
+							"type": "modifier",
+							"name": "Retching",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "3b310279-5f60-4839-af06-17d2c595f098",
+							"type": "modifier",
+							"name": "Seizure",
+							"reference": "B429",
+							"notes": "Lose 1d FP at the end of the seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "400f0258-0e95-4bf4-9b95-68f0fc7bdfca",
+							"type": "modifier",
+							"name": "Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "46158c59-7a07-40b8-ae7f-81b3792689e2",
+							"type": "modifier",
+							"name": "Unconsciousness",
+							"reference": "B429",
+							"cost": 200,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Incapacitation",
+					"reference": "B36"
+				},
+				{
+					"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
+							"type": "modifier",
+							"name": "Coughing",
+							"reference": "B428",
+							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "3981b459-1f22-4195-a5c7-4691ded548ba",
+							"type": "modifier",
+							"name": "Drunk",
+							"reference": "B428",
+							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "e31fafa7-bfcf-4167-836b-421e0df3f905",
+							"type": "modifier",
+							"name": "Euphoria",
+							"reference": "B428",
+							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "f677e6ef-8a76-44ce-acf9-eb76d134d185",
+							"type": "modifier",
+							"name": "Moderate Pain",
+							"reference": "B428",
+							"notes": "-2 to all DX, IQ, skill and self-control rolls",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "2110fad4-3e27-4ef7-bfa0-a61c4da83827",
+							"type": "modifier",
+							"name": "Nauseated",
+							"reference": "B428",
+							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "5cbc540d-faf3-46d3-9b6f-72da32ed69b7",
+							"type": "modifier",
+							"name": "Severe Pain",
+							"reference": "B428",
+							"notes": "-4 to all DX, IQ, skill and self-control rolls",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "92cb7753-a6d9-4ca6-a600-35c9714be11b",
+							"type": "modifier",
+							"name": "Terrible Pain",
+							"reference": "B428",
+							"notes": "-6 to all DX, IQ, skill and self-control rolls",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "a372b04a-e3aa-418b-a7a3-d49bf26403e6",
+							"type": "modifier",
+							"name": "Tipsy",
+							"reference": "B428",
+							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+							"cost": 10,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Irritations",
+					"reference": "B36"
+				},
+				{
+					"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
+							"type": "modifier",
+							"name": "Coma",
+							"reference": "B429",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "1019fc06-aae9-440f-b9a6-4650d974c910",
+							"type": "modifier",
+							"name": "Heart Attack",
+							"reference": "B429",
+							"cost": 300,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Mortal Conditions"
+				},
+				{
+					"id": "7c274539-82ce-4383-a5d0-e77489c389cc",
+					"type": "modifier",
+					"name": "Stunning",
+					"reference": "B36",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
+							"type": "modifier",
+							"name": "Gives No-Smell",
+							"reference": "B36",
+							"cost": 47,
+							"levels": 10
+						},
+						{
+							"id": "15c2556d-f943-4ec6-9968-d223f21ea263",
+							"type": "modifier",
+							"name": "Gives @Disadvantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "2a50ade7-439c-40a7-82c7-f602408d5647",
+							"type": "modifier",
+							"name": "Negates @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Traits"
+				},
+				{
+					"id": "6182b416-34b6-48ff-8587-b3ac92d77119",
+					"type": "modifier",
+					"name": "10x Duration",
+					"reference": "B105",
+					"cost": 40
+				},
+				{
+					"id": "3fbd8d56-2116-445d-be7c-7f1d71b52f88",
+					"type": "modifier",
+					"name": "Fixed Duration",
+					"reference": "PU4:14"
+				},
+				{
+					"id": "a7eeae28-0cb7-4a08-ab19-e0a3553cf1ce",
+					"type": "modifier",
+					"name": "10x Increased 1/2 D Range",
+					"reference": "B106",
+					"cost": 15
+				},
+				{
+					"id": "622b8c36-7b9f-4e31-bb19-a480679a506a",
+					"type": "modifier",
+					"name": "No Signature",
+					"reference": "B106,P103",
+					"cost": 20
+				},
+				{
+					"id": "01769986-f7e4-4f6a-a8e4-13d951510923",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15
+				}
+			],
+			"base_points": 10,
+			"weapons": [
+				{
+					"id": "9a417314-0aba-4d34-8fd1-bd20d33edfa6",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": ""
+					},
+					"range": "100",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Gaze"
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "(0)"
+					}
+				}
+			],
+			"calc": {
+				"points": 65
+			}
+		},
+		{
+			"id": "c4806d3d-0edd-448a-bebd-57056f69b0c4",
+			"type": "trait",
+			"name": "Repel Animals",
+			"reference": "B35,P39,PSI13",
+			"tags": [
+				"Animal"
+			],
+			"modifiers": [
+				{
+					"id": "f913cc41-fa3b-476c-aa4c-ebbe1339c7e3",
+					"type": "modifier",
+					"name": "Accessibility",
+					"reference": "B110,P99",
+					"notes": "Animals Only",
+					"cost": -25,
+					"affects": "base_only"
+				},
+				{
+					"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
+							"type": "modifier",
+							"name": "DX Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to DX per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "de814092-1353-48e0-8849-405ad20219ce",
+							"type": "modifier",
+							"name": "HT Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to HT per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "03aeb89a-95d1-48c5-8020-586fe797fdc6",
+							"type": "modifier",
+							"name": "IQ Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to IQ per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "e4dea0ea-c86d-423b-8a0a-b3e1481171f3",
+							"type": "modifier",
+							"name": "ST Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to ST per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"name": "Attribute Penalties"
+				},
+				{
+					"id": "660043b1-1b1e-4942-b23a-b8fa25b2d637",
+					"type": "modifier",
+					"name": "Cancellation",
+					"reference": "PSI13",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "2fb0867d-ce8b-4b93-80c0-93984958cedf",
+					"type": "modifier",
+					"name": "Cumulative",
+					"reference": "B36",
+					"cost": 400,
+					"disabled": true
+				},
+				{
+					"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
+							"type": "modifier",
+							"name": "Agony",
+							"reference": "B428",
+							"notes": "Lose 1 FP per minute",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "0c56500c-f51f-42d5-aef9-48c8159bd14a",
+							"type": "modifier",
+							"name": "Choking",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "7be5192a-bb13-484d-a975-cc3a9a3c4583",
+							"type": "modifier",
+							"name": "Daze",
+							"reference": "B428",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "f44536cd-a8ac-4371-8838-2c8eaf4f1d19",
+							"type": "modifier",
+							"name": "Ecstasy",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "1c4994ac-ad21-423d-9349-27345244508e",
+							"type": "modifier",
+							"name": "Hallucination",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "76e23c90-0e9d-4875-804c-1020cf74cf2b",
+							"type": "modifier",
+							"name": "Paralysis",
+							"reference": "B429",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "66de56e6-a515-4308-b619-ff9b3e715d9c",
+							"type": "modifier",
+							"name": "Retching",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "3b310279-5f60-4839-af06-17d2c595f098",
+							"type": "modifier",
+							"name": "Seizure",
+							"reference": "B429",
+							"notes": "Lose 1d FP at the end of the seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "400f0258-0e95-4bf4-9b95-68f0fc7bdfca",
+							"type": "modifier",
+							"name": "Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "46158c59-7a07-40b8-ae7f-81b3792689e2",
+							"type": "modifier",
+							"name": "Unconsciousness",
+							"reference": "B429",
+							"cost": 200,
+							"disabled": true
+						}
+					],
+					"name": "Incapacitation",
+					"reference": "B36"
+				},
+				{
+					"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
+							"type": "modifier",
+							"name": "Coughing",
+							"reference": "B428",
+							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "3981b459-1f22-4195-a5c7-4691ded548ba",
+							"type": "modifier",
+							"name": "Drunk",
+							"reference": "B428",
+							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "e31fafa7-bfcf-4167-836b-421e0df3f905",
+							"type": "modifier",
+							"name": "Euphoria",
+							"reference": "B428",
+							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "f677e6ef-8a76-44ce-acf9-eb76d134d185",
+							"type": "modifier",
+							"name": "Moderate Pain",
+							"reference": "B428",
+							"notes": "-2 to all DX, IQ, skill and self-control rolls",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "2110fad4-3e27-4ef7-bfa0-a61c4da83827",
+							"type": "modifier",
+							"name": "Nauseated",
+							"reference": "B428",
+							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "5cbc540d-faf3-46d3-9b6f-72da32ed69b7",
+							"type": "modifier",
+							"name": "Severe Pain",
+							"reference": "B428",
+							"notes": "-4 to all DX, IQ, skill and self-control rolls",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "92cb7753-a6d9-4ca6-a600-35c9714be11b",
+							"type": "modifier",
+							"name": "Terrible Pain",
+							"reference": "B428",
+							"notes": "-6 to all DX, IQ, skill and self-control rolls",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "a372b04a-e3aa-418b-a7a3-d49bf26403e6",
+							"type": "modifier",
+							"name": "Tipsy",
+							"reference": "B428",
+							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+							"cost": 10,
+							"disabled": true
+						}
+					],
+					"name": "Irritations",
+					"reference": "B36"
+				},
+				{
+					"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
+							"type": "modifier",
+							"name": "Coma",
+							"reference": "B429",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "1019fc06-aae9-440f-b9a6-4650d974c910",
+							"type": "modifier",
+							"name": "Heart Attack",
+							"reference": "B429",
+							"cost": 300,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Mortal Conditions"
+				},
+				{
+					"id": "7c274539-82ce-4383-a5d0-e77489c389cc",
+					"type": "modifier",
+					"name": "Stunning",
+					"reference": "B36",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
+							"type": "modifier",
+							"name": "Gives @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "15c2556d-f943-4ec6-9968-d223f21ea263",
+							"type": "modifier",
+							"name": "Gives Dread",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 30,
+							"affects": "base_only"
+						},
+						{
+							"id": "2a50ade7-439c-40a7-82c7-f602408d5647",
+							"type": "modifier",
+							"name": "Negates @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Traits"
+				},
+				{
+					"id": "9e21ef63-5f36-4e22-97b9-64d074523853",
+					"type": "modifier",
+					"name": "Based on IQ",
+					"reference": "B102",
+					"cost": 20,
+					"affects": "base_only"
+				},
+				{
+					"id": "6bf80dcf-ab20-4635-a6b9-c16c5ed13aff",
+					"type": "modifier",
+					"name": "Area Effect",
+					"reference": "B102,P100",
+					"notes": "2^level radius",
+					"cost": 50,
+					"levels": 1,
+					"affects": "base_only"
+				},
+				{
+					"id": "1a94b2ac-3a4e-4eb8-9f7d-0a7475d8f0bc",
+					"type": "modifier",
+					"name": "100x Duration",
+					"reference": "B105",
+					"cost": 80,
+					"affects": "base_only"
+				},
+				{
+					"id": "882d9a6d-8844-49bb-beb7-4520f26db32a",
+					"type": "modifier",
+					"name": "Fixed Duration",
+					"reference": "PU4:14",
+					"affects": "base_only"
+				},
+				{
+					"id": "fe7fb7ab-13fd-4b69-bea6-c2f3f9551a8c",
+					"type": "modifier",
+					"name": "Malediction",
+					"reference": "B106,P103",
+					"notes": "Use SSRT range penalties",
+					"cost": 150,
+					"affects": "base_only"
+				},
+				{
+					"id": "f36267d1-9b61-4820-8fb1-9c3f2006d04c",
+					"type": "modifier",
+					"name": "No Signature",
+					"reference": "B106,P103",
+					"cost": 20,
+					"affects": "base_only"
+				},
+				{
+					"id": "b5ecbc1b-46ea-4c21-b48b-cd97ec76e070",
+					"type": "modifier",
+					"name": "Persistent",
+					"reference": "B107,P104",
+					"cost": 40,
+					"affects": "base_only"
+				},
+				{
+					"id": "d672a451-1939-4457-aef0-a8214d937929",
+					"type": "modifier",
+					"name": "Selective Area",
+					"reference": "B108,P105",
+					"cost": 20,
+					"affects": "base_only"
+				},
+				{
+					"id": "ad6872fe-461a-4ddc-a1fd-0e9196b26c80",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15,
+					"affects": "base_only"
+				}
+			],
+			"base_points": 9,
+			"levels": 1,
+			"points_per_level": 5,
+			"round_down": true,
+			"can_level": true,
+			"calc": {
+				"points": 47
+			}
+		},
+		{
+			"id": "f87b36b3-8386-4fba-af35-7d72b6619b9e",
+			"type": "trait",
+			"name": "Haircut",
+			"reference": "B92,P82,PSI17",
+			"tags": [
+				"Body Control"
+			],
+			"modifiers": [
+				{
+					"id": "6d281c1f-ca56-43dd-9734-591b48f08744",
+					"type": "modifier",
+					"name": "Magnetic",
+					"reference": "B92",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "97474c63-06d8-4717-b179-2bd107758824",
+					"type": "modifier",
+					"name": "Visible",
+					"reference": "B92",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "11a7bba7-baf8-4835-a67d-46c392316fb5",
+					"type": "modifier",
+					"name": "Super-Effort",
+					"reference": "P83",
+					"cost": 400,
+					"disabled": true
+				},
+				{
+					"id": "e6805eca-433e-4408-9b51-13aace6a88b3",
+					"type": "modifier",
+					"name": "Animation",
+					"reference": "P83",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "a417a683-b402-4058-a78d-b434346e1822",
+					"type": "modifier",
+					"name": "Animation",
+					"reference": "P83",
+					"notes": "No Flight",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "39b817b4-ca56-497c-be33-cc73174bf2f4",
+					"type": "modifier",
+					"name": "Attraction",
+					"reference": "P83",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "0ae6636c-b2e0-4f23-9feb-1b5b1370c92b",
+					"type": "modifier",
+					"name": "Repulsion",
+					"reference": "P83",
+					"cost": -60,
+					"disabled": true
+				},
+				{
+					"id": "e756748b-56eb-47ce-8e52-eb0481a9fd4a",
+					"type": "modifier",
+					"name": "Attraction/Repulsion",
+					"reference": "P83",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "c5a8559a-bbc3-4400-a536-011c46901f60",
+					"type": "modifier",
+					"name": "Lift Only",
+					"reference": "P83",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "ab83527b-20aa-4225-b1fa-47309e2db47b",
+					"type": "modifier",
+					"name": "Move Only",
+					"reference": "P83",
+					"cost": -40,
+					"disabled": true
+				},
+				{
+					"id": "50e4ac0b-fc5f-4a0c-83ec-c80d4d214201",
+					"type": "modifier",
+					"name": "One Task",
+					"notes": "Cutting Hair",
+					"cost": -60
+				},
+				{
+					"id": "d3d87312-6f52-4ecf-b064-55a68cdd2715",
+					"type": "modifier",
+					"name": "Reduced Time",
+					"reference": "B108",
+					"cost": 20,
+					"levels": 10
+				},
+				{
+					"id": "254bf84d-9a87-41ed-84ab-56b8c0da8ab3",
+					"type": "modifier",
+					"name": "Animate Life-forms",
+					"reference": "SU28",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "1b43e53d-8a27-482a-90c6-12f2136e3a49",
+					"type": "modifier",
+					"name": "Animate Life-forms",
+					"reference": "SU28",
+					"notes": "Partial",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "bb3d931c-8313-4cd1-a088-13152b251365",
+					"type": "modifier",
+					"name": "Super-Damage",
+					"reference": "SU29",
+					"cost": 900,
+					"disabled": true
+				},
+				{
+					"id": "0876d021-77e9-4f59-8b92-143d8ba17570",
+					"type": "modifier",
+					"name": "Cannot Affect Self",
+					"reference": "PSI17",
+					"cost": -20,
+					"disabled": true
+				},
+				{
+					"id": "98183659-66a0-4aea-a58c-95e748329343",
+					"type": "modifier",
+					"name": "Cannot Punch",
+					"reference": "PSI17",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "34ca2d7f-6ce0-4dcd-aa87-de6f31199832",
+					"type": "modifier",
+					"name": "Enveloping",
+					"reference": "MATG28",
+					"cost": 60,
+					"disabled": true
+				},
+				{
+					"id": "62805152-63f8-48c1-a84e-2e58953bf6c2",
+					"type": "modifier",
+					"name": "Grappling Only",
+					"reference": "MATG28",
+					"cost": -30,
+					"disabled": true
+				},
+				{
+					"id": "8b273afc-e46a-446f-aa8f-506575678a8a",
+					"type": "modifier",
+					"name": "Restraint Only",
+					"reference": "MATG28",
+					"cost": -45,
+					"disabled": true
+				},
+				{
+					"id": "3a54f354-e7c7-4ea0-82c4-e8a0987c1344",
+					"type": "modifier",
+					"name": "Requires DX vs. HT Roll",
+					"reference": "PU8:17",
+					"cost": -10
+				},
+				{
+					"id": "f2f691a3-5b27-4256-b5f0-88ba3febda08",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15
+				}
+			],
+			"base_points": 5,
+			"weapons": [
+				{
+					"id": "a7a5c0b3-4103-4dfe-a2aa-19e3ac7bda18",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr"
+					},
+					"range": "10",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Professional Skill",
+							"specialization": "Barber"
+						}
+					],
+					"calc": {
+						"damage": "cr"
+					}
+				}
+			],
+			"calc": {
+				"points": 11
+			}
+		},
+		{
+			"id": "dbb7165e-faae-46a5-8d11-d1a37643de3c",
+			"type": "trait",
+			"name": "Tanglefoot",
+			"reference": "B35,P39,PSI13",
+			"tags": [
+				"Body Control"
+			],
+			"modifiers": [
+				{
+					"id": "8a3b02d0-22ea-41c7-be25-9121c05c3ca5",
+					"type": "modifier",
+					"name": "Accessibility",
+					"reference": "B110,P99",
+					"notes": "Legs and similar supportive body parts only",
+					"cost": -20
+				},
+				{
+					"id": "ee06d344-abe6-43c3-837f-0b087812c116",
+					"type": "modifier",
+					"name": "Based on DX",
+					"reference": "B102",
+					"cost": 20
+				},
+				{
+					"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
+							"type": "modifier",
+							"name": "DX Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to DX per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "de814092-1353-48e0-8849-405ad20219ce",
+							"type": "modifier",
+							"name": "HT Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to HT per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "03aeb89a-95d1-48c5-8020-586fe797fdc6",
+							"type": "modifier",
+							"name": "IQ Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to IQ per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "e4dea0ea-c86d-423b-8a0a-b3e1481171f3",
+							"type": "modifier",
+							"name": "ST Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to ST per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"name": "Attribute Penalties"
+				},
+				{
+					"id": "660043b1-1b1e-4942-b23a-b8fa25b2d637",
+					"type": "modifier",
+					"name": "Cancellation",
+					"reference": "PSI13",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "2fb0867d-ce8b-4b93-80c0-93984958cedf",
+					"type": "modifier",
+					"name": "Cumulative",
+					"reference": "B36",
+					"cost": 400,
+					"disabled": true
+				},
+				{
+					"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
+							"type": "modifier",
+							"name": "Agony",
+							"reference": "B428",
+							"notes": "Lose 1 FP per minute",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "0c56500c-f51f-42d5-aef9-48c8159bd14a",
+							"type": "modifier",
+							"name": "Choking",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "7be5192a-bb13-484d-a975-cc3a9a3c4583",
+							"type": "modifier",
+							"name": "Daze",
+							"reference": "B428",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "f44536cd-a8ac-4371-8838-2c8eaf4f1d19",
+							"type": "modifier",
+							"name": "Ecstasy",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "1c4994ac-ad21-423d-9349-27345244508e",
+							"type": "modifier",
+							"name": "Hallucination",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "76e23c90-0e9d-4875-804c-1020cf74cf2b",
+							"type": "modifier",
+							"name": "Paralysis",
+							"reference": "B429",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "66de56e6-a515-4308-b619-ff9b3e715d9c",
+							"type": "modifier",
+							"name": "Retching",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "3b310279-5f60-4839-af06-17d2c595f098",
+							"type": "modifier",
+							"name": "Seizure",
+							"reference": "B429",
+							"cost": 100
+						},
+						{
+							"id": "400f0258-0e95-4bf4-9b95-68f0fc7bdfca",
+							"type": "modifier",
+							"name": "Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "46158c59-7a07-40b8-ae7f-81b3792689e2",
+							"type": "modifier",
+							"name": "Unconsciousness",
+							"reference": "B429",
+							"cost": 200,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Incapacitation",
+					"reference": "B36"
+				},
+				{
+					"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
+							"type": "modifier",
+							"name": "Coughing",
+							"reference": "B428",
+							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "3981b459-1f22-4195-a5c7-4691ded548ba",
+							"type": "modifier",
+							"name": "Drunk",
+							"reference": "B428",
+							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "e31fafa7-bfcf-4167-836b-421e0df3f905",
+							"type": "modifier",
+							"name": "Euphoria",
+							"reference": "B428",
+							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "f677e6ef-8a76-44ce-acf9-eb76d134d185",
+							"type": "modifier",
+							"name": "Moderate Pain",
+							"reference": "B428",
+							"notes": "-2 to all DX, IQ, skill and self-control rolls",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "2110fad4-3e27-4ef7-bfa0-a61c4da83827",
+							"type": "modifier",
+							"name": "Nauseated",
+							"reference": "B428",
+							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "5cbc540d-faf3-46d3-9b6f-72da32ed69b7",
+							"type": "modifier",
+							"name": "Severe Pain",
+							"reference": "B428",
+							"notes": "-4 to all DX, IQ, skill and self-control rolls",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "92cb7753-a6d9-4ca6-a600-35c9714be11b",
+							"type": "modifier",
+							"name": "Terrible Pain",
+							"reference": "B428",
+							"notes": "-6 to all DX, IQ, skill and self-control rolls",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "a372b04a-e3aa-418b-a7a3-d49bf26403e6",
+							"type": "modifier",
+							"name": "Tipsy",
+							"reference": "B428",
+							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+							"cost": 10,
+							"disabled": true
+						}
+					],
+					"name": "Irritations",
+					"reference": "B36"
+				},
+				{
+					"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
+							"type": "modifier",
+							"name": "Coma",
+							"reference": "B429",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "1019fc06-aae9-440f-b9a6-4650d974c910",
+							"type": "modifier",
+							"name": "Heart Attack",
+							"reference": "B429",
+							"cost": 300,
+							"disabled": true
+						}
+					],
+					"name": "Mortal Conditions"
+				},
+				{
+					"id": "7c274539-82ce-4383-a5d0-e77489c389cc",
+					"type": "modifier",
+					"name": "Stunning",
+					"reference": "B36",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
+							"type": "modifier",
+							"name": "Gives @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "15c2556d-f943-4ec6-9968-d223f21ea263",
+							"type": "modifier",
+							"name": "Gives @Disadvantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "2a50ade7-439c-40a7-82c7-f602408d5647",
+							"type": "modifier",
+							"name": "Negates @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"name": "Traits"
+				},
+				{
+					"id": "57140dde-ab8e-4d5f-87fe-8179e235a266",
+					"type": "modifier",
+					"name": "Fixed Duration",
+					"reference": "PU4:14"
+				},
+				{
+					"id": "3d29f5d3-96aa-413b-b675-9c287095962a",
+					"type": "modifier",
+					"name": "Malediction",
+					"reference": "B106,P103",
+					"notes": "Use SSRT range penalties",
+					"cost": 150
+				},
+				{
+					"id": "6c4e5a87-e9b7-432f-b887-eaa79309935e",
+					"type": "modifier",
+					"name": "No fatigue loss from Seizure",
+					"cost": -20
+				},
+				{
+					"id": "d0c1b04c-cb4e-446a-84ce-be44ec044990",
+					"type": "modifier",
+					"name": "No Signature",
+					"reference": "B106,P103",
+					"cost": 20
+				},
+				{
+					"id": "ec883afa-4d66-4960-a2ce-834194948065",
+					"type": "modifier",
+					"name": "Reduced Duration, 1/180",
+					"reference": "PU8:16",
+					"cost": -40
+				},
+				{
+					"id": "5f0a38ec-7600-4a2d-83b3-517f5cc58a07",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15
+				}
+			],
+			"levels": 1,
+			"points_per_level": 10,
+			"can_level": true,
+			"calc": {
+				"points": 30
+			}
+		},
+		{
+			"id": "113fdae8-bd26-4586-baff-ca5f5f75523d",
+			"type": "trait",
+			"name": "Sense Life",
+			"reference": "B48,P47,PSI14",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"modifiers": [
+				{
+					"id": "60b71753-e781-483e-aaed-306417206ccf",
+					"type": "modifier",
+					"name": "@Rare Substance/Condition@",
+					"reference": "B48",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "4a9894b2-d3c8-4ae5-96a5-0d1f74051590",
+					"type": "modifier",
+					"name": "@Occasional Substance/Condition@",
+					"reference": "B48",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "de19c244-f725-4491-a3ed-5b9b09d5d0f4",
+					"type": "modifier",
+					"name": "@Common Substance/Condition@",
+					"reference": "B48",
+					"cost": 20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "fcd07e0a-c328-4c7c-8a6f-2ac1dd92f5de",
+					"type": "modifier",
+					"name": "Life",
+					"reference": "B48",
+					"cost": 30,
+					"cost_type": "points"
+				},
+				{
+					"id": "64352b79-d299-410e-b363-ff6658516cb5",
+					"type": "modifier",
+					"name": "Precise",
+					"reference": "B48",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "9467dba5-9922-4705-a594-270656ff40e6",
+					"type": "modifier",
+					"name": "Signal Detection",
+					"reference": "B48",
+					"disabled": true
+				},
+				{
+					"id": "0fbf0474-0c96-4b4f-ae40-6e1ca088d6c3",
+					"type": "modifier",
+					"name": "Vague",
+					"reference": "B48",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "42b1310a-0243-4d6f-b246-e6ce8a4f9907",
+					"type": "modifier",
+					"name": "Analyzing",
+					"reference": "P47",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "72e6a01c-845c-43c4-b44d-a5eab5e18433",
+					"type": "modifier",
+					"name": "Lock-On",
+					"reference": "PSI14",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "006e0217-13f4-4867-bd92-ea1345e75182",
+					"type": "modifier",
+					"name": "Precise, Nontargeting",
+					"reference": "PSI14",
+					"cost": 90,
+					"disabled": true
+				},
+				{
+					"id": "13075e67-2cd1-4157-96b4-1658e72ee85b",
+					"type": "modifier",
+					"name": "Analysis Only",
+					"reference": "PSI14",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "5f1633d1-7d44-4523-a3a0-9438af35e0ac",
+					"type": "modifier",
+					"name": "Cannot Analyze",
+					"reference": "PSI14",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "58b37452-c878-4634-af53-2cd626f5d616",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15
+				}
+			],
+			"calc": {
+				"points": 26
+			}
+		},
+		{
+			"id": "66cd98a6-275d-4ae1-a503-1de9d6cab7c9",
+			"type": "trait",
+			"name": "Improved Sense Life",
+			"reference": "B48,P47,PSI14",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"modifiers": [
+				{
+					"id": "60b71753-e781-483e-aaed-306417206ccf",
+					"type": "modifier",
+					"name": "@Rare Substance/Condition@",
+					"reference": "B48",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "4a9894b2-d3c8-4ae5-96a5-0d1f74051590",
+					"type": "modifier",
+					"name": "@Occasional Substance/Condition@",
+					"reference": "B48",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "de19c244-f725-4491-a3ed-5b9b09d5d0f4",
+					"type": "modifier",
+					"name": "@Common Substance/Condition@",
+					"reference": "B48",
+					"cost": 20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "fcd07e0a-c328-4c7c-8a6f-2ac1dd92f5de",
+					"type": "modifier",
+					"name": "Life",
+					"reference": "B48",
+					"cost": 30,
+					"cost_type": "points"
+				},
+				{
+					"id": "64352b79-d299-410e-b363-ff6658516cb5",
+					"type": "modifier",
+					"name": "Precise",
+					"reference": "B48",
+					"cost": 100
+				},
+				{
+					"id": "9467dba5-9922-4705-a594-270656ff40e6",
+					"type": "modifier",
+					"name": "Signal Detection",
+					"reference": "B48",
+					"disabled": true
+				},
+				{
+					"id": "0fbf0474-0c96-4b4f-ae40-6e1ca088d6c3",
+					"type": "modifier",
+					"name": "Vague",
+					"reference": "B48",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "42b1310a-0243-4d6f-b246-e6ce8a4f9907",
+					"type": "modifier",
+					"name": "Analyzing",
+					"reference": "P47",
+					"cost": 100,
+					"disabled": true
+				},
+				{
+					"id": "72e6a01c-845c-43c4-b44d-a5eab5e18433",
+					"type": "modifier",
+					"name": "Lock-On",
+					"reference": "PSI14",
+					"cost": 50,
+					"disabled": true
+				},
+				{
+					"id": "006e0217-13f4-4867-bd92-ea1345e75182",
+					"type": "modifier",
+					"name": "Precise, Nontargeting",
+					"reference": "PSI14",
+					"cost": 90,
+					"disabled": true
+				},
+				{
+					"id": "13075e67-2cd1-4157-96b4-1658e72ee85b",
+					"type": "modifier",
+					"name": "Analysis Only",
+					"reference": "PSI14",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "5f1633d1-7d44-4523-a3a0-9438af35e0ac",
+					"type": "modifier",
+					"name": "Cannot Analyze",
+					"reference": "PSI14",
+					"cost": -10,
+					"disabled": true
+				},
+				{
+					"id": "58b37452-c878-4634-af53-2cd626f5d616",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15
+				}
+			],
+			"calc": {
+				"points": 56
+			}
+		},
+		{
+			"id": "81b3ade4-1dfb-4af2-bfdc-da3cbaab0267",
+			"type": "trait",
+			"name": "Gift of Tongues",
+			"reference": "B35,P39,PSI13",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"modifiers": [
+				{
+					"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
+							"type": "modifier",
+							"name": "DX Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to DX per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "de814092-1353-48e0-8849-405ad20219ce",
+							"type": "modifier",
+							"name": "HT Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to HT per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "03aeb89a-95d1-48c5-8020-586fe797fdc6",
+							"type": "modifier",
+							"name": "IQ Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to IQ per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "e4dea0ea-c86d-423b-8a0a-b3e1481171f3",
+							"type": "modifier",
+							"name": "ST Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to ST per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Attribute Penalties"
+				},
+				{
+					"id": "660043b1-1b1e-4942-b23a-b8fa25b2d637",
+					"type": "modifier",
+					"name": "Cancellation",
+					"reference": "PSI13",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "2fb0867d-ce8b-4b93-80c0-93984958cedf",
+					"type": "modifier",
+					"name": "Cumulative",
+					"reference": "B36",
+					"cost": 400,
+					"disabled": true
+				},
+				{
+					"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
+							"type": "modifier",
+							"name": "Agony",
+							"reference": "B428",
+							"notes": "Lose 1 FP per minute",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "0c56500c-f51f-42d5-aef9-48c8159bd14a",
+							"type": "modifier",
+							"name": "Choking",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "7be5192a-bb13-484d-a975-cc3a9a3c4583",
+							"type": "modifier",
+							"name": "Daze",
+							"reference": "B428",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "f44536cd-a8ac-4371-8838-2c8eaf4f1d19",
+							"type": "modifier",
+							"name": "Ecstasy",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "1c4994ac-ad21-423d-9349-27345244508e",
+							"type": "modifier",
+							"name": "Hallucination",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "76e23c90-0e9d-4875-804c-1020cf74cf2b",
+							"type": "modifier",
+							"name": "Paralysis",
+							"reference": "B429",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "66de56e6-a515-4308-b619-ff9b3e715d9c",
+							"type": "modifier",
+							"name": "Retching",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "3b310279-5f60-4839-af06-17d2c595f098",
+							"type": "modifier",
+							"name": "Seizure",
+							"reference": "B429",
+							"notes": "Lose 1d FP at the end of the seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "400f0258-0e95-4bf4-9b95-68f0fc7bdfca",
+							"type": "modifier",
+							"name": "Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "46158c59-7a07-40b8-ae7f-81b3792689e2",
+							"type": "modifier",
+							"name": "Unconsciousness",
+							"reference": "B429",
+							"cost": 200,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Incapacitation",
+					"reference": "B36"
+				},
+				{
+					"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
+							"type": "modifier",
+							"name": "Coughing",
+							"reference": "B428",
+							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "3981b459-1f22-4195-a5c7-4691ded548ba",
+							"type": "modifier",
+							"name": "Drunk",
+							"reference": "B428",
+							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "e31fafa7-bfcf-4167-836b-421e0df3f905",
+							"type": "modifier",
+							"name": "Euphoria",
+							"reference": "B428",
+							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "f677e6ef-8a76-44ce-acf9-eb76d134d185",
+							"type": "modifier",
+							"name": "Moderate Pain",
+							"reference": "B428",
+							"notes": "-2 to all DX, IQ, skill and self-control rolls",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "2110fad4-3e27-4ef7-bfa0-a61c4da83827",
+							"type": "modifier",
+							"name": "Nauseated",
+							"reference": "B428",
+							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "5cbc540d-faf3-46d3-9b6f-72da32ed69b7",
+							"type": "modifier",
+							"name": "Severe Pain",
+							"reference": "B428",
+							"notes": "-4 to all DX, IQ, skill and self-control rolls",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "92cb7753-a6d9-4ca6-a600-35c9714be11b",
+							"type": "modifier",
+							"name": "Terrible Pain",
+							"reference": "B428",
+							"notes": "-6 to all DX, IQ, skill and self-control rolls",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "a372b04a-e3aa-418b-a7a3-d49bf26403e6",
+							"type": "modifier",
+							"name": "Tipsy",
+							"reference": "B428",
+							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+							"cost": 10,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Irritations",
+					"reference": "B36"
+				},
+				{
+					"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
+							"type": "modifier",
+							"name": "Coma",
+							"reference": "B429",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "1019fc06-aae9-440f-b9a6-4650d974c910",
+							"type": "modifier",
+							"name": "Heart Attack",
+							"reference": "B429",
+							"cost": 300,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Mortal Conditions"
+				},
+				{
+					"id": "7c274539-82ce-4383-a5d0-e77489c389cc",
+					"type": "modifier",
+					"name": "Stunning",
+					"reference": "B36",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
+					"type": "modifier_container",
+					"children": [
+						{
+							"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
+							"type": "modifier",
+							"name": "Gives Gift of Tongues",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 10,
+							"levels": 12
+						},
+						{
+							"id": "15c2556d-f943-4ec6-9968-d223f21ea263",
+							"type": "modifier",
+							"name": "Gives @Disadvantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "2a50ade7-439c-40a7-82c7-f602408d5647",
+							"type": "modifier",
+							"name": "Negates @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"open": true,
+					"name": "Traits"
+				},
+				{
+					"id": "266ffa31-e1f4-4703-bb86-588c377e6e37",
+					"type": "modifier",
+					"name": "10x Duration",
+					"reference": "B105",
+					"cost": 40
+				},
+				{
+					"id": "69bf40c0-4cf4-4c4c-af84-007c3a2bc8e4",
+					"type": "modifier",
+					"name": "10x Increased 1/2 D Range",
+					"reference": "B106",
+					"cost": 15
+				},
+				{
+					"id": "53b50a64-f543-4114-a8c1-07580a90a1e3",
+					"type": "modifier",
+					"name": "No Signature",
+					"reference": "B106,P103",
+					"cost": 20
+				},
+				{
+					"id": "b4727627-23f0-4f7f-815b-478a5fb71ff5",
+					"type": "modifier",
+					"name": "Sorcery",
+					"reference": "TSOR13",
+					"notes": "Costs 1 FP, Magical",
+					"cost": -15
+				}
+			],
+			"base_points": 10,
+			"weapons": [
+				{
+					"id": "fbc66e1d-f9bb-4093-a7a3-053582f80684",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": ""
+					},
+					"range": "100",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Gaze"
+						}
+					],
+					"calc": {
+						"level": 12
+					}
+				}
+			],
+			"calc": {
+				"points": 28
+			}
+		}
+	]
+}

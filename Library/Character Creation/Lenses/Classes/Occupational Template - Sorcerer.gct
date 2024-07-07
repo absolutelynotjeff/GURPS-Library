@@ -4,101 +4,6 @@
 	"id": "460d4678-1d83-413f-8b2b-d776769cba81",
 	"traits": [
 		{
-			"id": "8df49151-468f-4446-a841-6678d6d129d7",
-			"type": "trait_container",
-			"children": [
-				{
-					"id": "3808b005-464e-42a6-bc20-b6570cd8d622",
-					"type": "trait",
-					"name": "Increased Dexterity",
-					"reference": "B15",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"modifiers": [
-						{
-							"id": "26b39aca-fc45-404a-9dbd-be0e55323b67",
-							"type": "modifier",
-							"name": "No Fine Manipulators",
-							"cost": -40,
-							"disabled": true
-						}
-					],
-					"levels": 1,
-					"points_per_level": 20,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "dx",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"id": "e9d182d8-3ff3-4278-a8f7-cacc421c9bb3",
-					"type": "trait",
-					"name": "Increased Intelligence",
-					"reference": "B15",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Mental"
-					],
-					"levels": 2,
-					"points_per_level": 20,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "iq",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 40
-					}
-				},
-				{
-					"id": "b9191a37-9067-451f-b878-50d9e806dc56",
-					"type": "trait",
-					"name": "Increased Health",
-					"reference": "B14",
-					"tags": [
-						"Advantage",
-						"Attribute",
-						"Physical"
-					],
-					"levels": 1,
-					"points_per_level": 10,
-					"features": [
-						{
-							"type": "attribute_bonus",
-							"attribute": "ht",
-							"amount": 1,
-							"per_level": true
-						}
-					],
-					"can_level": true,
-					"calc": {
-						"points": 10
-					}
-				}
-			],
-			"name": "Primary Attributes",
-			"container_type": "attributes",
-			"calc": {
-				"points": 70
-			}
-		},
-		{
 			"id": "415cbc68-a229-4af5-9158-a70d40028cc8",
 			"type": "trait_container",
 			"children": [
@@ -196,7 +101,6 @@
 							}
 						}
 					],
-					"open": true,
 					"name": "Secondary Advantages",
 					"template_picker": {
 						"type": "points",
@@ -210,7 +114,6 @@
 					}
 				}
 			],
-			"open": true,
 			"name": "Advantages",
 			"calc": {
 				"points": 26
