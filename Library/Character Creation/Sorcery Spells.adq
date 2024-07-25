@@ -217,6 +217,7 @@
 						"type": "cr",
 						"base": "1d"
 					},
+					"usage": "Jet",
 					"accuracy": "3",
 					"range": "20",
 					"rate_of_fire": "1",
@@ -918,10 +919,7 @@
 							"type": "dx",
 							"modifier": -4
 						}
-					],
-					"calc": {
-						"damage": "(0)"
-					}
+					]
 				}
 			],
 			"calc": {
@@ -2528,10 +2526,7 @@
 							"name": "Innate Attack",
 							"specialization": "Gaze"
 						}
-					],
-					"calc": {
-						"level": 12
-					}
+					]
 				}
 			],
 			"calc": {
