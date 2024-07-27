@@ -36,6 +36,961 @@
 			]
 		},
 		{
+			"id": "73cf72d4-6b4e-47a8-b56d-d912f78a5795",
+			"type": "skill",
+			"name": "Fehu",
+			"reference": "T170",
+			"notes": "Animal, Property, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d1b2254e-4cdb-47c9-81a5-eae4d8c8c839",
+			"type": "skill",
+			"name": "Uruz",
+			"reference": "T170",
+			"notes": "Strengthen, Repair, Make, 1 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ad94bd7a-2b63-4598-99e9-00501c8525d2",
+			"type": "skill",
+			"name": "Thurisaz",
+			"reference": "T170",
+			"notes": "Transform, Gateway, Tension, 3 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "489962b5-32a6-4077-a3dd-6732e715b1b6",
+			"type": "skill",
+			"name": "Ansuz",
+			"reference": "T170",
+			"notes": "Communicate, Insight, 1 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "57bb0b79-48fc-46b8-b4cc-c73ce58033f3",
+			"type": "skill",
+			"name": "Raidho",
+			"reference": "T170",
+			"notes": "Sense, Knowledge, Name, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ca38050f-0c5f-4743-9671-2c7a50e074bb",
+			"type": "skill",
+			"name": "Kenaz",
+			"reference": "T170",
+			"notes": "Fire, 4 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "f52726b1-3b6f-4107-a992-3107f8b6dd41",
+			"type": "skill",
+			"name": "Gebo",
+			"reference": "T170",
+			"notes": "Food, Offering, Gift, 1 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "4f802a01-c496-48b4-ab4e-4e43d9908a3b",
+			"type": "skill",
+			"name": "Wunjo",
+			"reference": "T170",
+			"notes": "Air, 3 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "793444b2-156e-4568-a675-4ac57a3d9097",
+			"type": "skill",
+			"name": "Hagalaz",
+			"reference": "T170",
+			"notes": "Weaken, Break, Harm, End, 1 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "759cf69a-588a-48be-9e6f-72d3df58789e",
+			"type": "skill",
+			"name": "Nauthiz",
+			"reference": "T170",
+			"notes": "Control, Bind, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "1d5a6ed8-bc80-4f88-a895-2e7de15b063b",
+			"type": "skill",
+			"name": "Isa",
+			"reference": "T170",
+			"notes": "Image, Deceit, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "8cc8a7b9-53fb-49c8-9f75-c15376589b07",
+			"type": "skill",
+			"name": "Jera",
+			"reference": "T170",
+			"notes": "Plant, 1 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "b1382f8c-b682-4d86-8087-845ccc3152fd",
+			"type": "skill",
+			"name": "Eihwaz",
+			"reference": "T170",
+			"notes": "Earth, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "6cb5bcbf-52dc-443c-8d46-5ba5a86e9640",
+			"type": "skill",
+			"name": "Pertho",
+			"reference": "T170",
+			"notes": "Mystery, Secrets, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "f66ac78f-915c-411a-a9e4-0c847a9d0aef",
+			"type": "skill",
+			"name": "Algiz",
+			"reference": "T170",
+			"notes": "Protect, Guard, 1 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "153ac9f1-d579-492e-b4c9-c98dc5a9a7bf",
+			"type": "skill",
+			"name": "Sowilo",
+			"reference": "T170",
+			"notes": "Spirit, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "1849103d-7842-4d95-94cb-ac2f43402ce3",
+			"type": "skill",
+			"name": "Tiwaz",
+			"reference": "T170",
+			"notes": "Mind, Rulership, 3 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "8fef9271-f955-46f0-8408-54e10d683626",
+			"type": "skill",
+			"name": "Berkano",
+			"reference": "T170",
+			"notes": "Create, Growth, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "21c406df-5468-4977-99ab-c4be358c9b61",
+			"type": "skill",
+			"name": "Ehwaz",
+			"reference": "T170",
+			"notes": "Move, Travel, Progress, 0 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "82857f51-84a7-48d7-bae5-35b178b9098f",
+			"type": "skill",
+			"name": "Mannaz",
+			"reference": "T170",
+			"notes": "Body, Human, Self, 3 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "fe0e34ef-63e4-41b6-93cd-35b6020ae11b",
+			"type": "skill",
+			"name": "Laguz",
+			"reference": "T170",
+			"notes": "Water, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ffd86f7a-778f-42d6-91a9-3ac2e9b6d005",
+			"type": "skill",
+			"name": "Ingwaz",
+			"reference": "T170",
+			"notes": "Heal, Fertility, 1 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a981319d-2200-406d-b9c8-9d8351fa335c",
+			"type": "skill",
+			"name": "Dagaz",
+			"reference": "T170",
+			"notes": "Light, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ef212f13-b4d2-478c-8076-d6e8028e0bdc",
+			"type": "skill",
+			"name": "Othala",
+			"reference": "T170",
+			"notes": "Sound, Story, 2 Energy",
+			"tags": [
+				"Rune Magic",
+				"Futhark Rune"
+			],
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq"
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Symbol Drawing"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Futhark"
+						}
+					}
+				]
+			}
+		},
+		{
 			"id": "cbe2046b-b857-4fdd-89d0-b3a2343b9c95",
 			"type": "skill_container",
 			"children": [
