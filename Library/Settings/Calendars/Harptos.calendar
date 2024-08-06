@@ -1,0 +1,115 @@
+{
+  "weekdays": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+	"08",
+	"09",
+	"10"
+  ],
+  "day_zero_weekday": 1,
+  "months": [
+    {
+      "name": "Hammer",
+      "days": 30
+    },
+    {
+      "name": "Midwinter",
+      "days": 1
+    },
+    {
+      "name": "Alturiak",
+      "days": 30
+    },
+    {
+      "name": "Tarsakh",
+      "days": 30
+    },
+    {
+      "name": "Greengrass",
+      "days": 1
+    },	
+    {
+      "name": "Mirtul",
+      "days": 30
+    },
+    {
+      "name": "Kythorn",
+      "days": 30
+    },
+    {
+      "name": "Flamerule",
+      "days": 30
+    },
+    {
+      "name": "Midsummer",
+      "days": 1
+    },	
+    {
+      "name": "Eleasis",
+      "days": 30
+    },
+    {
+      "name": "Eleint",
+      "days": 30
+    },
+    {
+      "name": "Highharvestide",
+      "days": 1
+    },	
+    {
+      "name": "Marpenoth",
+      "days": 30
+    },
+    {
+      "name": "Uktar",
+      "days": 30
+    },
+    {
+      "name": "Nightal",
+      "days": 30
+    }
+  ],
+  "seasons": [
+    {
+      "name": "Winter",
+      "start_month": 15,
+      "start_day": 20,
+      "end_month": 4,
+      "end_day": 19
+    },
+    {
+      "name": "Spring",
+      "start_month": 4,
+      "start_day": 19,
+      "end_month": 8,
+      "end_day": 20
+    },
+    {
+      "name": "Summer",
+      "start_month": 8,
+      "start_day": 20,
+      "end_month": 12,
+      "end_day": 21
+    },
+    {
+      "name": "Fall",
+      "start_month": 12,
+      "start_day": 21,
+      "end_month": 15,
+      "end_day": 20
+    }
+  ],
+  "era": "DR",
+  "previous_era": "DR",
+  "leap": {
+    "month": 9,
+    "every": 4,
+    "except": 100,
+    "unless": 400
+  }
+}

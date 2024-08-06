@@ -1,0 +1,101 @@
+{
+	"type": "ancestry",
+	"version": 4,
+	"name": "Hobgoblin",
+	"common_options": {
+		"height_formula": "floor(random_height($st))",
+		"weight_formula": "floor(random_weight($st))",
+		"age_formula": "roll(1d24+17)",
+		"hair_options": [
+			{
+				"weight": 14,
+				"value": "Black"
+			},
+			{
+				"weight": 8,
+				"value": "Dark Brown"
+			},
+			{
+				"weight": 5,
+				"value": "Dark Grey"
+			},
+			{
+				"weight": 3,
+				"value": "Orange"
+			},
+			{
+				"weight": 1,
+				"value": "Red"
+			}
+		],
+		"eye_options": [
+			{
+				"weight": 52,
+				"value": "Brown"
+			},
+			{
+				"weight": 18,
+				"value": "Red"
+			},
+			{
+				"weight": 10,
+				"value": "Amber"
+			},
+			{
+				"weight": 10,
+				"value": "Orange"
+			}
+		],
+		"skin_options": [
+			{
+				"weight": 3,
+				"value": "Orange"
+			},
+			{
+				"weight": 3,
+				"value": "Red"
+			},
+			{
+				"weight": 3,
+				"value": "Reddish Brown"
+			},
+			{
+				"weight": 3,
+				"value": "Brown"
+			}
+		],
+		"handedness_options": [
+			{
+				"weight": 4,
+				"value": "Left"
+			},
+			{
+				"weight": 6,
+				"value": "Right"
+			}
+		],
+		"name_generators": [
+			"Hobgoblin"
+		]
+	},
+	"gender_options": [
+		{
+			"weight": 1,
+			"value": {
+				"name": "Male",
+				"name_generators": [
+					"Hobgoblin"
+				]
+			}
+		},
+		{
+			"weight": 1,
+			"value": {
+				"name": "Female",
+				"name_generators": [
+					"Hobgoblin"
+				]
+			}
+		}
+	]
+}

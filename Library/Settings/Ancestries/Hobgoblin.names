@@ -1,0 +1,141 @@
+{
+ "type": "compound",
+  "no_lowered": false,
+  "no_first_to_upper": false,
+  "separator": "",
+  "compound": [
+    {
+      "type": "simple",
+      "no_lowered": false,
+      "no_first_to_upper": false,
+      "training_data": [
+        "",
+		"",
+		"",
+		"",
+		"",
+		"d",
+		"dr",
+		"g",
+		"gl",
+		"gr",
+		"k",
+		"kh",
+		"kl",
+		"kr",
+		"l",
+		"m",
+		"n",
+		"r",
+		"rh",
+		"sh",
+		"v",
+		"vr",
+		"z",
+		"zr"
+      ]
+    },
+    {
+      "type": "simple",
+      "no_lowered": false,
+      "no_first_to_upper": true,
+      "training_data": [
+        "a",
+		"o",
+		"a",
+		"o",
+		"e",
+		"u"
+      ]
+	},
+	{
+	  "type": "simple",
+	  "no_lowered": false,
+	  "no_first_to_upper": true,
+	  "training_data": [
+		"d",
+		"dr",
+		"g",
+		"gr",
+		"gn",
+		"k",
+		"kk",
+		"kr",
+		"kn",
+		"kv",
+		"ldr",
+		"lv",
+		"lz",
+		"lvr",
+		"nd",
+		"ndr",
+		"nk",
+		"r",
+		"rb",
+		"rd",
+		"rk",
+		"v",
+		"vr",
+		"vl",
+		"z",
+		"zr"
+	  ]
+	},
+	{
+	  "type": "simple",
+	  "no_lowered": false,
+	  "no_first_to_upper": true,
+	  "training_data": [
+		"e",
+		"e",
+		"a",
+		"o",
+		"i",
+		"u",
+		"e",
+		"a",
+		"o"
+	  ]
+	},
+	{
+	  "type": "simple",
+	  "no_lowered": false,
+	  "no_first_to_upper": true,
+	  "training_data": [
+		"d",
+		"l",
+		"n",
+		"r",
+		"v",
+		"z"
+	  ]
+	},
+	{
+	  "type": "simple",
+	  "no_lowered": false,
+	  "no_first_to_upper": true,
+	  "training_data": [
+		"a",
+		"e",
+		"o",
+		"u"
+	  ]
+	},
+	{
+	  "type": "simple",
+	  "no_lowered": false,
+	  "no_first_to_upper": true,
+	  "training_data": [
+		"c",
+		"d",
+		"g",
+		"k",
+		"l",
+		"n",
+		"r",
+		"rg",
+		"rz"
+	  ]
+	}
+	]
+}

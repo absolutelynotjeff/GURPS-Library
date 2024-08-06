@@ -1,0 +1,101 @@
+{
+	"type": "ancestry",
+	"version": 4,
+	"name": "Aarakocra",
+	"common_options": {
+		"height_formula": "floor(random_height($st) /3) *2.5",
+		"weight_formula": "floor(random_weight($st) /3) *2.5",
+		"age_formula": "roll(1d12+14)",
+		"hair_options": [
+			{
+				"weight": 14,
+				"value": "Bright Red"
+			},
+			{
+				"weight": 8,
+				"value": "Bright Yellow"
+			},
+			{
+				"weight": 5,
+				"value": "Bright Orange"
+			},
+			{
+				"weight": 3,
+				"value": "Brown"
+			},
+			{
+				"weight": 1,
+				"value": "Grey"
+			}
+		],
+		"eye_options": [
+			{
+				"weight": 52,
+				"value": "Black"
+			}
+		],
+		"skin_options": [
+			{
+				"weight": 3,
+				"value": "Dark Brown"
+			},
+			{
+				"weight": 3,
+				"value": "Brown"
+			},
+			{
+				"weight": 3,
+				"value": "Olive"
+			},
+			{
+				"weight": 3,
+				"value": "Light Brown"
+			},
+			{
+				"weight": 3,
+				"value": "Tan"
+			},
+			{
+				"weight": 3,
+				"value": "Freckled"
+			},
+			{
+				"weight": 1,
+				"value": "Pale"
+			}
+		],
+		"handedness_options": [
+			{
+				"weight": 1,
+				"value": "Left"
+			},
+			{
+				"weight": 9,
+				"value": "Right"
+			}
+		],
+		"name_generators": [
+			"Aaracokra"
+		]
+	},
+	"gender_options": [
+		{
+			"weight": 1,
+			"value": {
+				"name": "Male",
+				"name_generators": [
+					"Aarakocra"
+				]
+			}
+		},
+		{
+			"weight": 1,
+			"value": {
+				"name": "Female",
+				"name_generators": [
+					"Aarakocra"
+				]
+			}
+		}
+	]
+}
