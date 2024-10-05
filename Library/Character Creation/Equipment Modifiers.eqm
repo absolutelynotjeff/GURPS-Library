@@ -1,0 +1,433 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "f-MFCBWOWr5ECICzE",
+			"name": "Alchemical Origin",
+			"reference": "MT17",
+			"cost_type": "to_final_base_cost",
+			"cost": "-0.05"
+		},
+		{
+			"id": "fJctj5_L8jQXqwpsg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fC6UtJEgWjslIlED4"
+			},
+			"name": "Cheap Quality",
+			"reference": "B274",
+			"notes": "+2 to break, -1 Acc if thrown",
+			"cost_type": "to_base_cost",
+			"cost": "-0.6 CF"
+		},
+		{
+			"id": "frbQb-LdghwD0fvRv",
+			"name": "Diguised",
+			"reference": "MT14",
+			"cost_type": "to_base_cost",
+			"cost_is_per_level": true,
+			"cost": "+0.2 CF",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "To discover its true nature",
+					"amount": -1,
+					"per_level": true
+				}
+			]
+		},
+		{
+			"id": "fDZlMPbwsttZ21NbQ",
+			"name": "Easy Repairs (10%)",
+			"reference": "MT14",
+			"cost_type": "to_base_cost",
+			"cost": "+1 CF"
+		},
+		{
+			"id": "fA6doRV9rfHmvdY84",
+			"name": "Easy Repairs (20%)",
+			"reference": "MT14",
+			"cost_type": "to_base_cost",
+			"cost": "+4 CF"
+		},
+		{
+			"id": "fgPhVvxHSFdo7a6jq",
+			"name": "Effortless 1",
+			"reference": "MT14",
+			"cost_type": "to_base_cost",
+			"cost": "+4 CF",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Operate, repair, or Modify",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "fZEEilXdsZA2LJzdE",
+			"name": "Limited Use",
+			"reference": "MT31",
+			"notes": "2-5x per day",
+			"cost_type": "to_final_cost",
+			"cost": "x0.4"
+		},
+		{
+			"id": "fpXhFjete0pOKYDdT",
+			"name": "Limited Use",
+			"reference": "MT31",
+			"notes": "6-9x per day",
+			"cost_type": "to_final_cost",
+			"cost": "x0.6"
+		},
+		{
+			"id": "fGyeFHFmobjK8iCJw",
+			"name": "Limited Use",
+			"reference": "MT31",
+			"notes": "10-14x per day",
+			"cost_type": "to_final_cost",
+			"cost": "x0.8"
+		},
+		{
+			"id": "fh5AvagWLam27V3PI",
+			"name": "Limited Use",
+			"reference": "MT31",
+			"notes": "1x per day",
+			"cost_type": "to_final_cost",
+			"cost": "x0.2"
+		},
+		{
+			"id": "fNPi3DnuVvPPoV-JV",
+			"name": "Effortless 2",
+			"reference": "MT14",
+			"cost_type": "to_base_cost",
+			"cost": "+19 CF",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Operate, repair, or Modify",
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "fe6KP8JuT_P8D7dGa",
+			"name": "Enchantment Origin",
+			"reference": "MT18",
+			"cost_type": "to_final_base_cost",
+			"cost": "-0.1"
+		},
+		{
+			"id": "faQJl7tJ-gcKgihA_",
+			"name": "Energy Hog",
+			"reference": "MT14",
+			"cost_type": "to_base_cost",
+			"cost_is_per_level": true,
+			"cost": "-0.2 CF"
+		},
+		{
+			"id": "fV7aHGgxhxYofAdNM",
+			"name": "Energy Saver",
+			"reference": "MT14",
+			"cost_type": "to_base_cost",
+			"cost_is_per_level": true,
+			"cost": "+0.2 CF"
+		},
+		{
+			"id": "fwRje8aERdzFKU4SM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fKVVvHu0-Mgu2jotm"
+			},
+			"name": "Fine Quality",
+			"reference": "B280",
+			"notes": "+1 to Acc; +1 to Malf",
+			"cost_type": "to_base_cost",
+			"cost": "+1 CF"
+		},
+		{
+			"id": "frTZHTOJOuwOAh4e2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fPmxE0ke6kchUC84A"
+			},
+			"name": "Fine Quality",
+			"reference": "B274",
+			"notes": "-1 to break; blades only",
+			"cost_type": "to_base_cost",
+			"cost": "+3 CF",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "this_weapon",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "f-vjvk-zAMUwoJfu4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "frPfYqmyQlcAaaVCf"
+			},
+			"name": "Fine Quality",
+			"reference": "B274",
+			"notes": "-1 to break; for non-blades that do cutting damage",
+			"cost_type": "to_base_cost",
+			"cost": "+9 CF",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "this_weapon",
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "fQoaWWiLi7skGF4eL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fs0ew9zuO-PNEGdHP"
+			},
+			"name": "Fine Quality",
+			"reference": "B274",
+			"notes": "-1 to break; for non-blades that do only crushing or impaling damage",
+			"cost_type": "to_base_cost",
+			"cost": "+2 CF"
+		},
+		{
+			"id": "f4Vucl_YcXtZmfLJI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fadxEN8ZvwqeZu9kB"
+			},
+			"name": "Fine Quality",
+			"reference": "B277",
+			"notes": "Increase 1/2D and Max range by 20%",
+			"cost_type": "to_base_cost",
+			"cost": "+3 CF"
+		},
+		{
+			"id": "f5vDXFWrJoAOg-4wf",
+			"name": "Finicky",
+			"reference": "MT15",
+			"cost_type": "to_base_cost",
+			"cost_is_per_level": true,
+			"cost": "-0.1 CF"
+		},
+		{
+			"id": "fLFc2qH2TonitTf14",
+			"name": "Hardened 1",
+			"reference": "MT15",
+			"cost_type": "to_base_cost",
+			"cost": "+0.3 CF",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Object HT rolls",
+					"amount": 3
+				}
+			]
+		},
+		{
+			"id": "fJ4ssRVD5FFkvpIG9",
+			"name": "Hardened 2",
+			"reference": "MT15",
+			"cost_type": "to_base_cost",
+			"cost": "+0.5 CF",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Object HT rolls",
+					"amount": 8
+				}
+			]
+		},
+		{
+			"id": "fgHuWk_J6pz6iSNbD",
+			"name": "Hardened 3",
+			"reference": "MT15",
+			"notes": "Cannot be disabled",
+			"cost_type": "to_base_cost",
+			"cost": "+1 CF"
+		},
+		{
+			"id": "ffIIHXdUAzabAfUsn",
+			"name": "Limited/Loyal",
+			"reference": "MT15",
+			"notes": "City",
+			"cost_type": "to_base_cost",
+			"cost": "-0.4 CF"
+		},
+		{
+			"id": "fyy0I0GoJRzS4SQR3",
+			"name": "Limited/Loyal",
+			"reference": "MT15",
+			"notes": "Family",
+			"cost_type": "to_base_cost",
+			"cost": "-0.6 CF"
+		},
+		{
+			"id": "f9A1Ouk3xS2tiu51n",
+			"name": "Limited/Loyal",
+			"reference": "MT15",
+			"notes": "Individual",
+			"cost_type": "to_base_cost",
+			"cost": "-0.8 CF"
+		},
+		{
+			"id": "fnUOjCyRGVMhKh6aU",
+			"name": "Limited/Loyal",
+			"reference": "MT15",
+			"notes": "Nation",
+			"cost_type": "to_base_cost",
+			"cost": "-0.2 CF"
+		},
+		{
+			"id": "fosJXoZ1GMOkpk7Fe",
+			"name": "Limited/Loyal",
+			"reference": "MT15",
+			"notes": "Transferrable",
+			"cost_type": "to_base_cost",
+			"cost": "+1 CF"
+		},
+		{
+			"id": "flklU0VZlXhiyMfvH",
+			"name": "Metamorphic",
+			"reference": "MT15",
+			"cost_type": "to_base_cost",
+			"cost_is_per_level": true,
+			"cost": "+0.1 CF"
+		},
+		{
+			"id": "fo34jMzzpAF47IfVF",
+			"name": "Redline-Resistant",
+			"reference": "MT15",
+			"cost_type": "to_base_cost",
+			"cost": "+2 CF"
+		},
+		{
+			"id": "f2usDhmcXoq119fTc",
+			"name": "Self-Powered",
+			"reference": "MT15",
+			"cost_type": "to_base_cost",
+			"cost": "+4 CF"
+		},
+		{
+			"id": "fT_NF24Imbo_FiNwX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fAYOLuyDMUPE0w1wn"
+			},
+			"name": "Silver",
+			"reference": "B275",
+			"notes": "+2 to break",
+			"cost_type": "to_base_cost",
+			"cost": "+19 CF"
+		},
+		{
+			"id": "f81OIQFZa5CpVMwux",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "f9vNV2i3wHTOEanvQ"
+			},
+			"name": "Silver-coated",
+			"reference": "B275",
+			"notes": "Reduced wounding multiplier to vulnerable targets: x2 becomes x1.5, x3 becomes x2, x4 becomes x3",
+			"cost_type": "to_base_cost",
+			"cost": "+2 CF"
+		},
+		{
+			"id": "f8hTnHKQlSBxu0oKR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fR8PB3nwBv0fBiES-"
+			},
+			"name": "Spike",
+			"reference": "B273, DFA107",
+			"tags": [
+				"Shields"
+			],
+			"cost": "+20",
+			"weight": "+5 lb",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "this_weapon",
+					"name": {
+						"compare": "is"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "fKdUnmUPN6ri4uEHJ",
+			"name": "Summonable",
+			"reference": "MT15",
+			"notes": "Flying",
+			"cost_type": "to_base_cost",
+			"cost": "+19 CF"
+		},
+		{
+			"id": "fjh6fyX_5QginYN_1",
+			"name": "Summonable",
+			"reference": "MT15",
+			"notes": "Ground",
+			"cost_type": "to_base_cost",
+			"cost": "+9 CF"
+		},
+		{
+			"id": "fxoQDnEKcmn5WFADk",
+			"name": "Uncomplicated",
+			"reference": "MT15",
+			"cost_type": "to_base_cost",
+			"cost": "+1 CF"
+		},
+		{
+			"id": "ftXSZkzExvD0-zpQM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fjaaWYzkaqarrWCR2"
+			},
+			"name": "Very Fine Quality",
+			"reference": "B280",
+			"notes": "+2 to Acc; +1 to Malf",
+			"cost_type": "to_base_cost",
+			"cost": "+4 CF"
+		},
+		{
+			"id": "fz43xaMRQLvkATc70",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment Modifiers.eqm",
+				"id": "fCbMFiXY3hm6Nojd-"
+			},
+			"name": "Very Fine Quality",
+			"reference": "B274",
+			"notes": "-2 to break; for fencing weapons and swords only",
+			"cost_type": "to_base_cost",
+			"cost": "+19 CF",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "this_weapon",
+					"amount": 2
+				}
+			]
+		}
+	]
+}
