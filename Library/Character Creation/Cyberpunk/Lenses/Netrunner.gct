@@ -1,0 +1,3539 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "6e205516-cae9-49b4-b61b-f6cabb00b925",
+	"traits": [
+		{
+			"id": "0ce5cb0b-6b3e-4e69-a146-63f928755f21",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "6ced3b25-ed81-4d65-9f98-57477f1bd5e1",
+					"type": "trait",
+					"name": "Alternate Identity",
+					"reference": "B39",
+					"notes": "@Identity@",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "1bf094b0-5554-4090-bc9d-16e47afb8475",
+							"type": "modifier",
+							"name": "Illegal",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "2e8beef0-1b70-4054-b514-e75a810e59b7",
+					"type": "trait",
+					"name": "Arm DX",
+					"reference": "B40",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "40e4e9d1-3dcf-4caa-8881-f30f423a50b1",
+							"type": "modifier",
+							"name": "Only one arm",
+							"reference": "B40",
+							"notes": "@Which@",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "659e3180-486a-459f-b9f6-2357556370a8",
+							"type": "modifier",
+							"name": "No fine manipulators",
+							"reference": "B145",
+							"cost": -40,
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 16,
+					"can_level": true,
+					"calc": {
+						"points": 16
+					}
+				},
+				{
+					"id": "bc243901-2d89-4763-a3aa-b27e91cb7924",
+					"type": "trait",
+					"name": "Compartmentalized Mind",
+					"reference": "B43,PSI13",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "37af2236-c0d8-43cf-9fd4-7f0ece9086c7",
+							"type": "modifier",
+							"name": "Massively Parallel",
+							"reference": "SU26",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "a1d7b482-7c31-4b3b-8f7f-81468ca827fb",
+							"type": "modifier",
+							"name": "Controls",
+							"reference": "B43",
+							"cost": -25,
+							"affects": "base_only",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "e4c7b1f0-c041-4bd1-8d09-b4d08227947c",
+							"type": "modifier",
+							"name": "Dedicated Controls",
+							"reference": "B43",
+							"cost": -40,
+							"affects": "base_only",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "2da733f6-90ea-4f75-8c8a-52cbf2f5f9ca",
+							"type": "modifier",
+							"name": "Limited, One Ability",
+							"reference": "PSI13",
+							"notes": "@Ability@",
+							"cost": -30,
+							"disabled": true
+						},
+						{
+							"id": "aab954da-74fa-42de-a380-3cc99da3285a",
+							"type": "modifier",
+							"name": "Limited, One Power",
+							"reference": "PSI13",
+							"notes": "@Power@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "2e138614-a8d3-4872-88fe-34c81fcf246c",
+							"type": "modifier",
+							"name": "Mental Separation Only",
+							"reference": "PSI13",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "b31f32ff-138e-49a4-85e5-79a04cab2ba0",
+							"type": "modifier",
+							"name": "Mentalism",
+							"reference": "PSI14",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "db5c300f-5ef1-456a-aea0-76f777a376a5",
+							"type": "modifier",
+							"name": "No Mental Separation",
+							"reference": "PSI14",
+							"cost": -20,
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 50,
+					"can_level": true,
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"id": "ace356ef-e2a5-4059-b851-cd04a7884f51",
+					"type": "trait",
+					"name": "Good Reputation",
+					"reference": "B26,MA54",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "38aa3113-4709-485c-be35-ba35d96192fd",
+							"type": "modifier",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "39082380-367d-4319-9daf-854976f45562",
+							"type": "modifier",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone except @large class of people@",
+							"cost": 0.67,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "b43f0211-b5bf-4271-b6cc-acd6483af8d2",
+							"type": "modifier",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Large class of people@",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "ca59a34a-2467-417f-9764-46e7617201a2",
+							"type": "modifier",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Small class of people@",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "bf87af2b-67fd-43ca-b53d-22911e628cfe",
+							"type": "modifier",
+							"name": "Recognized all the time",
+							"reference": "B28",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "a0d8d318-d895-4cd6-9412-3b4839438dbe",
+							"type": "modifier",
+							"name": "Recognized sometimes",
+							"reference": "B28",
+							"notes": "10-",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "c32da9c0-87ba-4504-b87d-7ae275bec1ce",
+							"type": "modifier",
+							"name": "Recognized occasionally",
+							"reference": "B28",
+							"notes": "7-",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others aware of your reputation",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"round_down": true,
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "7686ad04-e1c1-4741-8345-ea8307ea900f",
+					"type": "trait",
+					"name": "High Manual Dexterity",
+					"reference": "B59",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "artist"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "jeweler"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "knot-tying"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leatherworking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "lockpicking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "pickpocket"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sewing"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sleight of hand"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "surgery"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "machinist"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "mechanic"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "cc33b8da-f259-46e6-b788-543b66f83e4f",
+					"type": "trait",
+					"name": "Higher Purpose",
+					"reference": "B59",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "3b19aee8-ae2c-4173-acbb-ba0ec3c942e1",
+					"type": "trait",
+					"name": "Lightning Calculator",
+					"reference": "B66",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "6e674a5c-f7c3-411e-9f19-a0eb4f682c5b",
+							"type": "modifier",
+							"name": "Intuitive Mathematician",
+							"reference": "B66",
+							"cost": 3,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 2,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "34eaaf86-a6e6-4c9e-8615-95b370605a3b",
+					"type": "trait",
+					"name": "Modular Abilities (Chip Slots)",
+					"reference": "B71,P62",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "81731930-54d9-4696-8db6-0409a13ea611",
+							"type": "modifier",
+							"name": "Physical",
+							"reference": "B71",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "5d246944-8c7f-41fb-9786-021b1cdde8c3",
+							"type": "modifier",
+							"name": "Physical Only",
+							"reference": "B71",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "18de6a45-6166-4ed7-bdc2-e94ec599a30d",
+							"type": "modifier",
+							"name": "Spells Only",
+							"reference": "B71",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "a1d93cb7-f5f4-4067-9912-eded69d666c4",
+							"type": "modifier",
+							"name": "Virtual",
+							"reference": "B71",
+							"notes": "@Realm@",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "44afec7f-dcd1-4869-b594-9ec81a5070b4",
+							"type": "modifier",
+							"name": "Social Only",
+							"reference": "P63",
+							"disabled": true
+						},
+						{
+							"id": "fdd89f04-60f3-4865-ac0c-4fde9a7054e5",
+							"type": "modifier",
+							"name": "Social",
+							"reference": "P63",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "f723fcfc-b1a6-480b-b84d-971d6a25742f",
+							"type": "modifier",
+							"name": "Focus-Limited (@Very versatile focus@)",
+							"reference": "P63",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "4a7968b8-374e-41e0-912b-2ab7bc9a9768",
+							"type": "modifier",
+							"name": "Focus-Limited (@Any ordinary variety of matter or energy@)",
+							"reference": "P63",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "ccf26a7a-cf68-4a49-bb13-3abd6955dd9d",
+							"type": "modifier",
+							"name": "Focus-Limited (@Specialized focus@)",
+							"reference": "P63",
+							"cost": -15,
+							"disabled": true
+						},
+						{
+							"id": "c4321c45-767e-428c-977e-480003d5c0e5",
+							"type": "modifier",
+							"name": "Trait-Limited (@Subset of traits@)",
+							"reference": "P64",
+							"notes": "Set cost manually",
+							"disabled": true
+						}
+					],
+					"base_points": 5,
+					"levels": 1,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 8
+					}
+				},
+				{
+					"id": "8d753d5a-e285-45e3-b351-4cb6f3ab0820",
+					"type": "trait",
+					"name": "Security Clearance",
+					"reference": "B82",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "372e880a-c28c-4a3a-a3d9-0958a32e88cf",
+							"type": "modifier",
+							"name": "Narrow Clearance on a \"Need to Know\" Basis",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "371151ba-96e4-4927-bcbc-fd9e20b16a6c",
+							"type": "modifier",
+							"name": "Narrow Clearance with Free Access",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "921014e9-98e0-4f0b-a125-6b3d836d7760",
+							"type": "modifier",
+							"name": "Broad Clearance on a \"Need to Know\" Basis",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "63b54b2b-2fb8-456c-843c-a51b45f1debe",
+							"type": "modifier",
+							"name": "Broad Clearance with Free Access",
+							"reference": "B82",
+							"notes": "@What@",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "8fbd1958-c022-4940-b17f-ba241f2a787e",
+							"type": "modifier",
+							"name": "Minor Importance",
+							"reference": "B83",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "b9f7118a-ff05-4b0b-a281-f35e8d46f685",
+					"type": "trait",
+					"name": "Signature Gear",
+					"reference": "B85",
+					"notes": "For equipment normally bought with money, each point gives goods worth up to 50% of the average campaign starting wealth (but never cash).",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"levels": 1,
+					"points_per_level": 1,
+					"can_level": true,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "45f66b94-d209-44ef-9ae8-2ecafea5fd8c",
+					"type": "trait",
+					"name": "Single-Minded",
+					"reference": "B85",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"base_points": 5,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to rolls for any lengthy mental task you concentrate on to the exclusion of other activities, if the GM feels such focus would be beneficial",
+							"amount": 3
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to all rolls to notice interruptions while obsessed with a task",
+							"amount": -5
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "1afb3cc0-182c-4a23-b0b6-ce7c27a4ae3e",
+					"type": "trait",
+					"name": "Talent (Circuit Sense)",
+					"reference": "PU3:8",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent"
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electrician"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Operation"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Repair"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Engineer (Electrical and Electronics)"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "From anyone for whom you use your skills.",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "Less-severe penalties from Familiarity (p. B169) – which can run to -10 in certain cases (see p. B189) – when using any skill to operate unfamiliar gear that runs on electricity.",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "64f82aa3-f6fd-4304-9746-9c308458229f",
+					"type": "trait",
+					"name": "Talent (Computer Wizard)",
+					"reference": "PU3:9",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent"
+					],
+					"modifiers": [
+						{
+							"id": "6bdb9196-d5eb-4d29-bb46-375731ee2918",
+							"type": "modifier",
+							"name": "Alternative Cost",
+							"cost": 1,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Operation"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Programming"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Operation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Communications"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Operation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Media"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Repair"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Computers"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Expert Skill"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Computer Security"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Psychology"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "AI"
+							},
+							"amount": 1
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "From computer professionals and AIs.",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "Reduce Familiarity penalties for computers. Roll Hacking/Programming to improvise software to reduce equipment penalty.",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "079d0e70-edd6-4368-badd-05cad1fbc955",
+					"type": "trait",
+					"name": "Talent (Cyberneticist)",
+					"reference": "PU3:9",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent"
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Hacking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Operation"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Programming"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Programming"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "AI"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Repair"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Computers"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "From other computer professionals, AI systems, and robots.",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "21d64ae0-6dd9-4930-aac9-bf97f071cd9e",
+					"type": "trait",
+					"name": "Talent (Evil Computer Talent)",
+					"reference": "PU3:9",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Talent"
+					],
+					"modifiers": [
+						{
+							"id": "3acdacd0-4b6b-4a50-970a-1f77cf59e3f2",
+							"type": "modifier",
+							"name": "Alternative Cost",
+							"cost": 1,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Digital Mind"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Hacking"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Operation"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Programming"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Cryptography"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Expert Skill"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Computer Security"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Research"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "a1aeb319-c06e-43a7-8ad5-184250e407a0",
+					"type": "trait",
+					"name": "Talent (Mathematical Ability)",
+					"reference": "B90,PU3:12",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent"
+					],
+					"modifiers": [
+						{
+							"id": "057f8673-2216-4f21-a752-a300a6883620",
+							"type": "modifier",
+							"name": "Alternate Benefit",
+							"notes": "Bonus to resist deception involving numbers",
+							"disabled": true
+						},
+						{
+							"id": "b2a013b0-2273-4c91-8dfa-50a3b5fa2715",
+							"type": "modifier",
+							"name": "Alternative Cost",
+							"cost": -2,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Accounting"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Astronomy"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Cryptography"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Engineer"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Finance"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Market Analysis"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mathematics"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Physics"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from engineers and scientists",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "c1c698fd-2430-4075-8803-3d5246523ced",
+					"type": "trait_container",
+					"children": [
+						{
+							"id": "ddfd2dd9-d127-426b-ab74-eba5cecb511e",
+							"type": "trait",
+							"name": "Hands Free (@Skill@)",
+							"reference": "PU2:16",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "6eab5656-4bda-468f-9bf3-94d76f497258",
+							"type": "trait",
+							"name": "Lightning Fingers (@Skill@)",
+							"reference": "TS39",
+							"tags": [
+								"Perk",
+								"Physical",
+								"Tactical Shooting"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "ee79c896-ef50-46ae-97a3-3c052954b229",
+							"type": "trait",
+							"name": "Patience of Job",
+							"reference": "PU2:13",
+							"tags": [
+								"Mental",
+								"Perk"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						}
+					],
+					"open": true,
+					"name": "Perks",
+					"calc": {
+						"points": 3
+					}
+				}
+			],
+			"name": "Appropriate Advantages",
+			"calc": {
+				"points": 135
+			}
+		},
+		{
+			"id": "fa20cd17-6065-443b-9edf-be1b12e199aa",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "b8a90742-88f2-4f44-aa68-c0725039d88b",
+					"type": "trait",
+					"name": "Code of Honor (Professional)",
+					"reference": "B127",
+					"notes": "Adhere to the ethics of your profession; always do your job to the best of your ability; support your guild, union, or professional association.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "6d855985-a7e4-4214-a2fb-056714eb8ea2",
+					"type": "trait",
+					"name": "Combat Paralysis",
+					"reference": "B127",
+					"notes": "In any situation in which personal harm seems imminent, make a HT roll. Do not roll until the instant you need to fight, run, pull the trigger, or whatever. Any roll over 13 is a failure, even if you have HT 14+. On a success, you can act normally. On a failure, you are mentally stunned. ",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -15,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Combat Reflexes"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "fright_check",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "0fad1c43-06a0-4777-ba81-133bcedf8ad9",
+					"type": "trait",
+					"name": "Crippling Shyness",
+					"reference": "B154",
+					"notes": "You avoid strangers whenever possible.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -20,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Acting"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Carousing"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Diplomacy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Fast-Talk"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Intimidation"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Leadership"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Merchant"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Panhandling"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Performance"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Politics"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Public Speaking"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Savoir-Faire"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Sex Appeal"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Streetwise"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Teaching"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Acting"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Carousing"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Diplomacy"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fast-Talk"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Intimidation"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Leadership"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Merchant"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Panhandling"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Performance"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Politics"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Public Speaking"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Savoir-Faire"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sex Appeal"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Streetwise"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Teaching"
+							},
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "1cd1d34e-f2ae-4459-8c1a-dd464afec5c4",
+					"type": "trait",
+					"name": "Loner",
+					"reference": "B142",
+					"notes": "Make a self-control roll whenever anyone lingers nearby, watches over your shoulder, etc. If you fail, you lash out at that person just as if you had Bad Temper.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"cr_adj": "reaction_penalty",
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "a788f50b-3615-48a9-b957-e6b33042c811",
+					"type": "trait",
+					"name": "Low Empathy",
+					"reference": "B142",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -20,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "oblivious"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "callous"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "empathy"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "acting"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "carousing"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "criminology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "detect lies"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "enthrallment"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "interrogation"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "leadership"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "merchant"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "politics"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "psychology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "savoir-faire"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sociology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "streetwise"
+							},
+							"amount": -3
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "4074acb2-6a3f-4b7b-9191-bec30bdc97b1",
+					"type": "trait",
+					"name": "Low Pain Threshold",
+					"reference": "B142",
+					"notes": "Double the shock from any injury. Whenever you take a wound that does more than 1 HP of damage, you must make a Will roll to avoid crying out.",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -10,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "high pain threshold"
+								}
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from \"macho\" individuals",
+							"amount": -1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist knockdown, stunning, and physical torture",
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "e5e92d9d-382d-4f07-bb22-80f75bfaea65",
+					"type": "trait",
+					"name": "Manic-Depressive",
+					"reference": "B143",
+					"notes": "At the beginning of each play session, roll 1d. On 1-3, you are in your manic phase; 4-6 indicates depression. Every five hours of game time thereafter, roll 3d. A 10 or less indicates that you begin a mood swing. Over the next hour, you shift from your current phase to the opposite one. You remain in the new phase for at least five hours, after which you must again roll 3d.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "4b9b50c7-9ec1-4239-ab99-70dfce8f2de8",
+					"type": "trait",
+					"name": "Obsession",
+					"reference": "B146",
+					"notes": "@Goal@; Make a self-control roll whenever it would be wise to deviate from your goal. If you fail, you continue to pursue your Obsession, regardless of the consequences.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "aadc441c-1423-4e59-a5ee-9a628b843420",
+							"type": "modifier",
+							"name": "Short term",
+							"reference": "B146",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "31e5b8b9-f9ba-44e3-8afd-e6b285be3b93",
+							"type": "modifier",
+							"name": "Long term",
+							"reference": "B146",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"cr": 12,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "97be3b84-b2d4-4305-a10d-4d2381016751",
+					"type": "trait",
+					"name": "Pacifism: Cannot Kill",
+					"reference": "B148",
+					"notes": "You may fight – you may even start fights – but you may never do anything that seems likely to kill another. This includes abandoning a wounded foe to die “on his own”! You must do your best to keep your companions from killing, too. If you do kill someone (or feel responsible for a death), you immediately suffer a nervous breakdown. Roll 3d and be totally morose and useless for that many days. During this time, you must make a Will roll to offer any sort of violence toward anyone, for any reason.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "90acca03-6b28-4979-a04f-b2f75d4d1fa9",
+							"type": "modifier",
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "fe0463cf-ed0d-422b-af53-a29a2c2f3927",
+					"type": "trait",
+					"name": "Pacifism: Total Nonviolence",
+					"reference": "B148",
+					"notes": "You will not lift a hand against another intelligent creature, for any reason. You must do your nonviolent best to discourage violent behavior in others, too. You are free to defend yourself against attacks by animals, mosquitoes, etc.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "d80be636-1a32-4d36-af97-04d6e459d119",
+							"type": "modifier",
+							"name": "Species-Specific",
+							"reference": "UT32",
+							"cost": -80,
+							"disabled": true
+						}
+					],
+					"base_points": -30,
+					"calc": {
+						"points": -30
+					}
+				},
+				{
+					"id": "bf821310-901a-4cdf-a82c-1c0bee28b188",
+					"type": "trait",
+					"name": "Post-Combat Shakes",
+					"reference": "B150",
+					"notes": "Make a self-control roll at the end of any battle. If you fail, roll 3d, add the amount by which you failed your self-control roll, and look up the result on the Fright Check Table.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "b0014dd7-0023-4223-8a10-17a015303d72",
+					"type": "trait",
+					"name": "Paranoia",
+					"reference": "B148",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "toward any stranger and any “legitimate” reaction penalty (e.g., for an unfriendly race or nationality) is doubled",
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "e745b3c5-1283-4270-a60e-965f75c1d3f1",
+					"type": "trait",
+					"name": "Secret Identity (@Secret ID@)",
+					"reference": "B152",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "e1aa472c-86ac-43af-9eb2-86c481c850ee",
+							"type": "modifier",
+							"name": "Serious Embarrassment",
+							"reference": "B152",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "821b90e4-2501-464e-bd87-01b6656e6a44",
+							"type": "modifier",
+							"name": "Utter Rejection",
+							"reference": "B152",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "0291e2c0-1f0f-447a-a7a0-821c3a5e9b3a",
+							"type": "modifier",
+							"name": "Imprisonment",
+							"reference": "B152",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f78a22ac-0fd0-4115-898d-e9121551ef6d",
+							"type": "modifier",
+							"name": "Possible Death",
+							"reference": "B152",
+							"cost": -30,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "6392389c-c463-4ce0-bebf-bd4e2b50614b",
+					"type": "trait",
+					"name": "Social Stigma (Criminal Record)",
+					"reference": "B155",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from non-criminals who learn of your Criminal Record. Police, judges, vigilantes, and other law-and-order types react at -2",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "2bd70137-34c7-4f40-92f4-c718c85e5e21",
+					"type": "trait",
+					"name": "Trademark (@Elaborate@)",
+					"reference": "B159",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "c46bb718-f58e-496d-bd73-edb18a4e0ad0",
+					"type": "trait",
+					"name": "Stuttering",
+					"reference": "B157",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "performance"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "singing"
+							},
+							"amount": -2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others where conversation is required",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "1e599857-eade-42a1-8ac9-c1ff7688037f",
+					"type": "trait",
+					"name": "Agoraphobia (Open Spaces)",
+					"reference": "B150",
+					"notes": "You are uncomfortable whenever you are outside, and actually become frightened when there are no walls within 50 feet.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"cr_adj": "action_penalty",
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "d2760586-8c69-41d8-9371-1e359dd09d7d",
+					"type": "trait",
+					"name": "Brontophobia (Loud Noises)",
+					"reference": "B150",
+					"notes": "You avoid any situation where loud noises are likely. A sudden loud noise requires an immediate self-control roll. A thunderstorm is a traumatic experience for you!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"cr_adj": "action_penalty",
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "6117be0a-924b-4b3b-b22a-dfd1096dc8f9",
+					"type": "trait",
+					"name": "Demophobia (Crowds)",
+					"reference": "B149",
+					"notes": "Any group of over a dozen people sets off this fear unless they are all well known to you. The self-control roll is at -1 for over 25 people, -2 for a crowd of 100 or more, -3 for 1,000, -4 for 10,000, and so on.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"cr_adj": "action_penalty",
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "5a67210c-5af3-47d0-befd-b5eedf76d889",
+					"type": "trait",
+					"name": "Mysophobia (Dirt)",
+					"reference": "B149",
+					"notes": "You are deathly afraid of infection, or just of dirt and filth. Make a self-control roll when you must do something that might get you dirty. Roll at -5 to eat any unaccustomed food. You should act as “finicky” as possible.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"cr_adj": "action_penalty",
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				}
+			],
+			"name": "Appropriate Disadvantages",
+			"calc": {
+				"points": -230
+			}
+		},
+		{
+			"id": "40fb334b-4385-44e3-a776-9b6ae5d4dc92",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "c56f557b-2bc6-42c5-90c5-8d45bb8dfe74",
+					"type": "trait",
+					"name": "Accessory (Tiny computer)",
+					"reference": "B100",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "506ac697-f19a-4a2f-9004-dc46aea13b33",
+					"type": "trait",
+					"name": "Eidetic Memory",
+					"reference": "B51",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "5e24a799-9d91-4cb3-810c-28090011f02a",
+							"type": "modifier",
+							"name": "Photographic",
+							"reference": "B51",
+							"cost": 5,
+							"cost_type": "points"
+						},
+						{
+							"id": "de58eac6-fb4a-46d7-9b40-ecea32f8e93d",
+							"type": "modifier",
+							"name": "Temporary Disadvantage, Electrical",
+							"cost": -20
+						},
+						{
+							"id": "1e08786d-7743-4e45-a63d-6d3a13683edc",
+							"type": "modifier",
+							"name": "Recorded data only",
+							"cost": -20
+						}
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 6
+					}
+				}
+			],
+			"name": "Computer Implant (TL9)",
+			"reference": "UT215",
+			"notes": "Major procedure (minor at TL10-12). $4,000 + the cost of a tiny computer (p. 22) with the compact option. LC4.",
+			"tags": [
+				"Cybernetics"
+			],
+			"calc": {
+				"points": 7
+			}
+		},
+		{
+			"id": "48ec5e9e-99d3-48c5-a2f0-2bba202dac96",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "14a3f3bf-a30f-44e6-ab92-42e57acf5638",
+					"type": "trait",
+					"name": "Telecommunication",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "b05be8f0-d0ee-4d61-84bf-3170dfc5d629",
+							"type": "modifier",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80
+						},
+						{
+							"id": "f2e00e42-4018-4f9e-af49-6b6032e0e1b6",
+							"type": "modifier",
+							"name": "Cable Jack",
+							"reference": "UT31",
+							"cost": 5,
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": 9
+					}
+				}
+			],
+			"name": "Neural Jack (TL9)",
+			"reference": "UT217",
+			"notes": "Major procedure (minor at TL10-12). $4,000. LC3.",
+			"tags": [
+				"Cybernetics"
+			],
+			"calc": {
+				"points": 9
+			}
+		},
+		{
+			"id": "2d1e6f78-fb4c-4e86-b914-ec6aac4f9458",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "674f006e-fd95-4818-a407-9421dafffb9b",
+					"type": "trait",
+					"name": "Telecommunication",
+					"reference": "B91",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "fe21f458-6c39-4b4f-9f9c-e38c54b194d2",
+							"type": "modifier",
+							"name": "Radio",
+							"reference": "B91",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "784d1d57-7174-48cc-84e4-5f0691b7c0d0",
+							"type": "modifier",
+							"name": "Secure",
+							"reference": "P82",
+							"cost": 20
+						},
+						{
+							"id": "37825fbe-3fdf-404f-b3eb-07725f6eb5dd",
+							"type": "modifier",
+							"name": "Sensie",
+							"reference": "P82",
+							"cost": 80
+						},
+						{
+							"id": "cc959a84-f892-42fc-8c81-754dc3c703e1",
+							"type": "modifier",
+							"name": "Reduced Range, ×1/10",
+							"cost": -30
+						}
+					],
+					"calc": {
+						"points": 17
+					}
+				}
+			],
+			"name": "Wireless Neural Interface (TL9)",
+			"reference": "UT217",
+			"notes": "Major procedure (minor at TL10-12). $5,000. LC3.",
+			"tags": [
+				"Cybernetics"
+			],
+			"calc": {
+				"points": 17
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "60478aea-070f-4af3-8f68-f6af74788e56",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "6786ce6d-9652-495c-bb52-8e65af5efcc7",
+					"type": "skill",
+					"name": "Brawling",
+					"reference": "B182,MA55",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/e",
+					"points": 1,
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Brawling"
+							},
+							"level": {
+								"compare": "at_least",
+								"qualifier": 2
+							},
+							"amount": 1,
+							"per_die": true
+						}
+					]
+				},
+				{
+					"id": "5629d522-dba8-4cd5-b88d-4d6ed9a13036",
+					"type": "skill",
+					"name": "Judo",
+					"reference": "B203,MA57",
+					"notes": "Allows parrying two different attacks per turn, one with each hand.",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/h",
+					"points": 1,
+					"encumbrance_penalty_multiplier": 1
+				},
+				{
+					"id": "29b8dfd2-ac2b-4c40-99ff-d452b70970ab",
+					"type": "skill",
+					"name": "Karate",
+					"reference": "B203,MA57",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/h",
+					"points": 1,
+					"encumbrance_penalty_multiplier": 1,
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Karate"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1,
+							"per_die": true
+						},
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_required_skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Karate"
+							},
+							"level": {
+								"compare": "at_least",
+								"qualifier": 1
+							},
+							"amount": 1,
+							"per_die": true
+						}
+					]
+				},
+				{
+					"id": "6feaa4ef-ed6e-44c8-8778-9de8699a793c",
+					"type": "skill",
+					"name": "Knife",
+					"reference": "B208",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "064eb168-4efa-4e1b-aeef-b6682f758a53",
+					"type": "skill",
+					"name": "Monowire Whip",
+					"reference": "B209",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Force Whip",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Kusari",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Whip",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "485cb4e1-c588-4a3c-83a4-a39feabf13b7",
+					"type": "skill",
+					"name": "Shortsword",
+					"reference": "B209",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					]
+				}
+			],
+			"open": true,
+			"name": "Melee Combat Skills"
+		},
+		{
+			"id": "e86e10e5-5981-420a-bb13-6f85080af268",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "6ce290ef-857f-4e57-a5d3-83a6f022ee89",
+					"type": "skill",
+					"name": "Guns",
+					"reference": "B198",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Submachine Gun",
+					"tech_level": "",
+					"difficulty": "dx/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"id": "2dcbb687-1a6c-4ba5-9974-079f122f800c",
+					"type": "skill",
+					"name": "Guns",
+					"reference": "B198",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Pistol",
+					"tech_level": "",
+					"difficulty": "dx/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						}
+					]
+				},
+				{
+					"id": "3d059654-80ce-4061-a5fb-74633be9fea7",
+					"type": "skill",
+					"name": "Thrown Weapon",
+					"reference": "B226",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Knife",
+					"difficulty": "dx/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "6e7f3057-cb56-4670-af07-4e9a20803e81",
+					"type": "technique",
+					"name": "Off-Hand Weapon Training",
+					"reference": "B232",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "skill",
+						"name": "Guns",
+						"specialization": "Pistol",
+						"modifier": -4
+					},
+					"limit": 0
+				},
+				{
+					"id": "5fc79814-b6bd-4c1b-879c-0ae93f707142",
+					"type": "skill",
+					"name": "Fast-Draw",
+					"reference": "B194,MA56",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Pistol",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "3bfb2737-25d8-4ce3-af1e-8a0b54d821e5",
+					"type": "technique",
+					"name": "Retain Weapon (Pistol)",
+					"reference": "B232,MA78",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Technique",
+						"Weapon"
+					],
+					"difficulty": "h",
+					"points": 2,
+					"default": {
+						"type": "dx"
+					},
+					"limit": 5
+				}
+			],
+			"open": true,
+			"name": "Ranged Combat Skills"
+		},
+		{
+			"id": "75fc652a-b35f-4a2d-999c-30d2ab7075d4",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "a61ee6b3-1bf2-4bc6-8fe9-6ad19e72cf5b",
+					"type": "skill",
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@City@; Lived there",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "53d231a5-19d5-4937-817d-317445fb38a9",
+					"type": "skill",
+					"name": "Brain Hacking",
+					"reference": "B182",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "9e51eb60-f0a8-459f-b9a1-c1cad4622b8d",
+					"type": "skill",
+					"name": "Computer Hacking",
+					"reference": "B184",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"tech_level": "",
+					"difficulty": "iq/vh",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "computer programming"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "82b57b22-307f-43fd-a4b4-1577a3936605",
+					"type": "skill",
+					"name": "Computer Operation",
+					"reference": "B184",
+					"tags": [
+						"Everyman",
+						"Scholarly",
+						"Technical"
+					],
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "810c1ee3-5834-4beb-9f09-8c065ca7284b",
+					"type": "skill",
+					"name": "Computer Programming",
+					"reference": "B184",
+					"tags": [
+						"Design",
+						"Invention"
+					],
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "222ad695-112d-4403-8dde-0fd752b63bd9",
+					"type": "skill",
+					"name": "Computer Programming",
+					"reference": "B184",
+					"tags": [
+						"Design",
+						"Invention"
+					],
+					"specialization": "AI",
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "60b65e89-b31d-4789-8414-60a5ebdb0a7f",
+					"type": "skill",
+					"name": "Criminology",
+					"reference": "B186",
+					"tags": [
+						"Humanities",
+						"Police",
+						"Social Sciences"
+					],
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "9c8c26e0-d324-47e2-ac4e-db6ec893035a",
+					"type": "skill",
+					"name": "Cryptography",
+					"reference": "B186",
+					"tags": [
+						"Military",
+						"Spy"
+					],
+					"specialization": "Cryptanalysis",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Mathematics",
+							"specialization": "Cryptology",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "d7270860-4b3a-4200-aa88-3066a31dc17a",
+					"type": "skill",
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Headline News",
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "6ede3f77-fca5-4c00-9c24-ddbaa7ef2c70",
+					"type": "skill",
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "People",
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "2436ac2d-b57d-49ed-b26c-65cd59debed8",
+					"type": "skill",
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Science \u0026 Technology",
+					"tech_level": "",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "9b11e493-2e62-40b5-b575-7556131fa037",
+					"type": "skill",
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street",
+						"Technical"
+					],
+					"specialization": "Security",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Security",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "7e955410-320c-47f9-8df5-3d355d67cce5",
+					"type": "skill",
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Communications",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Communications",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "eb6a6d3c-3d47-49ef-8385-d51ea34a771a",
+					"type": "skill",
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Computer",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Computer Operation",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "e83cd9ab-2348-41a1-8348-07e1dbcab2af",
+					"type": "skill",
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Security",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Security",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "eb21452f-1874-4bec-841c-b8e5498a7e03",
+					"type": "skill",
+					"name": "Electronics Repair",
+					"reference": "B190",
+					"tags": [
+						"Maintenance",
+						"Repair"
+					],
+					"specialization": "Sensors",
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Sensors",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "7569e0de-0d97-4937-9b74-4d40c79900e9",
+					"type": "skill",
+					"name": "Expert Skill",
+					"reference": "B193,MA56",
+					"tags": [
+						"Knowledge",
+						"Scholarly",
+						"Spy"
+					],
+					"specialization": "Computer Security",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "9d333989-5344-468d-8870-61a04523862a",
+					"type": "skill",
+					"name": "History",
+					"reference": "B200",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					]
+				},
+				{
+					"id": "29fcca3e-498f-4652-82ec-422ec5330b05",
+					"type": "skill",
+					"name": "Intelligence Analysis",
+					"reference": "B201",
+					"tags": [
+						"Military",
+						"Police",
+						"Spy"
+					],
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Strategy",
+							"modifier": -6
+						}
+					]
+				},
+				{
+					"id": "c3eed5ad-90dd-4ec3-8f85-6a07ac91e3d4",
+					"type": "skill",
+					"name": "Law",
+					"reference": "B204",
+					"tags": [
+						"Business",
+						"Humanities",
+						"Police",
+						"Social Sciences"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					]
+				},
+				{
+					"id": "d34d2f2d-e5ad-4ae6-914e-b3f6f1c24833",
+					"type": "skill",
+					"name": "Mathematics",
+					"reference": "B207",
+					"tags": [
+						"Natural Science"
+					],
+					"specialization": "Computer Science",
+					"tech_level": "",
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Computer Programming",
+							"modifier": -5
+						}
+					]
+				},
+				{
+					"id": "21f8e423-0c7a-43d1-8f42-32b36f573654",
+					"type": "skill",
+					"name": "Propaganda",
+					"reference": "B216",
+					"tags": [
+						"Business",
+						"Military",
+						"Social",
+						"Spy"
+					],
+					"tech_level": "",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "439cb682-86fc-461b-a0dd-5044f611f62b",
+					"type": "skill",
+					"name": "Psychology",
+					"reference": "B216",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Sociology",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "69b3b47a-f163-4c71-a688-91decf3363c6",
+					"type": "skill",
+					"name": "Savoir-Faire",
+					"reference": "B218,MA59",
+					"tags": [
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "@Social group@",
+					"difficulty": "iq/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Games",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "09464845-103f-480c-9d6e-47e40043fd6a",
+					"type": "skill",
+					"name": "Sociology",
+					"reference": "B221",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Anthropology",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "7cc6e5ed-b004-4cbb-834b-cd1f919c8942",
+					"type": "skill",
+					"name": "Streetwise",
+					"reference": "B223",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					]
+				}
+			],
+			"open": true,
+			"name": "Knowledge Skills"
+		},
+		{
+			"id": "df3e41e7-15b6-4641-9a7c-292922ba1515",
+			"type": "skill_container",
+			"children": [
+				{
+					"id": "205019eb-ed68-43e3-acf5-4eb6598d7aca",
+					"type": "skill",
+					"name": "Acrobatics",
+					"reference": "B174,MA54",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Aerobatics",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Aquabatics",
+							"modifier": -4
+						}
+					]
+				},
+				{
+					"id": "7d32eb0b-f584-4fe5-b857-64e69b8c932c",
+					"type": "skill",
+					"name": "Body Sense",
+					"reference": "B181",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Acrobatics",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"id": "456905c5-05f6-42e2-826d-63bdd1efacfd",
+					"type": "skill",
+					"name": "Breath Control",
+					"reference": "B182",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "ht/h",
+					"points": 1
+				}
+			],
+			"open": true,
+			"name": "Physical"
+		}
+	],
+	"notes": [
+		{
+			"id": "776d5d86-7896-4088-ac0e-6ba0fda7a7c1",
+			"type": "note",
+			"text": "# Netrunner\n\nYou're a brain-burning computer hacker \u0026 master of the Post-NET cyberverse in the Time of the Red. At three, your parents bought you an old Kirama LPD-12 cyberdeck with Zetatech 526 optical goggles (you were too young for interface plugs), and your life was changed. By fifth grade, you were already using REFRAME-G1s meta-programming to crack into the school district's system and change your grades. When you were thirteen, you shifted enough funds out of unprotected Trans United Bank accounts to finance your first neural interface\nplugs. You couldn't wait to run high and fast with the other gods of the NET—Bartmoss, Magnificent Curtis, and the rest. Then the 4th Corp War blew the Old NET apart. The R.A.B.I.D.S. made NET travel a suicide run; the Nodes were fragmented or corrupted. But there were still places to run. You just had to go there and jack in the hard way. You traded in sitting on the couch for a Bodyweight combat bodysuit and Virtuality 5 interface goggles to mesh NET with Meatspace. The systems you cracked were smaller, but even deadlier. Now, you're really part of a team, with Solos to cover your back, Medtechs to restart your heart if the ICE gets you, and Techs to help you hot-wire your cyberdeck for more speed and software deployment. Now, nothing can stop you. As an electronic wraith, you slip into the \"hardest\" mainframe systems with ease: stealing, trading, and selling their deepest secrets at will. The Black\nICE may still kill you in the end, but until the ride runs out you'll be there, bare-brained and headfirst in the New NET."
+		}
+	]
+}

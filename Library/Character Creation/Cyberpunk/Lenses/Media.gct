@@ -1,0 +1,69 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "b2f84210-92ac-4bd0-b3d6-eb7db17337ed",
+	"traits": [
+		{
+			"id": "ab365ea4-66df-443a-b530-95420100fc00",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "d2ef4913-0613-472f-b356-5234aaa40835",
+					"type": "trait_container",
+					"open": true,
+					"name": "Perks",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"open": true,
+			"name": "Appropriate Advantages",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "eb0a3d65-4079-460a-8dc9-f46fd9bd4c42",
+			"type": "trait_container",
+			"open": true,
+			"name": "Appropriate Disadvantages",
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "d4f89914-7672-4717-bb5f-a8cef88565b1",
+			"type": "skill_container",
+			"open": true,
+			"name": "Melee Combat Skills"
+		},
+		{
+			"id": "451ca4bf-a642-486c-b8be-c003051ca3a0",
+			"type": "skill_container",
+			"open": true,
+			"name": "Ranged Combat Skills"
+		},
+		{
+			"id": "fcd4f4f5-70e2-427f-9a1a-f45f450ee726",
+			"type": "skill_container",
+			"open": true,
+			"name": "Knowledge Skills"
+		},
+		{
+			"id": "d4b2c412-5a30-42a6-aa3b-4329efff57af",
+			"type": "skill_container",
+			"open": true,
+			"name": "Physical Skills"
+		}
+	],
+	"notes": [
+		{
+			"id": "115f120a-b715-486e-8774-4d0e281ae594",
+			"type": "note",
+			"text": "# Media\n\nThey're bending the truth out there. And you're going to stop them. Someone has to do it. The Corporations used to rule the world. They dumped toxics, destabilized economies, and committed murder with equal impunity. The government back then couldn't even stop them—hell, they owned the government.\nBut then the War came. The War stripped away the facade and let us all know exactly what had been going on under our noses. And the people who made sure we all knew the score were the Medias. That's you. You've got a vidlink and a press pass, and you're not afraid to use them. You're a city-wide figure, seen nightly all over the Data Pool in the Time of the Red. It's not like the old days, when you had a major Mediacorp behind you; this time, you've gotta depend on your fans, your contacts, and your own reputation. But it's harder for these new Corps to make you disappear. So when you dig down for the dirt and slime the corrupt officials and Corporate lapdogs try to cover up, you can dig deep. The next morning, you can put the details of their crimes all over the screamsheets and vidscreens. Three or four times, the bad guys have tried to kill you—that's why your backup's a crack Solo bodyguard and you've got one of the top ‘Runners in the business digging through NET Architectures to back your stories. You have to be good, or else. Your ‘Runner's just phoned in with a hot lead. You grab your gear and flag your backup. You're going to break those bastards. This time, for sure"
+		}
+	]
+}

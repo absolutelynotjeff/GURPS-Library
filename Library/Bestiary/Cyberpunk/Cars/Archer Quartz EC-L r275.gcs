@@ -1,0 +1,900 @@
+{
+	"type": "character",
+	"version": 4,
+	"id": "aa1ddee0-90ec-41af-a429-cfb8a8c7b0e2",
+	"total_points": 150,
+	"points_record": [
+		{
+			"when": "2024-06-15T20:01:29-05:00",
+			"points": 150,
+			"reason": "Initial points"
+		}
+	],
+	"profile": {
+		"name": "Archer Quartz EC-L r275",
+		"player_name": "0",
+		"tech_level": "9",
+		"SM": 3
+	},
+	"settings": {
+		"page": {
+			"paper_size": "letter",
+			"orientation": "portrait",
+			"top_margin": "0.25 in",
+			"left_margin": "0.25 in",
+			"bottom_margin": "0.25 in",
+			"right_margin": "0.25 in"
+		},
+		"block_layout": [
+			"reactions conditional_modifiers",
+			"melee",
+			"ranged",
+			"traits skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		],
+		"attributes": [
+			{
+				"id": "st",
+				"type": "integer",
+				"placement": "primary",
+				"name": "ST",
+				"full_name": "Strength",
+				"attribute_base": "0",
+				"cost_adj_percent_per_sm": 10
+			},
+			{
+				"id": "hp",
+				"type": "pool",
+				"name": "HP",
+				"full_name": "Hit Points",
+				"attribute_base": "$st",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 10,
+				"thresholds": [
+					{
+						"state": "Dead",
+						"expression": "round(-$hp*5)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #4",
+						"expression": "round(-$hp*4)",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #3",
+						"expression": "round(-$hp*3)",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #2",
+						"expression": "round(-$hp*2)",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #1",
+						"expression": "-$hp",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Collapse",
+						"expression": "0",
+						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Reeling",
+						"expression": "round($hp/3)",
+						"explanation": "Move and Dodge are halved (B419)",
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Wounded",
+						"expression": "$hp-1"
+					},
+					{
+						"state": "Healthy",
+						"expression": "$hp"
+					}
+				]
+			},
+			{
+				"id": "hnd",
+				"type": "integer",
+				"placement": "primary",
+				"name": "Handling",
+				"attribute_base": "0"
+			},
+			{
+				"id": "sr",
+				"type": "integer",
+				"placement": "primary",
+				"name": "SR",
+				"full_name": "Stability Rating"
+			},
+			{
+				"id": "ht",
+				"type": "integer",
+				"placement": "primary",
+				"name": "HT",
+				"full_name": "Health",
+				"attribute_base": "0"
+			},
+			{
+				"id": "acc",
+				"type": "integer",
+				"placement": "primary",
+				"name": "Acc",
+				"full_name": "Acceleration",
+				"attribute_base": "0"
+			},
+			{
+				"id": "top",
+				"type": "integer",
+				"placement": "primary",
+				"name": "top",
+				"full_name": "Top Speed"
+			},
+			{
+				"id": "lwt",
+				"type": "decimal",
+				"placement": "primary",
+				"name": "LWt",
+				"full_name": "Loaded Weight",
+				"attribute_base": "0"
+			},
+			{
+				"id": "load",
+				"type": "decimal",
+				"placement": "primary",
+				"name": "Load",
+				"full_name": "Load"
+			},
+			{
+				"id": "occ",
+				"type": "decimal",
+				"placement": "primary",
+				"name": "Occ",
+				"full_name": "Occupants"
+			},
+			{
+				"id": "dr",
+				"type": "integer",
+				"placement": "primary",
+				"name": "DR",
+				"full_name": "Damage Resistance"
+			},
+			{
+				"id": "range",
+				"type": "integer",
+				"placement": "primary",
+				"name": "Range",
+				"full_name": "Range"
+			},
+			{
+				"id": "cost",
+				"type": "integer",
+				"placement": "primary",
+				"name": "Cost",
+				"full_name": "Cost"
+			}
+		],
+		"body_type": {
+			"name": "Vehicle",
+			"roll": "3d",
+			"locations": [
+				{
+					"id": "torso",
+					"choice_name": "Body",
+					"table_name": "Body",
+					"slots": 1,
+					"notes": "",
+					"calc": {
+						"roll_range": "3",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "fdwheel",
+					"table_name": "Front Drivers Side Wheel",
+					"slots": 1,
+					"hit_penalty": -4,
+					"description": "Front Driver's Side Wheel",
+					"notes": "",
+					"calc": {
+						"roll_range": "4",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "fpwheel",
+					"table_name": "Front Passengers Side Wheel",
+					"slots": 1,
+					"hit_penalty": -4,
+					"description": "Front Passenger's Side Wheel",
+					"notes": "",
+					"calc": {
+						"roll_range": "5",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "rdwheel",
+					"table_name": "Rear Drivers Side Wheel",
+					"slots": 1,
+					"hit_penalty": -4,
+					"description": "Rear Driver's Side Wheel",
+					"notes": "",
+					"calc": {
+						"roll_range": "6",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "rpwheel",
+					"table_name": "Rear Passengers Side Wheel",
+					"slots": 1,
+					"hit_penalty": -4,
+					"description": "Rear Passenger's Side Wheel",
+					"notes": "",
+					"calc": {
+						"roll_range": "7",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "eye",
+					"choice_name": "Windshield",
+					"table_name": "Windshield",
+					"slots": 1,
+					"hit_penalty": -3,
+					"description": "Windshield",
+					"notes": "",
+					"calc": {
+						"roll_range": "8",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "eye",
+					"choice_name": "driverwndw",
+					"table_name": "Drivers Side Window",
+					"slots": 1,
+					"hit_penalty": -7,
+					"description": "Driver's Side Window",
+					"notes": "",
+					"calc": {
+						"roll_range": "9",
+						"dr": {
+							"all": 0
+						}
+					}
+				},
+				{
+					"id": "eye",
+					"choice_name": "passengerwndw",
+					"table_name": "Passengers Side Window",
+					"slots": 1,
+					"hit_penalty": -7,
+					"description": "Passenger's Side Window",
+					"notes": "",
+					"calc": {
+						"roll_range": "10",
+						"dr": {
+							"all": 0
+						}
+					}
+				}
+			]
+		},
+		"damage_progression": "basic_set",
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"skill_level_adj_display": "tooltip",
+		"show_spell_adj": true,
+		"exclude_unspent_points_from_total": false
+	},
+	"attributes": [
+		{
+			"attr_id": "st",
+			"adj": 40,
+			"calc": {
+				"value": 40,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hp",
+			"adj": 0,
+			"calc": {
+				"value": 40,
+				"current": 40,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hnd",
+			"adj": 1,
+			"calc": {
+				"value": 1,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "sr",
+			"adj": 4,
+			"calc": {
+				"value": 4,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "ht",
+			"adj": 11,
+			"calc": {
+				"value": 11,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "acc",
+			"adj": 6,
+			"calc": {
+				"value": 6,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "top",
+			"adj": 90,
+			"calc": {
+				"value": 90,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "lwt",
+			"adj": 2,
+			"calc": {
+				"value": 2,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "load",
+			"adj": 1.5,
+			"calc": {
+				"value": 1.5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "occ",
+			"adj": 2,
+			"calc": {
+				"value": 2,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "dr",
+			"adj": 4,
+			"calc": {
+				"value": 4,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "range",
+			"adj": 300,
+			"calc": {
+				"value": 300,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "cost",
+			"adj": 15000,
+			"calc": {
+				"value": 15000,
+				"points": 0
+			}
+		}
+	],
+	"traits": [
+		{
+			"id": "f9062eb9-db51-4976-a53d-063a296084a6",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "2365d68f-012f-4a6a-8e45-938ef1ef37f2",
+					"type": "trait",
+					"name": "Horizontal",
+					"reference": "B139",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "d5b352dc-7a0e-4189-a65e-eac71a285597",
+					"type": "trait",
+					"name": "No Legs (Wheeled)",
+					"reference": "B145",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "2eb02633-00d6-47e6-b9cb-2f0b6714cb59",
+					"type": "trait",
+					"name": "No Manipulators",
+					"reference": "B145",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -50,
+					"features": [
+						{
+							"type": "cost_reduction",
+							"attribute": "st",
+							"percentage": 40
+						},
+						{
+							"type": "cost_reduction",
+							"attribute": "dx",
+							"percentage": 40
+						}
+					],
+					"calc": {
+						"points": -50
+					}
+				},
+				{
+					"id": "7498da0f-740f-49fb-99d1-969d31e065bb",
+					"type": "trait",
+					"name": "Numb",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -20
+					}
+				}
+			],
+			"name": "Meta-Trait: Ground Vehicle",
+			"reference": "B263",
+			"container_type": "meta_trait",
+			"calc": {
+				"points": -100
+			}
+		},
+		{
+			"id": "16e231e8-defc-4558-ab5d-e7c0535b877e",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "218e5f75-f24c-453d-95b0-40d9dad11e6f",
+					"type": "trait",
+					"name": "Eight-hour energy reserve, Refuel 3 times per day",
+					"reference": "B263",
+					"tags": [
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "f52adee1-0b14-4cbb-aa2f-fa35f6ebf9eb",
+					"type": "trait",
+					"name": "Injury Tolerance",
+					"reference": "B60",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "018f3381-402e-4814-8163-b1cd9ed9720a",
+							"type": "modifier",
+							"name": "Diffuse",
+							"reference": "B60",
+							"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+							"cost": 100,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f5afc3dd-3d78-4ff6-98d5-c733ff1fc7cf",
+							"type": "modifier",
+							"name": "Homogenous",
+							"reference": "B60",
+							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+							"cost": 40,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "24e73644-b614-48e2-aa91-c54b3123a678",
+							"type": "modifier",
+							"name": "No Blood",
+							"reference": "B61",
+							"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+							"cost": 5,
+							"cost_type": "points"
+						},
+						{
+							"id": "2b984d2c-dbfb-42e0-93ef-d3632b237519",
+							"type": "modifier",
+							"name": "No Brain",
+							"reference": "B61",
+							"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "48e95100-c702-44d6-8ef2-b9e5909936d4",
+							"type": "modifier",
+							"name": "No Eyes",
+							"reference": "B61",
+							"notes": "Eyes may not be targeted. Immune to blinding attacks",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "d6be358b-4487-4982-b77a-a883f1b0f42e",
+							"type": "modifier",
+							"name": "No Head",
+							"reference": "B61",
+							"notes": "Skull, Brain and Face cannot be targeted",
+							"cost": 7,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "45404fbe-2d81-4aad-a91c-53fd9a3dd309",
+							"type": "modifier",
+							"name": "No Neck",
+							"reference": "B61",
+							"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "44eac5d1-0ee4-4b20-a007-d6055020e316",
+							"type": "modifier",
+							"name": "No Vitals",
+							"reference": "B61",
+							"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "4c03b5bf-6f5e-43dc-8a41-fec1a01e08fb",
+							"type": "modifier",
+							"name": "Unliving",
+							"reference": "B61",
+							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+							"cost": 20,
+							"cost_type": "points"
+						}
+					],
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"id": "b6498f5c-07b0-447a-b735-4596e7a89d60",
+					"type": "trait",
+					"name": "No fatigue points, Don't spend fatigue points",
+					"reference": "B263",
+					"tags": [
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "0fa798d6-7850-4395-b660-8cda71f20c03",
+					"type": "trait",
+					"name": "Resistant",
+					"reference": "B81",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "b57f180a-0518-40a3-8743-299218f5bba0",
+							"type": "modifier",
+							"name": "Metabolic Hazards",
+							"reference": "B80",
+							"cost": 30,
+							"cost_type": "points"
+						},
+						{
+							"id": "9f42ff9e-d797-4d76-8d90-701f8aa6f77d",
+							"type": "modifier",
+							"name": "@Common: Poison, Sickness, etc.@",
+							"reference": "B81",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "2954387c-2f7a-42a0-bcf8-30b0225c93c2",
+							"type": "modifier",
+							"name": "@Occasional: Disease, Ingested Poison, etc.@",
+							"reference": "B81",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "68bc7cbc-4499-4db6-a337-7986d2733919",
+							"type": "modifier",
+							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+							"reference": "B81",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "27f0bdb9-41b5-4d7d-896a-2ed3812a6120",
+							"type": "modifier",
+							"name": "Immunity",
+							"reference": "B81",
+							"cost": 1,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "8f529f15-b053-488f-adbd-056b27dd19f8",
+							"type": "modifier",
+							"name": "+8 to all HT rolls to resist",
+							"reference": "B81",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "22d5260f-26e4-4d89-b5ad-80b2620634c2",
+							"type": "modifier",
+							"name": "+3 to all HT rolls to resist",
+							"reference": "B81",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"round_down": true,
+					"calc": {
+						"points": 30
+					}
+				},
+				{
+					"id": "ba7e8037-05f2-4226-a400-e2dfc4ec1f1b",
+					"type": "trait",
+					"name": "Unhealing (Total)",
+					"reference": "B160",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": -30,
+					"calc": {
+						"points": -30
+					}
+				},
+				{
+					"id": "d6d759ca-04c0-44bc-ac61-8f4674fa6263",
+					"type": "trait",
+					"name": "Wears out instead of aging",
+					"reference": "B263",
+					"tags": [
+						"Physical"
+					],
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Meta-Trait: Machine",
+			"reference": "B263",
+			"container_type": "meta_trait",
+			"calc": {
+				"points": 25
+			}
+		}
+	],
+	"equipment": [
+		{
+			"id": "653df949-9ff4-45b7-be18-21920f4e9bdc",
+			"type": "equipment",
+			"description": "Entertainment Console",
+			"reference": "UT51",
+			"notes": "Complexity 4. 4B/5hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Furniture",
+				"Media"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "31c27f42-aa55-4f8c-9dfa-e4f40be8a6ea",
+			"type": "equipment",
+			"description": "Biometric Scanlock",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"UT104"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "24147b09-473b-4015-8174-e591e95c0757",
+			"type": "equipment",
+			"description": "Inertial Compass",
+			"reference": "UT75",
+			"notes": "A/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Tool"
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "0.2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Air"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Land"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Sea"
+					},
+					"amount": 3
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "0.2 lb"
+			}
+		}
+	],
+	"created_date": "2024-06-15T20:01:29-05:00",
+	"modified_date": "2024-11-29T12:37:25-08:00",
+	"calc": {
+		"swing": "7d-1",
+		"thrust": "4d+1",
+		"basic_lift": "320 lb",
+		"move": [
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"dodge": [
+			3,
+			2,
+			1,
+			1,
+			1
+		]
+	}
+}
