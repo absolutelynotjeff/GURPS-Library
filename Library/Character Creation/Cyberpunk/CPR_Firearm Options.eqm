@@ -19,24 +19,52 @@
 			"type": "eqp_modifier",
 			"name": "Armor-Piercing Enhanced Penetrator",
 			"reference": "UT152",
+			"notes": "Adjust piercing size down a level manually",
 			"tags": [
 				"Ammo Modifier"
 			],
 			"cost_type": "to_base_cost",
 			"tech_level": "9",
-			"cost": "+9 CF"
+			"cost": "+9 CF",
+			"features": [
+				{
+					"type": "weapon_dr_divisor_bonus",
+					"selection_type": "this_weapon",
+					"name": {
+						"compare": "is"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 3
+				}
+			]
 		},
 		{
 			"id": "71793081-d85f-4580-bd40-6c26256e280a",
 			"type": "eqp_modifier",
 			"name": "Armor-Piercing Hardcore",
 			"reference": "UT152",
+			"notes": "Adjust piercing size down a level manually",
 			"tags": [
 				"Ammo Modifier"
 			],
 			"cost_type": "to_base_cost",
 			"tech_level": "9",
-			"cost": "+1 CF"
+			"cost": "+1 CF",
+			"features": [
+				{
+					"type": "weapon_dr_divisor_bonus",
+					"selection_type": "this_weapon",
+					"name": {
+						"compare": "is"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 2
+				}
+			]
 		},
 		{
 			"id": "cacc0aff-3d1c-4da2-87df-413b0a78927b",
@@ -378,7 +406,6 @@
 					"weight": "-33%"
 				}
 			],
-			"open": true,
 			"name": "Base Modifiers"
 		},
 		{
@@ -747,7 +774,7 @@
 			"features": [
 				{
 					"type": "weapon_dr_divisor_bonus",
-					"selection_type": "weapons_with_required_skill",
+					"selection_type": "this_weapon",
 					"name": {
 						"compare": "is",
 						"qualifier": "Guns"

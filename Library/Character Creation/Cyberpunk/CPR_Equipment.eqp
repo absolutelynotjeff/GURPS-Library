@@ -58,13 +58,150 @@
 			}
 		},
 		{
+			"id": "95236de5-0dc1-4bb2-89a3-c6fe85a05722",
+			"type": "equipment",
+			"description": "Berserk",
+			"reference": "CPREDHP2",
+			"notes": "10 min; +1d ST \u0026 FP, High Pain Tolerance, Berserk; Crash (-2 ST, DX, \u0026 IQ) for 1 hour, HT-3 to resist addiction",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "0.3 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "e980dec0-5fe4-4c71-85d1-18b0b4076890",
+			"type": "equipment",
+			"description": "Arasaka Suzumebachi Assassin Drone",
+			"reference": "CPREDHP5",
+			"notes": "2B/8hr, 50 yd range from NET Architecture",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Robot"
+			],
+			"quantity": 1,
+			"value": 612000,
+			"weight": "12 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 612000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "8d12aa57-44b0-42e4-b2af-8bf0d442e2fc",
+			"type": "equipment",
+			"description": "Prime Time",
+			"reference": "CPREDHP3",
+			"notes": "4 hours; +1d IQ, Will, \u0026 Per, Callous \u0026 No Sense of Humor; Crash (-2 Will \u0026 IQ) for 1d hours, HT-3 to avoid addiction ",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "0.3 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "e4e933c7-224d-4f16-874d-c22277d61c9c",
+			"type": "equipment",
+			"description": "Arasaka WAA Bullpup Assault Weapon",
+			"reference": "DL:12GUN3",
+			"notes": "5.7mmCL",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 5500,
+			"weight": "8.5 lb",
+			"weapons": [
+				{
+					"id": "ef0e6875-408b-4404-a1ed-2c22ee87fa31",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "4d+2"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "5",
+					"range": "600/3,000",
+					"rate_of_fire": "10",
+					"shots": "30+1",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "4d+2 pi-"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 5500,
+				"extended_weight": "8.5 lb"
+			}
+		},
+		{
+			"id": "2fe2581a-de09-4f9a-8602-b270e0fac08b",
+			"type": "equipment",
+			"description": "Timewarp",
+			"reference": "CPREDHP2",
+			"notes": "10 minutes; +1d DX, +1 Basic Speed; Crash (-2 DX, -1 Basic Speed) for 1 hour, HT-3 to avoid addiction",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 350,
+			"weight": "0.03 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "0.03 lb"
+			}
+		},
+		{
 			"id": "d85485e7-a11c-4812-90b6-b9e9698ed40d",
 			"type": "equipment",
 			"description": "Kiroshi Cyberoptic Interferometry System",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Cybernetics"
+				"Cybernetic"
 			],
 			"quantity": 1,
 			"weight": "0.1 lb",
@@ -81,7 +218,7 @@
 			"tech_level": "9",
 			"legality_class": "0",
 			"tags": [
-				"Cybernetics"
+				"Cybernetic"
 			],
 			"quantity": 1,
 			"value": 153000,
@@ -90,6 +227,88 @@
 			"calc": {
 				"extended_value": 153000,
 				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "a7e94544-4fd6-477f-abe9-a1d42f25399b",
+			"type": "equipment",
+			"description": "Pursuit Security Inc. Gas Jet",
+			"reference": "CPREDHP5",
+			"notes": "Minor procedure",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cybernetic"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "0.1 lb",
+			"weapons": [
+				{
+					"id": "8c2fc3ee-206f-4f5e-8ee9-a310f7adb038",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr"
+					},
+					"usage": "Spray",
+					"usage_notes": "Damage depends on substance used",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "cr"
+					}
+				},
+				{
+					"id": "4f0ceac5-ac5c-4aa4-8b15-aff5e5ca8a1f",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": ""
+					},
+					"usage": "Spray",
+					"usage_notes": "Damage depends on substance used",
+					"range": "1",
+					"rate_of_fire": "1",
+					"shots": "3(2i)",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					]
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.1 lb"
 			}
 		},
 		{
@@ -126,6 +345,26 @@
 			"calc": {
 				"extended_value": 0.5,
 				"extended_weight": "0.025 lb"
+			}
+		},
+		{
+			"id": "47a6fe59-2365-42a0-8a37-eb7b86448912",
+			"type": "equipment",
+			"description": "BioTechnica AutoInjector",
+			"reference": "CPREDHP5",
+			"notes": "Major procedure; 1 Action to inject vial or a free action when paired with Biomonitor cyberware; 3 ready actions to change out vial. Holds 1 dose.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cybernetic"
+			],
+			"quantity": 1,
+			"value": 2000,
+			"weight": "0.01 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "0.01 lb"
 			}
 		},
 		{
@@ -2127,6 +2366,7 @@
 			"reference": "UT208",
 			"notes": "Minor procedure.",
 			"tech_level": "9",
+			"legality_class": "4",
 			"tags": [
 				"Cybernetic"
 			],
@@ -2822,7 +3062,7 @@
 			"tech_level": "9",
 			"tags": [
 				"Communication",
-				"Cybernetics"
+				"Cybernetic"
 			],
 			"quantity": 1,
 			"value": 5,
