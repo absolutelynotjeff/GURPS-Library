@@ -1,0 +1,69 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "b2f84210-92ac-4bd0-b3d6-eb7db17337ed",
+	"traits": [
+		{
+			"id": "ab365ea4-66df-443a-b530-95420100fc00",
+			"type": "trait_container",
+			"children": [
+				{
+					"id": "d2ef4913-0613-472f-b356-5234aaa40835",
+					"type": "trait_container",
+					"open": true,
+					"name": "Perks",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"open": true,
+			"name": "Appropriate Advantages",
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "eb0a3d65-4079-460a-8dc9-f46fd9bd4c42",
+			"type": "trait_container",
+			"open": true,
+			"name": "Appropriate Disadvantages",
+			"calc": {
+				"points": 0
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "d4f89914-7672-4717-bb5f-a8cef88565b1",
+			"type": "skill_container",
+			"open": true,
+			"name": "Melee Combat Skills"
+		},
+		{
+			"id": "451ca4bf-a642-486c-b8be-c003051ca3a0",
+			"type": "skill_container",
+			"open": true,
+			"name": "Ranged Combat Skills"
+		},
+		{
+			"id": "fcd4f4f5-70e2-427f-9a1a-f45f450ee726",
+			"type": "skill_container",
+			"open": true,
+			"name": "Knowledge Skills"
+		},
+		{
+			"id": "d4b2c412-5a30-42a6-aa3b-4329efff57af",
+			"type": "skill_container",
+			"open": true,
+			"name": "Physical Skills"
+		}
+	],
+	"notes": [
+		{
+			"id": "115f120a-b715-486e-8774-4d0e281ae594",
+			"type": "note",
+			"text": "# Exec\n\nIn the old days before the Time of the Red, you would have been a harddriven, fast-track MBA on their way up the Corporate ladder. Sure, it was selling your soul to the Company, but face it: the Corporations ruled the world. They controlled governments, markets, nations, armies—you name it. And you knew that whoever controlled the Corporations controlled everything else. But things changed when the largest Megacorps on the planet got into a major war that was equal to anything any real national governments could have thrown down. Okay, so right now your life as a junior executive is anything but easy. There are those underneath you who'd kill for a shot at your job. Literally. There are those over you who'd kill to keep you out of their jobs. Literally. And they're not kidding about the killing—every up-and-comer in the Corporation has their own Team of Solos and Netrunners to cover important pet projects. Last week, you led a mixed team of Solos, Netrunners, and Techs on a headhunting run to \"extract\" a researcher from a rival company. You told yourself you joined the Corporation to make it a better place—work from the inside, you said. Or just until you could start your own Corporation that would be...a little more honest. But now you're not so sure. Your ideals are a little tarnished and things are getting pretty bleak. But you can't worry about ethics now. You've got a report due in an hour, and it looks like that guy in sales is planning to ice your database for good.\n\nYou're gonna ice him first."
+		}
+	]
+}
