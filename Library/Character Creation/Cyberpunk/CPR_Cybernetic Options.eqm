@@ -1,0 +1,163 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "foggGhY8X5qIiWzc4",
+			"name": "Dynalar Extra Twist™ Joint Addition",
+			"reference": "CP2020CB4:3",
+			"notes": "requires cyberarms",
+			"tags": [
+				"CyberArms"
+			],
+			"cost_type": "to_base_cost",
+			"tech_level": "9",
+			"cost": "+0.4 CF",
+			"features": [
+				{
+					"type": "skill_point_bonus",
+					"name": {
+						"compare": "is",
+						"qualifier": "Judo"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_point_bonus",
+					"name": {
+						"compare": "is",
+						"qualifier": "Wrestling"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_point_bonus",
+					"name": {
+						"compare": "is",
+						"qualifier": "Climbing"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_point_bonus",
+					"name": {
+						"compare": "is",
+						"qualifier": "Escape"
+					},
+					"amount": 2
+				}
+			]
+		},
+		{
+			"id": "fhzBYK4uH_oap_TkI",
+			"name": "Sycust Extending Leg Units",
+			"reference": "CP2020CB4:6",
+			"notes": "requires cyberlegs",
+			"tags": [
+				"CyberLegs"
+			],
+			"tech_level": "9",
+			"cost": "+400"
+		},
+		{
+			"id": "fdjSw7GGKBx0WXbFX",
+			"name": "Sycust Double-Jointed Option",
+			"reference": "CP2020CB4:6",
+			"notes": "requires cyberarms or cyberlegs",
+			"tags": [
+				"CyberArms",
+				"CyberLegs"
+			],
+			"cost_is_per_level": true,
+			"tech_level": "9",
+			"cost": "+1000",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Escape"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Judo"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Wrestling"
+					},
+					"amount": 1,
+					"per_level": true
+				}
+			]
+		},
+		{
+			"id": "f5uJnL65hK26NXRNF",
+			"name": "Sycust Locking Joints",
+			"reference": "CP2020CB4:6",
+			"notes": "requires cyberarms or cyberlegs",
+			"tags": [
+				"CyberArms",
+				"CyberLegs"
+			],
+			"tech_level": "9",
+			"cost": "+100"
+		},
+		{
+			"id": "f41wJhWqls4-U7T7K",
+			"name": "Sycust 360-Degree Rotating Joint",
+			"reference": "CP2020CB4:6",
+			"notes": "requires cyberarms or cyberlegs",
+			"tags": [
+				"CyberArms",
+				"CyberLegs"
+			],
+			"tech_level": "9",
+			"cost": "+120"
+		},
+		{
+			"id": "f_cum_2_SfFNwOeMM",
+			"name": "Dakai Scramble",
+			"notes": "requires cyberneck",
+			"tags": [
+				"Cyberneck"
+			],
+			"tech_level": "9",
+			"cost": "+50"
+		},
+		{
+			"id": "fCyeZsNmC12yfgkW-",
+			"name": "Catspaw™ Stealth Foot",
+			"reference": "CP2020CB4:5",
+			"notes": "requires cyberleg",
+			"tags": [
+				"CyberLegs"
+			],
+			"tech_level": "9",
+			"cost": "+150",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Stealth"
+					},
+					"amount": 1
+				}
+			]
+		}
+	]
+}
