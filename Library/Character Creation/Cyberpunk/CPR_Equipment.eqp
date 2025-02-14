@@ -3069,8 +3069,8 @@
 					"tech_level": "9",
 					"legality_class": "4",
 					"tags": [
-						"Donner \u0026 Savage",
 						"Cybernetic",
+						"Donner \u0026 Savage",
 						"Medical Gear"
 					],
 					"value": 975,
@@ -6283,8 +6283,8 @@
 			"legality_class": "4",
 			"tags": [
 				"Cybernetic",
-				"Dakai Soundsystems",
-				"Cyphire Cyberware"
+				"Cyphire Cyberware",
+				"Dakai Soundsystems"
 			],
 			"value": 850,
 			"quantity": 1,
@@ -12660,7 +12660,7 @@
 			"weight": "3.75 lb",
 			"weapons": [
 				{
-					"id": "wgy11BL1i9MmzsG9J",
+					"id": "wVloCDKtN1HRSji_4",
 					"damage": {
 						"type": "cut",
 						"st": "sw",
@@ -12708,11 +12708,22 @@
 					"calc": {
 						"damage": "sw+1 cut"
 					}
+				},
+				{
+					"id": "wPl4_uG-BjLpyrS80",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"reach": "1",
+					"calc": {
+						"damage": "thr cr"
+					}
 				}
 			],
 			"modifiers": [
 				{
-					"id": "fWPiCr_nokJUluWaj",
+					"id": "fi1b7n7ib-5uV5TAk",
 					"source": {
 						"library": "/Library",
 						"path": "Library\\Character Creation\\Cyberpunk\\CPR_Melee_Options.eqm",
@@ -12725,7 +12736,7 @@
 					],
 					"cost_type": "to_base_cost",
 					"tech_level": "9",
-					"cost": "+0 CF",
+					"cost": "+3 CF",
 					"features": [
 						{
 							"type": "weapon_bonus",
@@ -12754,7 +12765,7 @@
 			],
 			"quantity": 1,
 			"calc": {
-				"extended_value": 600,
+				"extended_value": 2400,
 				"extended_weight": "3.75 lb"
 			}
 		},
@@ -12797,8 +12808,8 @@
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Kiroshi",
-				"Cybernetic"
+				"Cybernetic",
+				"Kiroshi"
 			],
 			"weight": "0.1 lb",
 			"quantity": 1,
@@ -20163,8 +20174,8 @@
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
-				"Pursuit Security",
-				"Cybernetic"
+				"Cybernetic",
+				"Pursuit Security"
 			],
 			"value": 500,
 			"weight": "0.1 lb",
@@ -24334,8 +24345,8 @@
 			"tech_level": "9",
 			"legality_class": "2",
 			"tags": [
-				"Sycust",
-				"Cybernetic"
+				"Cybernetic",
+				"Sycust"
 			],
 			"value": 2000,
 			"features": [

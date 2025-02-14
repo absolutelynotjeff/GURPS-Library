@@ -285,6 +285,47 @@
 			}
 		},
 		{
+			"id": "eMNiAiLCB06Qg2I2X",
+			"description": "Militech Cyber-Detection Computer",
+			"notes": "Temporary Disadvantage (Electrical); Accessibiliity (Requires Neuralware Processor); Acute Hearing 1; Acute Taste \u0026 Smell 1; Acute Touch 1; Acute Vision 1",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cyberware",
+				"Neuralware",
+				"Militech"
+			],
+			"value": 24960,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "touch",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "taste_smell",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "hearing",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "vision",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 24960,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "eC5oyoi7pCZ_PXcE4",
 			"description": "Bodyweight Variable Chambered Heart",
 			"notes": "Temporary Disadvantage: Electrical; Breath-Holding 2",
@@ -749,26 +790,6 @@
 			"quantity": 1,
 			"calc": {
 				"extended_value": 1000,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "epncvk9We5vUyWgu-",
-			"description": "Techtronics Echolocation System Coprocessor",
-			"notes": "Temporary Disadvantage (Electrical); Accessability (Requires Neuralware Processor, Video Imager Cyberoptic Option, AudioVox Implant, and CyberAudio implants); Scanning Sense (Imaging Radar)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Audio",
-				"Optics",
-				"Techtronics"
-			],
-			"value": 18000,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 18000,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1359,6 +1380,55 @@
 			}
 		},
 		{
+			"id": "eRKfY3Zq2jWHv_7un",
+			"description": "High Five",
+			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; 18.5mmPC",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Cyberware",
+				"Limb Option",
+				"Weapon",
+				"Backalley"
+			],
+			"value": 2010,
+			"weapons": [
+				{
+					"id": "WmxBtdWMYT-WhUrkm",
+					"damage": {
+						"type": "pi++",
+						"base": "4d"
+					},
+					"usage": "Shoot",
+					"rate_of_fire": "1",
+					"shots": "1(3i)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "4d pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2010,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "eRrx4lvTulfGsVMPK",
 			"description": "Kang Tao Rippers",
 			"notes": "Long Talons, Switchable",
@@ -1773,6 +1843,63 @@
 			}
 		},
 		{
+			"id": "eD5yPZ3rQcXCu4h0b",
+			"description": "NovelTech Catspaw™ Stealth Foot",
+			"notes": "Accessibility: Requires Cyberleg; Silence 1",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Limb",
+				"NovelTech"
+			],
+			"value": 6300,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 6300,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eM3ER2iUpIP3xWGvK",
+			"description": "NovelTech Corvette Advanced Cyberlegs",
+			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Neuralware Processor; Kick Damage +4; Increased Basic Move 2",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Limb",
+				"NovelTech"
+			],
+			"value": 11995.2,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 11995.2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ejfeMOIKuAQp7Q8qG",
+			"description": "NovelTech Corvette Basic Cyberlegs",
+			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Neuralware Processor; Kick Damage +4; Increased Basic Move 1",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Limb",
+				"NovelTech"
+			],
+			"value": 9172.8,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9172.8,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "eg3ttzqFhJsV65_B8",
 			"description": "NovelTech LittleRipp",
 			"notes": "Temporary Disadvantage: Electrical; Hidden short blade in the forearm",
@@ -1843,166 +1970,6 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 4294.4,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "evvUIhwG_zWaEaCFb",
-			"description": "Radine Blitzkrieg™ Arc Thrower",
-			"notes": "Temporary Disadvantage (Electrical); Power Hog (Takes all cyberarm option slots); Innate Attack (Burn) 3, Surge, 2x Increased Range",
-			"tech_level": "9",
-			"legality_class": "2",
-			"tags": [
-				"Cyberware",
-				"Limb Option",
-				"Weapon",
-				"Radine Industries"
-			],
-			"value": 12230.4,
-			"weapons": [
-				{
-					"id": "W_RLzuqZVTXmqLDDG",
-					"damage": {
-						"type": "burn",
-						"base": "3d"
-					},
-					"usage": "Shoot",
-					"usage_notes": "Surge",
-					"range": "20/200",
-					"rate_of_fire": "1",
-					"shots": "1(2i)",
-					"recoil": "1",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Innate Attack",
-							"specialization": "Beam"
-						},
-						{
-							"type": "skill",
-							"name": "Innate Attack",
-							"modifier": -2
-						},
-						{
-							"type": "dx",
-							"modifier": -4
-						}
-					],
-					"calc": {
-						"damage": "3d burn"
-					}
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 12230.4,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "eRKfY3Zq2jWHv_7un",
-			"description": "High Five",
-			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; 18.5mmPC",
-			"tech_level": "9",
-			"legality_class": "2",
-			"tags": [
-				"Cyberware",
-				"Limb Option",
-				"Weapon",
-				"Backalley"
-			],
-			"value": 2010,
-			"weapons": [
-				{
-					"id": "WmxBtdWMYT-WhUrkm",
-					"damage": {
-						"type": "pi++",
-						"base": "4d"
-					},
-					"usage": "Shoot",
-					"rate_of_fire": "1",
-					"shots": "1(3i)",
-					"recoil": "1",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"damage": "4d pi++"
-					}
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 2010,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "eD5yPZ3rQcXCu4h0b",
-			"description": "NovelTech Catspaw™ Stealth Foot",
-			"notes": "Accessibility: Requires Cyberleg; Silence 1",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Limb",
-				"NovelTech"
-			],
-			"value": 6300,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 6300,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "eM3ER2iUpIP3xWGvK",
-			"description": "NovelTech Corvette Advanced Cyberlegs",
-			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Neuralware Processor; Kick Damage +4; Increased Basic Move 2",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Limb",
-				"NovelTech"
-			],
-			"value": 11995.2,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 11995.2,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "ejfeMOIKuAQp7Q8qG",
-			"description": "NovelTech Corvette Basic Cyberlegs",
-			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Neuralware Processor; Kick Damage +4; Increased Basic Move 1",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Limb",
-				"NovelTech"
-			],
-			"value": 9172.8,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 9172.8,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -2080,6 +2047,60 @@
 			}
 		},
 		{
+			"id": "evvUIhwG_zWaEaCFb",
+			"description": "Radine Blitzkrieg™ Arc Thrower",
+			"notes": "Temporary Disadvantage (Electrical); Power Hog (Takes all cyberarm option slots); Innate Attack (Burn) 3, Surge, 2x Increased Range",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Cyberware",
+				"Limb Option",
+				"Weapon",
+				"Radine Industries"
+			],
+			"value": 12230.4,
+			"weapons": [
+				{
+					"id": "W_RLzuqZVTXmqLDDG",
+					"damage": {
+						"type": "burn",
+						"base": "3d"
+					},
+					"usage": "Shoot",
+					"usage_notes": "Surge",
+					"range": "20/200",
+					"rate_of_fire": "1",
+					"shots": "1(2i)",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Beam"
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"modifier": -2
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 12230.4,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "eIGpxtps83uVBMX7Q",
 			"description": "ReVive Titan Arm™ ( @ Left or Right @ )",
 			"notes": "Temporary Disadvantage: Electrical; Accessibility (Requires Neuralware Processor); Meta-Trait: Machine, One Arm; Distinctive Features, Obvious Cyber Arm; Arm ST 6: Only one arm; Damage Resistance 12: Partial (Arm); Maintenance, People Required: 2; Frequency: Every Other Day; One Arm, Mitigator (Cyber Arm); Finnicky, Malf 15; Anti-Talent (Most skills that use the arm) 2; Appearance (Ugly)",
@@ -2153,6 +2174,26 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 2822.4,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "epncvk9We5vUyWgu-",
+			"description": "Techtronics Echolocation System Coprocessor",
+			"notes": "Temporary Disadvantage (Electrical); Accessability (Requires Neuralware Processor, Video Imager Cyberoptic Option, AudioVox Implant, and CyberAudio implants); Scanning Sense (Imaging Radar)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Audio",
+				"Optics",
+				"Techtronics"
+			],
+			"value": 18000,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 18000,
 				"extended_weight": "0 lb"
 			}
 		},
