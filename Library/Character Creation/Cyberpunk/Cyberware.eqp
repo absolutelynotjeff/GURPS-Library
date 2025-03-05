@@ -172,6 +172,7 @@
 		},
 		{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "e4CQBTjyvXOdm2fx3",
 			"description": "Kang Tao Tazer Grip",
 			"notes": "Accessibility (Requires Cyberarm Option Slot); Temporary Disadvantage (Electrical); Accessory (Stun Gun)",
@@ -213,6 +214,8 @@
 			"calc": {
 				"extended_value": 1500,
 =======
+=======
+>>>>>>> Stashed changes
 			"id": "e757Briuwz0Eb7EFo",
 			"description": "Biotechnica Chip Lok",
 			"notes": "Accessibility (Requires Chip Slot); Prevents chips from being ejected",
@@ -227,6 +230,9 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 2520,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
@@ -490,6 +496,7 @@
 		},
 		{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "ee93ZaSshjWkjY3Zw",
 			"description": "Bodyweight T-Maxx Cyberliver",
 			"notes": "Temporary Disadvantage (Electrical)",
@@ -509,6 +516,8 @@
 			}
 		},
 		{
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 			"id": "eC5oyoi7pCZ_PXcE4",
@@ -1131,6 +1140,7 @@
 		},
 		{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "e2xkxh2uuqIFIK-V_",
 			"description": "Dynalar Cutting Torch",
 			"notes": "Accessibility (Requires Cyberhand Option Slot); Temporary Disadvantage (Electrical); Accessory (Cutting Torch)",
@@ -1187,6 +1197,8 @@
 			"calc": {
 				"extended_value": 905.6,
 =======
+=======
+>>>>>>> Stashed changes
 			"id": "ejAEpxILniqv0dFC8",
 			"description": "Dornier-Bauer Biotechnische Neural Bridge",
 			"notes": "Ambidexterity",
@@ -1201,6 +1213,9 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 8700,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
@@ -1385,6 +1400,30 @@
 			}
 		},
 		{
+<<<<<<< Updated upstream
+=======
+			"id": "emX33D6H6UF5Wg7aT",
+			"description": "Dynalar DIGITS® Vidcam",
+			"reference": "CP2020CB1:32",
+			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Videocamera); Switchable",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Dynalar Technologies",
+				"Limb",
+				"Limb Option"
+			],
+			"value": 1260,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1260,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+>>>>>>> Stashed changes
 			"id": "egqE9U4-5MD0Wrp0b",
 			"description": "Dynalar DIGITS® IR Vidcam",
 			"reference": "CP2020CB1:32",
@@ -1499,7 +1538,11 @@
 				"Cyberware",
 				"Dynalar Technologies",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"Cyberlimb Option"
+=======
+				"Limb Option"
+>>>>>>> Stashed changes
 =======
 				"Limb Option"
 >>>>>>> Stashed changes
@@ -1603,7 +1646,11 @@
 				"Cyberware",
 				"Dynalar Technologies",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"Cyberlimb Option"
+=======
+				"Limb Option"
+>>>>>>> Stashed changes
 =======
 				"Limb Option"
 >>>>>>> Stashed changes
@@ -1665,7 +1712,11 @@
 				"Cyberware",
 				"Dynalar Technologies",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"Cyberlimb Option"
+=======
+				"Limb Option"
+>>>>>>> Stashed changes
 =======
 				"Limb Option"
 >>>>>>> Stashed changes
@@ -1933,12 +1984,19 @@
 			"tech_level": "9",
 			"legality_class": "2",
 			"tags": [
+<<<<<<< Updated upstream
 				"Kang Tao",
+=======
+				"Backalley",
+>>>>>>> Stashed changes
 				"Cyberware",
 				"Cyberlimb Option"
 =======
 				"Limb Option",
 				"Weapon"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			],
 			"value": 2010,
@@ -1979,6 +2037,7 @@
 			}
 		},
 		{
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			"id": "eUCdrCdFcLIYGXe86",
 			"description": "Kang Tao Mace Hand",
@@ -2023,6 +2082,8 @@
 						"damage": "sw+1 cr"
 					}
 =======
+=======
+>>>>>>> Stashed changes
 			"id": "e-4gLcsWJ8vyZgeEo",
 			"description": "InterTech Muscle and Bone Lace",
 			"notes": "Increased ST 1",
@@ -2038,6 +2099,9 @@
 					"type": "attribute_bonus",
 					"attribute": "st",
 					"amount": 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				}
 			],
@@ -2045,7 +2109,11 @@
 			"equipped": true,
 			"calc": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"extended_value": 6000,
+=======
+				"extended_value": 6960,
+>>>>>>> Stashed changes
 =======
 				"extended_value": 6960,
 >>>>>>> Stashed changes
@@ -2369,7 +2437,10 @@
 		},
 		{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 			"id": "ev0HV_0wOg3yXqEpB",
 			"description": "Militech Facedown",
 			"notes": "Accessibility (Requires Chip Slot); Modified Charisma 3",
@@ -2423,6 +2494,9 @@
 			}
 		},
 		{
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"id": "ECOsYmLNV59UmUxeO",
 			"source": {
@@ -2761,6 +2835,7 @@
 		},
 		{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "epToLDRaVRdy_VJj_",
 			"description": "NuTek Skate Foot® (Pair)",
 			"reference": "CP2020CB1:33",
@@ -2770,10 +2845,16 @@
 			"description": "Nu-Tek Taste Boost",
 			"notes": "Acessibility (Requires Neuralware Processor); Acute Taste \u0026 Smell 2",
 >>>>>>> Stashed changes
+=======
+			"id": "ePns7ivgv_dtEfQnx",
+			"description": "Nu-Tek Taste Boost",
+			"notes": "Acessibility (Requires Neuralware Processor); Acute Taste \u0026 Smell 2",
+>>>>>>> Stashed changes
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				"NuTek",
 				"Limb",
@@ -2786,6 +2867,8 @@
 					"attribute": "basic_move",
 					"amount": 1.5
 =======
+=======
+>>>>>>> Stashed changes
 				"Sensors",
 				"Nu-Tek"
 			],
@@ -2795,6 +2878,9 @@
 					"type": "attribute_bonus",
 					"attribute": "taste_smell",
 					"amount": 2
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				}
 			],
@@ -2802,7 +2888,11 @@
 			"equipped": true,
 			"calc": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				"extended_value": 13500,
+=======
+				"extended_value": 5400,
+>>>>>>> Stashed changes
 =======
 				"extended_value": 5400,
 >>>>>>> Stashed changes
@@ -2811,10 +2901,13 @@
 		},
 		{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "eEgaDx3ceVmYL1nxH",
 			"description": "Psiberstuff Watch-Man®",
 			"notes": "Accessibility (Requires 1 Cyberarm Option Slot); Temporary Disadvantage (Electrical); Accessory (TV Screen)",
 =======
+=======
+>>>>>>> Stashed changes
 			"id": "e_8fZBwnuvgzN1yV3",
 			"description": "OTEC Nitrogen Boosters",
 			"notes": "Pressure-Tolerant Lungs; Maintenance, People Required 1, Monthly",
@@ -2837,11 +2930,15 @@
 			"id": "ebrFsVNm1BbShjzso",
 			"description": "Parts N' Programs Speedreader",
 			"notes": "Accessibility (Requires Chipslot) Speedread (Halves Extra Time threshold bonus for skills like Research)",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				"Cyberlimb Option",
 				"Psiberstuff"
@@ -2852,6 +2949,8 @@
 			"calc": {
 				"extended_value": 856.8,
 =======
+=======
+>>>>>>> Stashed changes
 				"Chipware",
 				"Parts N' Programs"
 			],
@@ -2860,6 +2959,9 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 12480,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
@@ -2927,6 +3029,9 @@
 				"Cyberlimb Option",
 =======
 				"Limb Option",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				"Radine Industries",
 				"Weapon"
@@ -2975,6 +3080,7 @@
 		},
 		{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			"id": "ec1Qhxquo2ddMfMpz",
 			"description": "Raven Microcybernetics Rebreathers",
 			"notes": "Temporary Disadvantage (Electrical); Breath-Holding 1; Filter Lungs",
@@ -2991,6 +3097,8 @@
 			"calc": {
 				"extended_value": 3600,
 =======
+=======
+>>>>>>> Stashed changes
 			"id": "eDuo24mNEbnC_L30T",
 			"description": "Replitech \"TuffBone\" Skeletal Enhancement",
 			"notes": "Arm ST 1; Lifting ST 1",
@@ -3025,6 +3133,9 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 7795,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
