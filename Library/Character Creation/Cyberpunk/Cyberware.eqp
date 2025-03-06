@@ -2,25 +2,6 @@
 	"version": 5,
 	"rows": [
 		{
-			"id": "eCnfodppWBtE-qc8d",
-			"description": "Advanced Audio Systems Wearman Mark II",
-			"notes": "Temporary Disadvantage (Electrical); Accessory (Headphones)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberwear",
-				"Fashionware",
-				"Advanced Audio Systems"
-			],
-			"value": 697,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 697,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "EjuPo8lfNM4POoG32",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -171,51 +152,6 @@
 			}
 		},
 		{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			"id": "e4CQBTjyvXOdm2fx3",
-			"description": "Kang Tao Tazer Grip",
-			"notes": "Accessibility (Requires Cyberarm Option Slot); Temporary Disadvantage (Electrical); Accessory (Stun Gun)",
-			"tech_level": "9",
-			"legality_class": "3",
-			"tags": [
-				"Cyberware",
-				"Weapon",
-				"Cyberlimb Option",
-				"Kang Tao"
-			],
-			"value": 1500,
-			"weapons": [
-				{
-					"id": "wbeW2OQg3Q9vrUmPY",
-					"damage": {
-						"type": ""
-					},
-					"usage": "Taze",
-					"usage_notes": "HT-3 or Stunned for 20 - HT Seconds; HT-3 check to recover each second",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						},
-						{
-							"type": "dx"
-						}
-					]
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1500,
-=======
-=======
->>>>>>> Stashed changes
 			"id": "e757Briuwz0Eb7EFo",
 			"description": "Biotechnica Chip Lok",
 			"notes": "Accessibility (Requires Chip Slot); Prevents chips from being ejected",
@@ -230,10 +166,6 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 2520,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
 		},
@@ -249,13 +181,6 @@
 				"Bioware"
 			],
 			"value": 3000,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to resist disease",
-					"amount": 8
-				}
-			],
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
@@ -333,43 +258,20 @@
 			}
 		},
 		{
-			"id": "eNWh9EyJ5oUDe4QDI",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
-				"id": "eEcbJpovjk3B-5jIv"
-			},
-			"description": "Biotechnica Pacesetter 2000™ Overdrive Heart",
-			"notes": "Temporary Disadvantage (Electrical); Basic Speed 8; Costs Fatigue 1 (Maintenance)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Biotechnica",
-				"Bioware",
-				"Cyberware"
-			],
-			"value": 16800,
-			"quantity": 1,
-			"calc": {
-				"extended_value": 16800,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "eUApwxvCkC8jSAUJF",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
 				"id": "eEcbJpovjk3B-5jIv"
 			},
-			"description": "Biotechnica Pacesetter 2000™ Overdrive Heart",
+			"description": "Biotechnica Pacesetter 2000™ Heart",
 			"reference": "UT210",
 			"notes": "Temporary Disadvantage: Electrical; Basic Speed +2, Costs Fatigue 1; Hard to Kill 1",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"Biotechnica",
-				"Organ",
+				"Bioware",
 				"Cyberware"
 			],
 			"value": 8400,
@@ -386,8 +288,9 @@
 				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
 				"id": "eEcbJpovjk3B-5jIv"
 			},
-			"description": "Biotechnica Pacesetter® Sport Heart",
-			"notes": "Temporary Disadvantage (Electrical); Basic Speed 4; Costs Fatigue 1",
+			"description": "Biotechnica Pacesetter™ Heart",
+			"reference": "UT210",
+			"notes": "Temporary Disadvantage: Electrical; Basic Speed +1, Costs Fatigue 1",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
@@ -395,10 +298,10 @@
 				"Bioware",
 				"Cyberware"
 			],
-			"value": 9000,
+			"value": 3360,
 			"quantity": 1,
 			"calc": {
-				"extended_value": 9000,
+				"extended_value": 3360,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -413,11 +316,11 @@
 				"Cyberware",
 				"Organ"
 			],
-			"value": 4800,
+			"value": 6720,
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 4800,
+				"extended_value": 6720,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -495,31 +398,6 @@
 			}
 		},
 		{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			"id": "ee93ZaSshjWkjY3Zw",
-			"description": "Bodyweight T-Maxx Cyberliver",
-			"notes": "Temporary Disadvantage (Electrical)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Organs",
-				"Bodyweight"
-			],
-			"value": 3000,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 3000,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 			"id": "eC5oyoi7pCZ_PXcE4",
 			"description": "Bodyweight Variable Chambered Heart",
 			"notes": "Temporary Disadvantage: Electrical; Breath-Holding 2",
@@ -588,93 +466,6 @@
 			}
 		},
 		{
-			"id": "ejGn0_xGC9G9-BIj7",
-			"description": "BudgetArms Derringer",
-			"notes": "Accessibility (Requires Cyberhand Option Slot); Accessory (BudgetArms C-13)",
-			"tech_level": "9",
-			"legality_class": "3",
-			"tags": [
-				"Cyberware",
-				"Cyberlimb Option",
-				"Weapon",
-				"BudgetArms"
-			],
-			"value": 1575,
-			"weapons": [
-				{
-					"id": "W0VfcMOdAgNDML3XG",
-					"damage": {
-						"type": "pi-",
-						"base": "1d"
-					},
-					"strength": "7",
-					"usage": "Shoot",
-					"accuracy": "1",
-					"range": "70/750",
-					"rate_of_fire": "2",
-					"shots": "1+1(3i)",
-					"recoil": "2",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -2
-						},
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Pistol"
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Shotgun",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Guns",
-							"specialization": "Submachine Gun",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"damage": "1d pi-"
-					}
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1575,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "ek6U3-LQAQAfGfQPZ",
-			"description": "Cybermatrix Wet Drive",
-			"notes": "Accessibility (Requires Neuralware Processor); Accessory (1 TB Data Storage)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Neuralware",
-				"Cybermatrix"
-			],
-			"value": 2089,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 2089,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "eqR6bM7ZnPz__CkGW",
 			"description": "Cybervocal AudioVox",
 			"notes": "+3 Performance, Temporary Disadvantage, Electrical",
@@ -735,7 +526,7 @@
 			},
 			"description": "Cybervocal Forked Tongue",
 			"reference": "UT210",
-			"notes": "Accessibility (Requires Cyber Audio System Option Slot); Temporary Disadvantage (Electrical); Voice",
+			"notes": "Voice, Temporary Disadvantage, Electrical",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
@@ -743,7 +534,7 @@
 				"Cyberware",
 				"Vocal Implant"
 			],
-			"value": 14400,
+			"value": 5000,
 			"features": [
 				{
 					"type": "conditional_modifier",
@@ -825,14 +616,14 @@
 			],
 			"quantity": 1,
 			"calc": {
-				"extended_value": 14400,
+				"extended_value": 5000,
 				"extended_weight": "0 lb"
 			}
 		},
 		{
 			"id": "ejT5swd1tfCYSHfLQ",
 			"description": "Cybervocal Voice Pattern",
-			"notes": "Accessibility (Requires Cyber Audio System Option Slot); Temporary Disadvantage (Electrical); Mimicry, Voice Library",
+			"notes": "Can mimic recorded voice pattern via Neural Link",
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
@@ -840,11 +631,11 @@
 				"Cyberware",
 				"Vocal Implant"
 			],
-			"value": 16500,
+			"value": 5000,
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 16500,
+				"extended_value": 5000,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1139,66 +930,6 @@
 			}
 		},
 		{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			"id": "e2xkxh2uuqIFIK-V_",
-			"description": "Dynalar Cutting Torch",
-			"notes": "Accessibility (Requires Cyberhand Option Slot); Temporary Disadvantage (Electrical); Accessory (Cutting Torch)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Cyberlimb Option",
-				"Dynalar"
-			],
-			"value": 1575,
-			"weapons": [
-				{
-					"id": "w1geSuHnl4QwoZN5U",
-					"damage": {
-						"type": "burn",
-						"base": "1d+3",
-						"armor_divisor": 2
-					},
-					"usage": "Cutting Torch",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						}
-					],
-					"calc": {
-						"damage": "1d+3(2) burn"
-					}
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1575,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "esEX7xpEiLcfl-oA2",
-			"description": "Dynalar Cybersniffer™ E-monitor",
-			"notes": "Temporary Disadvantage (Electrical); Accessory (Biomedical Sensors)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Sensors",
-				"Dynalar"
-			],
-			"value": 905.6,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 905.6,
-=======
-=======
->>>>>>> Stashed changes
 			"id": "ejAEpxILniqv0dFC8",
 			"description": "Dornier-Bauer Biotechnische Neural Bridge",
 			"notes": "Ambidexterity",
@@ -1213,10 +944,6 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 8700,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1231,7 +958,7 @@
 				"Cyberware",
 				"Dynalar Technologies",
 				"Limb",
-				"Cyberlimb Option"
+				"Limb Option"
 			],
 			"value": 1260,
 			"quantity": 1,
@@ -1252,12 +979,12 @@
 				"Cyberware",
 				"Dynalar Technologies",
 				"Limb",
-				"Cyberlimb Option"
+				"Limb Option"
 			],
 			"value": 100,
 			"weapons": [
 				{
-					"id": "W-LEMos6nXjRVW48M",
+					"id": "Woy2pgkU_mL4Ir037",
 					"damage": {
 						"type": "cr",
 						"base": "1d"
@@ -1301,12 +1028,12 @@
 				"Cyberware",
 				"Dynalar Technologies",
 				"Limb",
-				"Cyberlimb Option"
+				"Limb Option"
 			],
 			"value": 45,
 			"weapons": [
 				{
-					"id": "WAddAPpcOyemVpsYc",
+					"id": "W4bDtU5nu3LzS1xNC",
 					"damage": {
 						"type": "cr",
 						"fragmentation": "2d"
@@ -1347,7 +1074,7 @@
 				"Cyberware",
 				"Dynalar Technologies",
 				"Limb",
-				"Cyberlimb Option"
+				"Limb Option"
 			],
 			"value": 630,
 			"quantity": 1,
@@ -1358,72 +1085,6 @@
 			}
 		},
 		{
-			"id": "elWWatcB0eYOb72dh",
-			"description": "Dynalar DIGITS® Light Pen",
-			"reference": "CP2020CB1:32",
-			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Ballpoint Pen); Switchable",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Dynalar Technologies",
-				"Limb",
-				"Cyberlimb Option"
-			],
-			"value": 1260,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1260,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "emX33D6H6UF5Wg7aT",
-			"description": "Dynalar DIGITS® Vidcam",
-			"reference": "CP2020CB1:32",
-			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Videocamera); Switchable",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Dynalar Technologies",
-				"Limb",
-				"Limb Option"
-			],
-			"value": 1260,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1260,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-<<<<<<< Updated upstream
-=======
-			"id": "emX33D6H6UF5Wg7aT",
-			"description": "Dynalar DIGITS® Vidcam",
-			"reference": "CP2020CB1:32",
-			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Videocamera); Switchable",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Dynalar Technologies",
-				"Limb",
-				"Limb Option"
-			],
-			"value": 1260,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1260,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
->>>>>>> Stashed changes
 			"id": "egqE9U4-5MD0Wrp0b",
 			"description": "Dynalar DIGITS® IR Vidcam",
 			"reference": "CP2020CB1:32",
@@ -1441,6 +1102,69 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 7560,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "elWWatcB0eYOb72dh",
+			"description": "Dynalar DIGITS® Light Pen",
+			"reference": "CP2020CB1:32",
+			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Ballpoint Pen); Switchable",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Dynalar Technologies",
+				"Limb",
+				"Limb Option"
+			],
+			"value": 1260,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1260,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e1aF39_fLIeYPuudP",
+			"description": "Dynalar DIGITS® Lockpick",
+			"reference": "CP2020CB1:32",
+			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Lockpick); Switchable",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Dynalar Technologies",
+				"Limb",
+				"Limb Option"
+			],
+			"value": 1260,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1260,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eSnn9aBHXvKGmwOK1",
+			"description": "Dynalar DIGITS® Mace Sprayer",
+			"reference": "CP2020CB1:32",
+			"notes": "Accessibility: Requires Cyberarm; Switchable",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Dynalar Technologies",
+				"Limb",
+				"Limb Option"
+			],
+			"value": 150,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 150,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1466,69 +1190,6 @@
 			}
 		},
 		{
-			"id": "eSko8Qu9_zlsm7XbP",
-			"description": "Dynalar DIGITS® Telescopic Vidcam",
-			"reference": "CP2020CB1:32",
-			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Videocamera); Switchable; Telescopic Vision 3",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Dynalar Technologies",
-				"Limb",
-				"Limb Option"
-			],
-			"value": 5040,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 5040,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "e1aF39_fLIeYPuudP",
-			"description": "Dynalar DIGITS® Lockpick",
-			"reference": "CP2020CB1:32",
-			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Lockpick); Switchable",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Dynalar Technologies",
-				"Limb",
-				"Cyberlimb Option"
-			],
-			"value": 1260,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1260,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "eSnn9aBHXvKGmwOK1",
-			"description": "Dynalar DIGITS® Mace Sprayer",
-			"reference": "CP2020CB1:32",
-			"notes": "Accessibility: Requires Cyberarm; Switchable",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Dynalar Technologies",
-				"Limb",
-				"Cyberlimb Option"
-			],
-			"value": 150,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 150,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "eA5NjSFX0QOZVcdGi",
 			"description": "Dynalar DIGITS® One Shot Special",
 			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Switchable; 4mm",
@@ -1537,20 +1198,12 @@
 			"tags": [
 				"Cyberware",
 				"Dynalar Technologies",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				"Cyberlimb Option"
-=======
 				"Limb Option"
->>>>>>> Stashed changes
-=======
-				"Limb Option"
->>>>>>> Stashed changes
 			],
 			"value": 3780,
 			"weapons": [
 				{
-					"id": "WB09srbtTqBOKMzFV",
+					"id": "WXtRO6huMey-i4VPE",
 					"damage": {
 						"type": "pi-",
 						"base": "1d+2"
@@ -1583,6 +1236,48 @@
 			}
 		},
 		{
+			"id": "eSko8Qu9_zlsm7XbP",
+			"description": "Dynalar DIGITS® Telescopic Vidcam",
+			"reference": "CP2020CB1:32",
+			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Videocamera); Switchable; Telescopic Vision 3",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Dynalar Technologies",
+				"Limb",
+				"Limb Option"
+			],
+			"value": 5040,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5040,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "emX33D6H6UF5Wg7aT",
+			"description": "Dynalar DIGITS® Vidcam",
+			"reference": "CP2020CB1:32",
+			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; Accessory (Videocamera); Switchable",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Dynalar Technologies",
+				"Limb",
+				"Limb Option"
+			],
+			"value": 1260,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1260,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "eYdeVj7F06r3gJdKg",
 			"description": "Dynalar DIGITS® Wirecutters",
 			"reference": "CP2020CB1:32",
@@ -1593,7 +1288,7 @@
 				"Cyberware",
 				"Dynalar Technologies",
 				"Limb",
-				"Cyberlimb Option"
+				"Limb Option"
 			],
 			"value": 1260,
 			"quantity": 1,
@@ -1645,15 +1340,7 @@
 			"tags": [
 				"Cyberware",
 				"Dynalar Technologies",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				"Cyberlimb Option"
-=======
 				"Limb Option"
->>>>>>> Stashed changes
-=======
-				"Limb Option"
->>>>>>> Stashed changes
 			],
 			"value": 6300,
 			"quantity": 1,
@@ -1664,40 +1351,36 @@
 			}
 		},
 		{
-			"id": "ePXmnPactOPnJFSHr",
-			"description": "Dynalar Icer",
-			"notes": "Accessibility (Requires Cyberarm Option Slot); Temporary Disadvantage (Electrical); Accessory (Small Fire Extinguisher)",
+			"id": "esZKX5o3_SBj_hWRn",
+			"description": "Dynalar Flashbulb™",
+			"reference": "CP2020CB1:35",
+			"notes": "Acessibility: Requires Cyberarm;",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
-				"Cyberlimb Option",
-				"Dynalar"
+				"Dynalar Technologies",
+				"Limb",
+				"Limb Option"
 			],
-			"value": 915,
+			"value": 250,
+			"weapons": [
+				{
+					"id": "w48q9dxE-awztuToO",
+					"damage": {
+						"type": "HT-5 aff"
+					},
+					"usage": "Flash",
+					"reach": "1-4",
+					"calc": {
+						"damage": "HT-5 aff"
+					}
+				}
+			],
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 915,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "ebhnzEgxEKsoW25O7",
-			"description": "Dynalar LimbLink™",
-			"notes": "Accessibility (Requires 1 Cyberarm Option Slot); Connects pop up guns to smart link",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Cyberlimb Option",
-				"Dynalar Technologies"
-			],
-			"value": 1260,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1260,
+				"extended_value": 250,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1705,27 +1388,19 @@
 			"id": "e7xCVU7FD6-7h3MjZ",
 			"description": "Dynalar Magnetic Feet (Pair)",
 			"reference": "CP2020CB1:34",
-			"notes": "Accessibility (Requires Cyberleg Option Slot) Clinging, Specific (Steel), Requires Low Gravity 1",
+			"notes": "Accessibility: Requires Cyberleg; Temporary Disadvantage; Electrical; Clinging, Specific (Steel); Requires Low Gravity 1",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
 				"Dynalar Technologies",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				"Cyberlimb Option"
-=======
 				"Limb Option"
->>>>>>> Stashed changes
-=======
-				"Limb Option"
->>>>>>> Stashed changes
 			],
-			"value": 8820,
+			"value": 60,
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 8820,
+				"extended_value": 60,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1733,20 +1408,20 @@
 			"id": "eg_2EAdXbC7AJOyxh",
 			"description": "Dynalar Magnetic Hands (Pair)",
 			"reference": "CP2020CB1:34",
-			"notes": "Accessibility (Requires Cyberarm Option Slot); Temporary Disadvantage (Electrical); Clinging, Specific (Steel), Requires Low Gravity 1",
+			"notes": "Accessibility: Requires Cyberarm; Temporary Disadvantage; Electrical; Clinging, Specific (Steel); Requires Low Gravity 1",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
 				"Dynalar Technologies",
 				"Limb",
-				"Cyberlimb Option"
+				"Limb Option"
 			],
-			"value": 8820,
+			"value": 60,
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 8820,
+				"extended_value": 60,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1826,6 +1501,34 @@
 			}
 		},
 		{
+			"id": "epToLDRaVRdy_VJj_",
+			"description": "Dynalar Skate Foot® (Pair)",
+			"reference": "CP2020CB1:33",
+			"notes": "Accessibility: Requires Cyberlimb; Switchable; Enhanced Move (Ground: Skates) 1 1/2; Road Bound",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Dynalar Technologies",
+				"Limb",
+				"Limb Option"
+			],
+			"value": 440,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "basic_move",
+					"amount": 1.5
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 440,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "e-JOwykhH5yaEM50v",
 			"description": "Dynalar Watch-Man®",
 			"reference": "CP2020CB1:33",
@@ -1836,13 +1539,13 @@
 				"Cyberware",
 				"Dynalar Technologies",
 				"Limb",
-				"Cyberlimb Option"
+				"Limb Option"
 			],
-			"value": 856,
+			"value": 180,
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 856,
+				"extended_value": 180,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1870,139 +1573,21 @@
 			}
 		},
 		{
-			"id": "esZKX5o3_SBj_hWRn",
-			"description": "Kang Tao Flashbulb™",
-			"reference": "CP2020CB1:35",
-			"notes": "Acessibility (Requires Cyberarm Option Slot); Affliction 1, Gives  Blindness; Sense-Based (Vision) ",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Kang Tao",
-				"Cyberlimb Option"
-			],
-			"value": 12000,
-			"weapons": [
-				{
-					"id": "W44tPMPC33ieXEpYM",
-					"damage": {
-						"type": "",
-						"base": "0"
-					},
-					"usage": "Flash",
-					"usage_notes": "HT aff",
-					"range": "6",
-					"rate_of_fire": "1",
-					"shots": "1(2i)"
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 12000,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "E2DkseSc6G5n_IFDF",
-			"description": "Kang Tao Gas Jet",
-			"notes": "Accessibility (Requires Cyberarm Option Slot); Innate Attack, Side Effect, No Wounding (Adjust effect based on gas canister loaded)",
-			"tech_level": "9",
-			"legality_class": "2",
-			"tags": [
-				"Backalley",
-				"Cyberware",
-<<<<<<< Updated upstream
-				"Cyberlimb Option",
-				"Kang Tao"
-			],
-			"value": 3480,
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "contained_quantity_prereq",
-						"has": true,
-						"qualifier": {
-							"compare": "at_most",
-							"qualifier": 1
-						}
-					}
-				]
-			},
-			"weapons": [
-				{
-					"id": "wQDhvd3INp3DDeOEi",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"reach": "1",
-					"calc": {
-						"damage": "thr cr"
-					}
-				},
-				{
-					"id": "WvTAliibKjD8Z4he9",
-					"damage": {
-						"type": ""
-					},
-					"usage": "Gas",
-					"range": "2",
-					"rate_of_fire": "1",
-					"shots": "6(3)",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Innate Attack",
-							"specialization": "Beam"
-						},
-						{
-							"type": "skill",
-							"name": "Innate Attack",
-							"modifier": -2
-						},
-						{
-							"type": "dx",
-							"modifier": -4
-						}
-					]
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 3480,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "eRKfY3Zq2jWHv_7un",
-			"description": "Kang Tao High Five",
+			"description": "High Five",
 			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Cyberhand; 18.5mmPC",
 			"tech_level": "9",
 			"legality_class": "2",
 			"tags": [
-<<<<<<< Updated upstream
-				"Kang Tao",
-=======
 				"Backalley",
->>>>>>> Stashed changes
 				"Cyberware",
-				"Cyberlimb Option"
-=======
 				"Limb Option",
 				"Weapon"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 			],
 			"value": 2010,
 			"weapons": [
 				{
-					"id": "WqRzGXcTWWTfZ9RFi",
+					"id": "WmxBtdWMYT-WhUrkm",
 					"damage": {
 						"type": "pi++",
 						"base": "4d"
@@ -2037,53 +1622,6 @@
 			}
 		},
 		{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			"id": "eUCdrCdFcLIYGXe86",
-			"description": "Kang Tao Mace Hand",
-			"notes": "Accessibility (Requires Cyberarm Option Slot)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Cyberlimb Option",
-				"Kang Tao"
-			],
-			"value": 6000,
-			"weapons": [
-				{
-					"id": "wMmMG-N3jsm_F1i-I",
-					"damage": {
-						"type": "cr",
-						"st": "sw",
-						"base": "1"
-					},
-					"usage": "Mace Hand",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						},
-						{
-							"type": "skill",
-							"name": "Flail"
-						}
-					],
-					"calc": {
-						"damage": "sw+1 cr"
-					}
-=======
-=======
->>>>>>> Stashed changes
 			"id": "e-4gLcsWJ8vyZgeEo",
 			"description": "InterTech Muscle and Bone Lace",
 			"notes": "Increased ST 1",
@@ -2099,24 +1637,12 @@
 					"type": "attribute_bonus",
 					"attribute": "st",
 					"amount": 1
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 				}
 			],
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				"extended_value": 6000,
-=======
 				"extended_value": 6960,
->>>>>>> Stashed changes
-=======
-				"extended_value": 6960,
->>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
 		},
@@ -2261,49 +1787,6 @@
 			}
 		},
 		{
-			"id": "eLgbYa-H7t7mrdy4H",
-			"description": "Kang Tao Whip",
-			"notes": "Accessibility (Requires 1 Cyberarm Option Slot); Innate Attack (Cut) 1, Melee Attack (Reach C, 1-2, No Parry); Constriction Attack",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Cyberlimb Option",
-				"Kang Tao"
-			],
-			"value": 27000,
-			"weapons": [
-				{
-					"id": "wKzoTWrcXRHivJjYO",
-					"damage": {
-						"type": "cut",
-						"base": "1d"
-					},
-					"usage": "Whip",
-					"reach": "C,1-2",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Whip"
-						}
-					],
-					"calc": {
-						"damage": "1d cut"
-					}
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 27000,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "Et9Qsir5Jnpwk0c7s",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2345,7 +1828,7 @@
 			"id": "eaWnpHx-flbQQiB79",
 			"description": "Kiroshi Optishield®",
 			"reference": "CP2020CB1:31",
-			"notes": "DR 8 (Eyes Only); Sealed (Eyes Only); Protected Sense (Vision)",
+			"notes": "Nictitating Membrane 6; Protected Sense (Vision)",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
@@ -2353,11 +1836,11 @@
 				"Kiroshi Optics",
 				"Optics"
 			],
-			"value": 20160,
+			"value": 300,
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 20160,
+				"extended_value": 300,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -2436,11 +1919,6 @@
 			}
 		},
 		{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 			"id": "ev0HV_0wOg3yXqEpB",
 			"description": "Militech Facedown",
 			"notes": "Accessibility (Requires Chip Slot); Modified Charisma 3",
@@ -2494,10 +1972,6 @@
 			}
 		},
 		{
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 			"id": "ECOsYmLNV59UmUxeO",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2834,41 +2308,13 @@
 			}
 		},
 		{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			"id": "epToLDRaVRdy_VJj_",
-			"description": "NuTek Skate Foot® (Pair)",
-			"reference": "CP2020CB1:33",
-			"notes": "Accessibility (Requires Cyberlimb); Enhanced Move (Ground: Skates) 1.5, Road Bound",
-=======
 			"id": "ePns7ivgv_dtEfQnx",
 			"description": "Nu-Tek Taste Boost",
 			"notes": "Acessibility (Requires Neuralware Processor); Acute Taste \u0026 Smell 2",
->>>>>>> Stashed changes
-=======
-			"id": "ePns7ivgv_dtEfQnx",
-			"description": "Nu-Tek Taste Boost",
-			"notes": "Acessibility (Requires Neuralware Processor); Acute Taste \u0026 Smell 2",
->>>>>>> Stashed changes
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				"NuTek",
-				"Limb",
-				"Cyberlimb Option"
-			],
-			"value": 13500,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "basic_move",
-					"amount": 1.5
-=======
-=======
->>>>>>> Stashed changes
 				"Sensors",
 				"Nu-Tek"
 			],
@@ -2878,36 +2324,16 @@
 					"type": "attribute_bonus",
 					"attribute": "taste_smell",
 					"amount": 2
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 				}
 			],
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				"extended_value": 13500,
-=======
 				"extended_value": 5400,
->>>>>>> Stashed changes
-=======
-				"extended_value": 5400,
->>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
 		},
 		{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			"id": "eEgaDx3ceVmYL1nxH",
-			"description": "Psiberstuff Watch-Man®",
-			"notes": "Accessibility (Requires 1 Cyberarm Option Slot); Temporary Disadvantage (Electrical); Accessory (TV Screen)",
-=======
-=======
->>>>>>> Stashed changes
 			"id": "e_8fZBwnuvgzN1yV3",
 			"description": "OTEC Nitrogen Boosters",
 			"notes": "Pressure-Tolerant Lungs; Maintenance, People Required 1, Monthly",
@@ -2930,27 +2356,10 @@
 			"id": "ebrFsVNm1BbShjzso",
 			"description": "Parts N' Programs Speedreader",
 			"notes": "Accessibility (Requires Chipslot) Speedread (Halves Extra Time threshold bonus for skills like Research)",
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				"Cyberlimb Option",
-				"Psiberstuff"
-			],
-			"value": 856.8,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 856.8,
-=======
-=======
->>>>>>> Stashed changes
 				"Chipware",
 				"Parts N' Programs"
 			],
@@ -2959,10 +2368,6 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 12480,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
 		},
@@ -2975,7 +2380,7 @@
 			},
 			"description": "Psiberstuff® Independent Cyberhand (@ Left or Right @)",
 			"reference": "UT209",
-			"notes": "Temporary Disadvantage (Electrical); DR 2 (One Hand); Arm ST 1",
+			"notes": "Arm ST+1, Temporary Disadvantage, Electrical; DR 2, One Hand",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
@@ -2983,7 +2388,7 @@
 				"Limb",
 				"Psiberstuff"
 			],
-			"value": 5040,
+			"value": 8000,
 			"features": [
 				{
 					"type": "dr_bonus",
@@ -3013,7 +2418,7 @@
 			],
 			"quantity": 1,
 			"calc": {
-				"extended_value": 5040,
+				"extended_value": 8000,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -3025,21 +2430,14 @@
 			"legality_class": "2",
 			"tags": [
 				"Cyberware",
-<<<<<<< Updated upstream
-				"Cyberlimb Option",
-=======
 				"Limb Option",
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 				"Radine Industries",
 				"Weapon"
 			],
 			"value": 12230.4,
 			"weapons": [
 				{
-					"id": "WTgHPkvVof9noyaeY",
+					"id": "W_RLzuqZVTXmqLDDG",
 					"damage": {
 						"type": "burn",
 						"base": "3d"
@@ -3079,26 +2477,6 @@
 			}
 		},
 		{
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			"id": "ec1Qhxquo2ddMfMpz",
-			"description": "Raven Microcybernetics Rebreathers",
-			"notes": "Temporary Disadvantage (Electrical); Breath-Holding 1; Filter Lungs",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Organ",
-				"Raven Microcybernetics"
-			],
-			"value": 3600,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 3600,
-=======
-=======
->>>>>>> Stashed changes
 			"id": "eDuo24mNEbnC_L30T",
 			"description": "Replitech \"TuffBone\" Skeletal Enhancement",
 			"notes": "Arm ST 1; Lifting ST 1",
@@ -3133,10 +2511,6 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 7795,
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 				"extended_weight": "0 lb"
 			}
 		},
@@ -3224,7 +2598,7 @@
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
-				"Cyberlimb Option",
+				"Limb Option",
 				"Sycust"
 			],
 			"value": 2822.4,
@@ -3390,25 +2764,6 @@
 			"calc": {
 				"extended_value": 4100,
 				"extended_weight": "0.025 lb"
-			}
-		},
-		{
-			"id": "ew_0lZZAtcSjHHwpK",
-			"description": "Zetatech TimesSquare Plus™",
-			"notes": "Accessibility (Requires 3 Cyberoptic Option Slots); Temporary Disadvantage (Electrical); Eidict Memory (Photographic) ",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Cyberoptic Option",
-				"Zetatech"
-			],
-			"value": 18000,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 18000,
-				"extended_weight": "0 lb"
 			}
 		},
 		{
