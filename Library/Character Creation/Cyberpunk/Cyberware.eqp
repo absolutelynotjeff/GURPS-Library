@@ -109,8 +109,8 @@
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Bioware",
-				"Arasaka"
+				"Arasaka",
+				"Bioware"
 			],
 			"value": 34800,
 			"features": [
@@ -158,8 +158,8 @@
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Cyberware",
-				"Biotechnica"
+				"Biotechnica",
+				"Cyberware"
 			],
 			"value": 2520,
 			"quantity": 1,
@@ -195,9 +195,9 @@
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
+				"Biotechnica",
 				"Cyberware",
-				"Sensors",
-				"Biotechnica"
+				"Sensors"
 			],
 			"value": 10800,
 			"features": [
@@ -221,9 +221,9 @@
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
+				"Biotechnica",
 				"Bioware",
-				"Organs",
-				"Biotechnica"
+				"Organs"
 			],
 			"value": 2366,
 			"quantity": 1,
@@ -898,8 +898,8 @@
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Cyberware",
 				"Chipware",
+				"Cyberware",
 				"Direct Dataware"
 			],
 			"value": 3120,
@@ -1846,7 +1846,7 @@
 		},
 		{
 			"id": "E3Zxtd32fTsTFv5c6",
-			"description": "Krioshi MonoVision",
+			"description": "Kiroshi MonoVision",
 			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Neuralware Processor; Peripheral Vision (Easy to Hit); Accessory (6 Cyberoptic option slots)",
 			"tech_level": "9",
 			"legality_class": "4",
@@ -1925,8 +1925,8 @@
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Cyberware",
 				"Chipware",
+				"Cyberware",
 				"Militech"
 			],
 			"value": 27720,
@@ -2315,8 +2315,8 @@
 			"legality_class": "4",
 			"tags": [
 				"Cyberware",
-				"Sensors",
-				"Nu-Tek"
+				"Nu-Tek",
+				"Sensors"
 			],
 			"value": 5400,
 			"features": [
@@ -2341,8 +2341,8 @@
 			"legality_class": "4",
 			"tags": [
 				"Bioware",
-				"Organ",
-				"OTEC"
+				"OTEC",
+				"Organ"
 			],
 			"value": 9744,
 			"quantity": 1,
@@ -2359,8 +2359,8 @@
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Cyberware",
 				"Chipware",
+				"Cyberware",
 				"Parts N' Programs"
 			],
 			"value": 12480,
