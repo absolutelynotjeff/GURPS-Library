@@ -2,50 +2,76 @@
 	"version": 5,
 	"rows": [
 		{
-			"id": "EjuPo8lfNM4POoG32",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
-				"id": "EDLKysjDVeCimr6df"
-			},
-			"description": "Arasaka Arm Mount",
-			"reference": "UT212",
-			"notes": "Cost per pound of weapon weight. LC of weapon. Extra Arm, Weapon Mount",
+			"id": "eYgOw27DxEcPJLv5V",
+			"description": "Arasaka Daikon NT Mantis Blade",
+			"notes": "@Left or Right@; Accessibility (Requires 2 Cyberarm Option Slots); Temporary Disadvantage (Electrical);",
 			"tech_level": "9",
-			"legality_class": "3",
+			"legality_class": "2",
 			"tags": [
 				"Arasaka",
+				"Cyberlimb Option",
 				"Cyberware",
-				"Limb"
+				"Melee Weapon"
 			],
-			"value": 100,
-			"quantity": 1,
-			"calc": {
-				"extended_value": 100,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
-			"id": "ErNCkboEGsr7I3ulf",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
-				"id": "E-SGutOCzZR9Yw3sU"
-			},
-			"description": "Arasaka Hand Mount",
-			"reference": "UT212",
-			"notes": "Cost per pound of weapon weight. LC of weapon. Extra Arm, Weapon Mount",
-			"tech_level": "9",
-			"legality_class": "3",
-			"tags": [
-				"Arasaka",
-				"Cyberware",
-				"Limb"
+			"value": 18144,
+			"weapons": [
+				{
+					"id": "w9Sh6zccZHT23ObTn",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"usage": "Slash",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "sw+3 cut"
+					}
+				},
+				{
+					"id": "wUmXwg4tvkFl4AWPR",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"usage": "Stab",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
 			],
-			"value": 100,
 			"quantity": 1,
+			"equipped": true,
 			"calc": {
-				"extended_value": 100,
+				"extended_value": 18144,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -134,12 +160,12 @@
 				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
 				"id": "eD5b5kx4PXjIpxz8n"
 			},
-			"description": "Biotechnica Biomonitor Implant",
+			"description": "BioTechnica Biomonitor Implant",
 			"reference": "UT208",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Biotechnica",
+				"BioTechnica",
 				"Cyberware",
 				"Fashionware",
 				"Sensors"
@@ -153,12 +179,12 @@
 		},
 		{
 			"id": "e757Briuwz0Eb7EFo",
-			"description": "Biotechnica Chip Lok",
+			"description": "BioTechnica Chip Lok",
 			"notes": "Accessibility (Requires Chip Slot); Prevents chips from being ejected",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Biotechnica",
+				"BioTechnica",
 				"Cyberware"
 			],
 			"value": 2520,
@@ -170,14 +196,106 @@
 			}
 		},
 		{
+			"id": "ebmpZ1gfqSuWmqsUf",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ensfNvnRCkISos9We"
+			},
+			"description": "BioTechnica AutoInjector",
+			"reference": "CPREDHP5",
+			"notes": "Temporary Disadvantage (Electrical); Accessory (AirHypo); Free Action injection when paired with Bio Monitor",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"BioTechnica",
+				"Cyberware"
+			],
+			"value": 3744,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3744,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "eZmdryaa7OWZD7TQs",
+			"description": "Rocklin Augmentics Extra-Jointed Cyberlimb Upgrade",
+			"notes": "Acessibility (Requires Cyberlimb); Electrical; Flexibility (Double-Jointed)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Limb Option",
+				"Rocklin Augmentics"
+			],
+			"value": 14040,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "in penalties may be ignored when due to close quarters",
+					"amount": -5
+				},
+				{
+					"type": "skill_point_bonus",
+					"name": {
+						"compare": "is",
+						"qualifier": "erotic art"
+					},
+					"amount": 5
+				},
+				{
+					"type": "skill_point_bonus",
+					"name": {
+						"compare": "is",
+						"qualifier": "escape"
+					},
+					"amount": 5
+				},
+				{
+					"type": "skill_point_bonus",
+					"name": {
+						"compare": "is",
+						"qualifier": "climbing"
+					},
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 14040,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eG3EUW6vN7lQYRLb_",
+			"description": "Explicit Memory Stimulator",
+			"notes": "Accessibility (Requires Chipslot Socket); Electrical; Eidic Memory (Photographic)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Chipware"
+			],
+			"value": 29952,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 29952,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "eod9DmUWGYGUO2cMR",
-			"description": "Biotechnica Enhanced Antibodies",
+			"description": "BioTechnica Enhanced Antibodies",
 			"reference": "CP2020:85",
 			"notes": "Resistant: Disease, +8 to all HT rolls to resist",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Biotechnica",
+				"BioTechnica",
 				"Bioware"
 			],
 			"value": 3000,
@@ -190,12 +308,12 @@
 		},
 		{
 			"id": "e1rt3q2OYWIMdoXr0",
-			"description": "Biotechnica Flavor Savour",
+			"description": "BioTechnica Flavor Savour",
 			"notes": "Acessibility (Requires Neuralware Processor); Acute Taste \u0026 Smell 6",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Biotechnica",
+				"BioTechnica",
 				"Cyberware",
 				"Sensors"
 			],
@@ -216,12 +334,12 @@
 		},
 		{
 			"id": "eGO5Z-8g9-NdyZX3R",
-			"description": "Biotechnica NeoLungs",
+			"description": "BioTechnica NeoLungs",
 			"notes": "Breath-Holding 1",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Biotechnica",
+				"BioTechnica",
 				"Bioware",
 				"Organs"
 			],
@@ -240,13 +358,13 @@
 				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
 				"id": "eUlFbhYfEsqJXJ8mW"
 			},
-			"description": "Biotechnica Neurotherapy Implant (@Neurological Disadvantage@)",
+			"description": "BioTechnica Neurotherapy Implant (@Neurological Disadvantage@)",
 			"reference": "UT217",
 			"notes": "Major procedure. $500 per point of disadvantage",
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
-				"Biotechnica",
+				"BioTechnica",
 				"Cyberware",
 				"Neuralware"
 			],
@@ -264,13 +382,13 @@
 				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
 				"id": "eEcbJpovjk3B-5jIv"
 			},
-			"description": "Biotechnica Pacesetter 2000™ Heart",
+			"description": "BioTechnica Pacesetter 2000™ Heart",
 			"reference": "UT210",
 			"notes": "Temporary Disadvantage: Electrical; Basic Speed +2, Costs Fatigue 1; Hard to Kill 1",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Biotechnica",
+				"BioTechnica",
 				"Bioware",
 				"Cyberware"
 			],
@@ -288,13 +406,13 @@
 				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
 				"id": "eEcbJpovjk3B-5jIv"
 			},
-			"description": "Biotechnica Pacesetter™ Heart",
+			"description": "BioTechnica Pacesetter™ Heart",
 			"reference": "UT210",
 			"notes": "Temporary Disadvantage: Electrical; Basic Speed +1, Costs Fatigue 1",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
-				"Biotechnica",
+				"BioTechnica",
 				"Bioware",
 				"Cyberware"
 			],
@@ -930,6 +1048,45 @@
 			}
 		},
 		{
+			"id": "eMVsvC7K5WjdU106w",
+			"description": "Moore Technologies Hausstok-W Gorilla Arm",
+			"notes": "@Left or Right @; Accessibility (Requires 2 Cyberarm Option Slots); Temporary Disadvantage (Electrical); Arm ST 6",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cyberlimb Option",
+				"Cyberware",
+				"Moore Technologies"
+			],
+			"value": 9609.6,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"limitation": "throwing_only",
+					"attribute": "st",
+					"amount": 6
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 6
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9609.6,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "ejAEpxILniqv0dFC8",
 			"description": "Dornier-Bauer Biotechnische Neural Bridge",
 			"notes": "Ambidexterity",
@@ -1354,7 +1511,7 @@
 			"id": "esZKX5o3_SBj_hWRn",
 			"description": "Dynalar Flashbulb™",
 			"reference": "CP2020CB1:35",
-			"notes": "Acessibility: Requires Cyberarm;",
+			"notes": "Acessibility (Requires 2 Cyberarm Option Slots); Electrical; Target is blinded on failed HT-5 roll for one minute",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
@@ -1363,10 +1520,10 @@
 				"Limb",
 				"Limb Option"
 			],
-			"value": 250,
+			"value": 18720,
 			"weapons": [
 				{
-					"id": "w48q9dxE-awztuToO",
+					"id": "wC5ki1VK7uZNl5DPz",
 					"damage": {
 						"type": "HT-5 aff"
 					},
@@ -1380,7 +1537,7 @@
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 250,
+				"extended_value": 18720,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -1622,6 +1779,42 @@
 			}
 		},
 		{
+			"id": "ekQzDdqC3KR7z-XCy",
+			"description": "InterTech Berserk Implant",
+			"notes": "Temporary Disadvantage: (Electrical); Accessibility (Requires Neuralware Processor); Takes Recharge (1 hour between uses); Maxximum Duration (Up to 1 minute); Hard to Kill 6; High Pain Threshold",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Biomedical",
+				"Cyberware",
+				"InterTech"
+			],
+			"value": 3120,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to resist torture",
+					"amount": 3
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "on all HT rolls to avoid knockdown and stunning",
+					"amount": 3
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3120,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "e-4gLcsWJ8vyZgeEo",
 			"description": "InterTech Muscle and Bone Lace",
 			"notes": "Increased ST 1",
@@ -1825,26 +2018,6 @@
 			}
 		},
 		{
-			"id": "eaWnpHx-flbQQiB79",
-			"description": "Kiroshi Optishield®",
-			"reference": "CP2020CB1:31",
-			"notes": "Nictitating Membrane 6; Protected Sense (Vision)",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"Cyberware",
-				"Kiroshi Optics",
-				"Optics"
-			],
-			"value": 300,
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 300,
-				"extended_weight": "0 lb"
-			}
-		},
-		{
 			"id": "E3Zxtd32fTsTFv5c6",
 			"description": "Kiroshi MonoVision",
 			"notes": "Temporary Disadvantage: Electrical; Accessibility: Requires Neuralware Processor; Peripheral Vision (Easy to Hit); Accessory (6 Cyberoptic option slots)",
@@ -1874,6 +2047,26 @@
 			"equipped": true,
 			"calc": {
 				"extended_value": 10080,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eaWnpHx-flbQQiB79",
+			"description": "Kiroshi Optishield®",
+			"reference": "CP2020CB1:31",
+			"notes": "Nictitating Membrane 6; Protected Sense (Vision)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Kiroshi Optics",
+				"Optics"
+			],
+			"value": 300,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 300,
 				"extended_weight": "0 lb"
 			}
 		},
@@ -2764,6 +2957,25 @@
 			"calc": {
 				"extended_value": 4100,
 				"extended_weight": "0.025 lb"
+			}
+		},
+		{
+			"id": "epgOzfxcrLjbuxB5f",
+			"description": "Zetatech Neuroport",
+			"notes": "Major procedure; 2 Chip Slots; Personal Link; Biomonitor; Holophone; Neural Link",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Cyberware",
+				"Neuralware",
+				"Zetatech"
+			],
+			"value": 5460,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5460,
+				"extended_weight": "0 lb"
 			}
 		},
 		{

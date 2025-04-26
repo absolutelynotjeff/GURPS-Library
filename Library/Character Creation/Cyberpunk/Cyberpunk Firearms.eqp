@@ -1,0 +1,4739 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "enY0T_I6S7-8LC7Mn",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eV9LEdHXs6dUkNDpf"
+			},
+			"description": "4-gauge 2.75\"",
+			"reference": "HT176",
+			"notes": "Shotshell.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.8,
+			"weight": "0.13 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.8,
+				"extended_weight": "0.13 lb"
+			}
+		},
+		{
+			"id": "eI3eTcE2-kz7_1FjH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eYufWgtLKbOJdfUqy"
+			},
+			"description": "4mm",
+			"reference": "UT143",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.06,
+			"weight": "0.006 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.06,
+				"extended_weight": "0.006 lb"
+			}
+		},
+		{
+			"id": "eIDo7MI5H59S1b7Kf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eYufWgtLKbOJdfUqy"
+			},
+			"description": "4mm",
+			"reference": "UT143",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.06,
+			"weight": "0.006 lb",
+			"modifiers": [
+				{
+					"id": "fpJyjYkrnQejr_7__",
+					"name": "Smart Ammo",
+					"notes": "+10 to Skill with smart gun. Cannot target hit locations with Lock-On",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+5 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.36,
+				"extended_weight": "0.006 lb"
+			}
+		},
+		{
+			"id": "emHPaI6m7vDg2hq6T",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "esdOU33mFmLrTX62c"
+			},
+			"description": "5.56x45mm",
+			"reference": "HT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.5,
+			"weight": "0.027 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.5,
+				"extended_weight": "0.027 lb"
+			}
+		},
+		{
+			"id": "ek-B5hVogWYieAUQ7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "esdOU33mFmLrTX62c"
+			},
+			"description": "5.56x45mm",
+			"reference": "HT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.5,
+			"weight": "0.027 lb",
+			"modifiers": [
+				{
+					"id": "fIEM9KEcBvH0sSupX",
+					"name": "Smart Ammo",
+					"notes": "+10 to Skill with smart gun. Cannot target hit locations with Lock-On",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+5 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0.027 lb"
+			}
+		},
+		{
+			"id": "eZA4Bxqd7XdjgXVLo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eKHp5iaFeGvPy17WW"
+			},
+			"description": "7.62x51mm",
+			"reference": "HT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.8,
+			"weight": "0.056 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.8,
+				"extended_weight": "0.056 lb"
+			}
+		},
+		{
+			"id": "ebf26FW6ikIbIhisJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eKHp5iaFeGvPy17WW"
+			},
+			"description": "7.62x51mm",
+			"reference": "HT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.8,
+			"weight": "0.056 lb",
+			"modifiers": [
+				{
+					"id": "fE5ajRjVDEnss92rm",
+					"name": "Smart Ammo",
+					"notes": "+10 to Skill with smart gun. Cannot target hit locations with Lock-On",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+5 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4.8,
+				"extended_weight": "0.056 lb"
+			}
+		},
+		{
+			"id": "egx57n8fOVhc9aW4Q",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eDpwycU3319jm_aUv"
+			},
+			"description": "9x19mm Parabellum",
+			"reference": "HT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.3,
+			"weight": "0.026 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.3,
+				"extended_weight": "0.026 lb"
+			}
+		},
+		{
+			"id": "eSEJyvgAyHSFtEgbc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eDpwycU3319jm_aUv"
+			},
+			"description": "9x19mm Parabellum",
+			"reference": "HT176",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.3,
+			"weight": "0.026 lb",
+			"modifiers": [
+				{
+					"id": "fAQBudDQgErS-luid",
+					"name": "Smart Ammo",
+					"notes": "+10 to Skill with smart gun. Cannot target hit locations with Lock-On",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+5 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1.8,
+				"extended_weight": "0.026 lb"
+			}
+		},
+		{
+			"id": "eynzIJR4IkoX-5tpI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "etQWOWVUHxWpGiWL1"
+			},
+			"description": "10mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.8,
+			"weight": "0.04 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.8,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "efywY6jO4YOmWfIHq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "etQWOWVUHxWpGiWL1"
+			},
+			"description": "10mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.8,
+			"weight": "0.04 lb",
+			"modifiers": [
+				{
+					"id": "fulelUgkRW6egPnIw",
+					"name": "Smart Ammo",
+					"notes": "+10 to Skill with smart gun. Cannot target hit locations with Lock-On",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+5 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4.8,
+				"extended_weight": "0.04 lb"
+			}
+		},
+		{
+			"id": "e-LNak7ISubvIsne4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech\\High Tech Equipment.eqp",
+				"id": "eV9LEdHXs6dUkNDpf"
+			},
+			"description": "12-gauge 2.75\"",
+			"reference": "HT176",
+			"notes": "Shotshell.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 0.7,
+			"weight": "0.13 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.7,
+				"extended_weight": "0.13 lb"
+			}
+		},
+		{
+			"id": "eBfrDqtSzfzdTU9vk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "epGLZWrPBM3c0f7HN"
+			},
+			"description": "15mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 4,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eOfTwhUvnydwyJtjT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "epGLZWrPBM3c0f7HN"
+			},
+			"description": "15mmCL",
+			"reference": "UT139",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 4,
+			"weight": "0.2 lb",
+			"modifiers": [
+				{
+					"id": "fYuyJv_VjHWxEYT-m",
+					"name": "Smart Ammo",
+					"notes": "+10 to Skill with smart gun. Cannot target hit locations with Lock-On",
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "+5 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 24,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eQ7dcaYCP3muwR1_l",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "erdzJAJcR9LEii7dx"
+			},
+			"description": "Arasaka HJKE-11 Yukimura 幸村",
+			"notes": "9x19mm Parabellum",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Arasaka",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 9450,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "Wl0nVS_1jELcseVS2",
+					"damage": {
+						"type": "pi",
+						"base": "3d+1"
+					},
+					"strength": "7",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "150/1,800",
+					"rate_of_fire": "3#/10!",
+					"shots": "30+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fNoeJbY2h3nDr5QKx",
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9450,
+				"extended_weight": "4.3 lb"
+			}
+		},
+		{
+			"id": "eossh-KU-k6uSNg5f",
+			"description": "Arasaka HJSH-18 Masamune 正宗",
+			"notes": "5.56x45mm; Muzzle Thread;",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Arasaka",
+				"Final",
+				"Firearm",
+				"Rifle"
+			],
+			"value": 4896,
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"id": "W5NgGtGpcTMk_4yY7",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "7†",
+					"usage": "Shoot",
+					"accuracy": "5",
+					"range": "750/3,000",
+					"rate_of_fire": "3#",
+					"shots": "24+1(3)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fGd_R61QVA5E3eKa-",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4996,
+				"extended_weight": "9.2 lb"
+			}
+		},
+		{
+			"id": "eReO7zJXlW6j3DgYx",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "euRY5xanP7SLm7LiN"
+			},
+			"description": "Arasaka JKE-X2 Kenshin 謙信",
+			"notes": "9x19mm Parabellum",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Arasaka",
+				"Final",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 7020,
+			"weight": "3.2 lb",
+			"weapons": [
+				{
+					"id": "WM7vNP3ie-qL3P6TC",
+					"damage": {
+						"type": "pi",
+						"base": "3d+1"
+					},
+					"strength": "5",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "250/2,000",
+					"rate_of_fire": "3#",
+					"shots": "20+1(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi"
+					}
+				},
+				{
+					"id": "WZXu5p2gGQIM5x8s0",
+					"damage": {
+						"type": "pi",
+						"base": "3d+1",
+						"armor_divisor": 2
+					},
+					"strength": "8",
+					"usage": "Charged Shot",
+					"usage_notes": "Requires 1 Ready Action",
+					"accuracy": "2",
+					"range": "250/2,000",
+					"rate_of_fire": "1",
+					"shots": "20+1(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+1(2) pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fxo2V3Opmfi44tCt9",
+					"name": "Optional Charged Shot",
+					"notes": "1 Ready Action to charge shot"
+				},
+				{
+					"id": "fwMLWHKsYtpe-pLDz",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 7120,
+				"extended_weight": "5.2 lb"
+			}
+		},
+		{
+			"id": "e5P8cEOWvLn3FiBZZ",
+			"description": "Arasaka Nowaki 野分",
+			"notes": "5.56x45mm; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Arasaka",
+				"Final",
+				"Firearm",
+				"Rifle"
+			],
+			"value": 5049,
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"id": "Wt_1R1Pj-Sn97yGNp",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "7†",
+					"usage": "Shoot",
+					"accuracy": "6",
+					"range": "750/2,800",
+					"rate_of_fire": "3#",
+					"shots": "24+1(3)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fBfCbTrjPPr_Asa8_",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5149,
+				"extended_weight": "9.2 lb"
+			}
+		},
+		{
+			"id": "ebd9eJmeDkDb6jsJ1",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ewMEI2Gfy963X8i4M"
+			},
+			"description": "Arasaka Senkoh LX  閃光",
+			"notes": "10mmCL",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Arasaka",
+				"Final",
+				"Firearm",
+				"Submachine Gun"
+			],
+			"value": 9720,
+			"weight": "3.8 lb",
+			"weapons": [
+				{
+					"id": "WOCiUTFyNf-96Q4Z9",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "9",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "200/1,500",
+					"rate_of_fire": "3#/30!",
+					"shots": "30+1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fvnhlm4M4iNT13c6k",
+					"name": "Optional Charged Shot",
+					"notes": "1 Ready Action to charge shot",
+					"tech_level": "9"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9720,
+				"extended_weight": "3.8 lb"
+			}
+		},
+		{
+			"id": "e_WLIECRROqjMecbQ",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eNBbGqx67bGqckB2l"
+			},
+			"description": "Arasaka Shigure 時雨",
+			"notes": "5.56x45mm; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Arasaka",
+				"Final",
+				"Firearm",
+				"Submachine Gun"
+			],
+			"value": 5625,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "W09QgrmYeNNnT4Id4",
+					"damage": {
+						"type": "pi",
+						"base": "3d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "180/2,000",
+					"rate_of_fire": "12!",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						}
+					],
+					"calc": {
+						"damage": "3d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fnuDknWQgHBm4Ou_3",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5725,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "ebaSVBKh4kBBloqhi",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "en_HUtw-BJuCuqxe2"
+			},
+			"description": "Arasaka Tamayura 玉響",
+			"notes": "10mmCL; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Arasaka",
+				"Final",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 3240,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WBrhEvrOtdTA99H1y",
+					"damage": {
+						"type": "pi+",
+						"base": "4d+1"
+					},
+					"strength": "9",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "200/2,200",
+					"rate_of_fire": "1",
+					"shots": "8+1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "4d+1 pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fqAL-Hhmzzgv51PHh",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3340,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "e7Xsig543yRp8D9lk",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eJ_1aRHGjrMVUmUvm"
+			},
+			"description": "Arasaka TKI-20 Shingen 信玄",
+			"notes": "10mmCL",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Arasaka",
+				"Final",
+				"Firearm",
+				"Submachine Gun"
+			],
+			"value": 7200,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "WJtw-hH-G0uRgWv_2",
+					"damage": {
+						"type": "pi+",
+						"base": "3d+1"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "2+1",
+					"range": "180/2,000",
+					"rate_of_fire": "3",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fQmkYXY6yt1NHBBdR",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 7200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "enYf2ROx_9D16I6Mc",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eh-3Xxg4-HiFLNyjS"
+			},
+			"description": "Budget Arms Carnage",
+			"notes": "4G; Malf 16; HT roll without required ST",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Budget Arms",
+				"Final",
+				"Firearm",
+				"Shotgun"
+			],
+			"value": 1224,
+			"weight": "9.6 lb",
+			"weapons": [
+				{
+					"id": "WkT18onVMbL9jpeNg",
+					"damage": {
+						"type": "pi++",
+						"base": "5d-1"
+					},
+					"strength": "12†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "100/500",
+					"rate_of_fire": "1x10",
+					"shots": "4(3i)",
+					"bulk": "-5",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d-1 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1224,
+				"extended_weight": "9.6 lb"
+			}
+		},
+		{
+			"id": "eRvl8xPlEU8coRTb-",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eU4PGk6HrKIwRZUGi"
+			},
+			"description": "Budget Arms Guillotine",
+			"notes": "9x19mm; Malf 16; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Budget Arms",
+				"Final",
+				"Firearm",
+				"Submachine Gun"
+			],
+			"value": 5130,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "Wa2jyH6ZPM1j5d2yj",
+					"damage": {
+						"type": "pi",
+						"base": "3d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "100/1,000",
+					"rate_of_fire": "12!",
+					"shots": "30+1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						}
+					],
+					"calc": {
+						"damage": "3d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5130,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eSGsBA4emjLhiICYp",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "emRhpRLagMCI566m3"
+			},
+			"description": "Budget Arms Last Resort",
+			"notes": "9x19mm; Malf 16; Cannot Be Reloaded",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Budget Arms",
+				"Final",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 265.5,
+			"weight": "1.12 lb",
+			"weapons": [
+				{
+					"id": "Wk3mgMiaIja-0V_rD",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"usage": "Shoot",
+					"range": "100/1,100",
+					"rate_of_fire": "3",
+					"shots": "5+1",
+					"bulk": "-1",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "2d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fzTXt0wCqBquWYpBH",
+					"name": "Disposable",
+					"cost_type": "to_base_cost",
+					"cost": "-0.5"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 132.75,
+				"extended_weight": "1.12 lb"
+			}
+		},
+		{
+			"id": "ea8YXgPUyN4gKjo9o",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "efD7cHbCWkIvJtZIv"
+			},
+			"description": "Budget Arms Slaught-o-Matic",
+			"notes": "9x19mm; Malf 16; Cannot be reloaded",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"BudgetArms",
+				"Final",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 584.1,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WPTjONJso16fGEUMz",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1"
+					},
+					"strength": "6",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "100/1,000",
+					"rate_of_fire": "10!",
+					"shots": "31+1",
+					"bulk": "-1",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "2d+1 pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f7qM1vhUqwrCAfYvR",
+					"name": "Disposable",
+					"tags": [
+						"Quality"
+					],
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "-0.5 CF"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 292.05,
+				"extended_weight": "4.3 lb"
+			}
+		},
+		{
+			"id": "eFD8-BtH0fa7Ooilh",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eXD9EJgbaz91ooz5d"
+			},
+			"description": "ConArms Liberty",
+			"notes": "10mmCL; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Constitution Arms",
+				"Final",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 5670,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WGuBxkNxflJkwN1Gi",
+					"damage": {
+						"type": "pi+",
+						"base": "3d+1"
+					},
+					"strength": "9",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "180/1,800",
+					"rate_of_fire": "3",
+					"shots": "14+1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fu8u1xwYIYuzutrXq",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5770,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "eWP_iqVr4lz2G3ysb",
+			"description": "ConArms M2067 Defender",
+			"notes": "7.62x51mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Constitution Arms",
+				"Final",
+				"Firearm",
+				"Light Machine Gun"
+			],
+			"value": 7938,
+			"weight": "11.5 lb",
+			"weapons": [
+				{
+					"id": "WPgWOw0LAg6nTM65z",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "10B†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "800/3,500",
+					"rate_of_fire": "15!",
+					"shots": "80+1(3)",
+					"bulk": "-5",
+					"recoil": "6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 7938,
+				"extended_weight": "11.5 lb"
+			}
+		},
+		{
+			"id": "eMwC6Po8gOQCuoCxC",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eY0Pg6kq8bbzzoLxz"
+			},
+			"description": "ConArms Unity",
+			"notes": ".45 ACP; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Constitution Arms",
+				"Final",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 5670,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WPtb2YstcTQVVDjBW",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "8",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "150/1,500",
+					"rate_of_fire": "3",
+					"shots": "12+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fPXf9eoJUWOULOPOc",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5770,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "eVwMLHMsmSCIkQEn5",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ei0y9mlhcseAMeaLC"
+			},
+			"description": "Constitutional Arms M2038 Tactitcian",
+			"notes": "12G",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Constitutional Arms",
+				"Final",
+				"Firearm",
+				"Shotgun"
+			],
+			"value": 612,
+			"weight": "9.6 lb",
+			"weapons": [
+				{
+					"id": "W3f8b48z9EdeQvMiP",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "100/500",
+					"rate_of_fire": "1x6",
+					"shots": "8(3i)",
+					"bulk": "-5",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fZ3csIsKaUbs_Efm5",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 712,
+				"extended_weight": "11.6 lb"
+			}
+		},
+		{
+			"id": "eNHW8d3LBVfxm2B0E",
+			"description": "Darra Polytechnic DA8 Umbra",
+			"notes": "5.56x45mm; Muzzle Thread; Malf 12",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Darra Polytechnic",
+				"Final",
+				"Firearm",
+				"Rifle"
+			],
+			"value": 3150,
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"id": "WFJ1xalMTvUaWX1L2",
+					"damage": {
+						"type": "pi",
+						"base": "4d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "500/2,000",
+					"rate_of_fire": "12!",
+					"shots": "40+1(3)",
+					"bulk": "-5",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "4d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3150,
+				"extended_weight": "7.2 lb"
+			}
+		},
+		{
+			"id": "eX8xiqwRIxeOCEKyW",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eFQYCxQ55EGzwWzoE"
+			},
+			"description": "Darra Polytechnic DR-5 Nova",
+			"notes": "10mmCL",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Darra Polytechnic",
+				"Final",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 4036,
+			"weight": "4.6 lb",
+			"weapons": [
+				{
+					"id": "WE-doXzmD_y3S2ped",
+					"damage": {
+						"type": "pi+",
+						"base": "3d-1"
+					},
+					"strength": "6",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "100/1,000",
+					"rate_of_fire": "1",
+					"shots": "6(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d-1 pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fWNJjgnZOwhdf7Ylk",
+					"name": "Unreliable",
+					"notes": "Malf 16",
+					"tags": [
+						"Quality"
+					],
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "-0.5 CF"
+				},
+				{
+					"id": "fBpJz4hdBxnLhFZg1",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2068,
+				"extended_weight": "6.6 lb"
+			}
+		},
+		{
+			"id": "ejDwj6KhP1W6jyVYf",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eOoWIU4uC5GDTUl4E"
+			},
+			"description": "Darra Polytechnic DR-12 Quasar",
+			"notes": "4mm CLP",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Darra Polytechnic",
+				"Final",
+				"Firearm",
+				"Pistol"
+			],
+			"value": 3717,
+			"weight": "4.6 lb",
+			"weapons": [
+				{
+					"id": "WTlWdlUE7bvYOKGyA",
+					"damage": {
+						"type": "pi-",
+						"base": "3d",
+						"armor_divisor": 2
+					},
+					"strength": "6",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "200/2,000",
+					"rate_of_fire": "3/10!",
+					"shots": "20+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d(2) pi-"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "ft1izP7bcTgfvdM_G",
+					"name": "Unreliable",
+					"notes": "Malf 16",
+					"tags": [
+						"Quality"
+					],
+					"cost_type": "to_base_cost",
+					"tech_level": "9",
+					"cost": "-0.5 CF"
+				},
+				{
+					"id": "fJw5Qj2Fxli36Td9N",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1908.5,
+				"extended_weight": "6.6 lb"
+			}
+		},
+		{
+			"id": "earRbvH_FLO4EJbBa",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eO_hdlpDTyuX-W3mt"
+			},
+			"description": "Darra Polytechnic DS1 Pulsar",
+			"notes": "9x19mm; Malf 14; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Darra Polytechnic",
+				"Final",
+				"Firearm",
+				"Submachine Gun"
+			],
+			"value": 4203,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "WTR2EzWEZxNlxTkMy",
+					"damage": {
+						"type": "pi",
+						"base": "3d+2"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "100/1,000",
+					"rate_of_fire": "13!",
+					"shots": "40+1(3)",
+					"bulk": "-4",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						}
+					],
+					"calc": {
+						"damage": "3d+2 pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fjMMzzTbPa74mp6Fb",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4303,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "emj7n9IZ6MFsqDCkD",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "evMpZxDebkLoeJDQl"
+			},
+			"description": "Hansen Arms HA-7 Warden",
+			"notes": "10mmCL",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Hansen Arms",
+				"Submachine Gun"
+			],
+			"value": 7965,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "WDpoUJKljGAt1JjtK",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "150/1,500",
+					"rate_of_fire": "5!",
+					"shots": "30+1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "frtw2iICGUA59HjhO",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 7965,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eKlaH3TJ3el45R_sB",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eoUOitBRxpVSM7DS5"
+			},
+			"description": "Kang Tao A-22B Chao 超",
+			"notes": "9x19mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Kang Tao",
+				"Pistol"
+			],
+			"value": 3240,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WvQpv8U0t6CkOU4ur",
+					"damage": {
+						"type": "pi",
+						"base": "3d+1"
+					},
+					"strength": "5",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "130/1,300",
+					"rate_of_fire": "3#",
+					"shots": "21+1(2)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fnYVrl53elXGQac3M",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3240,
+				"extended_weight": "4.3 lb"
+			}
+		},
+		{
+			"id": "eWzztNoIguoDNnofH",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eItGF0ncEtWRafARf"
+			},
+			"description": "Kang Tao G-58 Dian 典",
+			"notes": "9x19mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Kang Tao",
+				"Submachine Gun"
+			],
+			"value": 8325,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "WVN_70EjzajrKf7IX",
+					"damage": {
+						"type": "pi",
+						"base": "3d"
+					},
+					"strength": "8†",
+					"usage": "Shoot",
+					"accuracy": "4",
+					"range": "150/1,500",
+					"rate_of_fire": "13!",
+					"shots": "48+1(2)",
+					"bulk": "-3*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fVt9QACAqsQ53nh3i",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 8325,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eBOtq0UHGFV-p-gZ5",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "en6nNQuNe7LlH8iBb"
+			},
+			"description": "Kang Tao L-69 Zhuo 卓",
+			"notes": "12G",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Kang Tao",
+				"Shotgun"
+			],
+			"value": 9486,
+			"weight": "9.6 lb",
+			"weapons": [
+				{
+					"id": "WbqAAcOvQBUV-h60C",
+					"damage": {
+						"type": "pi",
+						"base": "3d"
+					},
+					"strength": "8†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "100/500",
+					"rate_of_fire": "4x8!",
+					"shots": "4(3i)",
+					"bulk": "-5",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fgV5kEBHRQawGAxP5",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9486,
+				"extended_weight": "9.6 lb"
+			}
+		},
+		{
+			"id": "ew-VTyHwjXIB2nRFT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Equipment.eqp",
+				"id": "e9wm9rm5S5FNRxWy-"
+			},
+			"description": "Malorian Arms 3516",
+			"notes": "14mmCL",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Malorian Arms",
+				"Pistol"
+			],
+			"value": 33480,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "WhP9mxOOEXOUImTHE",
+					"damage": {
+						"type": "pi+",
+						"base": "6d"
+					},
+					"strength": "16",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "800/4,800",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-3",
+					"recoil": "7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "6d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 33480,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "el-n7bfuwmitt2jbp",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eVQ9oNLMz1ILG-hl4"
+			},
+			"description": "Malorian Overture",
+			"notes": ".45 ACP",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Malorian Arms",
+				"Pistol"
+			],
+			"value": 1890,
+			"weight": "4.8 lb",
+			"weapons": [
+				{
+					"id": "WklZJyVt5U3SbYS5s",
+					"damage": {
+						"type": "pi+",
+						"base": "4d+1"
+					},
+					"strength": "9",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "150/1,500",
+					"rate_of_fire": "2",
+					"shots": "6(3)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "4d+1 pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fLT0q8n2khReeIzY9",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1990,
+				"extended_weight": "6.8 lb"
+			}
+		},
+		{
+			"id": "eG3_cwXqpGnxzWtVT",
+			"description": "Midnight Arms MA70B",
+			"notes": "7.62x51mm; HT roll without required ST",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Light Machine Gun",
+				"Midnight Arms"
+			],
+			"value": 5814,
+			"weight": "19 lb",
+			"weapons": [
+				{
+					"id": "Wxow9_4ZzmQnNFL9q",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "12B†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "650/3,900",
+					"rate_of_fire": "8",
+					"shots": "60+1(3)",
+					"bulk": "-5",
+					"recoil": "6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fGPEpecRQ8gxFZ1UC",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fyP_O26pCLZRdnfbh"
+					},
+					"name": "Bipod",
+					"tags": [
+						"Attachment"
+					],
+					"cost_type": "to_final_cost",
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+0.5 lb",
+					"features": [
+						{
+							"type": "weapon_switch",
+							"selection_type": "weapons_with_required_skill",
+							"switch_type": "bipod",
+							"switch_type_value": true,
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
+						},
+						{
+							"type": "weapon_effective_st_bonus",
+							"percent": true,
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -33
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5914,
+				"extended_weight": "19.5 lb"
+			}
+		},
+		{
+			"id": "eDuunCXSXAbAVS8Ay",
+			"description": "Midnight Arms SOR-22",
+			"notes": "7.62x51mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Midnight Arms",
+				"Rifle"
+			],
+			"value": 18360,
+			"weight": "7.8 lb",
+			"weapons": [
+				{
+					"id": "WUeTeDF6kmlxfeeoO",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "13†",
+					"usage": "Shoot",
+					"accuracy": "4",
+					"range": "800/3,500",
+					"rate_of_fire": "2",
+					"shots": "10+1(3)",
+					"bulk": "-6",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "7d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fmKuxOowsqkC4l2X7",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 18460,
+				"extended_weight": "9.8 lb"
+			}
+		},
+		{
+			"id": "eOYGFjnjbKohmqbmb",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "egHWrsw8_ACJmZq3Q"
+			},
+			"description": "Militech Crusher",
+			"notes": "12G",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Militech",
+				"Shotgun"
+			],
+			"value": 10557,
+			"weight": "9.6 lb",
+			"weapons": [
+				{
+					"id": "WOFeIqcz7ZGS1roeX",
+					"damage": {
+						"type": "pi+",
+						"base": "2"
+					},
+					"strength": "11",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "100/500",
+					"rate_of_fire": "3x5!",
+					"shots": "12+1(3)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "2 pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fZvE2NHDCZmHGnZaF",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 10657,
+				"extended_weight": "11.6 lb"
+			}
+		},
+		{
+			"id": "ekDvTV7GKcmmR2CbH",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eW7V69nG30awig9kc"
+			},
+			"description": "Militech M221 Saratoga",
+			"notes": "9x19mm; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Militech",
+				"Submachine Gun"
+			],
+			"value": 4725,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "W7cxWQ5jRt3jaDetx",
+					"damage": {
+						"type": "pi",
+						"base": "3d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "150/1,500",
+					"rate_of_fire": "15!",
+					"shots": "40+1(3)",
+					"bulk": "-4",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "ftNJEK8MXhAKQUjTY",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4825,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "eWMcbacHazVXJWPt2",
+			"description": "Militech M251s Ajax",
+			"notes": "7.62x51mm; Muzzle Thread; Included Red Dot Sight",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Militech",
+				"Rifle"
+			],
+			"value": 6048,
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"id": "WnUQvimogucJbXNAT",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "7†",
+					"usage": "Shoot",
+					"accuracy": "4+1",
+					"range": "750/3,000",
+					"rate_of_fire": "8!",
+					"shots": "30+1(3)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fgYfVsYO4v8GgmL8w",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 6148,
+				"extended_weight": "9.2 lb"
+			}
+		},
+		{
+			"id": "ejN6j4YqQpg2fCdlX",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "enEewdgERSqvOWN9L"
+			},
+			"description": "Militech M-10AF Lexington",
+			"notes": "9x19mm; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Militech",
+				"Pistol"
+			],
+			"value": 4050,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WfJkGHdmrA99ZXyt3",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "9",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "150/1,800",
+					"rate_of_fire": "8!",
+					"shots": "20+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d-1 pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f7hCk1dVIbly1Td8w",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4150,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "e1EvcM_gA0q-KMPJf",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "enEJqIiyPasTYiyRh"
+			},
+			"description": "Militech M-76e Omaha",
+			"notes": "10mmCL",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Militech",
+				"Pistol"
+			],
+			"value": 2970,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "Wg-qiUYReeBR8iNv3",
+					"damage": {
+						"type": "pi",
+						"base": "3d+1"
+					},
+					"strength": "7",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "180/1,800",
+					"rate_of_fire": "3x3",
+					"shots": "9+1(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi"
+					}
+				},
+				{
+					"id": "W8Nr7h5PqJp32dtBd",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1",
+						"armor_divisor": 2
+					},
+					"strength": "7",
+					"usage": "Charged Shot",
+					"accuracy": "2",
+					"range": "180/1,800",
+					"rate_of_fire": "3x9",
+					"shots": "9+1(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "2d+1(2) pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fuWDsRCfe7gXu1oF9",
+					"name": "Optional Charged Shot",
+					"notes": "1 Ready Action to charge shot"
+				},
+				{
+					"id": "fO5uAwGTLdN9tQtdx",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3070,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "eNW1RW6M2ZKTfDrV_",
+			"description": "Militech M-179 Achilles",
+			"notes": "7.62x51mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Militech",
+				"Rifle"
+			],
+			"value": 30600,
+			"weight": "7.8 lb",
+			"weapons": [
+				{
+					"id": "WCcrcYhN2XuTrt4J3",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "13†",
+					"usage": "Shoot",
+					"accuracy": "4",
+					"range": "1,000/4,000",
+					"rate_of_fire": "1x5",
+					"shots": "9+1(3)",
+					"bulk": "-6",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				},
+				{
+					"id": "WDcIqNevLlETtXMWU",
+					"damage": {
+						"type": "pi",
+						"base": "5d",
+						"armor_divisor": 2
+					},
+					"strength": "13†",
+					"usage": "Charged Shot",
+					"accuracy": "4",
+					"range": "1,000/4,000",
+					"rate_of_fire": "1x5",
+					"shots": "9+1(3)",
+					"bulk": "-6",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d(2) pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fqXvTUBMSnlGzbHmE",
+					"name": "Optional Charged Shot",
+					"notes": "1 Ready Action to charge shot"
+				},
+				{
+					"id": "fvQISSbNntnD1Uz7y",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30700,
+				"extended_weight": "9.8 lb"
+			}
+		},
+		{
+			"id": "ewrkw5iRP6vFMuaWt",
+			"description": "Militech Mk. 31 HMG",
+			"notes": ".30-40; HT-2 roll without required ST; Malf 14",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm",
+				"Light Machine Gun",
+				"Militech"
+			],
+			"value": 9639,
+			"weight": "35 lb",
+			"weapons": [
+				{
+					"id": "WHPvR9Wo-KD6tsUnh",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "14†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "650/3,900",
+					"rate_of_fire": "7",
+					"shots": "299+1",
+					"bulk": "-8",
+					"recoil": "6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				},
+				{
+					"id": "W_ysAeUcaXn-govfr",
+					"damage": {
+						"type": "cr ex",
+						"base": "2d",
+						"fragmentation": "1d",
+						"fragmentation_type": "cut"
+					},
+					"usage": "Follow Up",
+					"calc": {
+						"damage": "2d cr ex [1d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9639,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "ewoJAWW7pGI_MD7Es",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ewZ2apcgNVQtY3gmw"
+			},
+			"description": "Militech Ticon",
+			"notes": "9x19mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm",
+				"Militech",
+				"Pistol"
+			],
+			"value": 4095,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WiabqkNxJdKXJ1GIq",
+					"damage": {
+						"type": "pi",
+						"base": "3d+1"
+					},
+					"strength": "5",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "150/1,500",
+					"rate_of_fire": "3#",
+					"shots": "21+1(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi"
+					}
+				},
+				{
+					"id": "WXXH-jI0eCTEbpRYF",
+					"damage": {
+						"type": "pi-",
+						"base": "3d-1",
+						"armor_divisor": 2
+					},
+					"strength": "5",
+					"usage": "Charged Shot",
+					"accuracy": "2",
+					"range": "150/1,500",
+					"rate_of_fire": "3#",
+					"shots": "21+1(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d-1(2) pi-"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fQU-HzWEHWzANdqFf",
+					"name": "Optional Charged Shot",
+					"notes": "1 Ready Action to charge shot"
+				},
+				{
+					"id": "fkLlhUoJzP6QswWjA",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4195,
+				"extended_weight": "6.3 lb"
+			}
+		},
+		{
+			"id": "e-GInc72lBPvZ14zC",
+			"description": "Nakota D5 Copperhead",
+			"notes": "7.62x51mm; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Nakota",
+				"Rifle"
+			],
+			"value": 1512,
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"id": "WBh7oYvATFSJgoP29",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "4",
+					"range": "700/3,200",
+					"rate_of_fire": "11!",
+					"shots": "30+1(3)",
+					"bulk": "-5",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fBrLx5t3TJvSZrNpC",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1612,
+				"extended_weight": "9.2 lb"
+			}
+		},
+		{
+			"id": "eLgFqyl1dh_lpnnyB",
+			"description": "Nakota D5 Sidewinder",
+			"notes": "7.62x51mm; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm",
+				"Nakota",
+				"Rifle"
+			],
+			"value": 1890,
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"id": "W4l7gFwJds-Xtn9ry",
+					"damage": {
+						"type": "pi",
+						"base": "5d+1"
+					},
+					"strength": "10†",
+					"usage": "Shoot",
+					"accuracy": "4",
+					"range": "700/3,200",
+					"rate_of_fire": "10!",
+					"shots": "30+1(3)",
+					"bulk": "-5",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d+1 pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "feGJjhL0sgQjJdBZj",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "fr1opC3-ZKIuYleKc",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1990,
+				"extended_weight": "9.2 lb"
+			}
+		},
+		{
+			"id": "eOK28yvTXrAx6RkY7",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eh-3Xxg4-HiFLNyjS"
+			},
+			"description": "Rostović DB-2 Testera",
+			"notes": "12G",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Rostović",
+				"Shotgun"
+			],
+			"value": 3825,
+			"weight": "9.6 lb",
+			"weapons": [
+				{
+					"id": "W8oxA5E1Fcdgc6oJd",
+					"damage": {
+						"type": "pi",
+						"base": "3d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "100/500",
+					"rate_of_fire": "2x12",
+					"shots": "2(3i)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3825,
+				"extended_weight": "9.6 lb"
+			}
+		},
+		{
+			"id": "e0WRjg_Dhcjnr2Sj9",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eh-3Xxg4-HiFLNyjS"
+			},
+			"description": "Rostović DB-4 Igla",
+			"notes": "8G",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Rostović",
+				"Shotgun"
+			],
+			"value": 1683,
+			"weight": "9.6 lb",
+			"weapons": [
+				{
+					"id": "WDX9Kakiq_DJWrzBp",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "100/500",
+					"rate_of_fire": "2x6",
+					"shots": "2(3i)",
+					"bulk": "-5",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "2d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1683,
+				"extended_weight": "9.6 lb"
+			}
+		},
+		{
+			"id": "eX_LXnVXwQlmnIhZl",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eh-3Xxg4-HiFLNyjS"
+			},
+			"description": "Rostović DB-4 Palica",
+			"notes": "8G",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Rostović",
+				"Shotgun"
+			],
+			"value": 3060,
+			"weight": "9.6 lb",
+			"weapons": [
+				{
+					"id": "WzWg_7yaWb_oOHEAQ",
+					"damage": {
+						"type": "pi+",
+						"base": "2d"
+					},
+					"strength": "9†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "100/500",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-5",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "2d pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f2zCoVuW44sUo62IT",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3060,
+				"extended_weight": "9.6 lb"
+			}
+		},
+		{
+			"id": "e-_tGUmsTsssGUUjp",
+			"description": "Rostović Kolac",
+			"notes": "7.62x51mm; HT roll without required ST",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Rifle",
+				"Rostović"
+			],
+			"value": 19584,
+			"weight": "7.8 lb",
+			"weapons": [
+				{
+					"id": "Wxi1W0BetYerLGAqT",
+					"damage": {
+						"type": "pi",
+						"base": "6d"
+					},
+					"strength": "13†",
+					"usage": "Shoot",
+					"accuracy": "4",
+					"range": "800/3,200",
+					"rate_of_fire": "2",
+					"shots": "6+1(3)",
+					"bulk": "-6",
+					"recoil": "7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "6d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fNAHYpmIUVH1SsQnb",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 19684,
+				"extended_weight": "9.8 lb"
+			}
+		},
+		{
+			"id": "ehH8SSW0UBKCq_KrT",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e6tYJ33bVDmjn0irT"
+			},
+			"description": "Techtronika Metel",
+			"notes": "9x19mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Pistol",
+				"Techtronika"
+			],
+			"value": 3982,
+			"weight": "4.6 lb",
+			"weapons": [
+				{
+					"id": "WzRg3vrWNdTN72Aj9",
+					"damage": {
+						"type": "pi",
+						"base": "3d+2"
+					},
+					"strength": "9",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "100/1,000",
+					"rate_of_fire": "2",
+					"shots": "8(2)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+2 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3982,
+				"extended_weight": "4.6 lb"
+			}
+		},
+		{
+			"id": "eavKwuhvGcS1Oq_6M",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eQkNpRzuQ-y_FT_ax"
+			},
+			"description": "Techtronika RT-46 Burya",
+			"notes": "15mmCLP; HT Roll without required ST",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Pistol",
+				"Techtronika"
+			],
+			"value": 11880,
+			"weight": "6.5 lb",
+			"weapons": [
+				{
+					"id": "W13f51KSL3y8ZKKB6",
+					"damage": {
+						"type": "pi+",
+						"base": "6d"
+					},
+					"strength": "12",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "200/1,500",
+					"rate_of_fire": "1",
+					"shots": "4(3i)",
+					"bulk": "-4",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "6d pi+"
+					}
+				},
+				{
+					"id": "WXQFJPfsb2N-DDwF5",
+					"damage": {
+						"type": "pi+",
+						"base": "6d",
+						"armor_divisor": 2
+					},
+					"strength": "12",
+					"usage": "Charged Shot",
+					"accuracy": "2",
+					"range": "300/1,800",
+					"rate_of_fire": "1",
+					"shots": "4(3i)",
+					"bulk": "-4",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "6d(2) pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f2Ffz-qi0SsdXAY_h",
+					"name": "Optional Charged Shot",
+					"notes": "1 Ready Action to charge shot"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 11880,
+				"extended_weight": "6.5 lb"
+			}
+		},
+		{
+			"id": "eTvVUNwIHtzsmeK34",
+			"description": "Techtronika SPT32 Grad",
+			"notes": "7.62x51mm; HT roll without required ST",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Rifle",
+				"Techtronika"
+			],
+			"value": 14688,
+			"weight": "11.7 lb",
+			"weapons": [
+				{
+					"id": "WpWv2YzI4iDYq1P-E",
+					"damage": {
+						"type": "pi",
+						"base": "6d"
+					},
+					"strength": "12†",
+					"usage": "Shoot",
+					"accuracy": "4+2",
+					"range": "1,000/4,000",
+					"rate_of_fire": "1",
+					"shots": "4+1(3)",
+					"bulk": "-6",
+					"recoil": "6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "6d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 14688,
+				"extended_weight": "11.7 lb"
+			}
+		},
+		{
+			"id": "etL5_hQtHSdRfacGE",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eh-3Xxg4-HiFLNyjS"
+			},
+			"description": "Techtronika VST-37 Pozhar",
+			"notes": "12G; HT roll without required ST",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Shotgun",
+				"Techtronika"
+			],
+			"value": 12375,
+			"weight": "9.6 lb",
+			"weapons": [
+				{
+					"id": "WiBx-F5rV2bVi3md0",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"strength": "12†",
+					"usage": "Shoot",
+					"accuracy": "3",
+					"range": "100/500",
+					"rate_of_fire": "4x5!",
+					"shots": "12(3i)",
+					"bulk": "-5",
+					"recoil": "6",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "2d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 12375,
+				"extended_weight": "9.6 lb"
+			}
+		},
+		{
+			"id": "eizobH7CDTeItAclD",
+			"description": "Tsunami Ashura 阿修羅",
+			"notes": "15mmCL",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Rifle",
+				"Tsunami"
+			],
+			"value": 20808,
+			"weight": "11.7 lb",
+			"weapons": [
+				{
+					"id": "WEoiBBVAyYqKYUMQM",
+					"damage": {
+						"type": "pi++",
+						"base": "6d"
+					},
+					"strength": "12†",
+					"usage": "Shoot",
+					"accuracy": "4",
+					"range": "1,000/4,000",
+					"rate_of_fire": "1",
+					"shots": "0+1(3i)",
+					"bulk": "-6",
+					"recoil": "6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "6d pi++"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fAwZOWkT261f9Ptj1",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 20808,
+				"extended_weight": "11.7 lb"
+			}
+		},
+		{
+			"id": "eHqDMC2Hxl8D_dype",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eOV6jcpHpyld1z3H1"
+			},
+			"description": "Tsunami Kappa 河童",
+			"notes": "9x19mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Pistol",
+				"Tsunami"
+			],
+			"value": 3780,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WTpqeWimSy9VGIJsc",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "7",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "180/1,800",
+					"rate_of_fire": "9!",
+					"shots": "30+1(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f9r-omkiT4sYclTKQ",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fNrKaMNb1Qa1U280_"
+					},
+					"name": "Smart Gun",
+					"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+					"tech_level": "9",
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "when firing smart ammo after locking on to target",
+							"amount": 10
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Guns"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Pistol"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3780,
+				"extended_weight": "4.3 lb"
+			}
+		},
+		{
+			"id": "e_LiKslulzeqA9A7Y",
+			"description": "Tsunami Kyubi 九尾",
+			"notes": "7.62x51mm; Muzzle Thread; Holo Sight",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Rifle",
+				"Tsunami"
+			],
+			"value": 7938,
+			"weight": "7.2 lb",
+			"weapons": [
+				{
+					"id": "Wi-OQJRQX4nMDTmMF",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "8†",
+					"usage": "Shoot",
+					"accuracy": "4+1",
+					"range": "500/3,000",
+					"rate_of_fire": "3",
+					"shots": "20+1(3)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "7d pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "f4NpfL2Ixdl_2c0wN",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 8038,
+				"extended_weight": "9.2 lb"
+			}
+		},
+		{
+			"id": "eZ8C8LOlcrQO-nnph",
+			"description": "Tsunami Nekomata 猫又",
+			"notes": "7.62x51mm",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Rifle",
+				"Tsunami"
+			],
+			"value": 26928,
+			"weight": "11.7 lb",
+			"weapons": [
+				{
+					"id": "WLmza2kPqGDP5lBoT",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "12†",
+					"usage": "Shoot",
+					"accuracy": "4+1",
+					"range": "1,000/4,000",
+					"rate_of_fire": "2",
+					"shots": "4+1(3i)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				},
+				{
+					"id": "WcmS-6Ee7neyqwbeI",
+					"damage": {
+						"type": "pi",
+						"base": "5d",
+						"armor_divisor": 2
+					},
+					"strength": "12†",
+					"usage": "Charged Shot",
+					"accuracy": "4+1",
+					"range": "1,200/4,400",
+					"rate_of_fire": "2",
+					"shots": "4+1(3i)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "5d(2) pi"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fVN5WM4AIdg7rGzzI",
+					"name": "Optional Charged Shot",
+					"notes": "1 Ready Action to charge shot"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 26928,
+				"extended_weight": "11.7 lb"
+			}
+		},
+		{
+			"id": "eZWn1EqCTpvQuKMdk",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eNV6WmVF6ni7lxD12"
+			},
+			"description": "Tsunami Nue 鵺",
+			"notes": ".45 ACP; Muzzle Thread",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Final",
+				"Firearm",
+				"Pistol",
+				"Tsunami"
+			],
+			"value": 5670,
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"id": "WRITinpWnALD4a9zv",
+					"damage": {
+						"type": "pi+",
+						"base": "3d+2"
+					},
+					"strength": "10",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "180/1,900",
+					"rate_of_fire": "3",
+					"shots": "10+1",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "3d+2 pi+"
+					}
+				}
+			],
+			"modifiers": [
+				{
+					"id": "fmrTPuo4A9XlhRTuB",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Firearm Options.eqm",
+						"id": "fsv5zLynQ_XUh4YZP"
+					},
+					"name": "Accessory Rail",
+					"reference": "UT150",
+					"notes": "Top",
+					"tags": [
+						"Attachment"
+					],
+					"tech_level": "9",
+					"cost": "+100",
+					"weight": "+2 lb"
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5770,
+				"extended_weight": "6.3 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,195 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "ep7YtvkqDl-uvLw-C",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eAz9hZbFxzh_G9zCu"
+			},
+			"description": "Active Suspension System",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Vehicle Equipment"
+			],
+			"value": 5000,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "Driving in bad terrain",
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ePIAOlTTW32VWEpVM",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eoj8jGnEkqVs0BtFS"
+			},
+			"description": "AI Autodrive System",
+			"notes": "IQ 10; Driving (Automobiles) 12",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Vehicle Equipment"
+			],
+			"value": 30000,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ejNI3p2jZYXPQa5Si",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "etzTeaNR-ET5_-Mrr"
+			},
+			"description": "Smartlink Interface",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Vehicle Equipment"
+			],
+			"value": 10000,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Meta-Trait: Ground Vehicle"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "dodge",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eiBV4IxxLI3tHhoL0",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ehtFNn-1lZKofWnFk"
+			},
+			"description": "Reinforced Armor",
+			"notes": "+20% cost of the vehicle +10% weight",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Vehicle Equipment"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Meta-Trait: Ground Vehicle"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 8
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "en9D9ye4PGHZWY6oa",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e84swIkCiaIdKbugQ"
+			},
+			"description": "Bulletproof Glass",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Vehicle Equipment"
+			],
+			"value": 2000,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Meta-Trait: Ground Vehicle"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 8
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

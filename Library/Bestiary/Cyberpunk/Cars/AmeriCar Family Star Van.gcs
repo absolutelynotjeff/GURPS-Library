@@ -1,7 +1,6 @@
 {
-	"type": "character",
-	"version": 4,
-	"id": "aa1ddee0-90ec-41af-a429-cfb8a8c7b0e2",
+	"version": 5,
+	"id": "AjjaKIHV6HUaM7RZg",
 	"total_points": 150,
 	"points_record": [
 		{
@@ -12,6 +11,7 @@
 	],
 	"profile": {
 		"name": "AmeriCar Family Star Van",
+		"weight": "4,598 lb",
 		"player_name": "0",
 		"tech_level": "9",
 		"SM": 3
@@ -216,7 +216,6 @@
 					"choice_name": "Body",
 					"table_name": "Body",
 					"slots": 1,
-					"notes": "",
 					"calc": {
 						"roll_range": "3",
 						"dr": {
@@ -231,7 +230,6 @@
 					"slots": 1,
 					"hit_penalty": -4,
 					"description": "Front Driver's Side Wheel",
-					"notes": "",
 					"calc": {
 						"roll_range": "4",
 						"dr": {
@@ -246,7 +244,6 @@
 					"slots": 1,
 					"hit_penalty": -4,
 					"description": "Front Passenger's Side Wheel",
-					"notes": "",
 					"calc": {
 						"roll_range": "5",
 						"dr": {
@@ -261,7 +258,6 @@
 					"slots": 1,
 					"hit_penalty": -4,
 					"description": "Rear Driver's Side Wheel",
-					"notes": "",
 					"calc": {
 						"roll_range": "6",
 						"dr": {
@@ -276,7 +272,6 @@
 					"slots": 1,
 					"hit_penalty": -4,
 					"description": "Rear Passenger's Side Wheel",
-					"notes": "",
 					"calc": {
 						"roll_range": "7",
 						"dr": {
@@ -291,7 +286,6 @@
 					"slots": 1,
 					"hit_penalty": -3,
 					"description": "Windshield",
-					"notes": "",
 					"calc": {
 						"roll_range": "8",
 						"dr": {
@@ -306,7 +300,6 @@
 					"slots": 1,
 					"hit_penalty": -7,
 					"description": "Driver's Side Window",
-					"notes": "",
 					"calc": {
 						"roll_range": "9",
 						"dr": {
@@ -321,7 +314,6 @@
 					"slots": 1,
 					"hit_penalty": -7,
 					"description": "Passenger's Side Window",
-					"notes": "",
 					"calc": {
 						"roll_range": "10",
 						"dr": {
@@ -344,9 +336,9 @@
 	"attributes": [
 		{
 			"attr_id": "st",
-			"adj": 50,
+			"adj": 67,
 			"calc": {
-				"value": 50,
+				"value": 67,
 				"points": 0
 			}
 		},
@@ -354,8 +346,8 @@
 			"attr_id": "hp",
 			"adj": 0,
 			"calc": {
-				"value": 50,
-				"current": 50,
+				"value": 67,
+				"current": 67,
 				"points": 0
 			}
 		},
@@ -369,6 +361,22 @@
 		},
 		{
 			"attr_id": "sr",
+			"adj": 2,
+			"calc": {
+				"value": 2,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "ht",
+			"adj": 8,
+			"calc": {
+				"value": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "acc",
 			"adj": 3,
 			"calc": {
 				"value": 3,
@@ -376,42 +384,26 @@
 			}
 		},
 		{
-			"attr_id": "ht",
-			"adj": 11,
-			"calc": {
-				"value": 11,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "acc",
-			"adj": 4,
-			"calc": {
-				"value": 4,
-				"points": 0
-			}
-		},
-		{
 			"attr_id": "top",
-			"adj": 50,
+			"adj": 56,
 			"calc": {
-				"value": 50,
+				"value": 56,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "lwt",
-			"adj": 1.4,
+			"adj": 3.419,
 			"calc": {
-				"value": 1.4,
+				"value": 3.419,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "load",
-			"adj": 0.6,
+			"adj": 1104,
 			"calc": {
-				"value": 0.6,
+				"value": 1104,
 				"points": 0
 			}
 		},
@@ -425,37 +417,38 @@
 		},
 		{
 			"attr_id": "dr",
-			"adj": 2,
+			"adj": 5,
 			"calc": {
-				"value": 2,
+				"value": 5,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "range",
-			"adj": 300,
+			"adj": 450,
 			"calc": {
-				"value": 300,
+				"value": 450,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "cost",
-			"adj": 31000,
+			"adj": 139719,
 			"calc": {
-				"value": 31000,
+				"value": 139719,
 				"points": 0
 			}
 		}
 	],
 	"traits": [
 		{
-			"id": "f9062eb9-db51-4976-a53d-063a296084a6",
-			"type": "trait_container",
+			"id": "Td3b1vAAChcg-NqEJ",
+			"name": "Meta-Trait: Ground Vehicle",
+			"reference": "B263",
+			"container_type": "meta_trait",
 			"children": [
 				{
-					"id": "2365d68f-012f-4a6a-8e45-938ef1ef37f2",
-					"type": "trait",
+					"id": "tMZVMXSg11HciiOzC",
 					"name": "Horizontal",
 					"reference": "B139",
 					"tags": [
@@ -469,8 +462,7 @@
 					}
 				},
 				{
-					"id": "d5b352dc-7a0e-4189-a65e-eac71a285597",
-					"type": "trait",
+					"id": "ton8Ag3bXDdjEr7Gz",
 					"name": "No Legs (Wheeled)",
 					"reference": "B145",
 					"tags": [
@@ -484,8 +476,7 @@
 					}
 				},
 				{
-					"id": "2eb02633-00d6-47e6-b9cb-2f0b6714cb59",
-					"type": "trait",
+					"id": "tUh5c3glxXRnb4Rt6",
 					"name": "No Manipulators",
 					"reference": "B145",
 					"tags": [
@@ -510,8 +501,7 @@
 					}
 				},
 				{
-					"id": "7498da0f-740f-49fb-99d1-969d31e065bb",
-					"type": "trait",
+					"id": "tXgZurEhWHVKoR8ey",
 					"name": "Numb",
 					"reference": "B146",
 					"tags": [
@@ -524,20 +514,18 @@
 					}
 				}
 			],
-			"name": "Meta-Trait: Ground Vehicle",
-			"reference": "B263",
-			"container_type": "meta_trait",
 			"calc": {
 				"points": -100
 			}
 		},
 		{
-			"id": "16e231e8-defc-4558-ab5d-e7c0535b877e",
-			"type": "trait_container",
+			"id": "TJ1tunMFvmR-dJQ7v",
+			"name": "Meta-Trait: Machine",
+			"reference": "B263",
+			"container_type": "meta_trait",
 			"children": [
 				{
-					"id": "218e5f75-f24c-453d-95b0-40d9dad11e6f",
-					"type": "trait",
+					"id": "te62TcLpU-7UYHoVm",
 					"name": "Eight-hour energy reserve, Refuel 3 times per day",
 					"reference": "B263",
 					"tags": [
@@ -548,8 +536,7 @@
 					}
 				},
 				{
-					"id": "f52adee1-0b14-4cbb-aa2f-fa35f6ebf9eb",
-					"type": "trait",
+					"id": "tFGce3DxzX43tJP8W",
 					"name": "Injury Tolerance",
 					"reference": "B60",
 					"tags": [
@@ -559,8 +546,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "018f3381-402e-4814-8163-b1cd9ed9720a",
-							"type": "modifier",
+							"id": "mjX7Zn3dxlhvb2RMN",
 							"name": "Diffuse",
 							"reference": "B60",
 							"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
@@ -569,8 +555,7 @@
 							"disabled": true
 						},
 						{
-							"id": "f5afc3dd-3d78-4ff6-98d5-c733ff1fc7cf",
-							"type": "modifier",
+							"id": "mWZkHJdHe6iw3mxb3",
 							"name": "Homogenous",
 							"reference": "B60",
 							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
@@ -579,8 +564,7 @@
 							"disabled": true
 						},
 						{
-							"id": "24e73644-b614-48e2-aa91-c54b3123a678",
-							"type": "modifier",
+							"id": "m5gJ3OISLMxxjH8h5",
 							"name": "No Blood",
 							"reference": "B61",
 							"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
@@ -588,8 +572,7 @@
 							"cost_type": "points"
 						},
 						{
-							"id": "2b984d2c-dbfb-42e0-93ef-d3632b237519",
-							"type": "modifier",
+							"id": "mBAo-ty5rEVp9YvnQ",
 							"name": "No Brain",
 							"reference": "B61",
 							"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
@@ -598,8 +581,7 @@
 							"disabled": true
 						},
 						{
-							"id": "48e95100-c702-44d6-8ef2-b9e5909936d4",
-							"type": "modifier",
+							"id": "mArFUjFqrUseAaDkN",
 							"name": "No Eyes",
 							"reference": "B61",
 							"notes": "Eyes may not be targeted. Immune to blinding attacks",
@@ -608,8 +590,7 @@
 							"disabled": true
 						},
 						{
-							"id": "d6be358b-4487-4982-b77a-a883f1b0f42e",
-							"type": "modifier",
+							"id": "mwbhQr_POVjxBS8_u",
 							"name": "No Head",
 							"reference": "B61",
 							"notes": "Skull, Brain and Face cannot be targeted",
@@ -618,8 +599,7 @@
 							"disabled": true
 						},
 						{
-							"id": "45404fbe-2d81-4aad-a91c-53fd9a3dd309",
-							"type": "modifier",
+							"id": "mD1Y14OIn8RrqdV_T",
 							"name": "No Neck",
 							"reference": "B61",
 							"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
@@ -628,8 +608,7 @@
 							"disabled": true
 						},
 						{
-							"id": "44eac5d1-0ee4-4b20-a007-d6055020e316",
-							"type": "modifier",
+							"id": "miRUi97DKKMyjfgz_",
 							"name": "No Vitals",
 							"reference": "B61",
 							"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
@@ -638,8 +617,7 @@
 							"disabled": true
 						},
 						{
-							"id": "4c03b5bf-6f5e-43dc-8a41-fec1a01e08fb",
-							"type": "modifier",
+							"id": "mC1CxG6Bo0Uk_Aet3",
 							"name": "Unliving",
 							"reference": "B61",
 							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
@@ -652,8 +630,7 @@
 					}
 				},
 				{
-					"id": "b6498f5c-07b0-447a-b735-4596e7a89d60",
-					"type": "trait",
+					"id": "t8PEJ6DoKJ-vujyNU",
 					"name": "No fatigue points, Don't spend fatigue points",
 					"reference": "B263",
 					"tags": [
@@ -664,8 +641,7 @@
 					}
 				},
 				{
-					"id": "0fa798d6-7850-4395-b660-8cda71f20c03",
-					"type": "trait",
+					"id": "tXNyD9BZKYCPDqyQv",
 					"name": "Resistant",
 					"reference": "B81",
 					"tags": [
@@ -674,16 +650,14 @@
 					],
 					"modifiers": [
 						{
-							"id": "b57f180a-0518-40a3-8743-299218f5bba0",
-							"type": "modifier",
+							"id": "mvUY5hmq4FORT_DCJ",
 							"name": "Metabolic Hazards",
 							"reference": "B80",
 							"cost": 30,
 							"cost_type": "points"
 						},
 						{
-							"id": "9f42ff9e-d797-4d76-8d90-701f8aa6f77d",
-							"type": "modifier",
+							"id": "mjF-lR2Vw_WQALS90",
 							"name": "@Common: Poison, Sickness, etc.@",
 							"reference": "B81",
 							"cost": 15,
@@ -691,8 +665,7 @@
 							"disabled": true
 						},
 						{
-							"id": "2954387c-2f7a-42a0-bcf8-30b0225c93c2",
-							"type": "modifier",
+							"id": "mMu6WTUiSFI_GnKxm",
 							"name": "@Occasional: Disease, Ingested Poison, etc.@",
 							"reference": "B81",
 							"cost": 10,
@@ -700,8 +673,7 @@
 							"disabled": true
 						},
 						{
-							"id": "68bc7cbc-4499-4db6-a337-7986d2733919",
-							"type": "modifier",
+							"id": "mPX7Wmg1-zdNIjs9g",
 							"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
 							"reference": "B81",
 							"cost": 5,
@@ -709,16 +681,14 @@
 							"disabled": true
 						},
 						{
-							"id": "27f0bdb9-41b5-4d7d-896a-2ed3812a6120",
-							"type": "modifier",
+							"id": "m-x3d_7bIlnOWAQVI",
 							"name": "Immunity",
 							"reference": "B81",
 							"cost": 1,
 							"cost_type": "multiplier"
 						},
 						{
-							"id": "8f529f15-b053-488f-adbd-056b27dd19f8",
-							"type": "modifier",
+							"id": "meaLeS4X5AqgfTjyL",
 							"name": "+8 to all HT rolls to resist",
 							"reference": "B81",
 							"cost": 0.5,
@@ -726,8 +696,7 @@
 							"disabled": true
 						},
 						{
-							"id": "22d5260f-26e4-4d89-b5ad-80b2620634c2",
-							"type": "modifier",
+							"id": "m5dV23YZ9Oqfj2f3R",
 							"name": "+3 to all HT rolls to resist",
 							"reference": "B81",
 							"cost": 0.33,
@@ -741,8 +710,7 @@
 					}
 				},
 				{
-					"id": "ba7e8037-05f2-4226-a400-e2dfc4ec1f1b",
-					"type": "trait",
+					"id": "tKgwzz907yhcSzLlF",
 					"name": "Unhealing (Total)",
 					"reference": "B160",
 					"tags": [
@@ -756,8 +724,7 @@
 					}
 				},
 				{
-					"id": "d6d759ca-04c0-44bc-ac61-8f4674fa6263",
-					"type": "trait",
+					"id": "tJ3F1OipnREzYZX8P",
 					"name": "Wears out instead of aging",
 					"reference": "B263",
 					"tags": [
@@ -768,9 +735,6 @@
 					}
 				}
 			],
-			"name": "Meta-Trait: Machine",
-			"reference": "B263",
-			"container_type": "meta_trait",
 			"calc": {
 				"points": 25
 			}
@@ -778,8 +742,7 @@
 	],
 	"equipment": [
 		{
-			"id": "653df949-9ff4-45b7-be18-21920f4e9bdc",
-			"type": "equipment",
+			"id": "eyi71zqceW3MIHgP0",
 			"description": "Entertainment Console",
 			"reference": "UT51",
 			"notes": "Complexity 4. 4B/5hr. or external power.",
@@ -788,9 +751,9 @@
 				"Furniture",
 				"Media"
 			],
-			"quantity": 1,
 			"value": 500,
 			"weight": "1 lb",
+			"quantity": 1,
 			"equipped": true,
 			"calc": {
 				"extended_value": 500,
@@ -798,17 +761,16 @@
 			}
 		},
 		{
-			"id": "31c27f42-aa55-4f8c-9dfa-e4f40be8a6ea",
-			"type": "equipment",
+			"id": "ejSmBnvQo4tYPW5XY",
 			"description": "Biometric Scanlock",
 			"tech_level": "9",
 			"legality_class": "4",
 			"tags": [
 				"UT104"
 			],
-			"quantity": 1,
 			"value": 1000,
 			"weight": "1 lb",
+			"quantity": 1,
 			"equipped": true,
 			"calc": {
 				"extended_value": 1000,
@@ -816,8 +778,7 @@
 			}
 		},
 		{
-			"id": "24147b09-473b-4015-8174-e591e95c0757",
-			"type": "equipment",
+			"id": "ejSn1E_eck8-hZM2M",
 			"description": "Inertial Compass",
 			"reference": "UT75",
 			"notes": "A/200hr.",
@@ -825,7 +786,6 @@
 			"tags": [
 				"Tool"
 			],
-			"quantity": 1,
 			"value": 120,
 			"weight": "0.2 lb",
 			"features": [
@@ -869,6 +829,7 @@
 					"amount": 3
 				}
 			],
+			"quantity": 1,
 			"equipped": true,
 			"calc": {
 				"extended_value": 120,
@@ -877,11 +838,11 @@
 		}
 	],
 	"created_date": "2024-06-15T20:01:29-05:00",
-	"modified_date": "2024-11-29T12:36:46-08:00",
+	"modified_date": "2025-03-12T00:28:34-07:00",
 	"calc": {
-		"swing": "8d-1",
-		"thrust": "5d+2",
-		"basic_lift": "500 lb",
+		"swing": "10d-1",
+		"thrust": "7d+2",
+		"basic_lift": "898 lb",
 		"move": [
 			0,
 			0,

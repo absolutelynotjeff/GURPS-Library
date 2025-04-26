@@ -10,7 +10,8 @@
 		}
 	],
 	"profile": {
-		"name": "AmeriCar EconoCompact",
+		"name": "AmeriCar Harvey 100",
+		"weight": "418 lb",
 		"player_name": "0",
 		"tech_level": "9",
 		"SM": 1
@@ -225,11 +226,11 @@
 				},
 				{
 					"id": "arm",
-					"choice_name": "Front Drivers Side Wheel",
-					"table_name": "Front Drivers Side Wheel",
+					"choice_name": "Front Wheel",
+					"table_name": "Front Wheel",
 					"slots": 1,
 					"hit_penalty": -4,
-					"description": "Front Driver's Side Wheel",
+					"description": "Front Wheel",
 					"calc": {
 						"roll_range": "4",
 						"dr": {
@@ -238,84 +239,14 @@
 					}
 				},
 				{
-					"id": "arm",
-					"choice_name": "Front Passengers Side Wheel",
-					"table_name": "Front Passengers Side Wheel",
+					"id": "leg",
+					"choice_name": "Rear Wheel",
+					"table_name": "Rear Wheel",
 					"slots": 1,
 					"hit_penalty": -4,
-					"description": "Front Passenger's Side Wheel",
+					"description": "Rear Wheel",
 					"calc": {
 						"roll_range": "5",
-						"dr": {
-							"all": 1
-						}
-					}
-				},
-				{
-					"id": "leg",
-					"choice_name": "Rear Drivers Side Wheel",
-					"table_name": "Rear Drivers Side Wheel",
-					"slots": 1,
-					"hit_penalty": -4,
-					"description": "Rear Driver's Side Wheel",
-					"calc": {
-						"roll_range": "6",
-						"dr": {
-							"all": 1
-						}
-					}
-				},
-				{
-					"id": "leg",
-					"choice_name": "Rear Passengers Side Wheel",
-					"table_name": "Rear Passengers Side Wheel",
-					"slots": 1,
-					"hit_penalty": -4,
-					"description": "Rear Passenger's Side Wheel",
-					"calc": {
-						"roll_range": "7",
-						"dr": {
-							"all": 1
-						}
-					}
-				},
-				{
-					"id": "eye",
-					"choice_name": "Windshield",
-					"table_name": "Windshield",
-					"slots": 1,
-					"hit_penalty": -3,
-					"description": "Windshield",
-					"calc": {
-						"roll_range": "8",
-						"dr": {
-							"all": 1
-						}
-					}
-				},
-				{
-					"id": "eye",
-					"choice_name": "Drivers Side Window",
-					"table_name": "Drivers Side Window",
-					"slots": 1,
-					"hit_penalty": -7,
-					"description": "Driver's Side Window",
-					"calc": {
-						"roll_range": "9",
-						"dr": {
-							"all": 1
-						}
-					}
-				},
-				{
-					"id": "eye",
-					"choice_name": "Passengers Side Window",
-					"table_name": "Passengers Side Window",
-					"slots": 1,
-					"hit_penalty": -7,
-					"description": "Passenger's Side Window",
-					"calc": {
-						"roll_range": "10",
 						"dr": {
 							"all": 1
 						}
@@ -336,9 +267,9 @@
 	"attributes": [
 		{
 			"attr_id": "st",
-			"adj": 51,
+			"adj": 30,
 			"calc": {
-				"value": 51,
+				"value": 30,
 				"points": 0
 			}
 		},
@@ -346,37 +277,21 @@
 			"attr_id": "hp",
 			"adj": 0,
 			"calc": {
-				"value": 51,
-				"current": 51,
+				"value": 30,
+				"current": 30,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "dodge",
-			"adj": -2,
+			"adj": 1,
 			"calc": {
-				"value": -2,
+				"value": 1,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "dx",
-			"adj": 3,
-			"calc": {
-				"value": 3,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "ht",
-			"adj": 8,
-			"calc": {
-				"value": 8,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "acc",
 			"adj": 2,
 			"calc": {
 				"value": 2,
@@ -384,34 +299,50 @@
 			}
 		},
 		{
-			"attr_id": "top",
-			"adj": 46,
+			"attr_id": "ht",
+			"adj": 9,
 			"calc": {
-				"value": 46,
+				"value": 9,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "acc",
+			"adj": 5,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "top",
+			"adj": 53,
+			"calc": {
+				"value": 53,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "lwt",
-			"adj": 1.513,
+			"adj": 0.447,
 			"calc": {
-				"value": 1.513,
+				"value": 0.447,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "load",
-			"adj": 331,
+			"adj": 55,
 			"calc": {
-				"value": 331,
+				"value": 55,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "occ",
-			"adj": 3,
+			"adj": 2,
 			"calc": {
-				"value": 3,
+				"value": 2,
 				"points": 0
 			}
 		},
@@ -425,17 +356,17 @@
 		},
 		{
 			"attr_id": "range",
-			"adj": 400,
+			"adj": 200,
 			"calc": {
-				"value": 400,
+				"value": 200,
 				"points": 0
 			}
 		},
 		{
 			"attr_id": "cost",
-			"adj": 49840,
+			"adj": 12149,
 			"calc": {
-				"value": 49840,
+				"value": 12149,
 				"points": 0
 			}
 		}
@@ -1061,50 +992,12 @@
 			}
 		}
 	],
-	"equipment": [
-		{
-			"id": "eH233173g0z6ebQKR",
-			"description": "Entertainment Console",
-			"reference": "UT51",
-			"notes": "Complexity 4. 4B/5hr. or external power.",
-			"tech_level": "9",
-			"tags": [
-				"Furniture",
-				"Media"
-			],
-			"value": 500,
-			"weight": "1 lb",
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 500,
-				"extended_weight": "1 lb"
-			}
-		},
-		{
-			"id": "ebwblsmsljX0pw0Sd",
-			"description": "Biometric Scanlock",
-			"tech_level": "9",
-			"legality_class": "4",
-			"tags": [
-				"UT104"
-			],
-			"value": 1000,
-			"weight": "1 lb",
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 1000,
-				"extended_weight": "1 lb"
-			}
-		}
-	],
 	"created_date": "2024-06-15T20:01:29-05:00",
-	"modified_date": "2025-03-12T00:25:10-07:00",
+	"modified_date": "2025-03-12T00:44:08-07:00",
 	"calc": {
-		"swing": "8d",
-		"thrust": "5d+2",
-		"basic_lift": "520 lb",
+		"swing": "5d+2",
+		"thrust": "3d",
+		"basic_lift": "180 lb",
 		"move": [
 			0,
 			0,

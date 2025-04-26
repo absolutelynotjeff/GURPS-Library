@@ -1,0 +1,7366 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eu0RzxjNsa8br1Tjo",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eQrvfWo0AiqUMfh4s"
+			},
+			"description": "1 TB (Terabyte) Data Storage",
+			"reference": "UT23",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Computers"
+			],
+			"value": 1,
+			"weight": "0.001 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.001 lb"
+			}
+		},
+		{
+			"id": "eNHcgq4pButDcpCZ9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eBi-MRbBL6DbBQ1Ez"
+			},
+			"description": "3/4\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 16,000lbs.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 3,
+			"weight": "0.4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "eUzhVV7jW1WxphHHH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e1ofLTIVT5pRj5vQh"
+			},
+			"description": "1/8\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 400lbs.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 0.2,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.2,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "emdNduHGL872MkvkY",
+			"description": "Nu-Tek Corporate Island Jacket",
+			"notes": "Flexible; (40 Penetrations)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Businessware",
+				"Clothing",
+				"Nu-Tek"
+			],
+			"value": 1440,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"neck",
+						"torso",
+						"vitals"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1440,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ez8wVMT18horl47jt",
+			"description": "Nu-Tek Corporate Island Shirt",
+			"notes": "Flexible; (15 Penetrations)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Businessware",
+				"Clothing",
+				"Nu-Tek"
+			],
+			"value": 720,
+			"weight": "0.8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"neck",
+						"torso",
+						"vitals"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 720,
+				"extended_weight": "0.8 lb"
+			}
+		},
+		{
+			"id": "eyaD-rcD176KfY-QK",
+			"description": "Nu-Tek Corporate Island Vest",
+			"notes": "Flexible; (20 Penetrations)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Businessware",
+				"Clothing",
+				"Nu-Tek"
+			],
+			"value": 1080,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck",
+						"torso",
+						"vitals"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1080,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ek5WqA108bIuIXMyo",
+			"description": "Nu-Tek Corporate Island Pants",
+			"notes": "Flexible; (20 Penetrations)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Businessware",
+				"Clothing",
+				"Nu-Tek"
+			],
+			"value": 1080,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"leg"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1080,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ewEXRB_MSr-pIdGxg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eCQwpHzRQ0SGTcNrS"
+			},
+			"description": "3/8\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 4,000lbs.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 2,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eoBFrEG0kj6MhhgSO",
+			"description": "Delaying Compound",
+			"notes": "Add to other drug or poison to delay effects by one minute or one hour",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Drug"
+			],
+			"value": 604.8,
+			"weight": "0.03 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 604.8,
+				"extended_weight": "0.03 lb"
+			}
+		},
+		{
+			"id": "e0c8oSUILa7aUUgn0",
+			"description": "Zhukova International Dirk Combat Jacket",
+			"notes": "Flexible; (50 Penetrations)",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Clothing",
+				"Zhokova International",
+				"Leisurewear"
+			],
+			"value": 3960,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"neck",
+						"torso",
+						"vitals"
+					],
+					"amount": 11
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3960,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ey1ob_5-0v-VMDF4p",
+			"description": "Distilling Compound",
+			"notes": "Add to other drug or poison to incrase difficulty of resistance",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Drug"
+			],
+			"value": 604.8,
+			"weight": "0.03 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 604.8,
+				"extended_weight": "0.03 lb"
+			}
+		},
+		{
+			"id": "egN_WCF3qt-6mt1ag",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ensfNvnRCkISos9We"
+			},
+			"description": "Bodyweight AutoInjector",
+			"reference": "CPREDHP5",
+			"notes": "Temporary Disadvantage (Electrical); Accessory (AirHypo); Free Action injection when paired with Bio Monitor",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Biomedical",
+				"Bodyweight",
+				"Cyberware"
+			],
+			"value": 4320,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4320,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "eHMvaJECAh4Dr6uOP",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eu7G6FsC3QkZ6ltiY"
+			},
+			"description": "Pursuit Security Inc. Gas Jet",
+			"reference": "CPREDHP5",
+			"notes": "Accessibility (Requires two cyberarm option slots); Temporary Disadvantage; Enter attacks manually",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Cyberware",
+				"Melee Weapon",
+				"Pursuit Security"
+			],
+			"value": 12960,
+			"weapons": [
+				{
+					"id": "W1gMt8wsoD7CRB_d6",
+					"damage": {
+						"type": ""
+					},
+					"usage": "Spray",
+					"usage_notes": "Damage depends on substance used",
+					"range": "3/5",
+					"rate_of_fire": "1",
+					"shots": "3(2i)",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 12960,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ebl_j7iTXXcnqtZ4a",
+			"description": "Biotechnica Oblivionol™ Sedative",
+			"notes": "Requires AirHypo or similar delivery method; HT -3 to resist; Duration 1 minute",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Biotechnica",
+				"Medical Gear"
+			],
+			"value": 9072,
+			"weight": "0.03 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9072,
+				"extended_weight": "0.03 lb"
+			}
+		},
+		{
+			"id": "ecw0WKXLcfbcU0_ek",
+			"description": "Veritas",
+			"notes": "Requires AirHypo or similar delivery method; Tipsy (-1 to DX and IQ, -2 to self-control rolls except cowardice); Gives Truthfulness; 10 minutes",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Drug"
+			],
+			"value": 4233.6,
+			"weight": "0.03 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4233.6,
+				"extended_weight": "0.03 lb"
+			}
+		},
+		{
+			"id": "ebnknRl_gUQLJb_8C",
+			"description": "Osmosis Compound",
+			"notes": "Add to other drug or poison to allow absorption through skin contact; 2 hr duration; .5 yard surface",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Drug"
+			],
+			"value": 604.8,
+			"weight": "0.03 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 604.8,
+				"extended_weight": "0.03 lb"
+			}
+		},
+		{
+			"id": "eWsd6tLE7xw7d8yr6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eVahBZ31omY03RHAi"
+			},
+			"description": "3/16\" Rope",
+			"reference": "UT81",
+			"notes": "Per yard. Supports 1,000lbs.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tools and Construction Materials"
+			],
+			"value": 0.5,
+			"weight": "0.025 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.5,
+				"extended_weight": "0.025 lb"
+			}
+		},
+		{
+			"id": "eVwUIu6MNPxteUTrK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eh7eq73E24Tqc3PBv"
+			},
+			"description": "3D Flatcam",
+			"reference": "UT51",
+			"notes": "A/10hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 250,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eIiQGmZzF3rznX29Z",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eewSyTPIH4T9uptmP"
+			},
+			"description": "3D Pocketcam",
+			"reference": "UT51",
+			"notes": "B/10hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 1000,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "exmJ51UztGMcHZs9E",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "edUEMdwAa8h1diWpL"
+			},
+			"description": "3D Portacam",
+			"reference": "UT51",
+			"notes": "C/40hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 10000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eglh1PxbuZav6fYGW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "epRXtbtPNVTPIqIdo"
+			},
+			"description": "A Cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Power"
+			],
+			"value": 2,
+			"weight": "0.005 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.005 lb"
+			}
+		},
+		{
+			"id": "eboc3u4sqVcL2Ib9d",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e9eMPYuycgET26cAj"
+			},
+			"description": "AA Cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Power"
+			],
+			"value": 1,
+			"weight": "0.0005 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.0005 lb"
+			}
+		},
+		{
+			"id": "e3wgUDwY9qjRTTL7l",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eu20N954Bg3Zg912F"
+			},
+			"description": "Ablative Foam, Can",
+			"reference": "UT187",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ezlf4m17ZmEPj2ROz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ezrl3PmS-gWEoRumf"
+			},
+			"description": "Ablative Foam, Tank",
+			"reference": "UT187",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Defenses"
+			],
+			"value": 500,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "elQC0KKRssI-FVJTx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eADLlV9CFhUR6bzsz"
+			},
+			"description": "Accented Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 4. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 300,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eglQA4iiD4T_UF7j_",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "elZOzd7Ikqhpx8Ta2"
+			},
+			"description": "Air Mask",
+			"reference": "UT177",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eVyuhANKzG4PsXVh4",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e8d4gfMB1EYGX6V0t"
+			},
+			"description": "Alter",
+			"reference": "PY21:7",
+			"notes": "Complexity 4",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Software"
+			],
+			"value": 300,
+			"vtt_notes": "[\" Single Execution\" /r [S:Computer*Programming/TL -3 | S:Computer*Hacking/TL -3]]",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eYff4CvS0xCOLrj1f",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eef9EcGjGAuVz5P5s"
+			},
+			"description": "Analgine",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Drug"
+			],
+			"value": 50,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eInT0o6lWrrv1YSbE",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ejtrRjKD9YtRrznTQ"
+			},
+			"description": "Analyze",
+			"reference": "PY21:7",
+			"notes": "Complexity 3",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Software"
+			],
+			"value": 100,
+			"vtt_notes": "[\" Single or Continuous Execution\" /r [S:Computer*Programming/TL -3 | Expert*Computer*Security/TL -3]]",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e0LHEdYWovWY1KWmJ",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e8S7brc5_3MudFZ9w"
+			},
+			"description": "Arasaka Suzumebachi Assassin Drone",
+			"reference": "CPREDHP5",
+			"notes": "2B/8hr, 50 yd range from NET Architecture",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Robot"
+			],
+			"value": 612000,
+			"weight": "12 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 612000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "etwDClZNEX1UC2Upy",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eZodqaoO0suKEsxLe"
+			},
+			"description": "Armored Door",
+			"reference": "UT101",
+			"notes": "10 square feet. DR100.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Furniture"
+			],
+			"value": 1000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "e5Ebq_3Yz0zuEv4ze",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eaWU55RNmaRZzco12"
+			},
+			"description": "Armored Shades",
+			"reference": "UT176",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"value": 100,
+			"weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "EBOLvzfPwKd1BcX_M",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ERIsAZqJlcJxIwDG5"
+			},
+			"description": "Armored Vault",
+			"reference": "UT102",
+			"notes": "Holds 50cf. DR400. 100HP.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Container",
+				"Furniture"
+			],
+			"value": 30000,
+			"weight": "4,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30000,
+				"extended_weight": "4,000 lb"
+			}
+		},
+		{
+			"id": "ePU7VXl5KLZ0aOY2R",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ezk3ODcs-sFk_Rbuo"
+			},
+			"description": "Armoury (@Specialization@) Mini-Toolkit",
+			"reference": "UT82",
+			"notes": "-2 (quality). 5B/10hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 200,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eln-0E8JmZnBL9lvX",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ennLShNbNaUPaZ_Bn"
+			},
+			"description": "Armoury (@Specialization@) Portable Workshop",
+			"reference": "UT82",
+			"notes": "+2 (quality). 10C/100hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 15000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "e8Tk5SyTFNjbLZ2lb",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ekjEJnM9nGQUl7Sah"
+			},
+			"description": "Armoury (@Specialization@) Toolkit",
+			"reference": "UT82",
+			"notes": "10B/10hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 600,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eU57VVs5JZhO6phdO",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e3NPcQeR29UT2lYpk"
+			},
+			"description": "Armoury (Force Shields) Mini-Toolkit",
+			"reference": "UT82",
+			"notes": "-2 (quality). 5A/10hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 400,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eAU5ZYdbD5M5jvrRl",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e5yxswz1Xty48gnTK"
+			},
+			"description": "Armoury (Force Shields) Portable Workshop",
+			"reference": "UT82",
+			"notes": "+2 (quality). 10B/100hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 30000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eDgsnmrznjcrr6oR1",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eie3sU04URQarec9R"
+			},
+			"description": "Armoury (Force Shields) Toolkit",
+			"reference": "UT82",
+			"notes": "10A/10hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 1200,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eUdUcjgtUubN73ilE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e4O_2TX1JC-cSPu3D"
+			},
+			"description": "Articulated Weapon Harness (@Weapon@)",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 1000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "enONfQc_RX6sSRw2i",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eZ62zUIzpVeGS1pX5"
+			},
+			"description": "Artificial Gill",
+			"reference": "UT177",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"value": 2000,
+			"weight": "25 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eXCgOZOhIHBlSEI1e",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "enfBKpe6TvId4JLuR"
+			},
+			"description": "Assault Boots",
+			"reference": "UT173",
+			"notes": "DR+6 vs. piercing and cutting.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"value": 150,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eFyaht3z6ITTx3l19",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e6m95RreQFQbQ_G6H"
+			},
+			"description": "Attaché Case",
+			"reference": "UT38",
+			"notes": "DR8",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Container"
+			],
+			"value": 80,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "EfaLNXMtFbNhFP0Hc",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "E13uoGpJOVb4-gQay"
+			},
+			"description": "Attaché Case w/ hidden compartment",
+			"reference": "UT97",
+			"notes": "Holds 2cf.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Container"
+			],
+			"value": 400,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "20 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "E-ORNttX9-STB8VAP",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+						"id": "EOXzewNhydrVd4AP-"
+					},
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "2 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "es38iQjcAfH2aqji9",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eNDe1uvvK6EgrGw95"
+			},
+			"description": "Autokitchen",
+			"reference": "UT69",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Furniture"
+			],
+			"value": 5000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eoblDbo4yAK4xEZQh",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eFNlHkpAUvR0ybEt0"
+			},
+			"description": "B cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Power"
+			],
+			"value": 3,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eJP9iL9JB4TIcD_sG",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eHotp46ZiAPuDeHKj"
+			},
+			"description": "Bandage Spray Can",
+			"reference": "UT197",
+			"notes": "First Aid +2 (quality). Six applications.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 15,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "emPWPffSJ6_FtDNTZ",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e3dyBOOJ16YgyzRdo"
+			},
+			"description": "Baseball Bat",
+			"reference": "ATE1:31",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Axe/Mace",
+				"Melee Weapon"
+			],
+			"value": 100,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "wY1NnsMHHeUtgCgIW",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "8",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ewFryOoqTfCQXZ_gA",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eYAi92se3eJ5kdpWe"
+			},
+			"description": "Berserk",
+			"reference": "CPREDHP2",
+			"notes": "Requires AirHypo; 10 min; +1d ST \u0026 FP, High Pain Tolerance, Berserk; Crash (-2 ST, DX, \u0026 IQ) for 1 hour, HT-3 to resist addiction",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Drug"
+			],
+			"value": 604.8,
+			"weight": "0.03 lb",
+			"max_uses": 1,
+			"quantity": 1,
+			"uses": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 604.8,
+				"extended_weight": "0.03 lb"
+			}
+		},
+		{
+			"id": "eqaUG0md5CUTo-Kzs",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eFaSqJgrL5GQ9ttYD"
+			},
+			"description": "Biomedical Sensors",
+			"reference": "UT187",
+			"notes": "A/24hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Sensor"
+			],
+			"value": 200,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "ewSWI4JSs48xTN0C3",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "evUzpOSKrEoBsYCEP"
+			},
+			"description": "Biometric Cracker Tools",
+			"reference": "UT95",
+			"notes": "A/2hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Tool"
+			],
+			"value": 4000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eesxIV8C1U2ATbxEu",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "egNMdVZU7_s992pqR"
+			},
+			"description": "Biometric Scanlock",
+			"reference": "UT104",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 1000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "exT_zFLv2B2imyaBf",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eYlktxke0BNXFYNNP"
+			},
+			"description": "Biomimetic Swimsuit",
+			"reference": "UT39",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 100,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eT_pn8s1QR5H5Ci3v",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e0YZU8OJn-8CMgOZR"
+			},
+			"description": "Biomimetic Swimsuit + Fins",
+			"reference": "UT39",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 150,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eYWiDED8PJYkLYZbg",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e6nUzvY9sggAgPFHz"
+			},
+			"description": "Biopresence Software",
+			"reference": "UT109",
+			"notes": "Complexity 7.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Software"
+			],
+			"value": 10000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "elEJ0OoWof1Kgsu3k",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eX_5j4IKAguukHhV0"
+			},
+			"description": "BioTechnica Biomonitor Bracelet",
+			"reference": "UT197",
+			"notes": "+1 (quality) to diagnose the wearer.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Medical Gear",
+				"Sensor"
+			],
+			"value": 50,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "EwuaUabAo3Bef1ufn",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "EaS4uopQmAt6Ly3EN"
+			},
+			"description": "BioTechnica Bracelet Autoinjector",
+			"reference": "UT197",
+			"notes": "Holds ten doses.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 200,
+			"weight": "0.15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.15 lb"
+			}
+		},
+		{
+			"id": "ekVmmemQh_rbrbyOd",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "es0kDkFbQRf5BN96N"
+			},
+			"description": "Biotechnica EnduroDrink",
+			"reference": "CP2020CB4:71",
+			"notes": "recover 1 fatigue; use every 2 hours",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Food \u0026 Drink"
+			],
+			"value": 8,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "e6B432tqYuB7IulEc",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ekMg_mf5mTIqRdtWZ"
+			},
+			"description": "Blast Foam",
+			"reference": "UT87",
+			"notes": "Covers 3sqyd.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Tool"
+			],
+			"value": 100,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "etWZV_CvyHaDT8Q3V",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eRSnH8ikphh51jTnw"
+			},
+			"description": "Bodyweight Interflex Prime™",
+			"reference": "CP2020CB4:74",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Lifestyle Gear"
+			],
+			"value": 4400,
+			"weight": "60 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 4400,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "eIxNaIQ5OCxLLdGMg",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "evjjzKmHzVNcMmQuM"
+			},
+			"description": "Bodyweight Interflex™ Cybergenics Machine",
+			"reference": "CP2020CB4:74",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Lifestyle Gear"
+			],
+			"value": 2800,
+			"weight": "60 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "eoRYlLS3Z7C5dUbNF",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eZeZwx7P-8duUrHAV"
+			},
+			"description": "Book Reader",
+			"reference": "UT51",
+			"notes": "2A/100hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Media"
+			],
+			"value": 20,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eswRTq8VRjCmlshHm",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e07xsFxp3v5az11eS"
+			},
+			"description": "Broken Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 3. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Communication",
+				"Software"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eRP2A2iY4OMphPQ9S",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "enNW0AUpZ9aWCyC5n"
+			},
+			"description": "Bug Stomper",
+			"reference": "UT106",
+			"notes": "B/24 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Surveillance"
+			],
+			"value": 600,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eojzI58OU98xkm70Y",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eScw603vSgPPf4bs0"
+			},
+			"description": "C cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Power"
+			],
+			"value": 10,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eJLOSDJuELjc0430l",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ea1p1QdoLN4Uuu4h7"
+			},
+			"description": "Cleaning Gel",
+			"reference": "UT38",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Tool"
+			],
+			"value": 7,
+			"weight": "1.5 lb",
+			"max_uses": 7,
+			"quantity": 1,
+			"uses": 7,
+			"calc": {
+				"extended_value": 7,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "ea6SdHs83fwfMbFli",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "etPZ69YiRh7AYW-Gw"
+			},
+			"description": "Clinical Brainwipe Machine",
+			"reference": "UT109",
+			"notes": "D/10 days.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 100000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eIjuyRJ8JTddojKhc",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eMhesLc6Eehm3fRAh"
+			},
+			"description": "Colored Smoke",
+			"reference": "UT160",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Biochemical"
+			],
+			"value": 0.1,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eMcFq_GZLzr8TUdLb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ewFJ03CcKw3lBY4mb"
+			},
+			"description": "Com Tap",
+			"reference": "UT105",
+			"notes": "A/100 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 500,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ex2BBSx5683xeeTWK",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eAlzZzix7mCMD7OqQ"
+			},
+			"description": "Combat Knife",
+			"reference": "HT200",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Knife",
+				"Melee Weapon"
+			],
+			"value": 150,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wbLg7ZSL9p56itrrq",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2"
+					},
+					"strength": "6",
+					"usage": "Swing",
+					"reach": "C,1",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "sw-2 cut"
+					}
+				},
+				{
+					"id": "wX0u5uiz9PxVxfI0b",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eFFUNg-eDoTllfGZ3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eWOXlUgEA-PfbK8_Y"
+			},
+			"description": "Compact Targeting Scope",
+			"reference": "UT149",
+			"notes": "+2 to aimed shots. A/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 1000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e-BqhXWPlN9jehOvi",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eca7sQbITfTwdLZpq"
+			},
+			"description": "Complex Lock",
+			"reference": "UT102",
+			"notes": "Lockpicking -4.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Surveillance"
+			],
+			"value": 200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e_RbcnH9buzle2ZYS",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eaJs6mzQbDEolF_UX"
+			},
+			"description": "Contact SQUID",
+			"reference": "UT100",
+			"notes": "2C/10hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers",
+				"Hacking"
+			],
+			"value": 20000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ehBxoalD-s8J8wv38",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eU9IcUaNQc8qp0Vqn"
+			},
+			"description": "Crash Kit",
+			"reference": "UT198",
+			"notes": "Surgery -5.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 200,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "e8swl5Be1ErWSsCL_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e60-TRzZA5QkjUMRh"
+			},
+			"description": "Credilene",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 240,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eI1Pt9SlHC0gG8pX0",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eGJUHJhho24e2j6s-"
+			},
+			"description": "Cufftape",
+			"reference": "UT107",
+			"notes": "100-foot spool. DR 1. HP 6. ST 20.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Tool"
+			],
+			"value": 10,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ercVtXavamb9lBmqq",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "emGf7ODSGB66azN1a"
+			},
+			"description": "Cutting Wire Fence",
+			"reference": "UT102",
+			"notes": "15-yard coil.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Furniture",
+				"Surveillance"
+			],
+			"value": 100,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eZ7UfSqcB_wHq9dYo",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eq_1MMaZ5WGiLc7T2"
+			},
+			"description": "D cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Power"
+			],
+			"value": 100,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "exl1wM4dK3nYIsu-J",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eYAMgFrmGusbSsdnK"
+			},
+			"description": "D-Tag",
+			"reference": "UT151",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 20,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eUu7cRA91LT9lRSFV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eC1DrHF8oqmYt-rRT"
+			},
+			"description": "Datapad",
+			"reference": "UT23",
+			"notes": "2A/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 10,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "ePZIYGOTpIt0B6eyn",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eScBpt69TkIZmI0Pd"
+			},
+			"description": "Deceptive Radar Jammer",
+			"reference": "UT99",
+			"notes": "C/10hr. Radar -4. Imaging radar -2.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 2000,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "elEKImcNiimEk7icc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eOiDF7jfK79HS5sGe"
+			},
+			"description": "Deceptive Sonar Jammer",
+			"reference": "UT99",
+			"notes": "C/10hr. Sonar -4.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 2000,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eQSAoI47zdl4yDEnL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e45UjisaXIxAVxgy8"
+			},
+			"description": "Decryption Program",
+			"reference": "UT47",
+			"notes": "Complexity 2.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 30,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e3Bal8S8gRe7Kk_oD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "edpo__NIu0zjkF3YL"
+			},
+			"description": "Dedicated Chemsniffer",
+			"reference": "UT62",
+			"notes": "A/1wk.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 100,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "eGh2dVZ9smZ7_uLyQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e4jYVfRrn0WH8jYJE"
+			},
+			"description": "Desktop Doc-Fab",
+			"reference": "UT97",
+			"notes": "4D/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 20000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "E6oAF6utaf_3aUVJU",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ElSfiAPyWA3IuKtnU"
+			},
+			"description": "Diagnostic Bed",
+			"reference": "UT197",
+			"notes": "+3 (quality) to diagnose the patient. E/100hr.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Furniture",
+				"Medical Gear"
+			],
+			"value": 25000,
+			"weight": "250 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "e9I-Sao0xRGyoL3SZ",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eezY5VoKxWvyjzeAl"
+			},
+			"description": "Diagnostic Probes",
+			"reference": "UT197",
+			"notes": "One dose. Diagnosis +3 (quality) after two hours.",
+			"tech_level": "9",
+			"tags": [
+				"Medical Gear",
+				"Sensor"
+			],
+			"value": 200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "elaPAmQqxwaABERFq",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "erbcxOc7DY0-HdoZe"
+			},
+			"description": "Diagnostic Sensors",
+			"reference": "UT197",
+			"notes": "+2 (quality) to diagnose the patient.",
+			"tech_level": "9",
+			"tags": [
+				"Medical Gear",
+				"Sensor"
+			],
+			"value": 500,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eAg-zjexhcVNur2AS",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ezLlfveP_YG87x1W1"
+			},
+			"description": "Diagnostic Smart Bandage",
+			"reference": "UT199",
+			"notes": "Four applications.",
+			"tech_level": "9",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 20,
+			"weight": "0.4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "e4xSEAe68d0dzGwxJ",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eaKau1Gc1LtHQUWvo"
+			},
+			"description": "Disguise Fabricator",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Tool"
+			],
+			"value": 800,
+			"weight": "50 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Disguise"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "edeYhzVpLdAfEUJGs",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "e3qjau7Qu5FuxIgAF"
+			},
+			"description": "Disposable Test Kit (@Disease, toxin, drug, or condition@)",
+			"reference": "UT197",
+			"notes": "No skill required.",
+			"tech_level": "9",
+			"tags": [
+				"Medical Gear",
+				"Sensor"
+			],
+			"value": 5,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ec58FGywBdBnSSHXN",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ewenRneG8HenkrD8r"
+			},
+			"description": "E cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 2000,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eNa1PdsekdDzDWCm-",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "efhK9YwGXaiFi8ETb"
+			},
+			"description": "Ecstacy Machine",
+			"reference": "UT40",
+			"notes": "2A/24hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Tool"
+			],
+			"value": 500,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ewSE6OGP3t6s9OosO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eZeVIFqv3gxBGSIUZ"
+			},
+			"description": "Electric Stun Wand",
+			"reference": "UT165",
+			"notes": "B/20 hits.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wqVnZr6uJ_7p4810d",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "5",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "wcq-9Uyfr4ijq2Xeo",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				},
+				{
+					"id": "wLWdrGzgW1OzjB9iZ",
+					"damage": {
+						"type": "HT-5(0.5) aff"
+					},
+					"usage": "Linked",
+					"calc": {
+						"damage": "HT-5(0.5) aff"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ePkwz0Gi21ZR-Ydqb",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "es6yR8TFkzIXWqroR"
+			},
+			"description": "Electrician (@Specialization@) Mini-Toolkit",
+			"reference": "UT82",
+			"notes": "-2 (quality). 5B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Tool"
+			],
+			"value": 200,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eJ6G1UHr1uTll2gcU",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eWi4Gie_tEyCx-w-D"
+			},
+			"description": "Electrician (@Specialization@) Portable Workshop",
+			"reference": "UT82",
+			"notes": "+2 (quality). 10C/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Tool"
+			],
+			"value": 15000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "eDmn9rkHJvyk5zbFN",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ewG4HfFwmQqy92BTN"
+			},
+			"description": "Electrician (@Specialization@) Toolkit",
+			"reference": "UT82",
+			"notes": "10B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Tool"
+			],
+			"value": 600,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eb6LhhUAIzKV1MtLn",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eBGXvIfvu2wM-VG5L"
+			},
+			"description": "Electro-Optical Binoculars (\"Televiewers\")",
+			"reference": "UT60",
+			"notes": "Night Vision 9. 64x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensor",
+				"Tool"
+			],
+			"value": 500,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eOnaO0OTHIFcfhlAh",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "erO3aH1OMEdCRrztg"
+			},
+			"description": "Electro-Optical Surveillance Camera",
+			"reference": "UT60",
+			"notes": "Night Vision 9. 4x magnification. 2B/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensor",
+				"Surveillance"
+			],
+			"value": 250,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eNJa-UbwgdkF7vvtV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ecXPahdvp8B8o6m4b"
+			},
+			"description": "Electromagnetic Smoke",
+			"reference": "UT160",
+			"tech_level": "9",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 0.3,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.3,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eAzk3svZjOiyiWSJa",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ec3Kcyw0eHSKyVu1l"
+			},
+			"description": "Electronic Cuffs",
+			"reference": "UT107",
+			"notes": "ST 20. DR 10. A/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Tool"
+			],
+			"value": 40,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ejSePt-WJACAZE53w",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "ekgFmLZoPlBowBjwQ"
+			},
+			"description": "Electronic Lockpick",
+			"reference": "UT95",
+			"notes": "A/2hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Tool"
+			],
+			"value": 1500,
+			"weight": "0.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "e6pKD7jMK7l6Pdd1u",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eE7jTBgwZGDFof1NM"
+			},
+			"description": "Electronic Thumb",
+			"reference": "UT96",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Tool"
+			],
+			"value": 5000,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "et47XNCo5HIcJPM3H",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eZZZEUTGQoaOZ_v0S"
+			},
+			"description": "Emissions Nanobug",
+			"reference": "UT105",
+			"notes": "AA/year",
+			"tech_level": "9",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eU6YKXMZ4jhoXL1iX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eAVDwfe7437_Ria78"
+			},
+			"description": "Enhanced Targeting Scope",
+			"reference": "UT149",
+			"notes": "+3 to aimed shots. Hyperspectral Vision 8x. Tunnel Vision. B/400hr.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 8000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e4GbejDFFaeUXDtSM",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eJPe7fC-E_eAT3RbP"
+			},
+			"description": "Entertainment Console",
+			"reference": "UT51",
+			"notes": "Complexity 4. 4B/5hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Furniture",
+				"Media"
+			],
+			"value": 500,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ew8z6fA248W3R8TeW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ehe1Skby-iDJJ4sJf"
+			},
+			"description": "ESM Detector",
+			"reference": "UT62",
+			"notes": "A/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 250,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e7uKLAgGpYuKUOUKJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e5jsTeGt0I12k0yEb"
+			},
+			"description": "F cell",
+			"reference": "UT19",
+			"tech_level": "9",
+			"tags": [
+				"Power"
+			],
+			"value": 20000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "e7fa_VuPvRdqfB7iF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eYnqYsOiIPeJ4eWhH"
+			},
+			"description": "Filtration Canteen",
+			"reference": "UT75",
+			"notes": "3lbs. full.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 180,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 180,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eJjrakcu_AaXZlKzB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eL1gOudYbn7skFbAw"
+			},
+			"description": "Fire Extinguisher Tube",
+			"reference": "UT87",
+			"notes": "4-second discharge. 2-yard range.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 10,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "exHQ0lGE8oESFHJ2o",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eqlF96Tv4ySSy6Gs8"
+			},
+			"description": "Firefoam",
+			"reference": "UT160",
+			"tech_level": "9",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 1,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e9QadqfkmD8GtO_xy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eFggKMtx9D-27k-tV"
+			},
+			"description": "First Aid Kit",
+			"reference": "UT198",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eesXLNcbdohZIK4Mq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "en_XtYxwIiGJOvf1i"
+			},
+			"description": "Food Paste",
+			"reference": "UT73",
+			"notes": "One day's supply.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 10,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "eDVEcMN_d-5EF7A6D",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eZYm5qb2A78neJwzX"
+			},
+			"description": "Food Tablets",
+			"reference": "UT73",
+			"notes": "One day's supply.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 10,
+			"weight": "0.75 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.75 lb"
+			}
+		},
+		{
+			"id": "ei1omc3BnPAbgG1Mh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eCQGxlJIV_mFDrI9k"
+			},
+			"description": "Gecko Adhesive",
+			"reference": "UT83",
+			"notes": "Per foot. 2\" wide. Supports 800lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 1,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e1MV0PAGvnWhVvIXR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e3BXC2YcEgEvr09Ei"
+			},
+			"description": "Gecko Adhesive",
+			"reference": "UT83",
+			"notes": "Per square inch. Supports 800lbs.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 0.1,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eBJQYo_DqxKk4II0d",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eDAyv3_Umil2XWIqU"
+			},
+			"description": "Glow Stick",
+			"reference": "UT74",
+			"notes": "2-yard radius.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 2,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eupMphnebejMUDrR7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eOnTWtkMZIbLVF5pX"
+			},
+			"description": "Gyrostabilized Weapon Harness",
+			"reference": "UT150",
+			"notes": "Plus $200 and 1lb. per pound of loaded weight.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 1000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "erx7jYaYhNLS8ZksV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ekJbgZaoIpwOHuJqF"
+			},
+			"description": "Head-Up Display (HUD)",
+			"reference": "UT24",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 50,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ealZrlIvPnORd2ij4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eRArfUwOeI_v9CrIX"
+			},
+			"description": "Heavy Flashlight",
+			"reference": "UT74",
+			"notes": "50-yard beam. 2B/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food",
+				"Melee Weapon"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wxT7M-lsRIEVfVu0C",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "w0f3UwgRLzugFQpgz",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e9-IXF4bb8LBRZng8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eYbUqo1GeId7Ma9xX"
+			},
+			"description": "Heavy Plasma Torch",
+			"reference": "UT80",
+			"notes": "D/15min.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 2000,
+			"weight": "40 lb",
+			"weapons": [
+				{
+					"id": "wwec1oXU8ETAxHWjF",
+					"damage": {
+						"type": "burn",
+						"base": "4d+1",
+						"armor_divisor": 5
+					},
+					"strength": "8†",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "4d+1(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "eAb4xwSeUGhJPxZQC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eVONU3a1peJMq02JV"
+			},
+			"description": "Heavy-Duty Electronic Cuffs",
+			"reference": "UT107",
+			"notes": "ST 40. DR 15. A/1wk.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 100,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eTJ_WTwFRc-n3reZh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e4mc_Vt5XqdsQ-gW2"
+			},
+			"description": "Homing Beacon",
+			"reference": "UT105",
+			"notes": "AA/100 hours - 1 year in \"sleeper\" mode",
+			"tech_level": "9",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 40,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ex4i8uKzVY90mvr4V",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eEiLlsGy0eoxayMNK"
+			},
+			"description": "Hospital ESU",
+			"reference": "UT198",
+			"notes": "Physician or HT +2 (quality) for trauma maintenance; roll daily. 4D/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 15000,
+			"weight": "120 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15000,
+				"extended_weight": "120 lb"
+			}
+		},
+		{
+			"id": "eA-Y02qj5wxK-FERc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eGrwMPCODIEceoIL7"
+			},
+			"description": "Hospital HyMRI",
+			"reference": "UT198",
+			"notes": "2E/10hr. or external power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Medical"
+			],
+			"value": 250000,
+			"weight": "500 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250000,
+				"extended_weight": "500 lb"
+			}
+		},
+		{
+			"id": "e3ej15dpqHXAsm7RL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ewiNk-icnAAxZotjK"
+			},
+			"description": "Hot Smoke",
+			"reference": "UT160",
+			"tech_level": "9",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 0.15,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.15,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "epDstefQDPF7EBp4s",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eL5NJOu2qS7A7aRU7"
+			},
+			"description": "Hyperspectral Binoculars",
+			"reference": "UT61",
+			"notes": "16x magnification. C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 10000,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e_u2oamP5ru89Tx1i",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ex7QZSGgRwuhJdyVG"
+			},
+			"description": "Hyperspectral Goggles",
+			"reference": "UT61",
+			"notes": "1x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 2000,
+			"weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "egmwFEkD7sUYLMjAK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ePx4IOxcXnFftx3_m"
+			},
+			"description": "Hyperspectral Imaging Sensor Array",
+			"reference": "UT61",
+			"notes": "32x magnification. 2D/12hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 160000,
+			"weight": "50 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 160000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "ekykUpMGGPXTr5W-4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eRtidOTB9tDxX5B-T"
+			},
+			"description": "Hyperspectral Surveillance Camera",
+			"reference": "UT61",
+			"notes": "4x magnification. C/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 2000,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eXU8_TmimT2SvhURE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e72XjkivqOhX5IkWX"
+			},
+			"description": "Hyperspectral Visor",
+			"reference": "UT61",
+			"notes": "1x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 2000,
+			"weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "ex0OhhKybi-6RXWMj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e53vZszGHciHjgDDp"
+			},
+			"description": "Hyperstim",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eaZxUmcGDr3PDwCcM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e-__yXkDCh7OWdpJv"
+			},
+			"description": "IFF Comm Software",
+			"reference": "UT188",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses",
+				"Software"
+			],
+			"value": 500,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e-VCTUnqFU0UrXFEJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eIPo7G-8Oe2yewNn9"
+			},
+			"description": "IFF Interrogator",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eqJ5UTdjHUdqtxBpU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ed2kFtrGtwchT5gev"
+			},
+			"description": "Inertial Compass",
+			"reference": "UT75",
+			"notes": "A/200hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 120,
+			"weight": "0.2 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Air"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Land"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Sea"
+					},
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "0.2 lb"
+			}
+		},
+		{
+			"id": "ey1gD5cnMwXZu6dP7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e5S1eiVr8pb-O7CyS"
+			},
+			"description": "Inertial Navigation System",
+			"reference": "UT75",
+			"notes": "B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 5000,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Air"
+					},
+					"amount": 4
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Land"
+					},
+					"amount": 4
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Sea"
+					},
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "e0PHUxD62LbpzQl6y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e_GmrxL4jD9vQkVwd"
+			},
+			"description": "Infrared Binoculars",
+			"reference": "UT61",
+			"notes": "16x magnification. C/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 2500,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2500,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eWvv6lrRgQzpA4hlh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eyToahjlqUs3FG6o_"
+			},
+			"description": "Infrared Cloaking",
+			"reference": "UT99",
+			"notes": "Thermal detection -4.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 1500,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eeivt7cuLsRD7UhGx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e0htprZ_j7M8dmHDD"
+			},
+			"description": "Infrared Goggles",
+			"reference": "UT61",
+			"notes": "2x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 500,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "e6EG7bVQ-ELYQiS2r",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eoMdK7p7H9ta9SxCK"
+			},
+			"description": "Infrared Imaging Sensor Array",
+			"reference": "UT61",
+			"notes": "64x magnification. 2D/12hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 40000,
+			"weight": "50 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "ecYKdCS7DqlJmzoaH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eM8P4cA4OsvtAUOpz"
+			},
+			"description": "Infrared Surveillance Camera",
+			"reference": "UT61",
+			"notes": "4x magnification. 2B/100hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 250,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "etvBMpJ_Z4LZgYD_k",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eIsebgGlEPdgh_9Yp"
+			},
+			"description": "Infrared Video Glasses",
+			"reference": "UT61",
+			"notes": "1x magnification. A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 500,
+			"weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eBbQST2L8h2jQIDO-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "elEJ2w6dTRvCibx2H"
+			},
+			"description": "Infrared Visor",
+			"reference": "UT61",
+			"notes": "2x magnification. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 500,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "e_6NfYuvKDOIn7Pz0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ef55nM_NrfAgS_Cam"
+			},
+			"description": "Karatand",
+			"reference": "UT163",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"value": 100,
+			"weapons": [
+				{
+					"id": "wR9dQjNDLK6KIwYPc",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "evaqCRdaNhmnmhosc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eoFtTjEBA4BtvMOKa"
+			},
+			"description": "Keyboard Bug",
+			"reference": "UT100",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "etd0kXVh90TTkZYi6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ee1ntHbKLyMm9wsr3"
+			},
+			"description": "Laser Microphone",
+			"reference": "UT105",
+			"notes": "Range 3000 yards; C/10 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 200,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eaM8htTX4KmaCZTSg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eZOirtJvnhze2Qc-P"
+			},
+			"description": "Macroframe",
+			"reference": "UT22",
+			"notes": "Complexity 8. 100,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 1000000,
+			"weight": "4,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000000,
+				"extended_weight": "4,000 lb"
+			}
+		},
+		{
+			"id": "eqlvkiO99ynrZuEvc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e7PZarTqLaozIPbuW"
+			},
+			"description": "Mainframe",
+			"reference": "UT22",
+			"notes": "Complexity 7. 10,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 100000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "eQ_vsDb-rEpGtKhnX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eT_1yufL54rolac_A"
+			},
+			"description": "Meal Pack",
+			"reference": "UT73",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 2,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EqiDzjUdCxBW5z9sZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "EV3PI0aUQ-817vBdI"
+			},
+			"description": "Medical Bed",
+			"reference": "UT199",
+			"notes": "Physician +3 (quality) when treating this patient.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 10000,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "ezBw7mt3eFbbjwLQy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "evp7ZJk2EzR7P2BLz"
+			},
+			"description": "Medical Supplies",
+			"reference": "UT199",
+			"notes": "Lasts 50 patient-days.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 500,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Surgery"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "exA5S-bTAdc5_r8wu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e85IBZeUloZayGqxC"
+			},
+			"description": "Megacomputer",
+			"reference": "UT22",
+			"notes": "Complexity 9. 1,000,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Computers"
+			],
+			"value": 10000000,
+			"weight": "40,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000000,
+				"extended_weight": "40,000 lb"
+			}
+		},
+		{
+			"id": "ey6LfYv635VxojUUc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "evqZKLv0PYFS-b8rc"
+			},
+			"description": "Microframe",
+			"reference": "UT22",
+			"notes": "Complexity 6. 1,000TB. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Computers"
+			],
+			"value": 10000,
+			"weight": "40 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "efr2DOL5NsEvcIUWS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ehxXxX5sSmcf8tx1P"
+			},
+			"description": "Mini Flashlight",
+			"reference": "UT74",
+			"notes": "15-yard beam. B/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 10,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eCLqJllqyOgaOsj6E",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eHFLCcGPQhrfg4viW"
+			},
+			"description": "Mini Laser Flashlight",
+			"reference": "UT113",
+			"notes": "B/3,600 shots",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"value": 10,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "WX9plIQqKwpxq-_4L",
+					"damage": {
+						"type": "HT-5 aff (1 yd)"
+					},
+					"strength": "1",
+					"accuracy": "6",
+					"range": "170/500",
+					"rate_of_fire": "1",
+					"shots": "3600(3)",
+					"bulk": "-1",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT-5 aff (1 yd)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "ePTLYB6vUC4BlYwyJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ehortx9IE3hPCOA9t"
+			},
+			"description": "Mini Laser Torch",
+			"reference": "UT80",
+			"notes": "B/3min",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 50,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "wF5SINpuEXWrcE1oE",
+					"damage": {
+						"type": "burn",
+						"base": "1d",
+						"armor_divisor": 2
+					},
+					"strength": "1",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "1d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "exrWNBlOz4KJGZmwC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ezdAnnuZIoGn6kN1V"
+			},
+			"description": "Mini Plasma Torch",
+			"reference": "UT80",
+			"notes": "B/3min",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wCpr8Lu3E8I1RobAX",
+					"damage": {
+						"type": "burn",
+						"base": "1d+2",
+						"armor_divisor": 5
+					},
+					"strength": "3",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "1d+2(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eHmnn-QA8XBxvyLST",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ezdAnnuZIoGn6kN1V"
+			},
+			"description": "Mini Plasma Torch",
+			"reference": "UT80",
+			"notes": "B/3min",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wjlWO08lvbMZwLVk-",
+					"damage": {
+						"type": "burn",
+						"base": "1d+2",
+						"armor_divisor": 5
+					},
+					"strength": "3",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "1d+2(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e557in5ElapBAyPLM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "enyR9T-kRw9Xt1ZvJ"
+			},
+			"description": "Mini Scanner",
+			"reference": "UT100",
+			"notes": "100-yard range. A/10hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 500,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eGkmac-hiOutABz1G",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eaxoGZ19hOmdHjbIa"
+			},
+			"description": "Monowire Razortape",
+			"reference": "UT107",
+			"notes": "100-foot spool. ST 20.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 80,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e7GH73autE8cqYHhq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "efS34REhrn5ljS5zE"
+			},
+			"description": "Monowire Whip",
+			"reference": "UT163",
+			"tech_level": "9^",
+			"legality_class": "2",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"value": 900,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "wiZVAq7lm48TjfIa-",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1d-2",
+						"armor_divisor": 10
+					},
+					"strength": "5",
+					"reach": "1-7*",
+					"parry": "-2U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Monowire Whip"
+						},
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Kusari",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Whip",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw+1d-2(10) cut"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "erUINfKRjj3sFGoEd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eICX28gJWPj_AH9-A"
+			},
+			"description": "Morphazine",
+			"reference": "UT205",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eSDR8u5ojX25177Fy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eqWf6VQZrEoqP5X8k"
+			},
+			"description": "Multi-Media Wall",
+			"reference": "UT51",
+			"notes": "Per square foot. External power.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 20,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "ewI8SonLrSh2mwzH-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "egYubqff9x4muHxuG"
+			},
+			"description": "Multispectral Bug Sweeper",
+			"reference": "UT106",
+			"notes": "C/10 hours",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Counter-Surveillance and ECM"
+			],
+			"value": 10000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e9HJbxVaNkWhtpXjU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eO4BTfxJZq1dutqeo"
+			},
+			"description": "Musk",
+			"reference": "UT160",
+			"tech_level": "9",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 2,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eaTh9HaFJnfyBbUsV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eGwS4tCt1zfueSkCB"
+			},
+			"description": "Nails",
+			"reference": "UT83",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 0.01,
+			"weight": "0.01 lb",
+			"quantity": 50,
+			"calc": {
+				"extended_value": 0.5,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e0Y0NHkGFwYHFbhOe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ef5bkgzISh3IECAId"
+			},
+			"description": "Nanobug",
+			"reference": "UT105",
+			"notes": "AA/year",
+			"tech_level": "9",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eArXZ3UEQEMfMj0v6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eQPgEdhO7JoJjyJLr"
+			},
+			"description": "Nasal Filter Plugs",
+			"reference": "UT188",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eZe8ANW5vYQGdVQIO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eIVIH19ul7V4ppOQr"
+			},
+			"description": "Native Translator Program",
+			"reference": "UT48",
+			"notes": "Complexity 5. From @From language@ to @To language@.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface",
+				"Software"
+			],
+			"value": 1000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eddMHtNBQrA637Bu-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eXr199kzKDSfvqFDY"
+			},
+			"description": "Near Miss Indicator",
+			"reference": "UT188",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eW1Ey7n0fsDwJ16F3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eiLS8jp_wHV-BHtye"
+			},
+			"description": "Nerve Gas, Lethal",
+			"reference": "UT160",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eQPbQOuz0sMZWBpuq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e8jpH8527kvC-bWWj"
+			},
+			"description": "Nerve Poison",
+			"reference": "UT161",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e2M5nwYmruOqzg9jg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ewzVHsCrV9uvqcvIX"
+			},
+			"description": "Night Vision Contacts",
+			"reference": "UT60",
+			"notes": "Night Vision 7. 1x magnification.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e9X1nDzaODI5Pk3nE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ePvEUF-_KexZDn7kL"
+			},
+			"description": "Night Vision Glasses (\"Night Shades\")",
+			"reference": "UT60",
+			"notes": "Night Vision 8. 2x magnification. A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 250,
+			"weight": "0.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e8ieTRy6pWRGxeSMN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eyXMFrvhHQHS0UWP2"
+			},
+			"description": "Night Vision Goggles",
+			"reference": "UT60",
+			"notes": "Night Vision 9. 4x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 1000,
+			"weight": "0.3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "e6jUcNPiRHvIeHb1U",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eYD9rHHgeUTFNJN-d"
+			},
+			"description": "Night Vision Visor",
+			"reference": "UT60",
+			"notes": "Night Vision 9. 4x magnification. 2B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 1000,
+			"weight": "0.3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "eK79jQc6yZIz6blgu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eX5RNhIyHO3rGNWpR"
+			},
+			"description": "Odor Synthesizer",
+			"reference": "UT52",
+			"notes": "100 mixes. B/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 500,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e1XYEnQMDN-5SctdV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eDChGwqTIydFZTFH1"
+			},
+			"description": "One-Use Bandage Spray",
+			"reference": "UT197",
+			"notes": "First Aid +2 (quality).",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 3,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "efwyTIS6O0C70xz2L",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eqv5lPYndoPsxTGVj"
+			},
+			"description": "Operating Theater",
+			"reference": "UT200",
+			"notes": "Surgery +2 (quality). 20C/40hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 200000,
+			"weight": "1,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "eFRaaSxZDb886EcK1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "emMylxg9qt-HrZ8IA"
+			},
+			"description": "Penlight",
+			"reference": "UT74",
+			"notes": "5-yard beam. 2A/24hr.",
+			"tech_level": "9",
+			"tags": [
+				"Housing Tools and Survival Gear"
+			],
+			"value": 3,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e9V_DMejF9_8D_7CE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ehdfXHV4hMPE2BR0W"
+			},
+			"description": "Personal Chemsniffer",
+			"reference": "UT62",
+			"notes": "A/1wk.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 2000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e46xnC0mmGUf6H-Pa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "echafojArKZ2BtawU"
+			},
+			"description": "Personal Computer",
+			"reference": "UT22",
+			"notes": "Complexity 5. 100TB. 2C/20hr or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 1000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eFUUqZ6MT1BHsxtRk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eC6mGQTJuk4wBZUSB"
+			},
+			"description": "Plasma Torch",
+			"reference": "UT80",
+			"notes": "C/15min.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Tools and Construction Materials"
+			],
+			"value": 250,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "wqXfuc8pKpcmVMpv6",
+					"damage": {
+						"type": "burn",
+						"base": "2d",
+						"armor_divisor": 5
+					},
+					"strength": "6",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector"
+						}
+					],
+					"calc": {
+						"damage": "2d(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "er0K563WusPG6fq12",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eagatlnqcfns-y1FV"
+			},
+			"description": "Plasti-Skin",
+			"reference": "UT198",
+			"notes": "Four applications.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 2,
+			"weight": "0.125 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.125 lb"
+			}
+		},
+		{
+			"id": "eOkppp7Z1WQ7kye79",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "em9ZRPPzEh54KNqXX"
+			},
+			"description": "Pneumohypo",
+			"reference": "UT199",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 20,
+			"weight": "0.1 lb",
+			"weapons": [
+				{
+					"id": "wsDoP-qb1b3jmTUFH",
+					"damage": {
+						"type": "Spec"
+					},
+					"usage": "Stab",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "Spec"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ew2o-zVLJWI4NSFQH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eJIcl3pPcm_BbEShr"
+			},
+			"description": "Pneumohypo: air cartridge",
+			"reference": "UT199",
+			"notes": "100 charges.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eDbZ2HjUjeekLyErx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eW1L1x-daNSUlpGMD"
+			},
+			"description": "Pocket Analyzer (@Scientific Skill@)",
+			"reference": "UT67",
+			"notes": "2B/5hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 500,
+			"weight": "0.6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "eRlTRBPNqlpOCu_CC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "elRjWnDVTP1tlPSLq"
+			},
+			"description": "Pocket Laser Mike",
+			"reference": "UT105",
+			"notes": "Range 300 yards; A/hour",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 40,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "euBiI_Q-DG-CWZd6f",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eLC8_xoIHat1RpZwq"
+			},
+			"description": "Pocket Medic",
+			"reference": "UT200",
+			"notes": "First Aid-12. B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 1200,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eGZ0RFiWAh8fiOne_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eupP1TwQHPfNU10xE"
+			},
+			"description": "Pocketcam",
+			"reference": "UT51",
+			"notes": "B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 200,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "edvHzmXok4n7DcqKK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "es3Xx45p_IKQdXMuJ"
+			},
+			"description": "Portable Brainwipe Machine",
+			"reference": "UT109",
+			"notes": "C/24hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 10000,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "emdqFvHzRtaiT--2o",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eDxZudXVZVM7QnzoN"
+			},
+			"description": "Portable Surgery",
+			"reference": "UT200",
+			"notes": "Surgery +1 (quality). First Aid +2 (quality). 5min. to unpack. 5C/40hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 50000,
+			"weight": "250 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "euM8u5juq7LUeY0o1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eSMEpeCwHrfGzvkx9"
+			},
+			"description": "Portable Terminal",
+			"reference": "UT24",
+			"notes": "2B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 50,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "efduZwxtL6-7vbaji",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eqy42375IE5iaFng5"
+			},
+			"description": "Portacam",
+			"reference": "UT51",
+			"notes": "C/40hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 2000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "euBEyQNcZ5iwEPOxu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e9guYdiM_-QbZ26KX"
+			},
+			"description": "Power Holster (@Weapon@)",
+			"reference": "UT151",
+			"notes": "B/100 uses.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 1000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eP8j4gGLNB0LF-V6b",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e0xOfwb0NwvzUcGAL"
+			},
+			"description": "Powered Tripod Mount",
+			"reference": "UT151",
+			"notes": "D/100 hr.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 5000,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "elXgG0rq8piCWMG-f",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "edfSa4AocK8KdCIO-"
+			},
+			"description": "Prime Time",
+			"reference": "CPREDHP3",
+			"notes": "Requires Airhypo; 4 hours; +1 IQ, Will, \u0026 Per, Callous \u0026 No Sense of Humor; Crash (-2 Will \u0026 IQ) for 1d hours, HT-3 to avoid addiction ",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Drug"
+			],
+			"value": 9676.8,
+			"weight": "0.3 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 9676.8,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
+			"id": "efFCLRQ4JH2d_IdlR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eyJHHAODBPPnPGYYo"
+			},
+			"description": "Prism Smoke",
+			"reference": "UT160",
+			"tech_level": "9",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 0.2,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eUOH0J5fLHGma6t9e",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eESjnbvLHhNqGjCmo"
+			},
+			"description": "Programmable Camouflage",
+			"reference": "UT99",
+			"notes": "Changes in 4sec.",
+			"tech_level": "9",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 1000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e-bgge7t4wiZCRr33",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e1V-j6iVIeM1ZodrF"
+			},
+			"description": "Programmable Perfume",
+			"reference": "UT52",
+			"notes": "A/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Media and Education"
+			],
+			"value": 200,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "env4wmf_Euce2HA_3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "esTmm0nvYFTHh43P2"
+			},
+			"description": "Recognition Grip",
+			"reference": "UT150",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eFiPwFrJDf4NePM2v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ek4agokmd59pHs1x9"
+			},
+			"description": "Reflex Bodysuit",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 900,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "esenzx77EoOIzfRRh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eHACQWy6cF7Ceq8Pu"
+			},
+			"description": "Reflex Gloves",
+			"reference": "UT172",
+			"notes": "DR+4 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 30,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eahCZZdrB11-xuJQk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eqbPOaHv07vLzj2vr"
+			},
+			"description": "Reflex Jacket",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 450,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 450,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "emAEscprEgBm7Uws3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "elfn7SpqM1nVp7AmG"
+			},
+			"description": "Reflex Suit",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1200,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"tail"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"wing"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"fin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"brain"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eW6OAIzfODcMY8WJ9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eyNeXclqr0xF1E5xo"
+			},
+			"description": "Reflex Tactical Vest",
+			"reference": "UT173",
+			"notes": "DR+11 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"value": 900,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "esDd0xLeXZKsgaiTa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e4aXr_EBbMM3lnnXc"
+			},
+			"description": "Reflex Trousers",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 280,
+			"weight": "2.8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 280,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "eiC62a_OGBGJHqqbk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e-hgClh01z61zYPbK"
+			},
+			"description": "Reflex Vest",
+			"reference": "UT172",
+			"notes": "DR+8 vs. piercing and cutting. Flexible.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 300,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ewjQK_7L_Qz4hqkZW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e25fe8uGR6a_T4rvD"
+			},
+			"description": "Responsive Bed, Double",
+			"reference": "UT69",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 700,
+			"weight": "140 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "140 lb"
+			}
+		},
+		{
+			"id": "e6TqzvMHVx_f0fsDO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eYlt4Ves79y6VeUJm"
+			},
+			"description": "Responsive Bed, Single",
+			"reference": "UT69",
+			"tech_level": "9",
+			"tags": [
+				"Housing and Food"
+			],
+			"value": 500,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "eINgKB9-JF_GAGoFs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eINCl8NhhgOVCGPsO"
+			},
+			"description": "Restraint Mask",
+			"reference": "UT108",
+			"notes": "+2 (quality) to Interrogation vs. wearer. 2C/100hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 500,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eoJ-kMJi55h0WediA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ehD6CkIi5UiGPo_NW"
+			},
+			"description": "RF Bug Detector",
+			"reference": "UT106",
+			"notes": "A/10 hours",
+			"tech_level": "9",
+			"tags": [
+				"Counter-Surveillance and ECM"
+			],
+			"value": 200,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e3KpNRKxazCESTTZV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eqhkpquSim7KcXQ5o"
+			},
+			"description": "Riot Gas",
+			"reference": "UT159",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 2,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e2d0HY6uZhJEeXOvr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eTmi2Nk6XnY9cNfWB"
+			},
+			"description": "Riot Shield",
+			"reference": "UT188",
+			"notes": "DR30. HP60. Lasers pass through.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Dodge, Parry \u0026 Block against attacks from the front or shield side",
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e9_Dw-Ppxn07KjyEt",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "egLRkY5FasGAdUV9D"
+			},
+			"description": "Scent Masking",
+			"reference": "UT100",
+			"tech_level": "9",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ev_rSvM9uFdx_YEcV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e4zNnwHCmuSI35OVk"
+			},
+			"description": "Sensory Deprivation Tank",
+			"reference": "UT108",
+			"notes": "+2 (quality) to Interrogation vs. wearer, +3 after 1hr. D/100hr.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 10000,
+			"weight": "200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "200 lb"
+			}
+		},
+		{
+			"id": "E1IGKakQvLpdOkTc6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "EIVAWcKKJ1z4z9bQ8"
+			},
+			"description": "Shipping Container w/ hidden compartment",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 10000,
+			"weight": "1,000 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "10,000 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EpVyO801h11mwQOP2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+						"id": "EfE9bzc1R6VXy0quq"
+					},
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "1,000 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "eRYsGyUaXmqwJw8rB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e1Tmoq7Xb7PkpKElr"
+			},
+			"description": "Shoulder Servomount",
+			"reference": "UT152",
+			"notes": "Plus $1,000 and 3lbs. per pound of weapon loaded weight.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 5000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "erIG5fPKNiX5Sxxst",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e2oHeV_IZU4dj9x-J"
+			},
+			"description": "Silhouette",
+			"reference": "UT149",
+			"notes": "Complexity 5.",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"value": 2000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e0p_peTKzHjMdb8wF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ecfu5VxI5hlQzvvEs"
+			},
+			"description": "Simple Lock",
+			"reference": "UT102",
+			"notes": "Lockpicking +0.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 25,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e2rXlaWCKLbokPkK4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e1ELpG_htd-PtRn5J"
+			},
+			"description": "Sleep Gas",
+			"reference": "UT160",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Biochemical and Nanotech Weapons",
+				"Weaponry"
+			],
+			"value": 0.5,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eiiPiQf5re7oUYt2L",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ewqK_8JnrLhbFAq4b"
+			},
+			"description": "Sleeve Display",
+			"reference": "UT24",
+			"notes": "A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 50,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e1genKqFX0BKCgPrT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e2OMH0Fzf9Csj0Vgp"
+			},
+			"description": "Slipspray",
+			"reference": "UT83",
+			"notes": "Covers 100sqft.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 30,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e4Q8e2_DQSvGOOcz4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eG-2KeCb_wmY6zNKQ"
+			},
+			"description": "Small Computer",
+			"reference": "UT22",
+			"notes": "Complexity 4. 10TB. 2B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 100,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ekn8-yoVz7Vpq6xZk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "egG2Vjm4NOBjcfypq"
+			},
+			"description": "Small Fire Extinguisher",
+			"reference": "UT87",
+			"notes": "10-second discharge. 3-yard range.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 50,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eGf-UiuC7vzYmGgw2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eIy9pcdwoW54JczHx"
+			},
+			"description": "Small IR Communicator",
+			"reference": "UT44",
+			"notes": "500-yard range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 100,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "euNZvLwq7hZcisL2C",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e-Lhwgmh3fFzl5vVo"
+			},
+			"description": "Small Laser Communicator",
+			"reference": "UT44",
+			"notes": "50-mile range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 400,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e1Wc9dGUmhq60uIMI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e9VnlH2XOHmFcCmew"
+			},
+			"description": "Small Radio Communicator",
+			"reference": "UT44",
+			"notes": "10-mile range. 2B/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "EGJ0RLsbYcQVi4ZPQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "EVbJM3JUrnyc_Bj56"
+			},
+			"description": "Small Safe",
+			"reference": "UT102",
+			"notes": "Holds 5cf. DR300. 80HP.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 500,
+			"weight": "1,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "eYdiWdZ6vm9ashNLk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eSUlROpTt1V2qd42e"
+			},
+			"description": "Small Tactical Radar",
+			"reference": "UT65",
+			"notes": "10-mile search range. +3 Acc. B/8hr.",
+			"tech_level": "9",
+			"tags": [
+				"Sensors and Scientific Equipment"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "emhnQjGAjzdy1ph26",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "etdtE7-9DZQ3M_1cI"
+			},
+			"description": "Smart Blindfold",
+			"reference": "UT108",
+			"notes": "+1 (quality) to Interrogation vs. wearer. C/100hr.",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Enforcement and Coercion"
+			],
+			"value": 100,
+			"weight": "1.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "e_h9Es-9o1YZoVuD-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "enPvtuR8bFcZ0yNHt"
+			},
+			"description": "Smart Nail Gun",
+			"reference": "UT83",
+			"notes": "Holds 50 nails. 1 propellant bottle/1,000 shots.",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 250,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "WslMIHnLAQYlnhVoZ",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1",
+						"armor_divisor": 2
+					},
+					"strength": "1",
+					"accuracy": "0+3",
+					"range": "5/25",
+					"rate_of_fire": "10",
+					"shots": "50(5)",
+					"bulk": "-3",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						}
+					],
+					"calc": {
+						"damage": "1d+1(2) pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "elCRAOQMSDB_BHq8I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "evD6eUg0bMYjBREw_"
+			},
+			"description": "Smart Nail Gun Propellant",
+			"reference": "UT83",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "egxAwKsWRhj2Shwb4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eLTzEWr6_5NZpJldi"
+			},
+			"description": "Smart Piton",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 10,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eGOec5c181eFsDQK0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ekYuWVrAbFDpGH5P0"
+			},
+			"description": "Sniper Mirror",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 500,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "edbzmYiqme6MUdMhL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "evoaJ1Fuodna-qZsr"
+			},
+			"description": "Soothe",
+			"reference": "UT205",
+			"tech_level": "9",
+			"tags": [
+				"Biotech",
+				"Drug"
+			],
+			"value": 15,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e4dLn4icDZR0ViesC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ejxVDPmOUWBu40P6C"
+			},
+			"description": "Specialized Operating Theater",
+			"reference": "UT200",
+			"notes": "Surgery (Cybernetics) +4 (quality). 20C/40hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 1000000,
+			"weight": "1,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "eyTshJgZczljucego",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ebCNh87klNSzFt1m6"
+			},
+			"description": "Splat Piton",
+			"reference": "UT76",
+			"tech_level": "9",
+			"tags": [
+				"Expedition Gear"
+			],
+			"value": 10,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "e05YMLp_zDSduoCWp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eMjYJNkTajBijcMHq"
+			},
+			"description": "Suitcase Disguise Kit",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 200,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Disguise"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eK-uC3EJpD45NRKXu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eOIlRaMxDh-fmcyra"
+			},
+			"description": "Surgical Instruments",
+			"reference": "UT199",
+			"notes": "5B/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 300,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eckUwbnQhzwESpsxx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eBCFOUo9m-Gy_Q-Kq"
+			},
+			"description": "Surveillance Worm",
+			"reference": "UT105",
+			"notes": "+3 on Search attempts",
+			"tech_level": "9",
+			"tags": [
+				"Surveillance and Tracking Devices"
+			],
+			"value": 4500,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4500,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ezp55MFUDwsajd2WE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "es7ikl3QgtoWm6OWG"
+			},
+			"description": "TacNet",
+			"reference": "UT149",
+			"notes": "+1 Tactics. Complexity 5.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Firearm Accessories",
+				"Software",
+				"Weaponry"
+			],
+			"value": 10000,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "egTl6_TtG35iMj0H7",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Cyberpunk\\CPR_Equipment.eqp",
+				"id": "eAh_ntdzl-wH_Pw3I"
+			},
+			"description": "Timewarp",
+			"reference": "CPREDHP2",
+			"notes": "Requires AirHypo; 1 minute; +1 DX, +1 Basic Speed; Crash (-2 DX, -1 Basic Speed) for 1 hour, HT-3 to avoid addiction",
+			"tech_level": "9",
+			"legality_class": "0",
+			"tags": [
+				"Drug"
+			],
+			"value": 604.8,
+			"weight": "0.03 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 604.8,
+				"extended_weight": "0.03 lb"
+			}
+		},
+		{
+			"id": "epfARZBCANKiRbUWZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eN9cyBSIqgwjxCikJ"
+			},
+			"description": "Tiny Computer",
+			"reference": "UT22",
+			"notes": "Complexity 3. 1TB. 2A/20hr.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 50,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "eEsieTqe4YQkGtzAH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eogke21tnpUJqP4X_"
+			},
+			"description": "Tiny IR Communicator",
+			"reference": "UT44",
+			"notes": "50-yard range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 20,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "ebnLBcAQcS59PF0Kq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eadwOf_nbjtEBlqQz"
+			},
+			"description": "Tiny Laser Communicator",
+			"reference": "UT44",
+			"notes": "5-mile range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 100,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "edkKOUAtQNMEyJiqX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eF-B_pmycGqhjFqgj"
+			},
+			"description": "Tiny Radio Communicator",
+			"reference": "UT44",
+			"notes": "1-mile range. 2A/10hr.",
+			"tech_level": "9",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 50,
+			"weight": "0.05 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "ePTnLY7oONY27M5cU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e3JArKuzhHwbphGdV"
+			},
+			"description": "Transponder Ring",
+			"reference": "UT150",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e3MsE35l3GLB9Gifx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "euZyrxY7aS3RSyh5y"
+			},
+			"description": "Transport ESU",
+			"reference": "UT198",
+			"notes": "Physician or HT +1 (quality) for trauma maintenance; roll daily. 2D/100hr.",
+			"tech_level": "9",
+			"tags": [
+				"Medical"
+			],
+			"value": 10000,
+			"weight": "60 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "E-wbqOUEVv0IXWN_E",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "EEL75gcrGykA5XyKa"
+			},
+			"description": "Travel Bag w/ hidden compartment",
+			"reference": "UT97",
+			"notes": "Holds 5cf.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 1200,
+			"weight": "10 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EB2QpjjW3YFRNXM_n",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+						"id": "ET8vLbMeBMpVSuq7k"
+					},
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "10 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eo4qYJgR4TSqdGKA-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eUDHNuK5PBRkkHO02"
+			},
+			"description": "Tripod",
+			"reference": "UT151",
+			"tech_level": "9",
+			"tags": [
+				"Firearm Accessories",
+				"Weaponry"
+			],
+			"value": 1250,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1250,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "ECnPaUDHJq3H3Nt-j",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "EeWJXotQvv-YkqdPF"
+			},
+			"description": "Trunk w/ hidden compartment",
+			"reference": "UT97",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 4000,
+			"weight": "40 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "400 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "EItA3ULVQpsBNwLi9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+						"id": "ECY-klgKWtQOElePJ"
+					},
+					"description": "hidden compartment",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "40 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "eCrcoWyI2JOMSLt3J",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "epoHiPseyHLeEexA1"
+			},
+			"description": "Verifier Software",
+			"reference": "UT106",
+			"notes": "Detect Lies-12. Complexity 4.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Enforcement and Coercion",
+				"Software"
+			],
+			"value": 300,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "euo1qBbsOhP0kv-Au",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "eu5YbcP16qeZeJ1W_"
+			},
+			"description": "Very Large Laser Communicator",
+			"reference": "UT44",
+			"notes": "50,000-mile range. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 40000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "eRV2l9EPvsnarAEtx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "ecQDHOeCggL7roTlj"
+			},
+			"description": "Very Large Radio Communicator",
+			"reference": "UT44",
+			"notes": "10,000-mile range. External power.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Communication and Interface"
+			],
+			"value": 20000,
+			"weight": "400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "400 lb"
+			}
+		},
+		{
+			"id": "EMlUf6QkxtUk6wB0-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "EmIp43-5VQNXcFnWA"
+			},
+			"description": "Wall Safe",
+			"reference": "UT102",
+			"notes": "Holds 1cf. DR100. 25HP.",
+			"tech_level": "9",
+			"tags": [
+				"Security and Surveillance"
+			],
+			"value": 100,
+			"weight": "50 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "50 lb"
+			}
+		},
+		{
+			"id": "e7ET8r_NSVXNKc_N2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "egh8JuOM2h81oxv3j"
+			},
+			"description": "Waste-Relief System",
+			"reference": "UT187",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e5rSHT0BAL-Z7ZMfL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "e7P4SyXAN3dTNUtg7"
+			},
+			"description": "Workstation Terminal",
+			"reference": "UT24",
+			"notes": "C/10hr. or external power.",
+			"tech_level": "9",
+			"tags": [
+				"Computers"
+			],
+			"value": 500,
+			"weight": "5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e5CvNew2EEDzC5vIq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "edgX1KZYHkJPurL_0"
+			},
+			"description": "Zap Glove",
+			"reference": "UT165",
+			"notes": "B/10 zaps. \"Kill\" mode delivers two zaps at once.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"value": 400,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wdTYPLw07XwJDgwCf",
+					"damage": {
+						"type": "HT-6(2) aff"
+					},
+					"strength": "2",
+					"usage": "Zap",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						},
+						{
+							"type": "dx"
+						}
+					],
+					"calc": {
+						"damage": "HT-6(2) aff"
+					}
+				},
+				{
+					"id": "wrKrCoNMJXSZX6pNU",
+					"damage": {
+						"type": "burn",
+						"base": "2d"
+					},
+					"strength": "2",
+					"usage": "Kill",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Crawling"
+						},
+						{
+							"type": "dx"
+						}
+					],
+					"calc": {
+						"damage": "2d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eFZHF1qOuQe9DaC1j",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Ultra Tech\\Ultra Tech Equipment.eqp",
+				"id": "edgX1KZYHkJPurL_0"
+			},
+			"description": "Zap Glove",
+			"reference": "UT165",
+			"notes": "B/10 zaps. \"Kill\" mode delivers two zaps at once.",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"value": 400,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wTqn81K5yThiDb6Pq",
+					"damage": {
+						"type": "HT-6(2) aff"
+					},
+					"strength": "2",
+					"usage": "Zap",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						},
+						{
+							"type": "dx"
+						}
+					],
+					"calc": {
+						"damage": "HT-6(2) aff"
+					}
+				},
+				{
+					"id": "wo2aLnj_y8z7RBsXR",
+					"damage": {
+						"type": "burn",
+						"base": "2d"
+					},
+					"strength": "2",
+					"usage": "Kill",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Crawling"
+						},
+						{
+							"type": "dx"
+						}
+					],
+					"calc": {
+						"damage": "2d burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}

@@ -1,10 +1,8 @@
 {
-	"type": "eqp_modifier_list",
-	"version": 4,
+	"version": 5,
 	"rows": [
 		{
-			"id": "2edcd776-a37e-4b1d-b76a-3c5b630e7fa5",
-			"type": "eqp_modifier",
+			"id": "fJzlkE0xObtLi11zX",
 			"name": "Armor Piercing Hyperdense Dart",
 			"reference": "UT156",
 			"tags": [
@@ -15,8 +13,7 @@
 			"cost": "+9 CF"
 		},
 		{
-			"id": "3f743ea9-bb5b-43f7-aa62-91c83a3905e3",
-			"type": "eqp_modifier",
+			"id": "ft-FJO6OFZrzhpqVG",
 			"name": "Armor-Piercing Enhanced Penetrator",
 			"reference": "UT152",
 			"notes": "Adjust piercing size down a level manually",
@@ -41,8 +38,7 @@
 			]
 		},
 		{
-			"id": "71793081-d85f-4580-bd40-6c26256e280a",
-			"type": "eqp_modifier",
+			"id": "f_KGoslJaqxmA5DUX",
 			"name": "Armor-Piercing Hardcore",
 			"reference": "UT152",
 			"notes": "Adjust piercing size down a level manually",
@@ -67,8 +63,43 @@
 			]
 		},
 		{
-			"id": "cacc0aff-3d1c-4da2-87df-413b0a78927b",
-			"type": "eqp_modifier",
+			"id": "fsv5zLynQ_XUh4YZP",
+			"name": "Accessory Rail",
+			"reference": "UT150",
+			"notes": "Top",
+			"tags": [
+				"Attachment"
+			],
+			"tech_level": "9",
+			"cost": "+100",
+			"weight": "+2 lb"
+		},
+		{
+			"id": "fKaaR_il7k-lJLDDy",
+			"name": "Accessory Rail",
+			"reference": "UT150",
+			"notes": "Underbarrel",
+			"tags": [
+				"Attachment"
+			],
+			"tech_level": "9",
+			"cost": "+100",
+			"weight": "+2 lb"
+		},
+		{
+			"id": "fqlxIjDMRdtfOszSz",
+			"name": "Accessory Rail",
+			"reference": "UT150",
+			"notes": "Side",
+			"tags": [
+				"Attachment"
+			],
+			"tech_level": "9",
+			"cost": "+100",
+			"weight": "+2 lb"
+		},
+		{
+			"id": "f0sZ8puH3FnLjCR5y",
 			"name": "Armor-Piercing Hardcore Explosive",
 			"reference": "UT152",
 			"tags": [
@@ -79,8 +110,28 @@
 			"cost": "+3 CF"
 		},
 		{
-			"id": "dec95a43-e82e-43fc-9710-08fa6e8abf1a",
-			"type": "eqp_modifier",
+			"id": "fM8vyGTZKZAl4A2E9",
+			"name": "Smart Ammo",
+			"notes": "Apply this mod if you equipping smart ammo",
+			"tech_level": "9",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Guns"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "@Specialization@"
+					},
+					"amount": 10
+				}
+			]
+		},
+		{
+			"id": "fax7FJULONi781IQm",
 			"name": "Articulated Weapon Harness",
 			"reference": "UT151",
 			"notes": "Always counts as braced; Enter cost Manually $50/lbs",
@@ -107,8 +158,7 @@
 			]
 		},
 		{
-			"id": "fbf2f881-65ad-4aca-ac09-2e5e84320bea",
-			"type": "eqp_modifier",
+			"id": "fkzr2ppwqBKORV42d",
 			"name": "Match-Grade",
 			"reference": "HT165",
 			"tags": [
@@ -118,8 +168,61 @@
 			"cost": "+1 CF"
 		},
 		{
-			"id": "91eea019-2c04-4e5b-9d18-52328e2e265f",
-			"type": "eqp_modifier",
+			"id": "fNrKaMNb1Qa1U280_",
+			"name": "Smart Gun",
+			"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+			"tech_level": "9",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "when firing smart ammo after locking on to target",
+					"amount": 10
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Guns"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Pistol"
+					},
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "fUSwAIhPY88IrJjkD",
+			"name": "Smart Gun Rebuild",
+			"notes": "Requires Smart Link; +1 to Skill with dumb ammo. +10 to Skill with Smart ammo. Cannot target hit locations with Lock-On",
+			"tech_level": "9",
+			"cost": "+1500",
+			"weight": "+1 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "when firing smart ammo after locking on to target",
+					"amount": 10
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Guns"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Pistol"
+					},
+					"amount": 1
+				}
+			]
+		},
+		{
+			"id": "fuqxCbk5JXeLqndZK",
 			"name": "Extra-Powerful (+P)",
 			"reference": "HT165",
 			"tags": [
@@ -129,8 +232,7 @@
 			"cost": "+0.5 CF"
 		},
 		{
-			"id": "088b2e09-9e96-4bd7-8087-dce6eb9a28f6",
-			"type": "eqp_modifier",
+			"id": "fyWC8hrfCtMziGpOH",
 			"name": "Assault Scope",
 			"notes": "x1.5 - x4 magnification",
 			"tags": [
@@ -155,12 +257,11 @@
 			]
 		},
 		{
-			"id": "54da7158-7fb8-494b-b245-fc3a1972daa8",
-			"type": "eqp_modifier_container",
+			"id": "FgiMJheEwK05f8QCK",
+			"name": "Base Modifiers",
 			"children": [
 				{
-					"id": "36a97c45-a7c0-4118-9dac-1b5d9f6df5bf",
-					"type": "eqp_modifier",
+					"id": "fMVfikO7C0v8PoWeX",
 					"name": "Accurate",
 					"notes": "+1 to Accuracy",
 					"tags": [
@@ -184,8 +285,7 @@
 					]
 				},
 				{
-					"id": "8ad318d8-9a9c-40df-830c-3bc13d19fdee",
-					"type": "eqp_modifier",
+					"id": "fJJxLvLIXzIc3AAdO",
 					"name": "Cheap Materials",
 					"notes": "4 DR and 8 HT",
 					"tags": [
@@ -196,8 +296,7 @@
 					"cost": "-0.5 CF"
 				},
 				{
-					"id": "cbf226fa-92ca-40de-a531-f283f01dfb22",
-					"type": "eqp_modifier",
+					"id": "fLlaTae4DWFkjV8Lj",
 					"name": "Fine Materials",
 					"notes": "-2 to being detected by scanners",
 					"tags": [
@@ -209,8 +308,7 @@
 					"weight": "-25%"
 				},
 				{
-					"id": "8dd9d9d1-6728-48cd-82fe-c22d5ddd32d3",
-					"type": "eqp_modifier",
+					"id": "f3714i1D-mXjWhVCV",
 					"name": "Innacurate",
 					"notes": "-1 to Accuracy",
 					"tags": [
@@ -234,8 +332,7 @@
 					]
 				},
 				{
-					"id": "1edcf507-64f5-4263-a501-d787e1830dcc",
-					"type": "eqp_modifier",
+					"id": "fGzoS9dVJLhYXcFSc",
 					"name": "Shortened Barrel (Pistol)",
 					"notes": "less damage, less accurate, easier to hide",
 					"tags": [
@@ -283,8 +380,7 @@
 					]
 				},
 				{
-					"id": "9308ae24-71b4-454f-89e2-57f16ad53976",
-					"type": "eqp_modifier",
+					"id": "fP5jN7I3beOCEZMEV",
 					"name": "Shortened Barrel (Rifle;)",
 					"notes": "less damage, less accurate, easier to hide",
 					"tags": [
@@ -332,8 +428,7 @@
 					]
 				},
 				{
-					"id": "c58485d8-900d-47a4-b208-a803854594f4",
-					"type": "eqp_modifier",
+					"id": "fFecyffCrY_GbWEQK",
 					"name": "Tactical Configuration (Pistol)",
 					"notes": "2 accessory rails (above and below the barrel) and a lanyard ring",
 					"tags": [
@@ -344,8 +439,7 @@
 					"weight": "+0.5 lb"
 				},
 				{
-					"id": "e24f3245-775d-4adc-95c9-f3464765785b",
-					"type": "eqp_modifier",
+					"id": "fo9oTCUKhQG5aKckZ",
 					"name": "Tactical Configuration (Rifle)",
 					"notes": "4 accessory rails and sling swivels",
 					"tags": [
@@ -356,8 +450,7 @@
 					"weight": "+1 lb"
 				},
 				{
-					"id": "14cb017b-ea76-4d6e-b82b-2478b5748467",
-					"type": "eqp_modifier",
+					"id": "fQcUYbhAJ2_0OlQtz",
 					"name": "Unreliable",
 					"notes": "Malf 16",
 					"tags": [
@@ -368,8 +461,7 @@
 					"cost": "-0.5 CF"
 				},
 				{
-					"id": "b31b7f3f-5fab-4634-aca8-2884db5d58e8",
-					"type": "eqp_modifier",
+					"id": "fMaKlsazE_1HQbxVB",
 					"name": "Very Accurate",
 					"notes": "+2 to Accuracy",
 					"tags": [
@@ -393,8 +485,7 @@
 					]
 				},
 				{
-					"id": "9a7922ed-a26e-4644-a5fe-d20f21032b26",
-					"type": "eqp_modifier",
+					"id": "f-2_tia-taEUB9L9m",
 					"name": "Very Fine Materials",
 					"notes": "-4 to being detected by scanners",
 					"tags": [
@@ -405,12 +496,10 @@
 					"cost": "+2 CF",
 					"weight": "-33%"
 				}
-			],
-			"name": "Base Modifiers"
+			]
 		},
 		{
-			"id": "a280b0c2-fcb7-4b65-a7d0-79d08ac79020",
-			"type": "eqp_modifier",
+			"id": "fgKt44JxrKd1a0xJn",
 			"name": "Biochemical Aerosol",
 			"reference": "UT153",
 			"notes": "Cost Plus Filler x # of Doses",
@@ -422,8 +511,7 @@
 			"cost": "+0 CF"
 		},
 		{
-			"id": "815172b5-4ef0-44ba-822b-d28b0964c41e",
-			"type": "eqp_modifier",
+			"id": "fSY_og4oNo78nYpnb",
 			"name": "Biochemical Liquid",
 			"reference": "UT153",
 			"notes": "Cost Plus Filler x # of Doses",
@@ -435,8 +523,7 @@
 			"cost": "+0 CF"
 		},
 		{
-			"id": "da9b702a-414c-42bd-8cef-be9fa55044a8",
-			"type": "eqp_modifier",
+			"id": "fyP_O26pCLZRdnfbh",
 			"name": "Bipod",
 			"tags": [
 				"Attachment"
@@ -446,6 +533,19 @@
 			"cost": "+100",
 			"weight": "+0.5 lb",
 			"features": [
+				{
+					"type": "weapon_switch",
+					"selection_type": "weapons_with_required_skill",
+					"switch_type": "bipod",
+					"switch_type_value": true,
+					"name": {
+						"compare": "is"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 1
+				},
 				{
 					"type": "weapon_effective_st_bonus",
 					"percent": true,
@@ -461,8 +561,7 @@
 			]
 		},
 		{
-			"id": "ad8b3c6d-2f38-4d34-8b25-84f5d5c0230b",
-			"type": "eqp_modifier",
+			"id": "fOIl2HlMiT6FkKT3Y",
 			"name": "D-Tag",
 			"reference": "UT151",
 			"tags": [
@@ -473,154 +572,7 @@
 			"cost": "+20"
 		},
 		{
-			"id": "7c8a8ace-c910-4aea-9cbb-5739c80213a5",
-			"type": "eqp_modifier",
-			"name": "Dai Lung 4mmCLP 30-round Magazine",
-			"tags": [
-				"4mmCLP",
-				"Magazine"
-			],
-			"cost_type": "to_final_cost",
-			"tech_level": "9",
-			"cost": "+15",
-			"weight": "+0.1 lb"
-		},
-		{
-			"id": "1d95d0b7-ea42-4004-a879-79108ba6b7aa",
-			"type": "eqp_modifier",
-			"name": "Dai Lung 8mmCLP 12-Round Magazine",
-			"tags": [
-				"8mmCLP",
-				"Magazine"
-			],
-			"cost_type": "to_final_cost",
-			"tech_level": "9",
-			"cost": "+20",
-			"weight": "+0.25 lb",
-			"features": [
-				{
-					"type": "weapon_chamber_shots_bonus",
-					"selection_type": "this_weapon",
-					"name": {
-						"compare": "is"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": 1
-				},
-				{
-					"type": "weapon_non_chamber_shots_bonus",
-					"selection_type": "this_weapon",
-					"name": {
-						"compare": "is"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": 12
-				}
-			]
-		},
-		{
-			"id": "b2791ba3-3608-4b87-b229-6c7f2674345f",
-			"type": "eqp_modifier",
-			"name": "Dai Lung 8mmCLP 16-Round Magazine",
-			"tags": [
-				"8mmCLP",
-				"Magazine"
-			],
-			"cost_type": "to_final_cost",
-			"tech_level": "9",
-			"cost": "+25",
-			"weight": "+0.3 lb",
-			"features": [
-				{
-					"type": "weapon_bulk_bonus",
-					"selection_type": "this_weapon",
-					"name": {
-						"compare": "is"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": -1
-				},
-				{
-					"type": "weapon_chamber_shots_bonus",
-					"selection_type": "this_weapon",
-					"name": {
-						"compare": "is"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": 1
-				},
-				{
-					"type": "weapon_non_chamber_shots_bonus",
-					"selection_type": "this_weapon",
-					"name": {
-						"compare": "is"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": 16
-				}
-			]
-		},
-		{
-			"id": "e3458720-95e9-4353-91d3-405f8dc35e94",
-			"type": "eqp_modifier",
-			"name": "Dai Lung 8mmCLP 20-Round Magazine",
-			"tags": [
-				"8mmCLP",
-				"Magazine"
-			],
-			"cost_type": "to_final_cost",
-			"tech_level": "9",
-			"cost": "+30",
-			"weight": "+0.4 lb",
-			"features": [
-				{
-					"type": "weapon_bulk_bonus",
-					"selection_type": "weapons_with_required_skill",
-					"name": {
-						"compare": "is"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": -2
-				},
-				{
-					"type": "weapon_chamber_shots_bonus",
-					"selection_type": "this_weapon",
-					"name": {
-						"compare": "is"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": 1
-				},
-				{
-					"type": "weapon_non_chamber_shots_bonus",
-					"selection_type": "this_weapon",
-					"name": {
-						"compare": "is"
-					},
-					"level": {
-						"compare": "at_least"
-					},
-					"amount": 20
-				}
-			]
-		},
-		{
-			"id": "aced5020-c686-4a51-ac35-b16768254b68",
-			"type": "eqp_modifier",
+			"id": "fcUfnck1spajFQB2P",
 			"name": "Diagnostic Computer",
 			"notes": "+1 to fix damage or malfunctions",
 			"tags": [
@@ -638,8 +590,7 @@
 			]
 		},
 		{
-			"id": "5e5f33ad-f927-4a13-bb4d-fefce5fd0898",
-			"type": "eqp_modifier",
+			"id": "fj0oCq5vGkANFRZLa",
 			"name": "Electrothermal-Chemical",
 			"reference": "UT139",
 			"tags": [
@@ -650,8 +601,7 @@
 			"cost": "+1 CF"
 		},
 		{
-			"id": "05766f92-31dc-4675-96d2-da6df2af2f3c",
-			"type": "eqp_modifier",
+			"id": "f5PXHo1L3pjLZCgxa",
 			"name": "EMP",
 			"reference": "UT157",
 			"tags": [
@@ -662,8 +612,7 @@
 			"cost": "+9 CF"
 		},
 		{
-			"id": "983992ba-36f2-41dd-be89-76c03890e707",
-			"type": "eqp_modifier",
+			"id": "fe1VBie8X92bsuqDS",
 			"name": "Expendable Jammer",
 			"reference": "UT157",
 			"tags": [
@@ -674,8 +623,7 @@
 			"cost": "+4 CF"
 		},
 		{
-			"id": "9af32866-c438-43b7-886f-289c77f6d5e3",
-			"type": "eqp_modifier",
+			"id": "f766HKb9QuXom-k8o",
 			"name": "Flare",
 			"reference": "UT153",
 			"tags": [
@@ -686,8 +634,7 @@
 			"cost": "+1 CF"
 		},
 		{
-			"id": "188eda9a-e565-4b10-b93d-8735c8934cc5",
-			"type": "eqp_modifier",
+			"id": "f2XMXJisotPrBy1_L",
 			"name": "Frangible",
 			"notes": "No Overpenetration",
 			"tags": [
@@ -712,8 +659,7 @@
 			]
 		},
 		{
-			"id": "f35251b3-22f4-46e2-b724-fbf8167460f6",
-			"type": "eqp_modifier",
+			"id": "fd9JeOPZodjdJ3i1H",
 			"name": "Gyrostabalized Weapon Harness",
 			"reference": "UT150",
 			"notes": "Always counts as braced; Enter cost Manually $50/lbs; Negates Move and Attack penalties",
@@ -740,8 +686,7 @@
 			]
 		},
 		{
-			"id": "4598ac43-1a8b-45c5-aa1c-ecaec308daf4",
-			"type": "eqp_modifier",
+			"id": "fiLGHAp7VfXXVtKrg",
 			"name": "High Explosive",
 			"reference": "UT153",
 			"tags": [
@@ -752,8 +697,7 @@
 			"cost": "+0 CF"
 		},
 		{
-			"id": "aeae45b8-fbe7-44e6-bab6-9a4d8382425a",
-			"type": "eqp_modifier",
+			"id": "f3_pelydbQXNjChzq",
 			"name": "High Explosive Concussion",
 			"reference": "UT154",
 			"tags": [
@@ -764,8 +708,7 @@
 			"cost": "+0 CF"
 		},
 		{
-			"id": "7fa07031-a4de-48fb-a3b5-13dc55db1179",
-			"type": "eqp_modifier",
+			"id": "fuIBjyKJZ8XYWpHxl",
 			"name": "Hollow Point",
 			"tags": [
 				"Ammo Modifier"
@@ -787,8 +730,7 @@
 			]
 		},
 		{
-			"id": "85d891d0-ef0d-463a-a011-3336ec214089",
-			"type": "eqp_modifier",
+			"id": "ffqstGphCoEmck32T",
 			"name": "HUD Link",
 			"reference": "UT149",
 			"notes": "+1 to skill does not stack with Laser Sight",
@@ -811,8 +753,7 @@
 			]
 		},
 		{
-			"id": "ede8c8c3-cbbb-419d-be48-8900f3877f6f",
-			"type": "eqp_modifier",
+			"id": "fJT9KgA2EojJH8dC7",
 			"name": "Hyperspectral Imaging Sight",
 			"reference": "UT149",
 			"notes": "Provides Hyperspectral Vision when using Scope or HUD Link",
@@ -824,8 +765,7 @@
 			"cost": "+4"
 		},
 		{
-			"id": "4a593632-5370-41a2-9568-a261581cc845",
-			"type": "eqp_modifier",
+			"id": "fuyg0t4OtnQIL6pol",
 			"name": "IFF System",
 			"reference": "UT188",
 			"notes": "No Friendly Fire",
@@ -837,8 +777,7 @@
 			"cost": "+100"
 		},
 		{
-			"id": "564ec9e6-108e-4439-b8b8-707d16339c05",
-			"type": "eqp_modifier",
+			"id": "fYSHE-hEdtqZW-5ou",
 			"name": "Infrared Homing",
 			"reference": "UT146",
 			"tags": [
@@ -849,8 +788,7 @@
 			"cost": "+3 CF"
 		},
 		{
-			"id": "acd43737-ed86-4424-b790-904fd5c34071",
-			"type": "eqp_modifier",
+			"id": "fWLeKkcLR4lb8bZLe",
 			"name": "Liquid Propellant",
 			"reference": "UT139",
 			"notes": "1.5x many shots per magazine",
@@ -862,8 +800,7 @@
 			"cost": "+0.5 CF"
 		},
 		{
-			"id": "c3740730-2548-465a-9499-5b79addc55ff",
-			"type": "eqp_modifier",
+			"id": "fQpwLrONS9Z6tK6Pl",
 			"name": "Memory Baton",
 			"reference": "UT154",
 			"tags": [
@@ -874,8 +811,7 @@
 			"cost": "+4 CF"
 		},
 		{
-			"id": "8dc596c5-dbbf-4b91-8ac6-bec4b6dd76ef",
-			"type": "eqp_modifier",
+			"id": "f0M64jCaXrzrD46zz",
 			"name": "Mininuke",
 			"reference": "UT156",
 			"tags": [
@@ -886,8 +822,7 @@
 			"cost": "+999 CF"
 		},
 		{
-			"id": "ce2616a5-acab-435c-837b-d8a87ef062dd",
-			"type": "eqp_modifier",
+			"id": "fByJOuvfQT-peZY94",
 			"name": "Multi-Spectral Homing",
 			"reference": "UT146",
 			"tags": [
@@ -898,8 +833,7 @@
 			"cost": "+9 CF"
 		},
 		{
-			"id": "26105836-c4f6-4e9c-be95-914dd892149e",
-			"type": "eqp_modifier",
+			"id": "fiXvcHiSJUQghA6Wa",
 			"name": "Multispectral Laser Sight",
 			"reference": "UT149",
 			"notes": "Visible, Infrared, or Ultraviolet",
@@ -922,8 +856,7 @@
 			]
 		},
 		{
-			"id": "3a15aad4-b72f-49a2-a16f-23b92178e1bd",
-			"type": "eqp_modifier",
+			"id": "fnUyrkei1rBqF3-A6",
 			"name": "Night Sight",
 			"reference": "UT149",
 			"notes": "Provides Night Vision 9 when using Scope or HUD Link",
@@ -935,8 +868,7 @@
 			"cost": "+1"
 		},
 		{
-			"id": "8238552c-4cb1-4630-b54c-ee09b37b5aca",
-			"type": "eqp_modifier",
+			"id": "f57BsgS1jH5JQsrp2",
 			"name": "Powered Tripod",
 			"reference": "UT151",
 			"notes": "Remotely control a weapon; requires HUD Link",
@@ -949,8 +881,7 @@
 			"weight": "+25 lb"
 		},
 		{
-			"id": "a29af374-bd81-44cc-9d4e-e83e9a2f44a6",
-			"type": "eqp_modifier",
+			"id": "fQZWnBmZ6zr6_ljsu",
 			"name": "Recognition Grip",
 			"reference": "UT150",
 			"tags": [
@@ -961,8 +892,7 @@
 			"cost": "+100"
 		},
 		{
-			"id": "157d4edd-20d7-418e-b059-ae2c098ac077",
-			"type": "eqp_modifier",
+			"id": "f1ZGGB8xTG4VJJNCN",
 			"name": "Shaped Charge",
 			"reference": "UT154",
 			"tags": [
@@ -973,8 +903,7 @@
 			"cost": "+1 CF"
 		},
 		{
-			"id": "826c5396-ac0e-44bb-bb09-fd1481d354ab",
-			"type": "eqp_modifier",
+			"id": "fSGr8VadUUKUfOxmj",
 			"name": "Shotshell",
 			"reference": "UT154",
 			"tags": [
@@ -985,8 +914,7 @@
 			"cost": "+0 CF"
 		},
 		{
-			"id": "1736d99b-b425-40e1-b392-9d7be3b1e1f7",
-			"type": "eqp_modifier",
+			"id": "f5ba37SONnuyWTV7M",
 			"name": "Silencer (Oversized)",
 			"tags": [
 				"Attachment"
@@ -1015,8 +943,7 @@
 			]
 		},
 		{
-			"id": "90fe7148-6287-44a1-8337-1178fcb4f8d1",
-			"type": "eqp_modifier",
+			"id": "fz1eL5G4lnxBhxfXR",
 			"name": "Silencer (Pistol)",
 			"tags": [
 				"Attachment"
@@ -1045,8 +972,7 @@
 			]
 		},
 		{
-			"id": "4aec462d-2e8c-4d02-b633-b564e88edfff",
-			"type": "eqp_modifier",
+			"id": "f-4OHpJ0gHqI2ciIS",
 			"name": "Silencer (Rifle)",
 			"tags": [
 				"Attachment"
@@ -1075,8 +1001,7 @@
 			]
 		},
 		{
-			"id": "c5c96679-cd73-4f06-b3da-bdb4acfef9fc",
-			"type": "eqp_modifier",
+			"id": "f_Km-wa6m6emTboco",
 			"name": "Smart Explosively Forged Projectile",
 			"reference": "UT154",
 			"tags": [
@@ -1087,8 +1012,7 @@
 			"cost": "+4 CF"
 		},
 		{
-			"id": "c8fdf6bd-b6fd-4bd2-89e3-d3dfecd7652f",
-			"type": "eqp_modifier",
+			"id": "fA9Kki2s9H_tw21pQ",
 			"name": "Smartgun Electronics",
 			"notes": "Includes Multipectral Laser Sight, HUD Link, Recognition Grip, and Diagnostic Computer",
 			"tags": [
@@ -1119,8 +1043,7 @@
 			]
 		},
 		{
-			"id": "9064d8f1-6d6e-4159-9eaa-8954bea80d07",
-			"type": "eqp_modifier",
+			"id": "f-R1P0xPlnYkQeNQB",
 			"name": "Sniper Scope",
 			"notes": "x4 - x32 Magnification",
 			"tags": [
@@ -1145,8 +1068,7 @@
 			]
 		},
 		{
-			"id": "9459317e-6b04-4089-8e7d-09ef5f2bac05",
-			"type": "eqp_modifier",
+			"id": "fnTJYjpcoQgS-Fh_9",
 			"name": "Stingray",
 			"reference": "UT156",
 			"tags": [
@@ -1157,8 +1079,7 @@
 			"cost": "+4 CF"
 		},
 		{
-			"id": "2797633a-ddd4-4819-a762-07f5cb860138",
-			"type": "eqp_modifier",
+			"id": "fut-7gM5NrrkONyrJ",
 			"name": "Strobe",
 			"reference": "UT157",
 			"tags": [
@@ -1169,8 +1090,7 @@
 			"cost": "+3 CF"
 		},
 		{
-			"id": "ff9443c7-da80-4a43-bd20-8d16fbf1b203",
-			"type": "eqp_modifier",
+			"id": "fqcGKxWqNb0OuVrr_",
 			"name": "Swarm",
 			"reference": "UT156",
 			"notes": "Plus Cost of Swarm",
@@ -1182,8 +1102,7 @@
 			"cost": "+4 CF"
 		},
 		{
-			"id": "6d3d16a3-19e1-4cf8-b296-fbaba9f3a43a",
-			"type": "eqp_modifier",
+			"id": "fTRzH6TMt__SUNH5K",
 			"name": "Tangler",
 			"reference": "UT155",
 			"tags": [
@@ -1194,8 +1113,7 @@
 			"cost": "+1 CF"
 		},
 		{
-			"id": "217a6bd6-4f76-430d-86c2-d83e5bbd03cd",
-			"type": "eqp_modifier",
+			"id": "fIqB7vcZ_GHifpMgN",
 			"name": "Targeting Computer +1",
 			"notes": "Complexity 4; +1 to Guns; Requires HUD link or scope",
 			"tags": [
@@ -1217,8 +1135,7 @@
 			]
 		},
 		{
-			"id": "788b7956-db0d-4770-9c4d-5cd1b8cc517b",
-			"type": "eqp_modifier",
+			"id": "fA0ZcZ9_xYTaDs72G",
 			"name": "Targeting Computer +2",
 			"notes": "Complexity 6; +2 to Guns; Requires HUD link or scope",
 			"tags": [
@@ -1240,8 +1157,7 @@
 			]
 		},
 		{
-			"id": "ffa88a0f-526d-4912-8e47-05ea39922ae6",
-			"type": "eqp_modifier",
+			"id": "fqIX2oMLknA7JnZhA",
 			"name": "Thermal Imaging Sight",
 			"notes": "Provides Infravision when using Scope or HUD Link",
 			"tags": [
@@ -1252,8 +1168,7 @@
 			"cost": "+1"
 		},
 		{
-			"id": "663ec65c-bf00-4906-baaf-175e3d7e7190",
-			"type": "eqp_modifier",
+			"id": "f31WLGZYfBZsWFKSA",
 			"name": "Thermobaric",
 			"reference": "UT155",
 			"tags": [
@@ -1264,8 +1179,7 @@
 			"cost": "+4 CF"
 		},
 		{
-			"id": "512bad64-8248-4a7e-837a-96b5e86b1fbe",
-			"type": "eqp_modifier",
+			"id": "fJUfSSzkHxITW72yz",
 			"name": "Tripod",
 			"reference": "UT151",
 			"tags": [
@@ -1277,8 +1191,7 @@
 			"weight": "+25 lb"
 		},
 		{
-			"id": "6dc98695-99de-434a-a20a-6b5d4a733477",
-			"type": "eqp_modifier",
+			"id": "fnRsFCby7NmQ1lsc8",
 			"name": "Warbler",
 			"reference": "UT157",
 			"tags": [
