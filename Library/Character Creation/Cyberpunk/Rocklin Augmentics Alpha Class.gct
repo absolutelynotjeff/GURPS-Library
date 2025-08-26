@@ -1,0 +1,776 @@
+{
+	"version": 5,
+	"id": "B_QN8KN65r3jIMCUQ",
+	"traits": [
+		{
+			"id": "TjDw_vTnBXAwncsQF",
+			"name": "Full Body Conversion",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "TbqYr8Z1Ss72wRsfi",
+					"name": "Advantages",
+					"children": [
+						{
+							"id": "t4xhijO5-NAHcF_G3",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tJn5ZKj3nSo1KW_Ad"
+							},
+							"name": "Damage Resistance",
+							"reference": "B47,P45,MA43,PSI14",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m-iUOMyN8EU886_Qz",
+									"name": "Force Field",
+									"reference": "B47",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "mLcOIIT8lBmNDlr8c",
+									"name": "Hardened",
+									"reference": "B47",
+									"cost": 20,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mEATqFy3USOeol8Kw",
+									"name": "Absorption",
+									"reference": "B46",
+									"notes": "Enhances @Trait@",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "m7yAMg9ri0sf3xb4V",
+									"name": "Absorption",
+									"reference": "B46",
+									"notes": "Healing only",
+									"cost": 80,
+									"disabled": true
+								},
+								{
+									"id": "mLcqvE4NtpzsOqeXD",
+									"name": "Absorption",
+									"reference": "B46",
+									"notes": "Enhances any trait",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "m8LxQcklXgl5Z4yF6",
+									"name": "Reflection",
+									"reference": "B47",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "m4-tXzd3PMsMGMrkj",
+									"name": "Bane",
+									"reference": "H14",
+									"notes": "@Rare@",
+									"cost": -1,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mHP6KwnQn2YMZCdSl",
+									"name": "Bane",
+									"reference": "H14",
+									"notes": "@Occasional@",
+									"cost": -5,
+									"disabled": true
+								},
+								{
+									"id": "mWDof5qcGnkcGR-YT",
+									"name": "Bane",
+									"reference": "H14",
+									"notes": "@Common@",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mA51w88iZAubTeaIX",
+									"name": "Bane",
+									"reference": "H14",
+									"notes": "@Very Common@",
+									"cost": -15,
+									"disabled": true
+								},
+								{
+									"id": "mr5yNCTBS7L_OSeZI",
+									"name": "Directional",
+									"reference": "B47",
+									"notes": "Front",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mh2f4gD9IY1QlLbEB",
+									"name": "Flexible",
+									"reference": "B47",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "m1Ds2jrNvCXwXWzjE",
+									"name": "Limited",
+									"reference": "B46",
+									"notes": "@Very Common Attack Form@",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "mnCY1HNbpMF6NvVpb",
+									"name": "Semi-Ablative",
+									"reference": "B47",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "m3wAul3PzRDphNSlR",
+									"name": "Can't wear armor",
+									"reference": "B47",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mbHZ86Ke92oeNOnc8",
+									"name": "Directional",
+									"reference": "B47",
+									"notes": "@Direction: Back, Right, Left, Top or Underside@",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mdzrQn3IAUwX2wujl",
+									"name": "Limited",
+									"reference": "B46",
+									"notes": "@Common Attack Form@",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mn-XA5OoyRI-jP3Lx",
+									"name": "Tough Skin",
+									"notes": "Effects that just require skin contact or a scratch ignore this DR",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "m-j4Z9emyS7ynfmgX",
+									"name": "Limited",
+									"reference": "B46",
+									"notes": "@Occasional Attack Form@",
+									"cost": -60,
+									"disabled": true
+								},
+								{
+									"id": "mxP1PbikQ4Fn4SHEq",
+									"name": "Ablative",
+									"reference": "B47",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "myOv5nbECF5UFqYac",
+									"name": "Limited",
+									"reference": "B46",
+									"notes": "@Rare Attack Form@",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "m-3b5eTiCYA_eLDGD",
+									"name": "Laminate",
+									"reference": "RSWL18",
+									"cost": 10,
+									"disabled": true
+								},
+								{
+									"id": "mpe12uFTO0hA2uXk1",
+									"name": "Malediction-Proof",
+									"reference": "PSI14",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "mcL0MkLHBK1m0wwb4",
+									"name": "Maledictions Only",
+									"reference": "PSI14",
+									"disabled": true
+								},
+								{
+									"id": "mPgYNDfl8zQJQ1qzf",
+									"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+									"reference": "B47",
+									"cost": -10,
+									"disabled": true
+								}
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"skull"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"face"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"neck"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"arm"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"hand"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"foot"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"tail"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"wing"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"fin"
+									],
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"brain"
+									],
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 5,
+							"calc": {
+								"points": 25
+							}
+						},
+						{
+							"id": "t4RpJwa5JKW_KhxhI",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "txcHT88N4-IqvGYLj"
+							},
+							"name": "Doesn't Breathe",
+							"reference": "B49",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mS_XYsJMzyJtqlk1R",
+									"name": "Gills",
+									"reference": "B49",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mL-0eox90-AwRBMWp",
+									"name": "Gills",
+									"reference": "B49",
+									"notes": "Suffocates in air",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m0UMDjaVwy9-_rH1N",
+									"name": "Oxygen Absorption",
+									"reference": "B49",
+									"cost": -25,
+									"disabled": true
+								},
+								{
+									"id": "mg6a01u_cONmpFomT",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"notes": "Can hold breath 25 times as long as normal",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "mzp_7q0sR_MvXLSSX",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"notes": "Can hold breath 50 times as long as normal",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "mZqWpgeFKU2jTXNp4",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"notes": "Can hold breath 100 times as long as normal",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "mTIZENKD_FlU87yqK",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"notes": "Can hold breath 200 times as long as normal",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "m4z3iUU6FdQkzo20f",
+									"name": "Oxygen Storage",
+									"reference": "B49",
+									"notes": "Can hold breath 300 times as long as normal",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "mcNE9OLScyyTyYbL-",
+									"name": "Oxygen Combustion",
+									"reference": "B49",
+									"cost": -50,
+									"disabled": true
+								}
+							],
+							"base_points": 20,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "TNTBZhrUhpS1PsU_M",
+							"name": "Meta-Trait: Machine",
+							"reference": "B263",
+							"children": [
+								{
+									"id": "tlfCwLct2Cf9wXLpg",
+									"name": "Forty eight-hour energy reserve, Refuel every 2 days",
+									"reference": "B263",
+									"tags": [
+										"Physical"
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tTWSfgHn19M6eNAMs",
+									"name": "Injury Tolerance (No Blood)",
+									"reference": "B61",
+									"tags": [
+										"Exotic",
+										"Physical"
+									],
+									"base_points": 5,
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tbnKVThL4uhYjlyzi",
+									"name": "Injury Tolerance (Unliving)",
+									"reference": "B61",
+									"tags": [
+										"Exotic",
+										"Physical"
+									],
+									"base_points": 20,
+									"calc": {
+										"points": 20
+									}
+								},
+								{
+									"id": "tBnfrq_uC5cpLF3yJ",
+									"name": "No fatigue points, Don't spend fatigue points",
+									"reference": "B263",
+									"tags": [
+										"Physical"
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tnEUs1GVI_d44Gb3h",
+									"name": "Resistant (Immunity to Metabolic Hazards)",
+									"reference": "B81",
+									"tags": [
+										"Physical"
+									],
+									"base_points": 30,
+									"calc": {
+										"points": 30
+									}
+								},
+								{
+									"id": "tODYQvvfqhf0hMDbT",
+									"name": "Unhealing (Total)",
+									"reference": "B160",
+									"tags": [
+										"Exotic",
+										"Physical"
+									],
+									"base_points": -30,
+									"calc": {
+										"points": -30
+									}
+								},
+								{
+									"id": "tEx0fpgxfi2VdsQk3",
+									"name": "Wears out instead of aging",
+									"reference": "B263",
+									"tags": [
+										"Physical"
+									],
+									"calc": {
+										"points": 0
+									}
+								}
+							],
+							"calc": {
+								"points": 25
+							}
+						}
+					],
+					"calc": {
+						"points": 70
+					}
+				},
+				{
+					"id": "T3-1DcIbo-OYmNhS6",
+					"name": "Disadvantages",
+					"children": [
+						{
+							"id": "tuSWheamtMERVJde5",
+							"name": "Electrical",
+							"reference": "B134",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": -20,
+							"calc": {
+								"points": -20
+							}
+						},
+						{
+							"id": "tb01-VObsi_WXAUtQ",
+							"name": "Restricted Diet (Power Cells)",
+							"reference": "B151",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m8YU-tDDXQmN5NNAD",
+									"name": "Substitution",
+									"cost": -50,
+									"disabled": true
+								}
+							],
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tnMGmy0Oelnp9-qAz",
+							"name": "Maintenance",
+							"reference": "B143",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mGWcMbQodHzsXT9c2",
+									"name": "People Required: 1",
+									"reference": "B143",
+									"cost": -10,
+									"cost_type": "points"
+								},
+								{
+									"id": "mhgzqrbFIZeEEzNOd",
+									"name": "People Required: 2",
+									"reference": "B143",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mJLPOnRGp8Qnus4wz",
+									"name": "People Required: 3-5",
+									"reference": "B143",
+									"cost": -30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mHyoNfJzCcyEZGgxV",
+									"name": "People Required: 6-10",
+									"reference": "B143",
+									"cost": -40,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mz7N3m1tiQ_kcugla",
+									"name": "People Required: 11-20",
+									"reference": "B143",
+									"cost": -50,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mWUhR3gb9S3No-8so",
+									"name": "People Required: 21-50",
+									"reference": "B143",
+									"cost": -60,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mk_ODBVQsrpaMG84H",
+									"name": "People Required: 51-100",
+									"reference": "B143",
+									"cost": -70,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m0TsyWEB9sb0UmK_4",
+									"name": "People Required: 101-200",
+									"reference": "B143",
+									"cost": -80,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mJ5X3bqFMK9ra6eae",
+									"name": "People Required: 201-400",
+									"reference": "B143",
+									"cost": -90,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m39dsLEAFHThw4uYt",
+									"name": "People Required: 401-800",
+									"reference": "B143",
+									"cost": -100,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mtIK6sbmjVEDBijEa",
+									"name": "People Required: 801-1600",
+									"reference": "B143",
+									"cost": -110,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mCnazYChiCg0Pqm_G",
+									"name": "People Required: 1601-3200",
+									"reference": "B143",
+									"cost": -120,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mX_-3v7_P-owSfNX8",
+									"name": "People Required: 3201-6400",
+									"reference": "B143",
+									"cost": -130,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mO56pPlC4DBo0spdP",
+									"name": "People Required: 6401-12800",
+									"reference": "B143",
+									"cost": -140,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mXz3Qi6bCkiIXMA9o",
+									"name": "People Required: 12801-25600",
+									"reference": "B143",
+									"cost": -150,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mglNv8XTno0o-lS8i",
+									"name": "Frequency: Monthly",
+									"reference": "B143",
+									"cost": 0.2,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mIWT-rGb1mfKuhV0u",
+									"name": "Frequency: Bi-weekly",
+									"reference": "B143",
+									"cost": 0.3333,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mRn1QQFUkMAR-rAzp",
+									"name": "Frequency: Weekly",
+									"reference": "B143",
+									"cost": 0.5,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "m2CmeLO8SBOIjVoem",
+									"name": "Frequency: Every other day",
+									"reference": "B143",
+									"cost": 0.75,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mqS7UCBDrppbrJ8nH",
+									"name": "Frequency: Daily",
+									"reference": "B143",
+									"cost": 1,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "m6wwWLJAJaAUez2NM",
+									"name": "Frequency: Twice daily",
+									"reference": "B143",
+									"cost": 2,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mKZ3-nrXV33Zg4--E",
+									"name": "Frequency: Three to five times daily",
+									"reference": "B143",
+									"cost": 3,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "mNbWq2wpjcPVdf3Ro",
+									"name": "Frequency: Constant",
+									"reference": "B143",
+									"cost": 5,
+									"cost_type": "multiplier",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						}
+					],
+					"calc": {
+						"points": -35
+					}
+				}
+			],
+			"calc": {
+				"points": 35
+			}
+		}
+	]
+}
