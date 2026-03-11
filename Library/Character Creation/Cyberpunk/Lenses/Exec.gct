@@ -1,68 +1,4035 @@
 {
-	"type": "template",
-	"version": 4,
-	"id": "b2f84210-92ac-4bd0-b3d6-eb7db17337ed",
+	"version": 5,
+	"id": "Bu-AgJN04jaEoMzZQ",
 	"traits": [
 		{
-			"id": "ab365ea4-66df-443a-b530-95420100fc00",
-			"type": "trait_container",
+			"id": "TVFuQHYOzUK7Lajpz",
+			"name": "Appropriate Advantages",
 			"children": [
 				{
-					"id": "d2ef4913-0613-472f-b356-5234aaa40835",
-					"type": "trait_container",
-					"open": true,
+					"id": "TmXVCXg-veKKuysjj",
 					"name": "Perks",
+					"children": [
+						{
+							"id": "t7AzdUhLfdyS9T0Gn",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tbzIua9Tv_euUNl-_"
+							},
+							"name": "Cheaper (@Gear@; @Percentage@%)",
+							"reference": "PU2:8",
+							"notes": "@Reason@",
+							"tags": [
+								"Perk",
+								"Social"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "t1j-oN0jJXD9Kf-j9",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tb7zQNsCuaFmEFIPU"
+							},
+							"name": "Convincing Nod",
+							"reference": "PU2:15",
+							"notes": "Non-Verbal Fast-Talk",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "t3lbTXF5_9TvzXoWc",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tflnQjOYcjFVltpCF"
+							},
+							"name": "Cutting Edge Training (@Skill@)",
+							"reference": "PU2:16",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "teOhxoRjsf9twGevg",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tv8V0Ie5d7yrti70s"
+							},
+							"name": "Dirty Fighting",
+							"reference": "PU2:5",
+							"tags": [
+								"Mental",
+								"Perk"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "t1iV2EySyZHxx2L3a",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tvs6Qw9oDz1HqXe5L"
+							},
+							"name": "Disposable Identity",
+							"reference": "PU2:18",
+							"notes": "@Details@",
+							"tags": [
+								"Perk",
+								"Social"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tei0Dl-jzOkU68OR8",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tIggh3dXt9TrjF5LY"
+							},
+							"name": "Efficient (@Skill@)",
+							"reference": "PU2:16",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "t975pTMpWm_STT8Xw",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tp2Fvm9870kaLZ2rs"
+							},
+							"name": "Fearsome Stare",
+							"reference": "PU2:15",
+							"notes": "Non-Verbal Intimidation",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tNZJ-fID4e86Io6kr",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tHAsJEQBLtsBqSLgS"
+							},
+							"name": "Follow-Through (@Weapon Skill@)",
+							"reference": "PU2:15",
+							"notes": "Intimidate as free action after kill/knockdown",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tcFng54RyI-XH6m8v",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tcvl2Sn-rov0R9IEG"
+							},
+							"name": "Gun Shtick (Trick Reload)",
+							"reference": "GF19",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tjelj2ten0fE0Aprx",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "t4wumVDnvWFKXh93t"
+							},
+							"name": "Gun Shtick (Twirl)",
+							"reference": "TS39",
+							"tags": [
+								"Perk",
+								"Physical",
+								"Tactical Shooting"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tPshNUx61kBDTkQGO",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tMnirHTJrpLpYee6-"
+							},
+							"name": "Gun Shtick (Wall o' Lead)",
+							"reference": "GF19",
+							"tags": [
+								"Cinematic",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "t63bagihjNzqqjtLo",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tPU_SC7ALJqzhwTOw"
+							},
+							"name": "Haughty Sneer",
+							"reference": "PU2:15",
+							"notes": "Non-Verbal Savoir-Faire (High Society)",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "ttq0PAO85L7uY-eUE",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tphrTWVi18FU6UNeU"
+							},
+							"name": "High-Heeled Heroine",
+							"reference": "PU2:14",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tqOJKYA8J4r_khIId",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "te6IRx-1uMgnsyPAj"
+							},
+							"name": "License (@Type@)",
+							"reference": "PU2:18",
+							"tags": [
+								"Perk",
+								"Social"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "t3FW5yYPhrGuIARZ3",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tp4c-8iZ1_y_FHGCU"
+							},
+							"name": "Perfume",
+							"reference": "PU2:11",
+							"tags": [
+								"Exotic",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tWEQVaKW2JkkF8b6M",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "txkOsYV1520jp8lkp"
+							},
+							"name": "Permit (@Type@)",
+							"reference": "PU2:18",
+							"tags": [
+								"Perk",
+								"Social"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "t6G9smGBRjoDIle8g",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tgEcWXBe2izs1ezxy"
+							},
+							"name": "Photogenic",
+							"reference": "PU2:4",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tu7J6mOsuERV3tuHL",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "t2s3hJ9sLX-hlcZTR"
+							},
+							"name": "Sexy Pose",
+							"reference": "PU2:15",
+							"notes": "Non-Verbal Sex Appeal",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tPZM8tvaNHOFRcK4l",
+							"source": {
+								"library": "/Library",
+								"path": "Character Creation\\Traits.adq",
+								"id": "tWra6L4YzBHl9oHi7"
+							},
+							"name": "Standard Operating Procedure (Sleep with One Eye Open)",
+							"reference": "GF22",
+							"tags": [
+								"Mental",
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						}
+					],
 					"calc": {
-						"points": 0
+						"points": 19
 					}
 				}
 			],
-			"open": true,
-			"name": "Appropriate Advantages",
+			"calc": {
+				"points": 19
+			}
+		},
+		{
+			"id": "tNgXEwdu79DHhbrgy",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tj3TnhPHfMCQkLCub"
+			},
+			"name": "Alternate Identity",
+			"reference": "B39",
+			"notes": "@Identity@",
+			"tags": [
+				"Advantage",
+				"Social"
+			],
+			"modifiers": [
+				{
+					"id": "mDsh9okV1fanX18d2",
+					"name": "Illegal",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "t28hQZolrQGLILNat",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tclFDCd9A5NZm_5Dz"
+			},
+			"name": "Appearance",
+			"reference": "B21",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mwZb_UZ7z-4VcdoAq",
+					"name": "Attractive",
+					"reference": "B21",
+					"cost": 4,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 1
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mS_kH8aWHCXG3GheL",
+					"name": "Average",
+					"reference": "B21",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mKIQq6YDiNu3tF_Ve",
+					"name": "Beautiful",
+					"reference": "B21",
+					"cost": 12,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from those attracted to members of your sex, +2 from everyone else",
+							"amount": 4
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "m9GHmI_PPtSkM7GiY",
+					"name": "Beautiful (Androgynous)",
+					"reference": "B21",
+					"cost": 12,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 3
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mFMX_-GIni-OwmSle",
+					"name": "Beautiful (Impressive)",
+					"reference": "B21",
+					"cost": 12,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 3
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mukw4-SWfpKKPpiBI",
+					"name": "Handsome",
+					"reference": "B21",
+					"cost": 12,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from those attracted to members of your sex, +2 from everyone else",
+							"amount": 4
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mx4iDHdDhNsTF8RuR",
+					"name": "Handsome (Androgynous)",
+					"reference": "B21",
+					"cost": 12,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 3
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mBCGgh7Mw-35CqjPV",
+					"name": "Handsome (Impressive)",
+					"reference": "B21",
+					"cost": 12,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 3
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mpCb7RFmXfr-BXkVg",
+					"name": "Hideous",
+					"reference": "B21,B202",
+					"cost": -16,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Intimidation"
+							},
+							"amount": 2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -4
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mshVml9MII5fFLM0-",
+					"name": "Horrific",
+					"reference": "B21,B202",
+					"cost": -24,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Intimidation"
+							},
+							"amount": 4
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -6
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mTNoT6Uab9mwUvAFP",
+					"name": "Impressive",
+					"reference": "B21",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mslsnc80NAVx3LYJJ",
+					"name": "Monstrous",
+					"reference": "B21,B202",
+					"cost": -20,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Intimidation"
+							},
+							"amount": 3
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -5
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mrnBVKiBFuqRXgzR_",
+					"name": "Off-the-Shelf Looks",
+					"reference": "B21",
+					"notes": "Halves the usual reaction bonus - adjust manually",
+					"cost": -50,
+					"disabled": true
+				},
+				{
+					"id": "m03Phn6YeShExDYlg",
+					"name": "Transcendent",
+					"reference": "B21",
+					"cost": 20,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
+							"amount": 8
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "m2qI-DuDbcitee2Ph",
+					"name": "Transcendent (Androgynous)",
+					"reference": "B21",
+					"cost": 20,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 5
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mbj2m7EKqd0RCMmqO",
+					"name": "Transcendent (Impressive)",
+					"reference": "B21",
+					"cost": 20,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 5
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mYczxsQ0AroSYqU79",
+					"name": "Ugly",
+					"reference": "B21",
+					"cost": -8,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -2
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "md_LBbKINTFkzgtc6",
+					"name": "Unattractive",
+					"reference": "B21",
+					"cost": -4,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -1
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mjpt8i5y-5zrdyFbO",
+					"name": "Universal",
+					"reference": "B21",
+					"cost": 25,
+					"disabled": true
+				},
+				{
+					"id": "mJGFBJ8ZGW3LNoZ6m",
+					"name": "Very Beautiful",
+					"reference": "B21",
+					"cost": 16,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
+							"amount": 6
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mam3FUqDjwIeraKr9",
+					"name": "Very Beautiful (Androgynous)",
+					"reference": "B21",
+					"cost": 16,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 4
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mraQALcUntkLFYxeG",
+					"name": "Very Beautiful (Impressive)",
+					"reference": "B21",
+					"cost": 16,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 4
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "m9cloz-pDuRrBaN4N",
+					"name": "Very Handsome",
+					"reference": "B21",
+					"cost": 16,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
+							"amount": 6
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "mbGdYemDDHUT2r1wb",
+					"name": "Very Handsome (Androgynous)",
+					"reference": "B21",
+					"cost": 16,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 4
+						}
+					],
+					"disabled": true
+				},
+				{
+					"id": "m1EO0AnAa2BdYlNkY",
+					"name": "Very Handsome (Impressive)",
+					"reference": "B21",
+					"cost": 16,
+					"cost_type": "points",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": 4
+						}
+					],
+					"disabled": true
+				}
+			],
 			"calc": {
 				"points": 0
 			}
 		},
 		{
-			"id": "eb0a3d65-4079-460a-8dc9-f46fd9bd4c42",
-			"type": "trait_container",
-			"open": true,
-			"name": "Appropriate Disadvantages",
+			"id": "tb12IL1CdEy3qWBPF",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tJ7e99mXVRJFyNGBx"
+			},
+			"name": "Claim to Hospitality",
+			"reference": "B41",
+			"tags": [
+				"Advantage",
+				"Social"
+			],
+			"modifiers": [
+				{
+					"id": "md20BWxCDID4UqUBu",
+					"name": "@Friend with crash space@ (crash space)",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mpFF6BcbHgjOrRju2",
+					"name": "@Group@ - @Services@",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mT6R6XDar8e_g85J_",
+					"name": "@Group@ - Has @Resources@",
+					"cost": 2,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mF3O7oa6YpPJDzRtd",
+					"name": "@Large Group@ - Has @Lots of Services@",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mGYBkHAGWJKxluU7M",
+					"name": "@Vast Group@ - @Complete Services@",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
 			"calc": {
 				"points": 0
+			}
+		},
+		{
+			"id": "t05hYVVbsCJbSfrI7",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tA_5geStFn4V29w1Y"
+			},
+			"name": "Comfortable Wealth",
+			"reference": "B25",
+			"notes": "Starting wealth is twice normal",
+			"tags": [
+				"Advantage",
+				"Social",
+				"Wealth"
+			],
+			"base_points": 10,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "tVHD_Tj4FevFj-rZV",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tER6XdcWd9IEb5ell"
+			},
+			"name": "Danger Sense",
+			"reference": "B47,P46",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"base_points": 15,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tUK7FST8xTDzE3Xa4",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tWTkiizYGIeG1ss9j"
+			},
+			"name": "Fashion Sense",
+			"reference": "B21",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"base_points": 5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from others in social situations when you have a chance to plan your attire in advance",
+					"amount": 1
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to someone else's reaction bonus from others when you put together their outfit",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tvPfmuoUjFFSH2NAl",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tazZz5CWRNgY7je-B"
+			},
+			"name": "Good Reputation",
+			"reference": "B26,MA54",
+			"tags": [
+				"Advantage",
+				"Social"
+			],
+			"modifiers": [
+				{
+					"id": "mlOriY10LMjP3x6kY",
+					"name": "People Affected",
+					"reference": "B27",
+					"notes": "Almost everyone",
+					"cost": 1,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mlksx9QTVFjjZ7B93",
+					"name": "People Affected",
+					"reference": "B27",
+					"notes": "Almost everyone except @large class of people@",
+					"cost": 0.67,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mG0fVz_gcd5Q0zg8J",
+					"name": "People Affected",
+					"reference": "B27",
+					"notes": "@Large class of people@",
+					"cost": 0.5,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mApl6HybIm3KgCvrY",
+					"name": "People Affected",
+					"reference": "B27",
+					"notes": "@Small class of people@",
+					"cost": 0.33,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mjemHq7SVzczrVpZW",
+					"name": "Recognized all the time",
+					"reference": "B28",
+					"cost": 1,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mFPtInpYiGbSzpZ_P",
+					"name": "Recognized sometimes",
+					"reference": "B28",
+					"notes": "10-",
+					"cost": 0.5,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mJ2VjEWXIm3Y23O7i",
+					"name": "Recognized occasionally",
+					"reference": "B28",
+					"notes": "7-",
+					"cost": 0.33,
+					"cost_type": "multiplier",
+					"disabled": true
+				}
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"situation": "from others aware of your reputation",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"round_down": true,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "t8jV64eG0RuHl4jfp",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tPn2z-ChuTvRClyQr"
+			},
+			"name": "Intuition",
+			"reference": "B63,P56",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mQrw5sejt2VWIGM0k",
+					"name": "Inspired",
+					"reference": "P56",
+					"cost": 100,
+					"disabled": true
+				}
+			],
+			"base_points": 15,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tvdAcUhip40fyQmxe",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "t16jN-2dSRrlVaREo"
+			},
+			"name": "Peripheral Vision",
+			"reference": "B74,P87",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mwKft0S5hph1WeYVO",
+					"name": "Easy to Hit",
+					"reference": "B75",
+					"notes": "Others can target your eyes at only -6 to hit",
+					"cost": -20,
+					"disabled": true
+				}
+			],
+			"base_points": 15,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tZkhvDEEDVPuBTiCO",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tF2Pptv_X1yqnIA-o"
+			},
+			"name": "Rapier Wit",
+			"reference": "B79,P70",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mEk5r0IL3c1ZAX5x_",
+					"name": "Words of Power",
+					"reference": "P70",
+					"cost": 100,
+					"disabled": true
+				}
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tr1O3NwSd6x9SXe4S",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tk237vrcce4EjvGj2"
+			},
+			"name": "Security Clearance",
+			"reference": "B82",
+			"tags": [
+				"Advantage",
+				"Social"
+			],
+			"modifiers": [
+				{
+					"id": "mDtMY_m-RY00dDwlD",
+					"name": "Narrow Clearance on a \"Need to Know\" Basis",
+					"reference": "B82",
+					"notes": "@What@",
+					"cost": 5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mm3smqKR-9VynnhfH",
+					"name": "Narrow Clearance with Free Access",
+					"reference": "B82",
+					"notes": "@What@",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mj6op2JLHHTDcaOC2",
+					"name": "Broad Clearance on a \"Need to Know\" Basis",
+					"reference": "B82",
+					"notes": "@What@",
+					"cost": 10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mjCc66pGxduxxHHat",
+					"name": "Broad Clearance with Free Access",
+					"reference": "B82",
+					"notes": "@What@",
+					"cost": 15,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mCZ5HpMS237_8xRYw",
+					"name": "Minor Importance",
+					"reference": "B83",
+					"cost": 0.5,
+					"cost_type": "multiplier",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "tgQ_aJpRVYP87LHC7",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "txgPaCaPFNROwzDH1"
+			},
+			"name": "Talent (Business Acumen)",
+			"reference": "B90",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Talent"
+			],
+			"points_per_level": 10,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Accounting"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Administration"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Economics"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Finance"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Gambling"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Market Analysis"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Merchant"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Propaganda"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "from business partners",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "tDhmJJyxe8mVcNwJB",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "tP8gzMQJ5HujvQekJ"
+			},
+			"name": "Talent (Smooth Operator)",
+			"reference": "B90,PU3:15",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Talent"
+			],
+			"modifiers": [
+				{
+					"id": "mFzptIrKQjNkIJLu_",
+					"name": "Alternate Benefit",
+					"notes": "Bonus to resist covered skills",
+					"disabled": true
+				},
+				{
+					"id": "my6zbnA_Nrhl-b7we",
+					"name": "Alternative Cost",
+					"cost": -2,
+					"cost_type": "points",
+					"affects": "levels_only",
+					"disabled": true
+				}
+			],
+			"points_per_level": 15,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Acting"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Carousing"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Detect Lies"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Diplomacy"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Fast-Talk"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Intimidation"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Leadership"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Panhandling"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Politics"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Public Speaking"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Savoir-Faire"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Sex Appeal"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Streetwise"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "from con artists, politicians, salesmen, etc. – but only if you aren’t trying to manipulate them.",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tx2FJ4hv0gdE9FLYS",
+			"source": {
+				"library": "/Library",
+				"path": "Character Creation\\Traits.adq",
+				"id": "ty4md4l_6YJZC6G1E"
+			},
+			"name": "Talent (Talker)",
+			"reference": "PU3:16",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Talent"
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Detect Lies"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Diplomacy"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Fast-Talk"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Psychology"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Savoir-Faire"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "From investigators and anybody hiring you to investigate.",
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "Bonus to resist verbal influence attempts",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "TvInOMt-qIGkZeG38",
+			"name": "Appropriate Disadvantages",
+			"children": [
+				{
+					"id": "tzZ56Oi8OBgSmrYAv",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tsrtFdPkEy2kQ4xIv"
+					},
+					"name": "Addiction (@Substance@)",
+					"reference": "B122",
+					"tags": [
+						"Disadvantage",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "M01QayKKS9O_epRKw",
+							"name": "Legality Modifiers",
+							"children": [
+								{
+									"id": "mezXABB15XCXEM83a",
+									"name": "Illegal",
+									"reference": "B122",
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m4XLvbER2kgdNLdQJ",
+									"name": "Legal",
+									"reference": "B122",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "Mu8hvZWDI57CgkNT4",
+							"name": "Cost Modifiers",
+							"children": [
+								{
+									"id": "mdFcNmG1m252bdMok",
+									"name": "Cheap",
+									"reference": "B122",
+									"cost": -5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mzjPlailLY21qljMg",
+									"name": "Expensive",
+									"reference": "B122",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mUmAFgH2ZcOAg6DjY",
+									"name": "Very Expensive",
+									"reference": "B122",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "M_KihK2-WwZssq_i9",
+							"name": "Effect Modifiers",
+							"children": [
+								{
+									"id": "m1mmtlG_AMSY2EaYd",
+									"name": "Highly Addictive (-5 on withdrawal roll)",
+									"reference": "B122",
+									"cost": -5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mrBXgwDrcqlyYVIbq",
+									"name": "Totally Addictive (-10 on withdrawal roll)",
+									"reference": "B122",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mVyaCH9xUOR6eSgQg",
+									"name": "Hallucinogenic",
+									"reference": "B122",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m8XeeraCyZrHNfdug",
+									"name": "Incapacitating",
+									"reference": "B122",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								}
+							]
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "thVuZUrjILxgHwHwV",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tPiPOmo_gqfjEJrUg"
+					},
+					"name": "Anti-Talent (Noncombatant)",
+					"reference": "PU3:21",
+					"tags": [
+						"Disadvantage",
+						"Mental",
+						"Talent"
+					],
+					"points_per_level": -15,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "From anyone who would react poorly to Cowardice.",
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"tags": {
+								"compare": "contains",
+								"qualifier": "Combat"
+							},
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tQkroZLMTHg74VrDF",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "t0roHtWdW2kPfWh2c"
+					},
+					"name": "Bad Reputation",
+					"reference": "B26,MA54",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mIdyXoVKe4MUDLYZp",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "m2gQ0au3S9EvkKQbW",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "Almost everyone except @large class of people@",
+							"cost": 0.67,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mpaP-v87qFxc6SPrh",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Large class of people@",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mgNuuxuKuwBnNRxgF",
+							"name": "People Affected",
+							"reference": "B27",
+							"notes": "@Small class of people@",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "m4qKkz9CD0sqRnxRU",
+							"name": "Recognized all the time",
+							"reference": "B28",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mG4FCzpIfo2df37qV",
+							"name": "Recognized sometimes",
+							"reference": "B28",
+							"notes": "10-",
+							"cost": 0.5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "mwOZkdTenrYDnSIV8",
+							"name": "Recognized occasionally",
+							"reference": "B28",
+							"notes": "7-",
+							"cost": 0.33,
+							"cost_type": "multiplier",
+							"disabled": true
+						}
+					],
+					"points_per_level": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others aware of your reputation",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "t6z04CgqoK48cv-AB",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tAohnfpglZjvyjGtK"
+					},
+					"name": "Bad Temper",
+					"reference": "B124",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tRMBjaQktod-_hWHx",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "twhW3-CujOJ3z0cCs"
+					},
+					"name": "Bully",
+					"reference": "B125",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "t6C6B6MonrH2dbZ9R",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tmFLgZS-H7PlyArLe"
+					},
+					"name": "Callous",
+					"reference": "B125",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "psychology"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "teaching"
+							},
+							"amount": -3
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from past victims and anyone with Empathy",
+							"amount": -1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to Interrogation and Intimidation rolls when you use threats or torture",
+							"amount": 1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tVge51cahHk2XERmY",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tPGQrP_IDLd-PR25h"
+					},
+					"name": "Compulsive Lying",
+					"reference": "B128",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tqWp5BvwSgQv-JQYz",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tzbh19eMWqnkKaNI0"
+					},
+					"name": "Debt",
+					"reference": "B26",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"points_per_level": -1,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "tQlLPwTdCxdK2pIY1",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tW3ONSbZA1zZtGV38"
+					},
+					"name": "Duty (@Duty@)",
+					"reference": "B133",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mpypjeV8jvE1n4xbx",
+							"name": "FR: 6",
+							"cost": -2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mWKxPpKExOQoWYyhv",
+							"name": "FR: 9",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m7PZ4mWlCMyHwpxnu",
+							"name": "FR: 12",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mCo2dkHLCN4bBo2v1",
+							"name": "FR: 15",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mEc_-FA3rc4WgylFN",
+							"name": "Extremely Hazardous",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mEutm8hfgf8pzbJt9",
+							"name": "Involuntary",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "mg1kWPN3EId1ntqYZ",
+							"name": "Nonhazardous",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tDfCuxcCQG79Rv4Ai",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tp9bD5k3DAYfdrqgB"
+					},
+					"name": "Fanaticism (@Group or ideal@)",
+					"reference": "B136",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "m_BNwjFm_2R1cxklA",
+							"name": "Extreme",
+							"reference": "B136",
+							"disabled": true
+						}
+					],
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "t8DC9DzkE9GEsum9k",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tcjORnV82ODzx_vl_"
+					},
+					"name": "Greed",
+					"reference": "B137",
+					"notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tkhGk_ag-8DDnsT9o",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tUnUmNo5bPS1psFbj"
+					},
+					"name": "Jealousy",
+					"reference": "B140",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "toward those you are jealous of (may be as much as -4, at GM's discretion)",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tW29mcPeY0NbIAZ5x",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "t4_6HmTIn4V8hxhTG"
+					},
+					"name": "Impulsiveness",
+					"reference": "B139",
+					"notes": "Make a self-control roll whenever it would be wise to wait and ponder. If you fail, you must act",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "thSt615at8ZZJyTdG",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "t7UV7dKb2bINbhz4H"
+					},
+					"name": "Lecherousness",
+					"reference": "B142",
+					"notes": "Make a self-control roll whenever you have more than the briefest contact with an appealing member of the sex you find attractive, at -5 if this person is Handsome/Beautiful, or at -10 if Very Handsome/Very Beautiful. If you fail, you must make a “pass” using whatever wiles and skills you can bring to bear.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "t1Qw6b6u3wUBpukE0",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tvno_xNkBb6rc8iFJ"
+					},
+					"name": "Low Pain Threshold",
+					"reference": "B142",
+					"notes": "Double the shock from any injury. Whenever you take a wound that does more than 1 HP of damage, you must make a Will roll to avoid crying out.",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "high pain threshold"
+								}
+							}
+						]
+					},
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from \"macho\" individuals",
+							"amount": -1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist knockdown, stunning, and physical torture",
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tsnJpXM2Csfqw4ajt",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tEcaHSo8wLMxC7m0Z"
+					},
+					"name": "Miserliness",
+					"reference": "B144",
+					"notes": "Make a self-control roll any time you are called on to spend money. If the expenditure is large, this roll may be at -5 or worse (GM’s decision). If you fail, you refuse to spend the money.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tIaZ2ulHMiL4PvA4K",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tJ6KN7RC_oSFOfO9w"
+					},
+					"name": "Overconfidence",
+					"reference": "B148",
+					"notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from young or naive individuals who believe you are as good as you say you are",
+							"amount": 2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from experienced NPCs",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "trVreM5wjHwzEF4Pc",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tyhZoz5ZLnM6spSGh"
+					},
+					"name": "Post-Combat Shakes",
+					"reference": "B150",
+					"notes": "Make a self-control roll at the end of any battle. If you fail, roll 3d, add the amount by which you failed your self-control roll, and look up the result on the Fright Check Table.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tQcduH3TFe7xdVXlZ",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tQZBpaQ_RwxqVuyLe"
+					},
+					"name": "Sadism",
+					"reference": "B152",
+					"notes": "Make a self-control roll whenever you have an opportunity to indulge your desires and know you shouldn’t (e.g., because the prisoner is one who should be released unharmed). If you fail, you cannot restrain yourself.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -15,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from those who become aware of your Sadism unless they are from a culture that holds life in little esteem",
+							"amount": -3
+						}
+					],
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tl5gf-TEOXfP0gV_G",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tWbg5UNP1ONT2FwHr"
+					},
+					"name": "Selfish",
+					"reference": "B153",
+					"notes": "Make a self-control roll whenever you experience a clear social slight or “snub.” On a failure, you lash out at the offending party just as if you had Bad Temper.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others when your Selfishness surfaces",
+							"amount": -3
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				}
+			],
+			"calc": {
+				"points": -176
 			}
 		}
 	],
 	"skills": [
 		{
-			"id": "d4f89914-7672-4717-bb5f-a8cef88565b1",
-			"type": "skill_container",
-			"open": true,
-			"name": "Melee Combat Skills"
+			"id": "S5y0ohwhf-ObMUSAh",
+			"name": "Melee Combat Skills",
+			"children": [
+				{
+					"id": "SBuZu1ndXjabSs9ll",
+					"name": "Unarmed",
+					"children": [
+						{
+							"id": "sorAR_UMyV2PKynPb",
+							"source": {
+								"library": "/Library",
+								"path": "Library\\Character Creation\\Skills.skl",
+								"id": "sqXc6S5-Q_3m3tRBq"
+							},
+							"name": "Boxing",
+							"reference": "B182,MA55",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Boxing"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 1
+									},
+									"amount": 1,
+									"per_die": true
+								},
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Boxing"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 2
+									},
+									"amount": 1,
+									"per_die": true
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "s9rUKG5A2a_6Hdkl8",
+							"source": {
+								"library": "/Library",
+								"path": "Library\\Character Creation\\Skills.skl",
+								"id": "svY5t6nldPz91sHlv"
+							},
+							"name": "Brawling",
+							"reference": "B182,MA55",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/e",
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Brawling"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 2
+									},
+									"amount": 1,
+									"per_die": true
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sCKZA0zdHFre-pzWZ",
+							"source": {
+								"library": "/Library",
+								"path": "Library\\Character Creation\\Skills.skl",
+								"id": "sBCW-vR3wP0zoOR4f"
+							},
+							"name": "Karate",
+							"reference": "B203,MA57",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/h",
+							"encumbrance_penalty_multiplier": 1,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Karate"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": 1,
+									"per_die": true
+								},
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Karate"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 1
+									},
+									"amount": 1,
+									"per_die": true
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sEGcnKpGhRsZQWPYM",
+							"source": {
+								"library": "/Library",
+								"path": "Library\\Character Creation\\Skills.skl",
+								"id": "sG5CPD45EnwF1CIGT"
+							},
+							"name": "Wrestling",
+							"reference": "B228,MA61",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1
+						},
+						{
+							"id": "sgjkVGiw79JnXSSvR",
+							"source": {
+								"library": "/Library",
+								"path": "Library\\Character Creation\\Skills.skl",
+								"id": "sW0lEe_d-UA0C4VHq"
+							},
+							"name": "Judo",
+							"reference": "B203,MA57",
+							"notes": "Allows parrying two different attacks per turn, one with each hand.",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/h",
+							"encumbrance_penalty_multiplier": 1,
+							"points": 1
+						}
+					]
+				}
+			]
 		},
 		{
-			"id": "451ca4bf-a642-486c-b8be-c003051ca3a0",
-			"type": "skill_container",
-			"open": true,
-			"name": "Ranged Combat Skills"
+			"id": "sWsvGi9WNuGCtw0ED",
+			"source": {
+				"library": "/Library",
+				"path": "Library\\Character Creation\\Skills.skl",
+				"id": "smJ3NT9q-YaMjOSBq"
+			},
+			"name": "Knife",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
 		},
 		{
-			"id": "fcd4f4f5-70e2-427f-9a1a-f45f450ee726",
-			"type": "skill_container",
-			"open": true,
-			"name": "Knowledge Skills"
+			"id": "s7nq89lRqVqoeH9Vg",
+			"source": {
+				"library": "/Library",
+				"path": "Library\\Character Creation\\Skills.skl",
+				"id": "sJn_imtcbBxmBuwEe"
+			},
+			"name": "Monowire Whip",
+			"reference": "B209",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Force Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Kusari",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Whip",
+					"modifier": -3
+				}
+			],
+			"points": 1
 		},
 		{
-			"id": "d4b2c412-5a30-42a6-aa3b-4329efff57af",
-			"type": "skill_container",
-			"open": true,
-			"name": "Physical Skills"
+			"id": "sAQRjG-ig42lLRSlK",
+			"source": {
+				"library": "/Library",
+				"path": "Library\\Character Creation\\Skills.skl",
+				"id": "sCzy1L7ZTDD1NlvLU"
+			},
+			"name": "Broadsword",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Sword",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sBbQMjDw0RT8wYyWB",
+			"source": {
+				"library": "/Library",
+				"path": "Library\\Character Creation\\Skills.skl",
+				"id": "shZ0WdWC839hMd7AZ"
+			},
+			"name": "Axe/Mace",
+			"reference": "B208",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Axe/Mace",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Flail",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "ShrtHkV3oSaEvxtvc",
+			"name": "Ranged Combat Skills",
+			"children": [
+				{
+					"id": "sNPsilZBp4F4LsKnt",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sjjbfsifUlYEkkAFR"
+					},
+					"name": "Bow",
+					"reference": "B182",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sZZj4lqga4vTjNZ-L",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "soK-D142ojoEEGZFp"
+					},
+					"name": "Guns",
+					"reference": "B198",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Pistol",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sjwh-Sc6fq6GOcZ_i",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "swPrVweS7ST48hQSv"
+					},
+					"name": "Guns",
+					"reference": "B198",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Rifle",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sUcXC46THHgo_bdws",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s1a1rNc3u96A2WgSu"
+					},
+					"name": "Guns",
+					"reference": "B198",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Submachine Gun",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "skUb-vG9EnsWbbBDU",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sljIPitIO1-nvX9l6"
+					},
+					"name": "Guns",
+					"reference": "B198",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Shotgun",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SjhOvrUbLtdvPQydl",
+			"name": "Knowledge Skills",
+			"children": [
+				{
+					"id": "sz3ec6ny2W4Et0XoJ",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sN7weMHTH7WSz6ccx"
+					},
+					"name": "Accounting",
+					"reference": "B174",
+					"tags": [
+						"Business"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Finance",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Mathematics",
+							"specialization": "Statistics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s3ipsZoZTiT91H0wm",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s3KVcB60RsAHkmnYk"
+					},
+					"name": "Administration",
+					"reference": "B174",
+					"tags": [
+						"Business",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -3
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "suiD3g8-Jz_yKFVVM",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sxFbiwXOD1Osh0YE5"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"notes": "All important businesses, streets, citizens, leaders, etc.",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@City@; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sc18RKJAeclpks--F",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s6sqmEEPaeAiTIIny"
+					},
+					"name": "Body Language",
+					"reference": "B181",
+					"tags": [
+						"Police",
+						"Social",
+						"Spy"
+					],
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Detect Lies",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "siDP43-oNoHtNkYpj",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sjVVm16BxielneyLe"
+					},
+					"name": "Computer Operation",
+					"reference": "B184",
+					"tags": [
+						"Everyman",
+						"Scholarly",
+						"Technical"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sWutHGcMrM9B86WNX",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s4pzG95PAn3PKyaYn"
+					},
+					"name": "Connoisseur",
+					"reference": "B185,MA56",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "@Subject@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sWH3Mp96Gh-S_22b0",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sV4u7Vqm1GzKuoCjl"
+					},
+					"name": "Connoisseur",
+					"reference": "B185",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Cars",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2YAeg1KXjPQxpmFl",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sxvQljEX0oJFxu2es"
+					},
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Business",
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "@Subject@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sGkC9uLRlNfKMhLz0",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s0q0ACkwUpsUZE9fX"
+					},
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Business",
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Business",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "shrixMjNSz5chAW0q",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sESpuYhP2bVeFpLIe"
+					},
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Headline News",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "s0lwkVJ0BtAj9vUj2",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sfGFK90IWDUcFDux8"
+					},
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "High Culture",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sR_9r3ujQxXNEMixy",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "snxO7wpQa9wIWDjt4"
+					},
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "People",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "s8pEeo3BV81uO-_fF",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sVnYv2zmL9LNhDwKX"
+					},
+					"name": "Current Affairs",
+					"reference": "B186",
+					"tags": [
+						"Everyman",
+						"Knowledge",
+						"Social"
+					],
+					"specialization": "Politics",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Research",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Current Affairs",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sbw1Y95V0dYxCEd0j",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sEVvx-k_G9-yTkxhQ"
+					},
+					"name": "Detect Lies",
+					"reference": "B187",
+					"tags": [
+						"Police",
+						"Social",
+						"Spy"
+					],
+					"difficulty": "per/h",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Body Language",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sjQa2-fIBsQeRbuqb",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "soxnQntXfOPH8JeYM"
+					},
+					"name": "Diplomacy",
+					"reference": "B187",
+					"tags": [
+						"Business",
+						"Police",
+						"Social"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sdpphWy09nImHY5Pv",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "su5K8_iHstuQd4fN9"
+					},
+					"name": "Economics",
+					"reference": "B189",
+					"tags": [
+						"Business",
+						"Humanities",
+						"Social Sciences"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Finance",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Market Analysis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sm_RsgqLhBxMi4OTk",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sDBEyPBHXjAAp9jvb"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street",
+						"Technical"
+					],
+					"specialization": "Security",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"specialization": "Security",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "s2Bup4-ty4qVSgP8y",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sgr1-IfigUHazLD3d"
+					},
+					"name": "Expert Skill",
+					"reference": "B193,MA56",
+					"tags": [
+						"Knowledge",
+						"Scholarly",
+						"Spy"
+					],
+					"specialization": "Computer Security",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "s75ELJIF5SBlWmGvz",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sxI2gQKAYc5JghhyR"
+					},
+					"name": "Fast-Talk",
+					"reference": "B195",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s8Xb3kB5ya-Kyh5NL",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sGGYlocSGmDYlcKxl"
+					},
+					"name": "Finance",
+					"reference": "B195",
+					"tags": [
+						"Business"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Accounting",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Economics",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sBpYlALVgATfQD0AW",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sz_vcP9o4viNgmRVS"
+					},
+					"name": "Gesture",
+					"reference": "B198",
+					"tags": [
+						"Social"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "saEuPmC418XPo7UC-",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s3FB5pzxpCJixYmgQ"
+					},
+					"name": "Interrogation",
+					"reference": "B202",
+					"tags": [
+						"Military",
+						"Police",
+						"Spy"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Intimidation",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sXC1AgnUyZtjyk6H-",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s4L9BcqY7i0RbtidG"
+					},
+					"name": "Intimidation",
+					"reference": "B202",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "will/a",
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "snODCL7BCFZUIVMLN",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sZ7cWwAdBSvkYt0Qg"
+					},
+					"name": "Leadership",
+					"reference": "B204",
+					"tags": [
+						"Military",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sx0hI0zZejjAwAHNH",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sk-uT45LzqW0WDxo-"
+					},
+					"name": "Market Analysis",
+					"reference": "B207",
+					"tags": [
+						"Business"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Economics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sX6RMUr6LZFCIRNhX",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sbSELOgmyaC3sLusU"
+					},
+					"name": "Propaganda",
+					"reference": "B216",
+					"tags": [
+						"Business",
+						"Military",
+						"Social",
+						"Spy"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sYU4-LURWoRkM6gek",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sJG323lUe1KD0zgXE"
+					},
+					"name": "Public Speaking",
+					"reference": "B216",
+					"tags": [
+						"Business",
+						"Scholarly",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Performance",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SZxQGjG0VgzODRPWb",
+			"name": "Physical Skills",
+			"children": [
+				{
+					"id": "sXv5Fx0vPfYcJ_sMM",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s7Vrr9_eQQmeqj7Zz"
+					},
+					"name": "Acrobatics",
+					"reference": "B174,MA54",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Aerobatics",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Aquabatics",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sEHoF0FB1oacsKwln",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sOT_g9zaPzId8qIgs"
+					},
+					"name": "Climbing",
+					"reference": "B183",
+					"tags": [
+						"Athletic",
+						"Criminal",
+						"Exploration",
+						"Outdoor",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGF3wcxoFjQm6A3iH",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sox62VOG7VMQi28jV"
+					},
+					"name": "Disguise",
+					"reference": "B187",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Makeup",
+							"modifier": -3
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sOZmcjavOHxOngcmP",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s-qd9BBDN33J2gVSm"
+					},
+					"name": "Driving",
+					"reference": "B188",
+					"tags": [
+						"Vehicle"
+					],
+					"specialization": "Automobile",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Driving",
+							"specialization": "Heavy Wheeled",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Driving",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "swNSUeD0sZtsKMX2i",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sqShoLFemYs6Gruss"
+					},
+					"name": "Hiking",
+					"reference": "B200",
+					"tags": [
+						"Athletic",
+						"Exploration",
+						"Outdoor"
+					],
+					"difficulty": "ht/a",
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sx13DtAY8vDafAb_Z",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sqgeUxh1ZfyoN_F3N"
+					},
+					"name": "Holdout",
+					"reference": "B200",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Sleight of Hand",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sIKrGAoFg0PKBM4GJ",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "sriZIWKnpVWQPDedL"
+					},
+					"name": "Jumping",
+					"reference": "B203,MA57",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "sC4jlLRkaIPH1oVgM",
+					"source": {
+						"library": "/Library",
+						"path": "Library\\Character Creation\\Skills.skl",
+						"id": "s9tAC9fR2fSyaDkUg"
+					},
+					"name": "Running",
+					"reference": "B218",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "ht/a",
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				}
+			]
 		}
 	],
 	"notes": [
 		{
-			"id": "115f120a-b715-486e-8774-4d0e281ae594",
-			"type": "note",
+			"id": "nJV58eu8rq16lWAIM",
 			"text": "# Exec\n\nIn the old days before the Time of the Red, you would have been a harddriven, fast-track MBA on their way up the Corporate ladder. Sure, it was selling your soul to the Company, but face it: the Corporations ruled the world. They controlled governments, markets, nations, armies—you name it. And you knew that whoever controlled the Corporations controlled everything else. But things changed when the largest Megacorps on the planet got into a major war that was equal to anything any real national governments could have thrown down. Okay, so right now your life as a junior executive is anything but easy. There are those underneath you who'd kill for a shot at your job. Literally. There are those over you who'd kill to keep you out of their jobs. Literally. And they're not kidding about the killing—every up-and-comer in the Corporation has their own Team of Solos and Netrunners to cover important pet projects. Last week, you led a mixed team of Solos, Netrunners, and Techs on a headhunting run to \"extract\" a researcher from a rival company. You told yourself you joined the Corporation to make it a better place—work from the inside, you said. Or just until you could start your own Corporation that would be...a little more honest. But now you're not so sure. Your ideals are a little tarnished and things are getting pretty bleak. But you can't worry about ethics now. You've got a report due in an hour, and it looks like that guy in sales is planning to ice your database for good.\n\nYou're gonna ice him first."
 		}
 	]

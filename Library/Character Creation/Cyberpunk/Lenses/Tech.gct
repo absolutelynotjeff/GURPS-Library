@@ -1,68 +1,1593 @@
 {
-	"type": "template",
-	"version": 4,
-	"id": "b2f84210-92ac-4bd0-b3d6-eb7db17337ed",
+	"version": 5,
+	"id": "BhLkrNb9aPVr60XNt",
 	"traits": [
 		{
-			"id": "ab365ea4-66df-443a-b530-95420100fc00",
-			"type": "trait_container",
+			"id": "TlXdUxeI_orClow1X",
+			"name": "Appropriate Advantages",
 			"children": [
 				{
-					"id": "d2ef4913-0613-472f-b356-5234aaa40835",
-					"type": "trait_container",
-					"open": true,
+					"id": "TCsy0lVZh-VmpLssw",
 					"name": "Perks",
 					"calc": {
 						"points": 0
 					}
 				}
 			],
-			"open": true,
-			"name": "Appropriate Advantages",
 			"calc": {
 				"points": 0
 			}
 		},
 		{
-			"id": "eb0a3d65-4079-460a-8dc9-f46fd9bd4c42",
-			"type": "trait_container",
-			"open": true,
+			"id": "T4gZnfP7AWzJCJGJw",
 			"name": "Appropriate Disadvantages",
+			"children": [
+				{
+					"id": "tO2hI0OdF4KawYf5c",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tsrtFdPkEy2kQ4xIv"
+					},
+					"name": "Addiction (@Substance@)",
+					"reference": "B122",
+					"tags": [
+						"Disadvantage",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "MjAOWmtoNWJY1FXaY",
+							"name": "Legality Modifiers",
+							"children": [
+								{
+									"id": "mtSDBqdwwo1LvgK0y",
+									"name": "Illegal",
+									"reference": "B122",
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mJnYN42CNTibeTXeP",
+									"name": "Legal",
+									"reference": "B122",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "MktzFJCuFHSh9BDMZ",
+							"name": "Cost Modifiers",
+							"children": [
+								{
+									"id": "mn0kVhYXyulRTgwf0",
+									"name": "Cheap",
+									"reference": "B122",
+									"cost": -5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mpaXT8g3WDhE1UNAy",
+									"name": "Expensive",
+									"reference": "B122",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mImGrxXaauG0DoB_i",
+									"name": "Very Expensive",
+									"reference": "B122",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "Mno2Zpt1mVXZf3NVP",
+							"name": "Effect Modifiers",
+							"children": [
+								{
+									"id": "mCkBkYUIJUYlk1kXK",
+									"name": "Highly Addictive (-5 on withdrawal roll)",
+									"reference": "B122",
+									"cost": -5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mi27mZwO5OrrxHzL0",
+									"name": "Totally Addictive (-10 on withdrawal roll)",
+									"reference": "B122",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "mkMnB8wlL8ISGrZG5",
+									"name": "Hallucinogenic",
+									"reference": "B122",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "m63a_jNFVKgQuvFt5",
+									"name": "Incapacitating",
+									"reference": "B122",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								}
+							]
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "th39jFPY8HZj93X1v",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "t7mF02OB6Z1UUTgzM"
+					},
+					"name": "Agoraphobia (Open Spaces)",
+					"reference": "B150",
+					"notes": "You are uncomfortable whenever you are outside, and actually become frightened when there are no walls within 50 feet.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr_adj": "action_penalty",
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tyw5tmIgdZ1ae1KFS",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tDtWIcu5q4YplfsCy"
+					},
+					"name": "Anti-Talent (Misfit)",
+					"reference": "PU3:20",
+					"tags": [
+						"Disadvantage",
+						"Mental",
+						"Talent"
+					],
+					"points_per_level": -15,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Acting"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Administration"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Carousing"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Connoisseur"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Detect Lies"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Diplomacy"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fast-Talk"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Gambling"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Gesture"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Intimidation"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Leadership"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Merchant"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Politics"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Propaganda"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Public Speaking"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Savoir-Faire"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sex Appeal"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Teaching"
+							},
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "From anyone you try to impress.",
+							"amount": -1,
+							"per_level": true
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "Penalty to resist Influence skills and manipulation",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tv41d8TPt_MCT7bwD",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tHYZHXWBfd7AWiHRF"
+					},
+					"name": "Brontophobia (Loud Noises)",
+					"reference": "B150",
+					"notes": "You avoid any situation where loud noises are likely. A sudden loud noise requires an immediate self-control roll. A thunderstorm is a traumatic experience for you!",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr_adj": "action_penalty",
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tfpGaZSvAorkzkMxk",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tt5mCIMcMz7G7wEQb"
+					},
+					"name": "Chummy",
+					"reference": "B126",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "to others",
+							"amount": 2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to IQ-based skills when alone",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tDqj37_BUONq7GgjI",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tRYttCM4O-24ZfNXq"
+					},
+					"name": "Clueless",
+					"reference": "B126",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "savoir-faire"
+							},
+							"amount": -4
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others aware of your clueless nature",
+							"amount": -2
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist Sex Appeal",
+							"amount": 4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tE_CNpJfmRml5KkqX",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tfbbeSwF7a0AzRQJu"
+					},
+					"name": "Coitophobia (Sex)",
+					"reference": "B150",
+					"notes": "You are terrified by the idea of sexual relations or the loss of your virginity.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr_adj": "action_penalty",
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "t_oHW2FsLYku6xk4y",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tOZMWNbIM8TFRQF7q"
+					},
+					"name": "Crippling Shyness",
+					"reference": "B154",
+					"notes": "You avoid strangers whenever possible.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Acting"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Carousing"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Diplomacy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Fast-Talk"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Intimidation"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Leadership"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Merchant"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Panhandling"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Performance"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Politics"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Public Speaking"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Savoir-Faire"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Sex Appeal"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Streetwise"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Teaching"
+								}
+							}
+						]
+					},
+					"base_points": -20,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Acting"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Carousing"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Diplomacy"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fast-Talk"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Intimidation"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Leadership"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Merchant"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Panhandling"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Performance"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Politics"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Public Speaking"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Savoir-Faire"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sex Appeal"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Streetwise"
+							},
+							"amount": -4
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Teaching"
+							},
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "toG-NMj0QgroNOHUi",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tDKVgM4KpucHxGBPB"
+					},
+					"name": "Curious",
+					"reference": "B129",
+					"notes": "Make a self-control roll when presented with an interesting item or situation",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "toASkenRX7z063vrC",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tzbh19eMWqnkKaNI0"
+					},
+					"name": "Debt",
+					"reference": "B26",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"points_per_level": -1,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": -1
+					}
+				},
+				{
+					"id": "tzGvWqK2ReCh6tKDy",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tktP6KmXpTqNrO_GX"
+					},
+					"name": "Demophobia (Crowds)",
+					"reference": "B149",
+					"notes": "Any group of over a dozen people sets off this fear unless they are all well known to you. The self-control roll is at -1 for over 25 people, -2 for a crowd of 100 or more, -3 for 1,000, -4 for 10,000, and so on.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr_adj": "action_penalty",
+					"cr": 12,
+					"base_points": -15,
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tmVNihgwoEUVr1YB-",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tQ8w6f7kmJwppGWWA"
+					},
+					"name": "Disturbing Voice",
+					"reference": "B132",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "voice"
+								}
+							}
+						]
+					},
+					"base_points": -10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "performance"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "singing"
+							},
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tWDfMbQPytYLKG9Kl",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "toBpbFA6qsjfrp2Gf"
+					},
+					"name": "Gregarious",
+					"reference": "B126",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "to others",
+							"amount": 4
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to IQ-based skills when alone, or only -1 if in a group of 4 or less",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tcIrdVjstmmJR--e0",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tPa1nm6TVGDDbsZOR"
+					},
+					"name": "Indecisive",
+					"reference": "B140",
+					"notes": "Make a self-control roll whenever a choice confronts you, modified downward by 1 for each alternative you can see. If you fail, you do nothing.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tnuVaDg3wSnzmnJnK",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "t__bWw0HQCYlO4Mnh"
+					},
+					"name": "Insomniac",
+					"reference": "B140",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mmtrPDJmIF2bmrkwv",
+							"name": "Mild",
+							"reference": "B140",
+							"notes": "GM secretly rolls 3d for the number of days between episodes",
+							"cost": -10,
+							"cost_type": "points"
+						},
+						{
+							"id": "mBSWTb03DXgUc9b-Y",
+							"name": "Severe",
+							"reference": "B140",
+							"notes": "GM secretly rolls 2d-1 for the number of days between episodes",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tbUTKp9LqFQds4Em-",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "txwX6xTIwvDABXrdq"
+					},
+					"name": "Killjoy",
+					"reference": "B140",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -15,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "carousing"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "connoisseur"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "erotic art"
+							},
+							"amount": -3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "gambling"
+							},
+							"amount": -3
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "(up to -3, at GM's discretion) from others in any situation where your lack of appreciation becomes obvious (GM’s decision)",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -15
+					}
+				},
+				{
+					"id": "tfnTwKtJL9JjMIivk",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tTMCOvKRYheNOCJJk"
+					},
+					"name": "Klutz",
+					"reference": "B141",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 13
+								},
+								"which": "dx"
+							}
+						]
+					},
+					"modifiers": [
+						{
+							"id": "mXtckeVVCbyUxhwmO",
+							"name": "Total",
+							"reference": "B141",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tPnk4Vt_6etLJEA__",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tqTJMvzWQG2uqDVbE"
+					},
+					"name": "Light Sleeper",
+					"reference": "B142",
+					"notes": "Whenever you must sleep in an uncomfortable place, or whenever there is more than the slightest noise, you must make a HT roll in order to fall asleep. On a failure, you can try again after one hour, but you will suffer all the usual effects of one hour of missed sleep.",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tky_HqyZlpSsK6E3a",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tuJ-xrL8IcV1t_Gy-"
+					},
+					"name": "Loner",
+					"reference": "B142",
+					"notes": "Make a self-control roll whenever anyone lingers nearby, watches over your shoulder, etc. If you fail, you lash out at that person just as if you had Bad Temper.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr_adj": "reaction_penalty",
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tz57DpP9STO3mKum9",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "taS-nW8z1-kIm-pKR"
+					},
+					"name": "Manic-Depressive",
+					"reference": "B143",
+					"notes": "At the beginning of each play session, roll 1d. On 1-3, you are in your manic phase; 4-6 indicates depression. Every five hours of game time thereafter, roll 3d. A 10 or less indicates that you begin a mood swing. Over the next hour, you shift from your current phase to the opposite one. You remain in the new phase for at least five hours, after which you must again roll 3d.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "t8YCEiuyhN8dATM_S",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tPMHuBS4PmEK58aTC"
+					},
+					"name": "Motion Sickness",
+					"reference": "B144",
+					"notes": "You may never learn any vehicle-operation skill. You must roll vs. HT as soon as you are aboard a moving vehicle. On a failure, you vomit and are at -5 on all DX, IQ, and skill rolls for the rest of the journey. On a success, you are merely miserably queasy and at -2 on DX, IQ, and skill rolls. Roll daily on long journeys.",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "submariner"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "submarine"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "spacer"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "shiphandling"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "seamanship"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "contains",
+									"qualifier": "crewman"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "boating"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "airshipman"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "contains",
+									"qualifier": "driving"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "contains",
+									"qualifier": "piloting"
+								}
+							}
+						]
+					},
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tYZyOEu9KMBwyyYeP",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "txJ3s0_gU-d21Y-xT"
+					},
+					"name": "Non-Iconographic",
+					"reference": "B146",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "symbol drawing"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "heraldry"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "cartography"
+								}
+							}
+						]
+					},
+					"base_points": -10,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tcmAl5_wAf9GedT1B",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "ty0ADI276l-F8ZoD2"
+					},
+					"name": "Odious Personal Habit",
+					"reference": "B22",
+					"notes": "@Habit@",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "m0TXFlkxeXqkhzY4X",
+							"name": "-1 Reaction",
+							"reference": "B22",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m-kSAeHu-F7cqPk3o",
+							"name": "-2 Reaction",
+							"reference": "B22",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "m22jfsJCG2SUa_Fqt",
+							"name": "-3 Reaction",
+							"reference": "B22",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "tsTNfeOeShXnsgz5_",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tDBLiob0CB_dyudzv"
+					},
+					"name": "Paranoia",
+					"reference": "B148",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "toward any stranger and any “legitimate” reaction penalty (e.g., for an unfriendly race or nationality) is doubled",
+							"amount": -4
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tN-Dfu36m6DvcG74T",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tbWByEHnjktPJ9g9g"
+					},
+					"name": "Selfless",
+					"reference": "B153",
+					"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"cr": 12,
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tpoWvMlzvIFOmTnEa",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tCi7qSwzf-FrmE4hG"
+					},
+					"name": "Social Stigma (Criminal Record)",
+					"reference": "B155",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from non-criminals who learn of your Criminal Record. Police, judges, vigilantes, and other law-and-order types react at -2",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "t4uEtdzqgEXXBcsK0",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tW8epmlRVHH4WRkC4"
+					},
+					"name": "Stubbornness",
+					"reference": "B157",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "t6KNxoCzVvCUjzZEH",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tM_jUbu5iOsYykOvu"
+					},
+					"name": "Stuttering",
+					"reference": "B157",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "diplomacy"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "fast-talk"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "performance"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "public speaking"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "sex appeal"
+							},
+							"amount": -2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "singing"
+							},
+							"amount": -2
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others where conversation is required",
+							"amount": -2
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "tslq8UQnDe5AtrzPn",
+					"source": {
+						"library": "/Library",
+						"path": "Character Creation\\Traits.adq",
+						"id": "tHNR66cc9bH7-ou_g"
+					},
+					"name": "Workaholic",
+					"reference": "B162",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				}
+			],
 			"calc": {
-				"points": 0
+				"points": -251
 			}
 		}
 	],
 	"skills": [
 		{
-			"id": "d4f89914-7672-4717-bb5f-a8cef88565b1",
-			"type": "skill_container",
-			"open": true,
+			"id": "SVDDJyoRo1PRKaWYx",
 			"name": "Melee Combat Skills"
 		},
 		{
-			"id": "451ca4bf-a642-486c-b8be-c003051ca3a0",
-			"type": "skill_container",
-			"open": true,
+			"id": "SoXaxePuH7IYnj2I-",
 			"name": "Ranged Combat Skills"
 		},
 		{
-			"id": "fcd4f4f5-70e2-427f-9a1a-f45f450ee726",
-			"type": "skill_container",
-			"open": true,
+			"id": "SQTIOtQ1EEczxT9nj",
 			"name": "Knowledge Skills"
 		},
 		{
-			"id": "d4b2c412-5a30-42a6-aa3b-4329efff57af",
-			"type": "skill_container",
-			"open": true,
+			"id": "SsLF6bRXGN3_x5KbA",
 			"name": "Physical Skills"
 		}
 	],
 	"notes": [
 		{
-			"id": "115f120a-b715-486e-8774-4d0e281ae594",
-			"type": "note",
+			"id": "nHPrWAjgeovMki1Eh",
 			"text": "# Tech\n\nYou can't leave anything alone—if it sits near you for more than five minutes, you've disassembled it and made it into something new. You've always got at least two screwdrivers and a wrench in your pockets. Computer down? No problem. Hydrogen burner out in your Metrocar? No problem. Can't get the video to run or your interface glitching? No problem. You make your living building, fixing, and modifying—a crucial occupation in a technological world recovering from a War that broke the back of the supply chain. You can make some good bucks fixing everyday stuff, but for the serious money you need to tackle the big jobs. Illegal weapons. Illegal or stolen cybertech. Corporate espionage and counter-espionage gear for \"black operations.\" If you're any good, you're making a lot of money. And that money goes into new gadgets, hardware, and information. Your black market work isn't just making you friends—it's also racking you up an impressive number of enemies as well—so you invest a lot in defense systems and, if really pushed to the wall, call in a few markers on a Solo or two. You've fixed up tech for everybody from black ops Corporate samurai to Ms. Zepada down the block. No one's ever come back to you with a complaint but that might be because of the turrets guarding your front door. You're addicted to technology in all its forms and that's what makes you a Tech."
 		}
 	]
